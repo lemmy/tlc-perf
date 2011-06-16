@@ -1,0 +1,4 @@
+OAR.*.std*
+*.lock
+models/*/states/
+models/*/*.out
