@@ -13,7 +13,8 @@ WORKER_SEQ=$1
 JOB_ID=$OAR_JOB_ID
 
 ## list of hosts (host appears multiple times for each core)
-FILE_NODES=`cat $OAR_FILE_NODES |grep -v `hostname -f`| uniq | sort`
+HOSTNAME=`hostname -f`
+FILE_NODES=`cat $OAR_FILE_NODES |grep -v $HOSTNAME | uniq | sort`
 
 ## which models to check
 MODEL_NAMES="l10_n6 l12_n6"
@@ -48,13 +49,13 @@ rm -rf $TARGET_SPEC_DIR
 rm -rf $TARGET_TLA_DIR
 
 ## extract tla.zip distribution to (local) target directory
-$UNZIP_PATH -q $ROOT_DIR/tla.zip -d $TARGET_DIR/
+$UNZIP_PATH -q $ROOT_DIR/dist/tla.zip -d $TARGET_DIR/
 
 ## copy spec to target directory
 cp -a $SPEC_PATH $TARGET_SPEC_DIR
 
 ## select server (first host in the list)
-SERVER_NAME=`hostname -f`
+SERVER_NAME=$HOSTNAME
 
 ## loop over models
 for MODEL_NAME in $MODEL_NAMES;
@@ -62,7 +63,7 @@ do
     echo "checking model: $MODEL_NAME"
 
     ## loop over workers
-    for WORKER_COUNT in {$WORKER_SEQ};
+    for WORKER_COUNT in $(seq $WORKER_SEQ)
     do
 	echo "with workers: $WORKER_COUNT"
 
@@ -80,7 +81,7 @@ do
 	tail -$WORKER_COUNT $FILE_NODES > $WORKER_FILE
 	
 	## spawn pssh process
-	$PSSH_PATH -t -1 -p $WORKER_COUNT -h $WORKER_FILE '$mkdir -p $RESULT_DIR/`hostname -f`-$$ && $JAVA_PATH -Xmx2096m -cp $TARGET_TLA_DIR tlc2.tool.distributed.TLCWorker $SERVER_NAME > $RESULT_DIR/`hostname -f`-$$/worker.out 2>&12' &
+	$PSSH_PATH -t -1 -p $WORKER_COUNT -h $WORKER_FILE '$mkdir -p $RESULT_DIR/'`hostname -f`'-$$ && $JAVA_PATH -Xmx2096m -cp $TARGET_TLA_DIR tlc2.tool.distributed.TLCWorker $SERVER_NAME > $RESULT_DIR/'`hostname -f`'-$$/worker.out 2>&12' &
 
 	##
 	## spawn server in fg
