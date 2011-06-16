@@ -1,4 +1,5 @@
 OAR.*.std*
 *.lock
+tools/pssh-*/psshlib/*.pyc
 models/*/states/
 models/*/*.out
