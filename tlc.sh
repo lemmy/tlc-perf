@@ -13,7 +13,7 @@ WORKER_SEQ=$1
 JOB_ID=$OAR_JOB_ID
 
 ## list of hosts (host appears multiple times for each core)
-FILE_NODES=`cat $OAR_FILE_NODES | uniq | sort`
+FILE_NODES=`cat $OAR_FILE_NODES |grep -v `hostname -f`| uniq | sort`
 
 ## which models to check
 MODEL_NAMES="l10_n6 l12_n6"
@@ -54,8 +54,7 @@ $UNZIP_PATH -q $ROOT_DIR/tla.zip -d $TARGET_DIR/
 cp -a $SPEC_PATH $TARGET_SPEC_DIR
 
 ## select server (first host in the list)
-SERVER_NAME=`head -1 $FILE_NODES`
-
+SERVER_NAME=`hostname -f`
 
 ## loop over models
 for MODEL_NAME in $MODEL_NAMES;
