@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Debugging
-set -x
+#set -x
 
 ## ID of this script
 PID=$$
@@ -59,7 +59,7 @@ do
     echo "checking model: $MODEL_NAME"
 
     ## loop over workers
-    for ((WORKER_COUNT=$1 ; $WORKER_COUNT <= $2; $WORKER_COUNT = $WORKER_COUNT + $3));
+    for ((WORKER_COUNT=$1 ; $WORKER_COUNT <= $2; WORKER_COUNT = $WORKER_COUNT + $3));
     do
 	echo "with workers: $WORKER_COUNT"
 
@@ -93,7 +93,7 @@ do
 	echo `date -u +%T` > $RESULT_DIR/start_time.txt
 
         ## spawn Java VM with server
-        $JAVA_PATH -Xmx2096m -cp $TARGET_TLA_DIR:$TARGET_TLA_DIR/lib/aspectjrt.jar -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar -Dorg.aspectj.weaver.showWeaveInfo=true -Daj.weaving.verbose=true -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ -Djava.rmi.server.logCalls=true -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT tlc2.tool.distributed.TLCServer $TARGET_SPEC_DIR/$MODEL_NAME.tla > $RESULT_DIR/server.out 2> $RESULT_DIR/server.err && cat $RESULT_DIR/server.{err,out}
+        $JAVA_PATH -Xmx2096m -cp $TARGET_TLA_DIR:$TARGET_TLA_DIR/lib/aspectjrt.jar -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar -Dorg.aspectj.weaver.showWeaveInfo=true -Daj.weaving.verbose=true -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ -Djava.rmi.server.logCalls=true -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT tlc2.tool.distributed.TLCServer $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
