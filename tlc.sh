@@ -59,9 +59,13 @@ SERVER_NAME=`hostname -f`
 ## loop over models
 for MODEL_NAME in $MODEL_NAMES;
 do
+    echo "checking model: $MODEL_NAME"
+
     ## loop over workers
     for WORKER_COUNT in {$WORKER_SEQ};
     do
+	echo "with workers: $WORKER_COUNT"
+
 	##
 	## write job information
         
@@ -95,10 +99,10 @@ do
 	
 	##
 	## persistently store result (implicitly like a sleep letting workers/server shutdown)
-	$GIT_PATH pull origin master
-	$GIT_PATH add -u $RESULT_DIR/*
-	$GIT_PATH commit -m '$'
-	$GIT_PATH push origin master
+	#$GIT_PATH pull origin master
+	#$GIT_PATH add -u $RESULT_DIR/*
+	#$GIT_PATH commit -m '$'
+	#$GIT_PATH push origin master
     done
 done
 
