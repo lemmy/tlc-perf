@@ -82,7 +82,8 @@ do
 	tail -$WORKER_COUNT $FILE_NODES > $WORKER_FILE
 	
 	## spawn pssh process
-	$PSSH_PATH -t -1 -p $WORKER_COUNT -h $WORKER_FILE '$mkdir -p $RESULT_DIR/'`hostname -f`'-$$ && $JAVA_PATH -Xmx2096m -cp $TARGET_TLA_DIR tlc2.tool.distributed.TLCWorker $SERVER_NAME > $RESULT_DIR/'`hostname -f`'-$$/worker.out 2>&12' &
+	$PSSH_PATH -P -t -1 -p $WORKER_COUNT -h $WORKER_FILE mkdir -p '$RESULT_DIR'/'`hostname -f`'-$$
+	$PSSH_PATH -t -1 -p $WORKER_COUNT -h $WORKER_FILE '$JAVA_PATH' -Xmx2096m -cp '$TARGET_TLA_DIR' tlc2.tool.distributed.TLCWorker '$SERVER_NAME' > '$RESULT_DIR'/'`hostname -f`'-'$$'/worker.out 2>&12 &
 
 	##
 	## spawn server in fg
@@ -94,7 +95,7 @@ do
 	echo `date -u +%T` > $RESULT_DIR/start_time.txt
 
         ## spawn Java VM with server
-        $JAVA_PATH -Xmx2096m -cp $TARGET_TLA_DIR:$TARGET_TLA_DIR/lib/aspectjrt.jar -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar -Dorg.aspectj.weaver.showWeaveInfo=true -Daj.weaving.verbose=true -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ -Djava.rmi.server.logCalls=true -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT tlc2.tool.distributed.TLCServer $TARGET_SPEC_DIR/MC.tla > $RESULT_DIR/server.out 2> $RESULT_DIR/server.err
+        $JAVA_PATH -Xmx2096m -cp $TARGET_TLA_DIR:$TARGET_TLA_DIR/lib/aspectjrt.jar -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar -Dorg.aspectj.weaver.showWeaveInfo=true -Daj.weaving.verbose=true -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ -Djava.rmi.server.logCalls=true -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT tlc2.tool.distributed.TLCServer $TARGET_SPEC_DIR/$MODEL_NAME.tla > $RESULT_DIR/server.out 2> $RESULT_DIR/server.err
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
