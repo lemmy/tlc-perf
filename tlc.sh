@@ -38,8 +38,6 @@ TARGET_DIR=/tmp/$PID
 TARGET_TLA_DIR=$TARGET_DIR/tla
 TARGET_SPEC_DIR=$TARGET_DIR/spec
 
-## 
-RESULT_DIR=$ROOT_DIR/results/$MODEL_NAME-$JOB_ID-w$WORKER_COUNT
 
 ## go to root
 cd $ROOT_DIR
@@ -61,6 +59,9 @@ SERVER_NAME=$HOSTNAME
 for MODEL_NAME in $MODEL_NAMES;
 do
     echo "checking model: $MODEL_NAME"
+    
+    ## 
+    RESULT_DIR=$ROOT_DIR/results/$MODEL_NAME-$JOB_ID-w$WORKER_COUNT
 
     ## loop over workers
     for WORKER_COUNT in $(seq $WORKER_SEQ)
