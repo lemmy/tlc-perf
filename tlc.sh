@@ -61,7 +61,7 @@ SERVER_NAME=`head -1 $FILE_NODES`
 for MODEL_NAME in $MODEL_NAMES;
 do
     ## loop over workers
-    for WORKER_COUNT in $WORKER_SEQ;
+    for WORKER_COUNT in {$WORKER_SEQ};
     do
 	##
 	## write job information
