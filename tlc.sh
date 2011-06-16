@@ -12,10 +12,6 @@ WORKER_SEQ=$1
 ## grid job identifier
 JOB_ID=$OAR_JOB_ID
 
-## list of hosts (host appears multiple times for each core)
-HOSTNAME=`hostname -f`
-FILE_NODES=`cat $OAR_FILE_NODES |grep -v $HOSTNAME | uniq | sort`
-
 ## which models to check
 MODEL_NAMES="l10_n6 l12_n6"
 
@@ -53,14 +49,18 @@ $UNZIP_PATH -q $ROOT_DIR/dist/tla.zip -d $TARGET_DIR/
 cp -a $SPEC_PATH $TARGET_SPEC_DIR
 
 ## select server (first host in the list)
-SERVER_NAME=$HOSTNAME
+SERVER_NAME=`hostname -f`
+
+## list of hosts (host appears multiple times for each core)
+FILE_NODES=$TARGET_DIR/$JOB_ID-hosts.txt
+cat $OAR_FILE_NODES |grep -v $HOSTNAME | uniq | sort > $FILE_NODES
 
 ## loop over models
 for MODEL_NAME in $MODEL_NAMES;
 do
     echo "checking model: $MODEL_NAME"
-    
-    ## 
+
+    ##
     RESULT_DIR=$ROOT_DIR/results/$MODEL_NAME-$JOB_ID-w$WORKER_COUNT
 
     ## loop over workers
