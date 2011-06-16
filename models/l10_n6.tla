@@ -1,4 +1,4 @@
----- MODULE MC ----
+---- MODULE l10_n6 ----
 EXTENDS GridPerformanceTest, TLC
 
 \* CONSTANT definitions @modelParameterConstants:0K
