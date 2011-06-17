@@ -59,7 +59,7 @@ do
     echo "checking model: $MODEL_NAME"
 
     ## loop over workers
-    for ((WORKER_COUNT=$1 ; $WORKER_COUNT <= $2; WORKER_COUNT = $WORKER_COUNT + $3));
+    for ((WORKER_COUNT=$1 ; $WORKER_COUNT <= $2; WORKER_COUNT = $WORKER_COUNT $3));
     do
 	echo "with workers: $WORKER_COUNT"
 
