@@ -17,16 +17,23 @@ do
     # OAR job id
     JOB_ID=`echo $MODEL_NAME | cut -d '-' -f 3`
 
-    # fix elapsed time for excel/calc (convert to elapsed seconds)
-    ELAPSED=`date -d "$(echo $LINE | cut -d ',' -f 9)" +%s`
-
+    # write name of cluster (default to bordeaux/bordereau)
+    SERVERTXT=`dirname $i`/server.txt
+    if [ -e $SERVERTXT ]; then
+	CLUSTER=`cat $SERVERTXT | cut -d '.' -f 1 | cut -d '-' -f 1`
+        SITE=`cat $SERVERTXT | cut -d '.' -f 2`
+    else
+	CLUSTER="bordeaux"
+        SITE="bordereau"
+    fi
+    
     # Only print column headings once
     if [ $COUNT -eq 1 ]; then
         HEADING=`cat $i | head -1`
-        echo "L,N,ElapsedTime,OARJobID,$HEADING"
+        echo "L,N,Site,Cluster,OARJobID,$HEADING"
     fi
 
     # print everything else
-    echo ${L:1},${N:1},$ELAPSED,$JOB_ID,$LINE
+    echo ${L:1},${N:1},$SITE,$CLUSTER,$JOB_ID,$LINE
 done
 
