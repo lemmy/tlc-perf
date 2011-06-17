@@ -5,6 +5,11 @@
 
 ## ID of this script
 PID=$$
+
+START=$1
+END=$2
+STEP=$3
+
 TIMESTAMP=`date -u +%T`
 
 ## grid job identifier
@@ -58,7 +63,7 @@ do
     echo "checking model: $MODEL_NAME"
 
     ## loop over workers
-    for ((WORKER_COUNT=$1 ; $WORKER_COUNT <= $2; WORKER_COUNT = $WORKER_COUNT $3));
+    for ((WORKER_COUNT=$START ; $WORKER_COUNT <= $END; WORKER_COUNT = $WORKER_COUNT $STEP));
     do
 	echo "with workers: $WORKER_COUNT"
 
