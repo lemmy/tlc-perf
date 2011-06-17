@@ -64,7 +64,8 @@ do
 	echo "with workers: $WORKER_COUNT"
 
 	##
-	RESULT_DIR=$ROOT_DIR/results/$MODEL_NAME-w$WORKER_COUNT-$JOB_ID-$TIMESTAMP
+	WORKER_COUNT_PADDED=$(printf %03d $WORKER_COUNT)
+	RESULT_DIR=$ROOT_DIR/results/$MODEL_NAME-w$WORKER_COUNT_PADDED-$JOB_ID-$TIMESTAMP
 	
 	##
 	## write job information
