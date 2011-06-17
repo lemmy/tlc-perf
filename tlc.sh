@@ -32,7 +32,6 @@ TARGET_DIR=/tmp/$PID
 TARGET_TLA_DIR=$TARGET_DIR/tla
 TARGET_SPEC_DIR=$TARGET_DIR/spec
 
-
 ## go to root
 cd $ROOT_DIR
 
@@ -89,6 +88,9 @@ do
         
         ## log amount of workers to result directory
 	echo $WORKER_COUNT > $RESULT_DIR/worker_count.txt
+	cat $WORKER_FILE > $RESULT_DIR/workers.txt
+	
+	echo `hostname -f` > $RESULT_DIR/server.txt
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/start_time.txt
