@@ -1,0 +1,5 @@
+WorkerName,StatesReceived,StatesComputed
+rmi://borderline-9.bordeaux.grid5000.fr:46161,64889,253740
+rmi://borderline-8.bordeaux.grid5000.fr:45043,67302,263894
+rmi://borderline-6.bordeaux.grid5000.fr:50771,65087,284964
+rmi://borderline-7.bordeaux.grid5000.fr:57637,64866,252627
