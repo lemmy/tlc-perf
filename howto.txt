@@ -1,0 +1,23 @@
+#
+# Start grid experiment
+# - 33 nodes
+# - cluster 'bordereau'
+# - job gets killed after 6 hours
+# - Nodes will add ~/.ssh/id_rsa.pub to authorized_keys
+# 
+# - start with 1 node, end with 32, stepping of 4"
+#
+oarsub -l nodes=33,walltime=6 -p "cluster='bordereau'" -k -i ~/.ssh/id_rsa '/home/mkuppe/tlc.sh 1 32 4'
+
+#
+# Aggregate various model runs into a single .csv file (and open with openoffice.org)
+#
+results/mergecsv.sh > /tmp/results.csv | openoffice.org /tmp/results.csv
+
+#
+# Create scatter plot in openoffice
+#
+0) select elapsed time and num workers column
+1) create scatter plot with x and y mapped
+
+//TODO show how to create scatter plot with gnuplot
