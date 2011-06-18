@@ -4,8 +4,6 @@
 COUNT=0;
 for i in `find . -iname server.csv`
 do
-    COUNT=`echo $COUNT + 1 | bc`
-
     # Ignore heading
     LINE=`cat $i | tail -1`
 
@@ -28,7 +26,8 @@ do
     fi
     
     # Only print column headings once
-    if [ $COUNT -eq 1 ]; then
+    if [ $COUNT -eq 0 ]; then
+	let COUNT++
         HEADING=`cat $i | head -1`
         echo "L,N,Site,Cluster,OARJobID,$HEADING"
     fi
