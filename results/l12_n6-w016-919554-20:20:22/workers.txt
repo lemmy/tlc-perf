@@ -1,0 +1,16 @@
+bordeplage-4.bordeaux.grid5000.fr
+bordeplage-50.bordeaux.grid5000.fr
+bordeplage-51.bordeaux.grid5000.fr
+bordeplage-5.bordeaux.grid5000.fr
+bordeplage-6.bordeaux.grid5000.fr
+bordeplage-7.bordeaux.grid5000.fr
+borderline-10.bordeaux.grid5000.fr
+borderline-1.bordeaux.grid5000.fr
+borderline-2.bordeaux.grid5000.fr
+borderline-3.bordeaux.grid5000.fr
+borderline-4.bordeaux.grid5000.fr
+borderline-5.bordeaux.grid5000.fr
+borderline-6.bordeaux.grid5000.fr
+borderline-7.bordeaux.grid5000.fr
+borderline-8.bordeaux.grid5000.fr
+borderline-9.bordeaux.grid5000.fr
