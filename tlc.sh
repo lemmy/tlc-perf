@@ -16,7 +16,7 @@ TIMESTAMP=`date -u +%T`
 JOB_ID=$OAR_JOB_ID
 
 ## which models to check
-MODEL_NAMES="l12_n6 l14_n6"
+MODEL_NAMES=${4-"l12_n6 l14_n6"}
 
 ## root dir
 ROOT_DIR=/home/mkuppe/grid5000.git
