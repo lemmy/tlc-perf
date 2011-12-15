@@ -111,7 +111,7 @@ do
 	#$GIT_PATH pull origin master
 	$GIT_PATH add dist/tla.zip
 	$GIT_PATH add $RESULT_DIR/*
-	$GIT_PATH commit -m '$RESULT_DIR'
+	$GIT_PATH commit -m ''$RESULT_DIR''
 	#$GIT_PATH push origin master
     done
 done
