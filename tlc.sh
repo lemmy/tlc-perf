@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Debugging
-#set -x
+set -x
 
 ## ID of this script
 PID=$$
@@ -44,8 +44,9 @@ cd $ROOT_DIR
 rm -rf $TARGET_SPEC_DIR
 rm -rf $TARGET_TLA_DIR
 
-## extract tla.zip distribution to (local) target directory
+## extract tla.zip distribution to (local) target directory for server
 $UNZIP_PATH -q $ROOT_DIR/dist/tla.zip -d $TARGET_DIR/
+cp -a $TARGET_TLA_DIR $ROOT_DIR/dist/tla
 
 ## copy spec to target directory
 cp -a $SPEC_PATH $TARGET_SPEC_DIR
@@ -85,8 +86,7 @@ do
 	tail -$WORKER_COUNT $FILE_NODES > $WORKER_FILE
 	
 	## spawn pssh process
-	$PSSH_PATH -O Port=6667 -l oar -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH -Xmx2096m -cp $ROOT_DIR/dist/tla tlc2.tool.distributed.TLCWorker $SERVER_NAME &
-	#> $RESULT_DIR/`hostname -f`-p$$-worker.out 2>&1 &
+	$PSSH_PATH -O Port=6667 -l oar -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH -Xmx2096m -cp $ROOT_DIR/dist/tla tlc2.tool.distributed.TLCWorker $SERVER_NAME > $RESULT_DIR/`hostname -f`-p$$-worker.out 2>&1 &
 
 	##
 	## spawn server in fg

@@ -3,3 +3,4 @@ OAR.*.std*
 tools/pssh-*/psshlib/*.pyc
 models/states/
 models/*.out
+dist/tla
