@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ## Debugging
-set -x
+#set -x
 
 ## ID of this script
 PID=$$
