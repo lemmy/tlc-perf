@@ -109,6 +109,7 @@ do
 	##
 	## persistently store result (implicitly like a sleep letting workers/server shutdown)
 	#$GIT_PATH pull origin master
+	$GIT_PATH add dist/tla.zip
 	$GIT_PATH add $RESULT_DIR/*
 	$GIT_PATH commit -m '$'
 	#$GIT_PATH push origin master
