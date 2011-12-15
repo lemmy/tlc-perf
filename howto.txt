@@ -21,3 +21,4 @@ results/mergecsv.sh > /tmp/results.csv | openoffice.org /tmp/results.csv
 1) create scatter plot with x and y mapped
 
 //TODO show how to create scatter plot with gnuplot
+
