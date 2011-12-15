@@ -22,3 +22,4 @@ results/mergecsv.sh > /tmp/results.csv | openoffice.org /tmp/results.csv
 
 //TODO show how to create scatter plot with gnuplot
 
+
