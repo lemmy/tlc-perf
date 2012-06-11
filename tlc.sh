@@ -104,7 +104,15 @@ do
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
-	
+
+
+	## backup rrd data
+	for RRD in `find /var/lib/munin/localdomain/*.rrd`;
+	do
+	    XMLFILE=$SERVER_NAME-`echo $RRD | cut -d '/' -f 6`
+	    rrdtool dump $RRD $RESULT_DIR/$XMLFILE.xml
+	done
+
 	##
 	## persistently store result (implicitly like a sleep letting workers/server shutdown)
 	#$GIT_PATH pull origin master
