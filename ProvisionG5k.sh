@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # allow user mkuppe to use sudo without password
-echo "mkuppe ALL=(ALL) NOASSWD: ALL" >> /etc/sudoers
+echo "mkuppe	ALL=(ALL)	NOASSWD: ALL" >> /etc/sudoers
 
 # update package index and install basic packages needed
 export DEBIAN_FRONTEND=noninteractive
@@ -16,8 +16,8 @@ apt-get --no-install-recommends install gnome-core gdm iceweasel tightvncserver 
 apt-get clean
 
 # add jar and script to munin
-cp /home/mkuppe/tools/jmx2munin/jmx2munin-1.0.jar /usr/share/munin/jmx2munin.jar
-cp /home/mkuppe/tools/jmx2munin/jmx2munin.sh /usr/share/munin/plugins
+cp /home/mkuppe/grid5000.git/tools/jmx2munin/jmx2munin-1.0.jar /usr/share/munin/jmx2munin.jar
+cp /home/mkuppe/grid5000.git/tools/jmx2munin/jmx2munin.sh /usr/share/munin/plugins
 chmod +x /usr/share/munin/plugins/jmx2munin.sh
 # try saving a few bytes
 P1=/etc/munin/plugins
