@@ -13,7 +13,7 @@ STEP=$3
 TIMESTAMP=`date -u +%T`
 
 ## grid job identifier
-JOB_ID=$OAR_JOB_ID
+JOB_ID=${5-$OAR_JOB_ID}
 
 ## which models to check
 MODEL_NAMES=${4-"l12_n6 l14_n6"}
@@ -55,7 +55,7 @@ SERVER_NAME=`hostname -f`
 
 ## list of hosts (host appears multiple times for each core)
 FILE_NODES=$TARGET_DIR/$JOB_ID-hosts.txt
-cat $OAR_FILE_NODES |grep -v $HOSTNAME | uniq | sort > $FILE_NODES
+cat ${6-$OAR_FILE_NODES} |grep -v $HOSTNAME | uniq | sort > $FILE_NODES
 
 ## loop over models
 for MODEL_NAME in $MODEL_NAMES;
