@@ -7,6 +7,8 @@ RESULT_DIR=$1
 
 OUT_DIR=$RESULT_DIR/`hostname -s`
 
+mkdir -p $OUT_DIR
+
 # locally
 for RRD in `find /var/lib/munin/tlc/*.rrd`;
 do
