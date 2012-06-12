@@ -27,6 +27,7 @@ SPEC_PATH=$ROOT_DIR/models/
 ## tools not available in the grid
 JAVA_PATH=$ROOT_DIR/tools/jre/bin/java
 PSSH_PATH=$ROOT_DIR/tools/pssh/bin/pssh
+CONVERTRRD_PATH=$ROOT_DIR/tools/convertRRD.sh
 
 ## local tools in the grid
 UNZIP_PATH=/usr/bin/unzip
@@ -105,13 +106,10 @@ do
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
 
-
-	## backup rrd data
-	for RRD in `find /var/lib/munin/tlc/*.rrd`;
-	do
-	    XMLFILE=`hostname -s`-`echo $RRD | sed 's#/var/lib/munin/tlc/tlc-##g' | cut -f 1 -d '.'`
-	    rrdtool dump $RRD $RESULT_DIR/$XMLFILE.xml
-	done
+	## backup rrd data (remotely and locally)
+	$PSSH_PATH -t -1 -p $WORKER_COUNT -h $WORKER_FILE $CONVERTRRD_PATH $RESULT_DIR
+	# locally
+	$CONVERTRRD_PATH $RESULT_DIR
 
 	##
 	## persistently store result (implicitly like a sleep letting workers/server shutdown)
