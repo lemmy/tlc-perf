@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # allow user mkuppe to use sudo without password
-echo "mkuppe	ALL=(ALL)	NOASSWD: ALL" >> /etc/sudoers
+sed -i 's/%sudo ALL=(ALL) ALL/%sudo ALL=(ALL) NOPASSWD: ALL/g' /etc/sudoers
+usermod -G sudo -a mkuppe
 
 # update package index and install basic packages needed
 export DEBIAN_FRONTEND=noninteractive
@@ -95,6 +96,10 @@ ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-4:
 ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-4::blockedtime
 ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-5::waitedtime
 ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-5::blockedtime
+
+# Replace localhost.localdomain string in config file
+sed -i 's/localhost.localdomain/tlc/g' /etc/munin/munin.conf
+
 # restart munin after config changes
 service munin-node restart
 
