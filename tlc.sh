@@ -117,6 +117,7 @@ do
 	$GIT_PATH add dist/tla.zip
 	$GIT_PATH add dist/tla2tools.jar
 	$GIT_PATH add $RESULT_DIR/*
+	find $RESULT_DIR -type d | xargs -I {} $GIT_PATH add {}/*
 	$GIT_PATH commit -m ''$RESULT_DIR''
 	#$GIT_PATH push origin master
     done
