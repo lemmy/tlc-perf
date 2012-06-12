@@ -107,9 +107,9 @@ do
 
 
 	## backup rrd data
-	for RRD in `find /var/lib/munin/localdomain/*.rrd`;
+	for RRD in `find /var/lib/munin/tlc/*.rrd`;
 	do
-	    XMLFILE=$SERVER_NAME-`echo $RRD | cut -d '/' -f 6`
+	    XMLFILE=`hostname -s`-`echo $RRD | sed 's#/var/lib/munin/tlc/tlc-##g' | cut -f 1 -d '.'`
 	    rrdtool dump $RRD $RESULT_DIR/$XMLFILE.xml
 	done
 
