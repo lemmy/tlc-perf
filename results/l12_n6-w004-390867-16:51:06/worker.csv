@@ -1,0 +1,5 @@
+WorkerName,StatesReceived,StatesComputed
+rmi://griffon-29.nancy.grid5000.fr:50757,65858,270555
+rmi://griffon-25.nancy.grid5000.fr:59882,65231,263875
+rmi://griffon-27.nancy.grid5000.fr:53105,65412,257297
+rmi://griffon-28.nancy.grid5000.fr:44356,65643,262042
