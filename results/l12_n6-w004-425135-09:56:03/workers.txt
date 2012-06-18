@@ -1,4 +1,0 @@
-parapluie-40.rennes.grid5000.fr
-parapluie-5.rennes.grid5000.fr
-parapluie-7.rennes.grid5000.fr
-parapluie-9.rennes.grid5000.fr
