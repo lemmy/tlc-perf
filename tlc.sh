@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# Parameters
+# 1: Start (Num of workers)
+# 2: End   (Num of workers)
+# 3: Stepping (Increment of workers)
+# optional
+# 4: Model names
+# 5: JOB_ID (Identifier for current run)
+# 6: OAR_FILE_Nodes (ascii file with list of all nodes (one node per line))
+# 7: ROOT_DIR (location of git repo)
+
 ## Debugging
 set -x
 
@@ -19,7 +29,7 @@ JOB_ID=${5-$OAR_JOB_ID}
 MODEL_NAMES=${4-"l12_n6 l14_n6"}
 
 ## root dir
-ROOT_DIR=/home/mkuppe/grid5000.git
+ROOT_DIR=${7-/home/mkuppe/grid5000.git}
 
 ## where the model _files_ are kept
 SPEC_PATH=$ROOT_DIR/models/
