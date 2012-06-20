@@ -196,7 +196,7 @@ git config --global user.name \"Markus Alexander Kuppe\"
 #/opt/apache-maven-3.0.4/bin/mvn -f /home/kuppe/git/tla/pom.xml install -Dmaven.test.skip=true
 export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
 cd ~/git/tla/tlatools/
-ant -f customBuild.xml dist-mixed-zip -Dtest.skip=true -Dwithaj=tre
+ant -f customBuild.xml dist-mixed-zip -Dtest.skip=true
 
 #
 # build jmx2munin
