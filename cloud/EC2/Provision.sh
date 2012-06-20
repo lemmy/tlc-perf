@@ -187,7 +187,7 @@ echo \"|1|NhbrD14HejMNWnHwOahQhtrBHMc=|7peaar3B1D7AF+Yja+Il98HDIEk= ssh-rsa AAAA
 mkdir -p ~/git
 /usr/bin/git clone ssh://kuppe@tla.msr-inria.inria.fr/home/kuppe/tla.git ~/git/tla
 /usr/bin/git clone git://github.com/lemmy/jmx2munin.git ~/git/jmx2munin
-/usr/bin/git clone git://github.com/lemmy/tlc-performance.git ~/git/ec2
+/usr/bin/git clone git://github.com/lemmy/tlc-perf.git ~/git/ec2
 # fix git credentials so that we can commit successfully
 git config --global user.email \"tlaplus.net@lemmster.de\"
 git config --global user.name \"Markus Alexander Kuppe\"
