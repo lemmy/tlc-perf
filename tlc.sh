@@ -96,7 +96,7 @@ do
 	tail -$WORKER_COUNT $FILE_NODES > $WORKER_FILE
 	
 	## spawn pssh process
-	$PSSH_PATH -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH -Xmx2096m -cp $ROOT_DIR/dist/tla2tools.jar tlc2.tool.distributed.TLCWorker $SERVER_NAME &
+	$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH -Xmx2096m -cp $ROOT_DIR/dist/tla2tools.jar tlc2.tool.distributed.TLCWorker $SERVER_NAME &
 
 	##
 	## spawn server in fg
