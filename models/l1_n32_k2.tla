@@ -1,4 +1,4 @@
----- MODULE l1_n32_2 ----
+---- MODULE l1_n32_k2 ----
 EXTENDS GridPerformanceTest, TLC
 
 \* CONSTANT definitions @modelParameterConstants:0K
