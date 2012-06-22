@@ -126,8 +126,6 @@ do
 	##
 	## persistently store result (implicitly like a sleep letting workers/server shutdown)
 	#$GIT_PATH pull origin master
-	$GIT_PATH add dist/tla.zip
-	$GIT_PATH add dist/tla2tools.jar
 	$GIT_PATH add $RESULT_DIR/*
 	find $RESULT_DIR -type d | xargs -I {} $GIT_PATH add {}/*
 	$GIT_PATH commit -m ''$RESULT_DIR''

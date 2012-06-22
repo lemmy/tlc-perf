@@ -79,37 +79,11 @@ chown kuppe:kuppe /mnt/tlc
 mkdir -p /mnt/kuppe
 chown kuppe:kuppe /mnt/kuppe
 
-cd /home/kuppe
-echo "#!/bin/bash
-#
-# setup kuppe's development environment
-#
-
 # clone git repo for eclipse to pick it up easily
-mkdir -p ~/git
-/usr/bin/git clone ssh://kuppe@tla.msr-inria.inria.fr/home/kuppe/tla.git ~/git/tla
+mkdir -p /home/kuppe/git
 /usr/bin/git clone git://github.com/lemmy/tlc-perf.git ~/git/ec2
 
-# fix git credentials so that we can commit successfully
-git config --global user.email \"tlaplus.net@lemmster.de\"
-git config --global user.name \"Markus Alexander Kuppe\"
-
-# build tla with maven
-#/opt/apache-maven-3.0.4/bin/mvn -f /home/kuppe/git/tla/pom.xml install -Dmaven.test.skip=true
-export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
-cd ~/git/tla/tlatools/
-ant -f customBuild.xml dist-mixed-zip -Dtest.skip=true -Dwithaj=true
-
-# copy tlabuild to tlc-performance
-cp ~/git/tla/tlatools/dist/tla.zip ~/git/ec2/dist
-cp ~/git/tla/tlatools/dist/tla2tools.jar ~/git/ec2/dist
-
-" > /home/kuppe/provisionKuppe.sh
-
 chown -R kuppe:kuppe /home/kuppe/
-chmod +x /home/kuppe/provisionKuppe.sh
-chmod 666 $(tty) 
-sudo -u kuppe /home/kuppe/provisionKuppe.sh > /home/kuppe/provisionKuppe.log 2>&1
 
 # install TLC munin extensions (needs ec2 repo present)
 cd /mnt/kuppe/git/ec2/tools/jmx2munin
