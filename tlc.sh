@@ -9,6 +9,7 @@
 # 5: JOB_ID (Identifier for current run)
 # 6: OAR_FILE_Nodes (ascii file with list of all nodes (one node per line))
 # 7: ROOT_DIR (location of git repo)
+# 8: TARGET_PREFIX (location of tmp files)
 
 ## Debugging
 set -x
@@ -44,7 +45,8 @@ UNZIP_PATH=/usr/bin/unzip
 GIT_PATH=/usr/bin/git
 
 ## staging area to reduce load on NFS
-TARGET_DIR=/tmp/$PID
+TARGET_PREFIX=${8-"/tmp"}
+TARGET_DIR=$TARGET_PREFIX/$PID
 TARGET_TLA_DIR=$TARGET_DIR/tla
 TARGET_SPEC_DIR=$TARGET_DIR/spec
 
