@@ -67,61 +67,6 @@ apt-get --no-install-recommends install ant openjdk-7-jdk visualvm openjdk-6-jdk
 # clear cached packages to save disk space
 apt-get clean
 
-# try saving a few bytes
-P1=/etc/munin/plugins
-P2=/usr/share/munin/plugins
-# activate extra munin stats
-rm $P1/apache_*
-rm $P1/munin_*
-rm $P1/http_*
-rm $P1/fw_*
-# for jmx plugin to work, the vm has to be started with -D properties to listen on port 5400
-ln -s $P2/jmx_ $P1/jmx_ClassesLoaded
-ln -s $P2/jmx_ $P1/jmx_ClassesLoadedTotal
-ln -s $P2/jmx_ $P1/jmx_ClassesUnloaded
-ln -s $P2/jmx_ $P1/jmx_CompilationTimeTotal
-ln -s $P2/jmx_ $P1/jmx_GCCount
-ln -s $P2/jmx_ $P1/jmx_GCTime
-ln -s $P2/jmx_ $P1/jmx_CurrentThreadCpuTime
-ln -s $P2/jmx_ $P1/jmx_CurrentThreadUserTime
-ln -s $P2/jmx_ $P1/jmx_MemoryAllocatedHeap
-ln -s $P2/jmx_ $P1/jmx_MemoryAllocatedNonHeap
-ln -s $P2/jmx_ $P1/jmx_MemoryEdenPeak
-ln -s $P2/jmx_ $P1/jmx_MemoryEdenUsage
-ln -s $P2/jmx_ $P1/jmx_MemoryEdenUsagePostGC
-ln -s $P2/jmx_ $P1/jmx_MemoryObjectsPending
-ln -s $P2/jmx_ $P1/jmx_MemoryPermGenPeak
-ln -s $P2/jmx_ $P1/jmx_MemoryPermGenUsage
-ln -s $P2/jmx_ $P1/jmx_MemoryPermGenUsagePostGC
-ln -s $P2/jmx_ $P1/jmx_MemorySurvivorPeak
-ln -s $P2/jmx_ $P1/jmx_MemorySurvivorUsage
-ln -s $P2/jmx_ $P1/jmx_MemorySurvivorUsagePostGC
-ln -s $P2/jmx_ $P1/jmx_MemoryTenuredGenPeak
-ln -s $P2/jmx_ $P1/jmx_MemoryTenuredGenUsage
-ln -s $P2/jmx_ $P1/jmx_MemoryTenuredGenUsagePostGC
-ln -s $P2/jmx_ $P1/jmx_MemorythresholdPostGCCount
-ln -s $P2/jmx_ $P1/jmx_MemorythresholdUsageCount
-ln -s $P2/jmx_ $P1/jmx_ProcessorsAvailable
-ln -s $P2/jmx_ $P1/jmx_Threads
-ln -s $P2/jmx_ $P1/jmx_ThreadsDaemon
-ln -s $P2/jmx_ $P1/jmx_ThreadsDeadlocked
-ln -s $P2/jmx_ $P1/jmx_ThreadsPeak
-ln -s $P2/jmx_ $P1/jmx_ThreadsStartedTotal
-ln -s $P2/jmx_ $P1/jmx_Uptime
-# restart munin after config changes
-service munin-node restart
-
-# allow everybody to see munin stats
-echo "RedirectMatch ^/$ /munin
-Alias /munin /var/cache/munin/www
-<Directory /var/cache/munin/www>
-        Order allow,deny
-        Allow from all
-        Options None
-</Directory>
-" > /etc/munin/apache.conf
-service apache2 restart
-
 # add maven and ant to the path
 echo "export MAVEN_HOME=/opt/apache-maven/
 export PATH=$PATH:/opt/apache-maven/bin
@@ -156,56 +101,6 @@ export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
 cd ~/git/tla/tlatools/
 ant -f customBuild.xml dist-mixed-zip -Dtest.skip=true -Dwithaj=true
 
-#
-# build jmx2munin
-#
-cd ~/git/jmx2munin
-/opt/apache-maven-3.0.4/bin/mvn install
-# add jar and script to munin
-sudo cp target/jmx2munin-1.0.jar /usr/share/munin/jmx2munin.jar
-sudo cp contrib/jmx2munin.sh /usr/share/munin/plugins
-sudo chmod +x /usr/share/munin/plugins/jmx2munin.sh
-# try saving a few bytes
-P1=/etc/munin/plugins
-P2=/usr/share/munin/plugins
-# activate DiskFPSet0 stats
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::filecnt
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::tblcnt
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::indexcnt
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::disklookupcnt
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::diskwritecnt
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::diskhitcnt
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::diskseekcnt
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::memhitcnt
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::growdiskmark
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::checkpointmark
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::bucketcapacity
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::tblcapacity
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:fp:DiskFPSet0::overallcapacity
-# activate ModelChecker stats
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:ModelChecker::distinctstatesgenerated
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:ModelChecker::progress
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:ModelChecker::distinctstatesgeneratedperminute
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:ModelChecker::statequeuesize
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:ModelChecker::statesgenerated
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:ModelChecker::statesgeneratedperminute
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:ModelChecker::workercount
-# lock contention
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-0::waitedtime
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-0::blockedtime
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-1::waitedtime
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-1::blockedtime
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-2::waitedtime
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-2::blockedtime
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-3::waitedtime
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-3::blockedtime
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-4::waitedtime
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-4::blockedtime
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-5::waitedtime
-sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-5::blockedtime
-# restart munin to make the above change take effect
-sudo service munin-node restart
-
 # copy tlabuild to tlc-performance
 cp ~/git/tla/tlatools/dist/tla.zip ~/git/ec2/dist
 cp ~/git/tla/tlatools/dist/tla2tools.jar ~/git/ec2/dist
@@ -216,4 +111,8 @@ chown -R kuppe:kuppe /home/kuppe/
 chmod +x /home/kuppe/provisionKuppe.sh
 chmod 666 $(tty) 
 sudo -u kuppe /home/kuppe/provisionKuppe.sh > /home/kuppe/provisionKuppe.log 2>&1
+
+# install TLC munin extensions (needs ec2 repo present)
+cd /mnt/kuppe/git/ec2/tools/jmx2munin
+./install.sh
 
