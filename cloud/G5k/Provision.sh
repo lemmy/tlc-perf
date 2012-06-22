@@ -8,10 +8,7 @@ usermod -G sudo -a mkuppe
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get upgrade -y
-apt-get --no-install-recommends install ant openjdk-6-jdk unzip mc htop sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git git-svn sshfs rsync -y
-
-# if UI/X needed
-apt-get --no-install-recommends install gnome-core gdm iceweasel tightvncserver xorg -y
+apt-get --no-install-recommends install ant openjdk-6-jdk unzip mc htop sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git sshfs rsync -y
 
 # clear cached packages to save disk space
 apt-get clean
