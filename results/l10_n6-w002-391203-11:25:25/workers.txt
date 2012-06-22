@@ -1,0 +1,2 @@
+griffon-43.nancy.grid5000.fr
+griffon-55.nancy.grid5000.fr
