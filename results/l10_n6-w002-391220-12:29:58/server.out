@@ -1,0 +1,33 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/7488/spec/l10_n6.tla
+Parsing file /tmp/7488/spec/GridPerformanceTest.tla
+Parsing file /tmp/7488/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/7488/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/7488/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/7488/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/7488/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-06-22 12:30:08)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at griffon-87.nancy.grid5000.fr is ready (2012-06-22 12:30:08)
+Registration for worker at rmi://griffon-55.nancy.grid5000.fr:36343 completed (2012-06-22 12:30:09)
+Registration for worker at rmi://griffon-84.nancy.grid5000.fr:52504 completed (2012-06-22 12:30:10)
+Progress(22) at 2012-06-22 12:31:08: 596587 states generated (596587 s/min), 118284 distinct states found (118284 ds/min), 18853 states left on queue.
+Progress(28) at 2012-06-22 12:32:08: 1275571 states generated (678984 s/min), 218862 distinct states found (100578 ds/min), 13675 states left on queue.
+Worker: rmi://griffon-55.nancy.grid5000.fr:36343 Sent: 131536 Rcvd: 594704 (2012-06-22 12:32:34)
+Worker: rmi://griffon-84.nancy.grid5000.fr:52504 Sent: 130608 Rcvd: 599274 (2012-06-22 12:32:34)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 0.0
+  based on the actual fingerprints:  val = 9.8E-13
+1572865 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 39.
+Finished. (2012-06-22 12:32:34)
