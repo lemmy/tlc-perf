@@ -88,7 +88,6 @@ echo "#!/bin/bash
 # clone git repo for eclipse to pick it up easily
 mkdir -p ~/git
 /usr/bin/git clone ssh://kuppe@tla.msr-inria.inria.fr/home/kuppe/tla.git ~/git/tla
-/usr/bin/git clone git://github.com/lemmy/jmx2munin.git ~/git/jmx2munin
 /usr/bin/git clone git://github.com/lemmy/tlc-perf.git ~/git/ec2
 
 # fix git credentials so that we can commit successfully
