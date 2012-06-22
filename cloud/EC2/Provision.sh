@@ -77,13 +77,12 @@ mkdir -p /mnt/tlc
 chown kuppe:kuppe /mnt/tlc
 
 mkdir -p /mnt/kuppe
-chown kuppe:kuppe /mnt/kuppe
+mkdir -p /home/kuppe/git
+chown -R kuppe:kuppe /home/kuppe/
 
 # clone git repo for eclipse to pick it up easily
-mkdir -p /home/kuppe/git
-/usr/bin/git clone git://github.com/lemmy/tlc-perf.git ~/git/ec2
+sudo -u kuppe /usr/bin/git clone git://github.com/lemmy/tlc-perf.git ~/git/ec2
 
-chown -R kuppe:kuppe /home/kuppe/
 
 # install TLC munin extensions (needs ec2 repo present)
 cd /mnt/kuppe/git/ec2/tools/jmx2munin
