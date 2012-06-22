@@ -169,6 +169,9 @@ echo "export MAVEN_HOME=/opt/apache-maven/
 export PATH=$PATH:/opt/apache-maven/bin
 " > /etc/profile.d/java.sh
 
+mkdir -p /mnt/tlc
+chown kuppe:kuppe /mnt/tlc
+
 mkdir -p /mnt/kuppe
 chown kuppe:kuppe /mnt/kuppe
 
