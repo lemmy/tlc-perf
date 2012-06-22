@@ -82,8 +82,8 @@ chown -R kuppe:kuppe /home/kuppe/
 
 # clone git repo for eclipse to pick it up easily
 sudo -u kuppe /usr/bin/git clone git://github.com/lemmy/tlc-perf.git /home/kuppe/git/ec2
-sudo -u kuppe git config --global user.email \"tlaplus.net@lemmster.de\"
-sudo -u kuppe git config --global user.name \"Markus Alexander Kuppe\"
+sudo -u kuppe /usr/bin/git config --global user.email tlaplus.net@lemmster.de
+sudo -u kuppe /usr/bin/git config --global user.name "Markus Alexander Kuppe"
 
 # install TLC munin extensions (needs ec2 repo present)
 cd /mnt/kuppe/git/ec2/tools/jmx2munin
