@@ -10,14 +10,7 @@
 # switch to mount to use the instance ephemeral storage rather than ESB
 cd /mnt
 
-# download non pkg mgmt provided tools in background
-# no package mgmt for Eclipse profiler, hence install manually into /opt
-(wget -q http://www.yourkit.com/download/yjp-10.0.4-linux.tar.bz2  && cd /opt && tar xfj /mnt/yjp-10.0.4-linux.tar.bz2) &
-
-# no package mgmt for yourkit profiler, hence install manually into /opt
-(wget -q ftp://mirror.cc.vt.edu/pub/eclipse/technology/epp/downloads/release/indigo/SR1/eclipse-rcp-indigo-SR1-linux-gtk-x86_64.tar.gz && cd /opt && tar xfz /mnt/eclipse-rcp-indigo-SR1-linux-gtk-x86_64.tar.gz) & 
-
-# apache maven 3
+# download non pkg mgmt provided maven3 tool in background
 (wget -q http://apache.osuosl.org/maven/binaries/apache-maven-3.0.4-bin.tar.gz && cd /opt && tar xfz /mnt/apache-maven-3.0.4-bin.tar.gz) &
 
 # create user kuppe and setup public key
@@ -65,31 +58,11 @@ chmod 600 /home/kuppe/.ssh/id_rsa
 chown -R kuppe:kuppe /home/kuppe
 echo "kuppe ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-# create user lamport
-useradd -m lamport -s /bin/bash -G admin,sudo
-mkdir /home/lamport/.ssh
-echo "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAodOzPQlOIq+8ZDb75L0FR6VeMV/B+COXvkXPiwI4kEXkiadiEkynv7GIwVx3AfryvRtG2gYBUDccNuATVmz7HfhxKGlGOCLY4aZw3qIsMTTfe3nlQ0cRbU4q4npDwiPEQW8MUZe9zfBpPUL1eakZkTSpZaAOTLgYqRgOobLpSKk= lamport@SVC-LAPORT-1" > /home/lamport/.ssh/authorized_keys
-chown -R lamport:lamport /home/lamport
-echo "lamport ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
-
-# add x2go ubuntu ppa repository to package manager apt
-add-apt-repository ppa:x2go/stable -y
-
-# add cloudera hadoop repository to package manager
-wget http://archive.cloudera.com/one-click-install/maverick/cdh3-repository_1.0_all.deb
-dpkg -i cdh3-repository_1.0_all.deb
-
 # update package index and install basic packages needed
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get upgrade -y
-apt-get --no-install-recommends install ant openjdk-7-jdk visualvm openjdk-6-jdk juju unzip mc htop sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git git-svn sshfs rsync -y
-
-# if UI/X needed
-apt-get --no-install-recommends install gnome-core gdm gnome-session-fallback firefox libwebkitgtk-1.0-0 tightvncserver xorg x2goserver x2goserver-xsession -y
-
-# remove overlay scrollbar. it messes with eclipse
-apt-get purge overlay-scrollbar liboverlay-scrollbar-0.2-0 liboverlay-scrollbar3-0.2-0 -y
+apt-get --no-install-recommends install ant openjdk-7-jdk visualvm openjdk-6-jdk juju unzip mc htop sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git sshfs rsync -y
 
 # clear cached packages to save disk space
 apt-get clean
@@ -149,26 +122,12 @@ Alias /munin /var/cache/munin/www
 " > /etc/munin/apache.conf
 service apache2 restart
 
-# backup rrdtool data
-echo "MAILTO=root
-*/5 * * * *     root ps axu|grep java|grep -v grep >> /var/lib/munin/ps.txt
-*/10 * * * *	kuppe rsync -avz -e ssh /var/lib/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
-*/10 * * * *	kuppe rsync -avz -e ssh /var/cache/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
-*/10 * * * *	kuppe rsync -avz -e ssh /home/kuppe/run.log kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
-" > /etc/cron.d/rrdbackup
-
-wget http://64.34.161.181/download/3.5.0/Linux/FE/nxserver_3.5.0-9_amd64.deb
-wget http://64.34.161.181/download/3.5.0/Linux/nxnode_3.5.0-7_amd64.deb
-wget http://64.34.161.181/download/3.5.0/Linux/nxclient_3.5.0-7_amd64.deb
-dpkg -i nxclient_3.5.0-7_amd64.deb
-dpkg -i nxnode_3.5.0-7_amd64.deb
-dpkg -i nxserver_3.5.0-9_amd64.deb
-
 # add maven and ant to the path
 echo "export MAVEN_HOME=/opt/apache-maven/
 export PATH=$PATH:/opt/apache-maven/bin
 " > /etc/profile.d/java.sh
 
+# create instance-local folder to keep TLC states/
 mkdir -p /mnt/tlc
 chown kuppe:kuppe /mnt/tlc
 
@@ -181,16 +140,12 @@ echo "#!/bin/bash
 # setup kuppe's development environment
 #
 
-# add tla.msr-inria.inria.fr known host key to .ssh/known_hosts
-echo \"|1|NhbrD14HejMNWnHwOahQhtrBHMc=|7peaar3B1D7AF+Yja+Il98HDIEk= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAymaqVw6MX0zpVms76QnTO4jTVMzH9Z0/tKGNfh0LZIkAA6QnXMgCIxo+j7N5zBRIwggh9KuE2UKpL5Q17dQ/ue5rNjfglHU6sZfNjEDcL679BqQISr+PzcVH065e7gpVjfyj6E9we2XLuXSAUSU3yzGyLrneRfKXU7W3GNfGaFszmP6n4QyLaUPBFyMdstaynG4naIxTTZ+VpuaDb5lKpjWqBrnWbzh+/El5wU+DFPnKXAnrQemOZNIVGt15QHoFZoKbaNNP+n+rF6uzxjHrHZJnnyK1xp6lkiSm0WEw7WZGBiCywUDefv+P9CpT4bklWGI5uTgI0m/iJlH5ZU5r3Q==
-|1|9aOYC/DulqHTbwArybtfVdbGskA=|ogpjhptZMjmTR9w1mu3/lGRSeQ8= ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAymaqVw6MX0zpVms76QnTO4jTVMzH9Z0/tKGNfh0LZIkAA6QnXMgCIxo+j7N5zBRIwggh9KuE2UKpL5Q17dQ/ue5rNjfglHU6sZfNjEDcL679BqQISr+PzcVH065e7gpVjfyj6E9we2XLuXSAUSU3yzGyLrneRfKXU7W3GNfGaFszmP6n4QyLaUPBFyMdstaynG4naIxTTZ+VpuaDb5lKpjWqBrnWbzh+/El5wU+DFPnKXAnrQemOZNIVGt15QHoFZoKbaNNP+n+rF6uzxjHrHZJnnyK1xp6lkiSm0WEw7WZGBiCywUDefv+P9CpT4bklWGI5uTgI0m/iJlH5ZU5r3Q==
-\" > ~/.ssh/known_hosts
-
 # clone git repo for eclipse to pick it up easily
 mkdir -p ~/git
 /usr/bin/git clone ssh://kuppe@tla.msr-inria.inria.fr/home/kuppe/tla.git ~/git/tla
 /usr/bin/git clone git://github.com/lemmy/jmx2munin.git ~/git/jmx2munin
 /usr/bin/git clone git://github.com/lemmy/tlc-perf.git ~/git/ec2
+
 # fix git credentials so that we can commit successfully
 git config --global user.email \"tlaplus.net@lemmster.de\"
 git config --global user.name \"Markus Alexander Kuppe\"
@@ -235,7 +190,7 @@ sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:ModelChecker::statequeuesize
 sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:ModelChecker::statesgenerated
 sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:ModelChecker::statesgeneratedperminute
 sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_tlc2:tool:ModelChecker::workercount
-
+# lock contention
 sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-0::waitedtime
 sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-0::blockedtime
 sudo ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-1::waitedtime
