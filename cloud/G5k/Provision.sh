@@ -13,5 +13,9 @@ apt-get --no-install-recommends install ant openjdk-6-jdk unzip mc htop sysstat 
 # clear cached packages to save disk space
 apt-get clean
 
+# allow any host to query munin (limited to grid nodes due to external fw)
+# a munin node restart is triggered by jmx2munin
+echo "cidr_allow 0.0.0.0/0" >> /etc/munin/munin-node.conf
+
 # install TLC munin extensions
 ../../tools/jmx2munin/install.sh
