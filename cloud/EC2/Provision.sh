@@ -62,7 +62,7 @@ echo "kuppe ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get upgrade -y
-apt-get --no-install-recommends install ant openjdk-7-jdk visualvm openjdk-6-jdk juju unzip mc htop sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git sshfs rsync -y
+apt-get --no-install-recommends install ant openjdk-7-jdk visualvm openjdk-6-jdk juju unzip mc htop sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git sshfs rsync libnet-cidr-perl libnetaddr-ip-perl -y
 
 # clear cached packages to save disk space
 apt-get clean
