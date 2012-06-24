@@ -89,6 +89,10 @@ do
         
         ## create result directory
 	mkdir -p $RESULT_DIR
+
+	## Write TLC build and rev
+	$UNZIP_PATH $ROOT_DIR/dist/tla2tools.jar META-INF/MANIFEST.MF -d /tmp
+	mv /tmp/META-INF/MANIFEST.MF $RESULT_DIR/
 	
 	##
 	## spawn workers in the bg with pssh (they wait for the server)
