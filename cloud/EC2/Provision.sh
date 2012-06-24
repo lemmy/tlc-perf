@@ -67,6 +67,10 @@ apt-get --no-install-recommends install ant openjdk-7-jdk visualvm openjdk-6-jdk
 # clear cached packages to save disk space
 apt-get clean
 
+# allow any host to query munin (limited to grid nodes due to AWS fw)
+# a munin node restart is triggered by jmx2munin
+echo "cidr_allow 0.0.0.0/0" >> /etc/munin/munin-node.conf
+
 # add maven and ant to the path
 echo "export MAVEN_HOME=/opt/apache-maven/
 export PATH=$PATH:/opt/apache-maven/bin
