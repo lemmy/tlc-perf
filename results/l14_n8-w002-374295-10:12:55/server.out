@@ -1,0 +1,7 @@
+TLC Server Version 2.05 of 18 May 2012
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a tlc2.tool.ConfigFileException: TLC encountered the following error when trying to read the configuration file /tmp/7331/spec/l14_n8.cfg:
+File not found.
+Mon Jun 25 10:13:00 UTC 2012: Model checking appears to have failed, skipping statistics!
