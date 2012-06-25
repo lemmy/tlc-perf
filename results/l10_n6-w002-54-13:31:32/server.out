@@ -1,0 +1,33 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/21200/spec/l10_n6.tla
+Parsing file /mnt/tlc/21200/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/21200/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/21200/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/21200/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/21200/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/21200/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-06-25 13:31:35)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-28-136-229 is ready (2012-06-25 13:31:35)
+Registration for worker at rmi://ip-10-28-245-248.ec2.internal:53138 completed (2012-06-25 13:31:38)
+Registration for worker at rmi://ip-10-28-65-77.ec2.internal:38587 completed (2012-06-25 13:31:38)
+Progress(22) at 2012-06-25 13:32:35: 612919 states generated (612919 s/min), 121728 distinct states found (121728 ds/min), 19575 states left on queue.
+Progress(29) at 2012-06-25 13:33:35: 1327573 states generated (714654 s/min), 232389 distinct states found (110661 ds/min), 11127 states left on queue.
+Worker: rmi://ip-10-28-245-248.ec2.internal:53138 Sent: 130371 Rcvd: 592175 (2012-06-25 13:33:52)
+Worker: rmi://ip-10-28-65-77.ec2.internal:38587 Sent: 131773 Rcvd: 597636 (2012-06-25 13:33:52)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 0.0
+  based on the actual fingerprints:  val = 9.8E-13
+1572865 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 40.
+Finished. (2012-06-25 13:33:53)
