@@ -10,6 +10,7 @@
 # 6: OAR_FILE_Nodes (ascii file with list of all nodes (one node per line))
 # 7: ROOT_DIR (location of git repo)
 # 8: TARGET_PREFIX (location of tmp files)
+# 9: MUNIN_DIR (location of munin generated rrds)
 
 ## Debugging
 set -x
@@ -123,7 +124,7 @@ do
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
 
 	# locally
-	$CONVERTRRD_PATH $RESULT_DIR
+	$CONVERTRRD_PATH $RESULT_DIR $9
 
 	##
 	## persistently store result (implicitly like a sleep letting workers/server shutdown)
