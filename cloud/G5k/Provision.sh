@@ -18,4 +18,4 @@ apt-get clean
 echo "cidr_allow 0.0.0.0/0" >> /etc/munin/munin-node.conf
 
 # install TLC munin extensions
-../../tools/jmx2munin/install.sh
+$(dirname $0)/../../tools/jmx2munin/install.sh
