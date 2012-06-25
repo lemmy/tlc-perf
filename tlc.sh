@@ -122,8 +122,6 @@ do
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
 
-	## backup rrd data (remotely and locally)
-	$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $CONVERTRRD_PATH $RESULT_DIR
 	# locally
 	$CONVERTRRD_PATH $RESULT_DIR
 
