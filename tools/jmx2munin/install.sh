@@ -10,10 +10,6 @@ chmod +x /usr/share/munin/plugins/jmx2munin.sh
 P1=/etc/munin/plugins
 P2=/usr/share/munin/plugins
 # activate extra munin stats
-rm $P1/apache_*
-rm $P1/munin_*
-rm $P1/http_*
-rm $P1/fw_*
 # for jmx plugin to work, the vm has to be started with -D properties to listen on port 5400
 ln -s $P2/jmx_ $P1/jmx_ClassesLoaded
 ln -s $P2/jmx_ $P1/jmx_ClassesLoadedTotal
@@ -85,6 +81,12 @@ ln -s $P2/jmx2munin.sh $P1/jmx2munin_org:vafer:jmx:contention:TLCWorkerThread-5:
 
 # Replace localhost.localdomain string in config file
 sed -i 's/localhost.localdomain/tlc/g' /etc/munin/munin.conf
+
+# remove unused system stats 
+rm $P1/apache_*
+rm $P1/munin_*
+rm $P1/http_*
+rm $P1/fw_*
 
 # restart munin after config changes
 service munin-node restart
