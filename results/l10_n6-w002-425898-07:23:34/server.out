@@ -1,0 +1,34 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/9535/spec/l10_n6.tla
+Parsing file /tmp/9535/spec/GridPerformanceTest.tla
+Parsing file /tmp/9535/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/9535/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/9535/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/9535/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/9535/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-06-26 07:23:40)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at parapluie-22.rennes.grid5000.fr is ready (2012-06-26 07:23:40)
+Registration for worker at rmi://parapluie-23.rennes.grid5000.fr:41730 completed (2012-06-26 07:23:42)
+Registration for worker at rmi://parapluie-40.rennes.grid5000.fr:54577 completed (2012-06-26 07:23:42)
+Progress(20) at 2012-06-26 07:24:40: 377161 states generated (377161 s/min), 78985 distinct states found (78985 ds/min), 16125 states left on queue.
+Progress(24) at 2012-06-26 07:25:40: 818053 states generated (440892 s/min), 155258 distinct states found (76273 ds/min), 18916 states left on queue.
+Progress(29) at 2012-06-26 07:26:40: 1291243 states generated (473190 s/min), 227160 distinct states found (71902 ds/min), 11953 states left on queue.
+Worker: rmi://parapluie-23.rennes.grid5000.fr:41730 Sent: 130962 Rcvd: 605181 (2012-06-26 07:27:12)
+Worker: rmi://parapluie-40.rennes.grid5000.fr:54577 Sent: 131182 Rcvd: 599288 (2012-06-26 07:27:12)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 0.0
+  based on the actual fingerprints:  val = 9.8E-13
+1572865 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 39.
+Finished. (2012-06-26 07:27:12)
