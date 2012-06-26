@@ -14,7 +14,8 @@
 # 10: WORKER_VM_PROPS (extra -X JVM properties worker side)
 # 11: WORKER_SYS_PROPS (extra -D JVM properties worker side)
 # 12: MASTER_VM_PROPS (extra -X JVM properties master side)
-# 13: MSATER_SYS_PROPS (extra -D JVM properties master side)
+# 13: MASTER_SYS_PROPS (extra -D JVM properties master side)
+# 14: TLC_PARAMS (extra TLC parameters)
 
 ## Debugging
 set -x
@@ -54,6 +55,8 @@ WORKER_VM_PROPS=${10-"-Xmx2096m -Xms2096m"}
 WORKER_SYS_PROPS=${11-""}
 MASTER_VM_PROPS=${12-"-Xmx2096m -Xms2096m"}
 MASTER_SYS_PROPS=${13-""}
+
+TLC_PARAMS=$14
 
 ## staging area to reduce load on NFS
 TARGET_PREFIX=${8-"/tmp"}
@@ -128,7 +131,7 @@ do
 	echo `date -u +%T` > $RESULT_DIR/start_time.txt
 
         ## spawn Java VM with server
-        $JAVA_PATH $MASTER_VM_PROPS -cp $TARGET_TLA_DIR:$TARGET_TLA_DIR/lib/aspectjrt.jar -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ tlc2.tool.distributed.TLCServer $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
+        $JAVA_PATH $MASTER_VM_PROPS -cp $TARGET_TLA_DIR:$TARGET_TLA_DIR/lib/aspectjrt.jar -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ tlc2.tool.distributed.TLCServer $TLC_PARAMS $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
