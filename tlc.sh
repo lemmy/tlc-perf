@@ -56,8 +56,6 @@ WORKER_SYS_PROPS=${11-""}
 MASTER_VM_PROPS=${12-"-Xmx2096m -Xms2096m"}
 MASTER_SYS_PROPS=${13-""}
 
-TLC_PARAMS=$14
-
 ## staging area to reduce load on NFS
 TARGET_PREFIX=${8-"/tmp"}
 TARGET_DIR=$TARGET_PREFIX/$PID
