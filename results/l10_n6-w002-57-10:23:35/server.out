@@ -1,0 +1,22 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/21388/spec/l10_n6.tla
+Parsing file /mnt/tlc/21388/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/21388/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/21388/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/21388/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/21388/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/21388/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-06-26 10:23:39)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-28-230-79 is ready (2012-06-26 10:23:39)
+Registration for worker at rmi://ip-10-28-191-109.ec2.internal:58697 completed (2012-06-26 10:23:40)
+Registration for worker at rmi://ip-10-28-138-72.ec2.internal:34532 completed (2012-06-26 10:23:41)
+Progress(23) at 2012-06-26 10:24:39: 619891 states generated (619891 s/min), 123074 distinct states found (123074 ds/min), 19759 states left on queue.
