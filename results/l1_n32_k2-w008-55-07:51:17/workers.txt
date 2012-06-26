@@ -1,0 +1,8 @@
+ip-10-28-128-154.ec2.internal
+ip-10-28-131-155.ec2.internal
+ip-10-28-138-110.ec2.internal
+ip-10-28-167-132.ec2.internal
+ip-10-28-191-139.ec2.internal
+ip-10-28-33-178.ec2.internal
+ip-10-28-65-188.ec2.internal
+ip-10-28-69-171.ec2.internal
