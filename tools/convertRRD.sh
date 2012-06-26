@@ -19,6 +19,6 @@ do
     $RRDTOOL_PATH dump $RRD | xmlstarlet ed -d '//comment()' > $TMP_DIR/$XMLFILE.xml
 done
 
-tar cvfj $RESULT_DIR/munin.tar.bz2 $TMP_DIR
+tar cfj $RESULT_DIR/munin.tar.bz2 $TMP_DIR
 
 
