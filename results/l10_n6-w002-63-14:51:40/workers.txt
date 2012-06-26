@@ -1,0 +1,2 @@
+ip-10-28-69-171.ec2.internal
+ip-10-28-70-70.ec2.internal
