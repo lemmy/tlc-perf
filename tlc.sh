@@ -11,6 +11,10 @@
 # 7: ROOT_DIR (location of git repo)
 # 8: TARGET_PREFIX (location of tmp files)
 # 9: MUNIN_DIR (location of munin generated rrds)
+# 10: WORKER_VM_PROPS (extra -X JVM properties worker side)
+# 11: WORKER_SYS_PROPS (extra -D JVM properties worker side)
+# 12: MASTER_VM_PROPS (extra -X JVM properties master side)
+# 13: MSATER_SYS_PROPS (extra -D JVM properties master side)
 
 ## Debugging
 set -x
@@ -44,6 +48,12 @@ CONVERTRRD_PATH=$ROOT_DIR/tools/convertRRD.sh
 ## local tools in the grid
 UNZIP_PATH=/usr/bin/unzip
 GIT_PATH=/usr/bin/git
+
+# Params
+WORKER_VM_PROPS=${10-"-Xmx2096m -Xms2096m"}
+WORKER_SYS_PROPS=${11-""}
+MASTER_VM_PROPS=${12-"-Xmx2096m -Xms2096m"}
+MASTER_SYS_PROPS=${13-""}
 
 ## staging area to reduce load on NFS
 TARGET_PREFIX=${8-"/tmp"}
@@ -103,7 +113,7 @@ do
 	tail -$WORKER_COUNT $FILE_NODES > $WORKER_FILE
 	
 	## spawn pssh process
-	$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH -Xmx2096m -cp $ROOT_DIR/dist/tla2tools.jar -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=5400 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false tlc2.tool.distributed.TLCWorker $SERVER_NAME &
+	$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -cp $ROOT_DIR/dist/tla2tools.jar $WORKER_SYS_PROPS -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=5400 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false tlc2.tool.distributed.TLCWorker $SERVER_NAME &
 
 	##
 	## spawn server in fg
@@ -118,7 +128,7 @@ do
 	echo `date -u +%T` > $RESULT_DIR/start_time.txt
 
         ## spawn Java VM with server
-        $JAVA_PATH -Xmx2096m -cp $TARGET_TLA_DIR:$TARGET_TLA_DIR/lib/aspectjrt.jar -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar -Dorg.aspectj.weaver.showWeaveInfo=false -Daj.weaving.verbose=false -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ -Djava.rmi.server.logCalls=false -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=5400 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT tlc2.tool.distributed.TLCServer $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
+        $JAVA_PATH $MASTER_VM_PROPS -cp $TARGET_TLA_DIR:$TARGET_TLA_DIR/lib/aspectjrt.jar -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar $MASTER_SYS_PROPS -Dorg.aspectj.weaver.showWeaveInfo=false -Daj.weaving.verbose=false -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ -Djava.rmi.server.logCalls=false -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=5400 -Dcom.sun.management.jmxremote.ssl=false -Dcom.sun.management.jmxremote.authenticate=false -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT tlc2.tool.distributed.TLCServer $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
