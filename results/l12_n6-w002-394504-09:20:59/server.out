@@ -1,0 +1,41 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/8377/spec/l12_n6.tla
+Parsing file /tmp/8377/spec/GridPerformanceTest.tla
+Parsing file /tmp/8377/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/8377/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/8377/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/8377/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/8377/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n6
+Starting... (2012-07-24 09:21:02)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at graphene-66.nancy.grid5000.fr is ready (2012-07-24 09:21:03)
+Registration for worker at rmi://graphene-67.nancy.grid5000.fr:38316 completed (2012-07-24 09:21:05)
+Registration for worker at rmi://graphene-68.nancy.grid5000.fr:57458 completed (2012-07-24 09:21:05)
+Progress(16) at 2012-07-24 09:22:03: 56701 states generated (56701 s/min), 30614 distinct states found (30614 ds/min), 9050 states left on queue.
+Progress(18) at 2012-07-24 09:23:03: 113146 states generated (56445 s/min), 55300 distinct states found (24686 ds/min), 13433 states left on queue.
+Progress(20) at 2012-07-24 09:24:03: 196093 states generated (82947 s/min), 88051 distinct states found (32751 ds/min), 17256 states left on queue.
+Progress(21) at 2012-07-24 09:25:03: 244157 states generated (48064 s/min), 106063 distinct states found (18012 ds/min), 18882 states left on queue.
+Progress(24) at 2012-07-24 09:26:03: 342410 states generated (98253 s/min), 140241 distinct states found (34178 ds/min), 20288 states left on queue.
+Progress(24) at 2012-07-24 09:27:03: 391881 states generated (49471 s/min), 156762 distinct states found (16521 ds/min), 20423 states left on queue.
+Progress(25) at 2012-07-24 09:28:03: 494096 states generated (102215 s/min), 187826 distinct states found (31064 ds/min), 18715 states left on queue.
+Progress(26) at 2012-07-24 09:29:03: 546605 states generated (52509 s/min), 202329 distinct states found (14503 ds/min), 16832 states left on queue.
+Progress(28) at 2012-07-24 09:30:03: 647304 states generated (100699 s/min), 229017 distinct states found (26688 ds/min), 12398 states left on queue.
+Progress(32) at 2012-07-24 09:31:03: 730873 states generated (83569 s/min), 248564 distinct states found (19547 ds/min), 6645 states left on queue.
+Worker: rmi://graphene-67.nancy.grid5000.fr:38316 Sent: 132821 Rcvd: 223291 (2012-07-24 09:31:41)
+Worker: rmi://graphene-68.nancy.grid5000.fr:57458 Sent: 129323 Rcvd: 216248 (2012-07-24 09:31:41)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 0.0
+  based on the actual fingerprints:  val = 9.8E-13
+800074 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 43.
+Finished. (2012-07-24 09:31:41)
