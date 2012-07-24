@@ -1,0 +1,43 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/8080/spec/l12_n6.tla
+Parsing file /tmp/8080/spec/GridPerformanceTest.tla
+Parsing file /tmp/8080/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/8080/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/8080/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/8080/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/8080/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n6
+Starting... (2012-07-24 09:31:52)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at bordereau-90.bordeaux.grid5000.fr is ready (2012-07-24 09:31:53)
+Registration for worker at rmi://bordereau-92.bordeaux.grid5000.fr:40580 completed (2012-07-24 09:31:55)
+Registration for worker at rmi://bordereau-91.bordeaux.grid5000.fr:50576 completed (2012-07-24 09:31:55)
+Progress(13) at 2012-07-24 09:32:53: 94627 states generated (94627 s/min), 22971 distinct states found (22971 ds/min), 7200 states left on queue.
+Progress(18) at 2012-07-24 09:33:53: 228607 states generated (133980 s/min), 51233 distinct states found (28262 ds/min), 13132 states left on queue.
+Progress(20) at 2012-07-24 09:34:53: 341911 states generated (113304 s/min), 72391 distinct states found (21158 ds/min), 15406 states left on queue.
+Progress(21) at 2012-07-24 09:35:53: 434359 states generated (92448 s/min), 89481 distinct states found (17090 ds/min), 17088 states left on queue.
+Progress(22) at 2012-07-24 09:36:53: 581833 states generated (147474 s/min), 115804 distinct states found (26323 ds/min), 18832 states left on queue.
+Progress(23) at 2012-07-24 09:37:53: 729307 states generated (147474 s/min), 141404 distinct states found (25600 ds/min), 19853 states left on queue.
+Progress(25) at 2012-07-24 09:38:53: 827623 states generated (98316 s/min), 157391 distinct states found (15987 ds/min), 19454 states left on queue.
+Progress(25) at 2012-07-24 09:39:53: 975097 states generated (147474 s/min), 180589 distinct states found (23198 ds/min), 18073 states left on queue.
+Progress(27) at 2012-07-24 09:40:53: 1122571 states generated (147474 s/min), 203144 distinct states found (22555 ds/min), 16049 states left on queue.
+Progress(28) at 2012-07-24 09:41:53: 1218877 states generated (96306 s/min), 217307 distinct states found (14163 ds/min), 14161 states left on queue.
+Progress(30) at 2012-07-24 09:42:53: 1376017 states generated (157140 s/min), 239113 distinct states found (21806 ds/min), 9777 states left on queue.
+Progress(33) at 2012-07-24 09:43:53: 1504573 states generated (128556 s/min), 255228 distinct states found (16115 ds/min), 4466 states left on queue.
+Worker: rmi://bordereau-91.bordeaux.grid5000.fr:50576 Sent: 129097 Rcvd: 572670 (2012-07-24 09:44:16)
+Worker: rmi://bordereau-92.bordeaux.grid5000.fr:40580 Sent: 133047 Rcvd: 603938 (2012-07-24 09:44:16)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 0.0
+  based on the actual fingerprints:  val = 9.8E-13
+1572865 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 39.
+Finished. (2012-07-24 09:44:16)
