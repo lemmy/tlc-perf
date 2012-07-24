@@ -1,0 +1,2 @@
+bordereau-90.bordeaux.grid5000.fr
+bordereau-92.bordeaux.grid5000.fr
