@@ -129,7 +129,8 @@ do
 	echo `date -u +%T` > $RESULT_DIR/start_time.txt
 
         ## spawn Java VM with server
-        $JAVA_PATH $MASTER_VM_PROPS -cp $TARGET_TLA_DIR:$TARGET_TLA_DIR/lib/aspectjrt.jar -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ tlc2.tool.distributed.TLCServer $TLC_PARAMS $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
+	export CLASSPATH=$CLASSPATH:$TARGET_TLA_DIR:$TARGET_TLA_DIR/lib
+        $JAVA_PATH $MASTER_VM_PROPS -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ tlc2.tool.distributed.TLCServer $TLC_PARAMS $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
