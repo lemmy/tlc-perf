@@ -1,0 +1,151 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/8417/spec/l10_n6.tla
+Parsing file /tmp/8417/spec/GridPerformanceTest.tla
+Parsing file /tmp/8417/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/8417/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/8417/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/8417/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/8417/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-07-31 06:51:15)
+[AppClassLoader@138d107f] error can't determine modifiers of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine whether missing type com.google.common.util.concurrent.Striped is an instance of tlc2.tool.distributed.TLCServer
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine whether missing type com.google.common.util.concurrent.Striped is an instance of tlc2.tool.distributed.TLCServer
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine whether missing type com.google.common.util.concurrent.Striped is an instance of tlc2.tool.distributed.TLCServer
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine whether missing type com.google.common.util.concurrent.Striped is an instance of tlc2.tool.distributed.TLCServer
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine whether missing type com.google.common.util.concurrent.Striped is an instance of tlc2.tool.distributed.TLCServer
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine whether missing type com.google.common.util.concurrent.Striped is an instance of tlc2.tool.distributed.TLCServer
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine whether missing type com.google.common.util.concurrent.Striped is an instance of tlc2.tool.distributed.TLCServer
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine superclass of missing type com.google.common.util.concurrent.Striped
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+[AppClassLoader@138d107f] error can't determine whether missing type com.google.common.util.concurrent.Striped is an instance of tlc2.tool.distributed.TLCServer
+when weaving type tlc2.tool.fp.DiskFPSet
+when weaving classes 
+when weaving 
+ [Xlint:cantFindType]
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.lang.NoClassDefFoundError: com/google/common/util/concurrent/Striped
+Tue Jul 31 06:51:16 UTC 2012: Model checking appears to have failed, skipping statistics!
+*** java.lang.instrument ASSERTION FAILED ***: "error == JVMTI_ERROR_NONE" at ../../../src/share/instrument/Reentrancy.c line: 80
+*** java.lang.instrument ASSERTION FAILED ***: "test == expected" at ../../../src/share/instrument/Reentrancy.c line: 81
+*** java.lang.instrument ASSERTION FAILED ***: "error == JVMTI_ERROR_NONE" at ../../../src/share/instrument/Reentrancy.c line: 80
+*** java.lang.instrument ASSERTION FAILED ***: "test == expected" at ../../../src/share/instrument/Reentrancy.c line: 81
+*** java.lang.instrument ASSERTION FAILED ***: "error == JVMTI_ERROR_NONE" at ../../../src/share/instrument/Reentrancy.c line: 139
