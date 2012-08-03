@@ -114,7 +114,7 @@ do
 	tail -$WORKER_COUNT $FILE_NODES > $WORKER_FILE
 	
 	## spawn pssh process
-	$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -cp $ROOT_DIR/dist/tla2tools.jar $WORKER_SYS_PROPS tlc2.tool.distributed.TLCWorker $SERVER_NAME &
+	$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -cp $ROOT_DIR/dist/tla2tools.jar $WORKER_SYS_PROPS tlc2.tool.distributed.fp.TLCWorkerAndFPSet $SERVER_NAME &
 
 	##
 	## spawn server in fg
@@ -130,7 +130,7 @@ do
 
         ## spawn Java VM with server
 	export CLASSPATH=$TARGET_TLA_DIR:$TARGET_TLA_DIR/lib/*:$CLASSPATH
-        $JAVA_PATH $MASTER_VM_PROPS -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ tlc2.tool.distributed.TLCServer $TLC_PARAMS $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
+        $JAVA_PATH $MASTER_VM_PROPS -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedFPSetCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ tlc2.tool.distributed.TLCServer $TLC_PARAMS $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
