@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.6.0_18-b18 (Sun Microsystems Inc.)
+Built-By: jenkins
+Build-Tag: jenkins-M-HEAD-kuppe-tlatools-memopt-50
+Build-Rev: b5dd440276f548fd47cbb83f5681c7ac011d7ce1
+Implementation-Title: TLA+ Tools
+Implementation-Version: 2.0 2012-08-04
+Implementation-Vendor: Microsoft Corp.
+
