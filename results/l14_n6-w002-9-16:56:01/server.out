@@ -1,0 +1,135 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/30875/spec/l14_n6.tla
+Parsing file /mnt/tlc/30875/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/30875/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/30875/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/30875/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/30875/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/30875/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l14_n6
+Starting... (2012-08-05 16:56:05)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-29-136-114 is ready (2012-08-05 16:56:05)
+Registration for worker at rmi://ip-10-29-141-189.ec2.internal:42545 completed (2012-08-05 16:56:47)
+Registration for worker at rmi://ip-10-30-129-172.ec2.internal:38106 completed (2012-08-05 16:56:47)
+Progress(12) at 2012-08-05 16:57:47: 28371 states generated (28371 s/min), 6843 distinct states found (6843 ds/min), 2838 states left on queue.
+Progress(14) at 2012-08-05 16:58:47: 67238 states generated (38867 s/min), 16522 distinct states found (9679 ds/min), 5588 states left on queue.
+Progress(15) at 2012-08-05 16:59:47: 101530 states generated (34292 s/min), 23826 distinct states found (7304 ds/min), 7302 states left on queue.
+Progress(15) at 2012-08-05 17:00:47: 128865 states generated (27335 s/min), 28718 distinct states found (4892 ds/min), 8495 states left on queue.
+Progress(16) at 2012-08-05 17:01:47: 155451 states generated (26586 s/min), 33009 distinct states found (4291 ds/min), 9181 states left on queue.
+Progress(16) at 2012-08-05 17:02:47: 202887 states generated (47436 s/min), 44181 distinct states found (11172 ds/min), 11170 states left on queue.
+Progress(17) at 2012-08-05 17:03:47: 229382 states generated (26495 s/min), 49239 distinct states found (5058 ds/min), 12653 states left on queue.
+Progress(17) at 2012-08-05 17:04:47: 243494 states generated (14112 s/min), 49239 distinct states found (0 ds/min), 12653 states left on queue.
+Progress(18) at 2012-08-05 17:05:47: 303243 states generated (59749 s/min), 64089 distinct states found (14850 ds/min), 14848 states left on queue.
+Progress(18) at 2012-08-05 17:06:47: 316782 states generated (13539 s/min), 64089 distinct states found (0 ds/min), 14848 states left on queue.
+Progress(20) at 2012-08-05 17:07:47: 385627 states generated (68845 s/min), 80778 distinct states found (16689 ds/min), 16687 states left on queue.
+Progress(20) at 2012-08-05 17:08:47: 398489 states generated (12862 s/min), 80778 distinct states found (0 ds/min), 16687 states left on queue.
+Progress(20) at 2012-08-05 17:09:47: 412403 states generated (13914 s/min), 80778 distinct states found (0 ds/min), 16687 states left on queue.
+Progress(21) at 2012-08-05 17:10:47: 486524 states generated (74121 s/min), 98718 distinct states found (17940 ds/min), 18241 states left on queue.
+Progress(21) at 2012-08-05 17:11:47: 499325 states generated (12801 s/min), 98718 distinct states found (0 ds/min), 18241 states left on queue.
+Progress(21) at 2012-08-05 17:12:47: 512871 states generated (13546 s/min), 98718 distinct states found (0 ds/min), 18241 states left on queue.
+Progress(21) at 2012-08-05 17:13:47: 587746 states generated (74875 s/min), 117186 distinct states found (18468 ds/min), 20323 states left on queue.
+Progress(21) at 2012-08-05 17:14:47: 600868 states generated (13122 s/min), 117186 distinct states found (0 ds/min), 20323 states left on queue.
+Progress(21) at 2012-08-05 17:15:47: 613610 states generated (12742 s/min), 117186 distinct states found (0 ds/min), 20323 states left on queue.
+Progress(22) at 2012-08-05 17:16:47: 689824 states generated (76214 s/min), 135618 distinct states found (18432 ds/min), 22369 states left on queue.
+Progress(22) at 2012-08-05 17:17:47: 702560 states generated (12736 s/min), 135618 distinct states found (0 ds/min), 22369 states left on queue.
+Progress(23) at 2012-08-05 17:18:47: 746707 states generated (44147 s/min), 142877 distinct states found (7259 ds/min), 21435 states left on queue.
+Progress(24) at 2012-08-05 17:19:47: 791199 states generated (44492 s/min), 152750 distinct states found (9873 ds/min), 23115 states left on queue.
+Progress(24) at 2012-08-05 17:20:47: 803845 states generated (12646 s/min), 152750 distinct states found (0 ds/min), 23115 states left on queue.
+Progress(24) at 2012-08-05 17:21:47: 847949 states generated (44104 s/min), 157739 distinct states found (4989 ds/min), 19911 states left on queue.
+Progress(24) at 2012-08-05 17:22:47: 891257 states generated (43308 s/min), 167030 distinct states found (9291 ds/min), 21009 states left on queue.
+Progress(24) at 2012-08-05 17:23:47: 904622 states generated (13365 s/min), 167030 distinct states found (0 ds/min), 21009 states left on queue.
+Progress(25) at 2012-08-05 17:24:47: 980085 states generated (75463 s/min), 182925 distinct states found (15895 ds/min), 20518 states left on queue.
+Progress(25) at 2012-08-05 17:25:47: 993015 states generated (12930 s/min), 182925 distinct states found (0 ds/min), 20518 states left on queue.
+Progress(25) at 2012-08-05 17:26:47: 1006082 states generated (13067 s/min), 182925 distinct states found (0 ds/min), 20518 states left on queue.
+Progress(26) at 2012-08-05 17:27:47: 1081261 states generated (75179 s/min), 197373 distinct states found (14448 ds/min), 18580 states left on queue.
+Progress(26) at 2012-08-05 17:28:47: 1094302 states generated (13041 s/min), 197373 distinct states found (0 ds/min), 18580 states left on queue.
+Progress(27) at 2012-08-05 17:29:47: 1137697 states generated (43395 s/min), 203947 distinct states found (6574 ds/min), 16961 states left on queue.
+Progress(27) at 2012-08-05 17:30:47: 1182126 states generated (44429 s/min), 210858 distinct states found (6911 ds/min), 15679 states left on queue.
+Progress(27) at 2012-08-05 17:31:47: 1195407 states generated (13281 s/min), 210858 distinct states found (0 ds/min), 15679 states left on queue.
+Progress(28) at 2012-08-05 17:32:47: 1240091 states generated (44684 s/min), 217162 distinct states found (6304 ds/min), 13790 states left on queue.
+Progress(28) at 2012-08-05 17:33:47: 1280624 states generated (40533 s/min), 224329 distinct states found (7167 ds/min), 13469 states left on queue.
+Progress(29) at 2012-08-05 17:34:47: 1317933 states generated (37309 s/min), 228560 distinct states found (4231 ds/min), 11396 states left on queue.
+Progress(29) at 2012-08-05 17:35:47: 1357236 states generated (39303 s/min), 235252 distinct states found (6692 ds/min), 10921 states left on queue.
+Progress(31) at 2012-08-05 17:36:47: 1396788 states generated (39552 s/min), 241202 distinct states found (5950 ds/min), 10098 states left on queue.
+Progress(31) at 2012-08-05 17:37:47: 1434162 states generated (37374 s/min), 245096 distinct states found (3894 ds/min), 7300 states left on queue.
+Progress(32) at 2012-08-05 17:38:47: 1460693 states generated (26531 s/min), 248682 distinct states found (3586 ds/min), 7478 states left on queue.
+Progress(33) at 2012-08-05 17:39:47: 1509276 states generated (48583 s/min), 254895 distinct states found (6213 ds/min), 4173 states left on queue.
+Progress(37) at 2012-08-05 17:40:47: 1546762 states generated (37486 s/min), 259891 distinct states found (4996 ds/min), 2679 states left on queue.
+Worker: rmi://ip-10-29-141-189.ec2.internal:42545 Sent: 132896 Rcvd: 138783 (2012-08-05 17:41:25)
+Worker: rmi://ip-10-30-129-172.ec2.internal:38106 Sent: 129248 Rcvd: 136900 (2012-08-05 17:41:25)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.0E-8
+  based on the actual fingerprints:  val = 2.8E-13
+1277393 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 39.
+Warning: Failed to connect from ip-10-29-136-114 to the fp server at ip-10-29-141-189.
+Connection refused to host: 10.29.141.189; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from ip-10-29-136-114 to the fp server at ip-10-29-141-189.
+Connection refused to host: 10.29.141.189; nested exception is: 
+	java.net.ConnectException: Connection refused
+java.io.IOException: Bad file descriptor
+	at java.io.RandomAccessFile.seek(Native Method)
+	at tlc2.util.BufferedRandomAccessFile.seek(BufferedRandomAccessFile.java:211)
+	at tlc2.tool.TLCTrace.getPrev(TLCTrace.java:78)
+	at tlc2.tool.TLCTrace.getLevel(TLCTrace.java:143)
+	at tlc2.tool.TLCTrace.getLevelForReporting(TLCTrace.java:109)
+	at tlc2.tool.distributed.management.TLCServerMXWrapper.getProgress(TLCServerMXWrapper.java:74)
+	at sun.reflect.GeneratedMethodAccessor61.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.StandardMBeanIntrospector.invokeM2(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(Unknown Source)
+	at com.sun.jmx.mbeanserver.PerInterface.getAttribute(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanSupport.getAttribute(Unknown Source)
+	at com.sun.jmx.mbeanserver.MBeanSupport.getAttributes(Unknown Source)
+	at javax.management.StandardMBean.getAttributes(Unknown Source)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.getAttributes(Unknown Source)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.getAttributes(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$200(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(Unknown Source)
+	at javax.management.remote.rmi.RMIConnectionImpl.getAttributes(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Warning: Failed to connect from ip-10-29-136-114 to the fp server at ip-10-30-129-172.
+Connection refused to host: 10.30.129.172; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from ip-10-29-136-114 to the fp server at ip-10-30-129-172.
+Connection refused to host: 10.30.129.172; nested exception is: 
+	java.net.ConnectException: Connection refused
+Finished. (2012-08-05 17:41:41)
+Warning: Failed to connect from ip-10-29-136-114 to the fp server at ip-10-30-129-172.
+Connection refused to host: 10.30.129.172; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from ip-10-29-136-114 to the fp server at ip-10-30-129-172.
+Connection refused to host: 10.30.129.172; nested exception is: 
+	java.net.ConnectException: Connection refused
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at tlc2.tool.distributed.TLCStatistics.serverStats(TLCStatistics.java:141)
+	at tlc2.tool.distributed.TLCStatistics.writeStats(TLCStatistics.java:40)
+	at tlc2.tool.distributed.TLCServerMonitorAspect.ajc$after$tlc2_tool_distributed_TLCServerMonitorAspect$2$ba850e94(TLCServerMonitorAspect.aj:23)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:630)
