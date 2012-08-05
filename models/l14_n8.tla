@@ -1,4 +1,4 @@
----- MODULE l14_n6 ----
+---- MODULE l14_n8 ----
 EXTENDS GridPerformanceTest, TLC
 
 \* CONSTANT definitions @modelParameterConstants:0K
