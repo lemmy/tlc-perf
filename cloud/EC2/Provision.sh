@@ -61,11 +61,16 @@ echo "|1|qEzv5BY1eb03It5QofAvuSqLt+U=|uVPCjIQTi18cTqa6A91/1YUW8EQ= ssh-rsa AAAAB
 chown -R kuppe:kuppe /home/kuppe
 echo "kuppe ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
+# x2go repository
+add-apt-repository ppa:x2go/stable -y
+
 # update package index and install basic packages needed
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get upgrade -y
 apt-get --no-install-recommends install ant openjdk-7-jdk visualvm openjdk-6-jdk juju unzip mc htop sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git sshfs rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y
+# if UI/X needed
+apt-get --no-install-recommends install gnome-core gdm gnome-session-fallback firefox libwebkitgtk-1.0-0 tightvncserver xorg x2goserver x2goserver-xsession -y
 
 # clear cached packages to save disk space
 apt-get clean
