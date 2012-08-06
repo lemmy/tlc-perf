@@ -1,0 +1,45 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/8639/spec/l12_n6.tla
+Parsing file /tmp/8639/spec/GridPerformanceTest.tla
+Parsing file /tmp/8639/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/8639/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/8639/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/8639/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/8639/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n6
+Starting... (2012-08-06 16:23:32)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at griffon-84.nancy.grid5000.fr is ready (2012-08-06 16:23:33)
+Registration for worker at rmi://griffon-82.nancy.grid5000.fr:42610 completed (2012-08-06 16:23:34)
+Registration for worker at rmi://griffon-91.nancy.grid5000.fr:38916 completed (2012-08-06 16:23:34)
+Progress(16) at 2012-08-06 16:24:34: 144280 states generated (144280 s/min), 32450 distinct states found (32450 ds/min), 9411 states left on queue.
+Progress(18) at 2012-08-06 16:25:34: 282646 states generated (138366 s/min), 58094 distinct states found (25644 ds/min), 13956 states left on queue.
+Progress(21) at 2012-08-06 16:26:34: 453910 states generated (171264 s/min), 91954 distinct states found (33860 ds/min), 17802 states left on queue.
+Progress(21) at 2012-08-06 16:27:34: 573913 states generated (120003 s/min), 110779 distinct states found (18825 ds/min), 20241 states left on queue.
+Progress(23) at 2012-08-06 16:28:34: 757484 states generated (183571 s/min), 144770 distinct states found (33991 ds/min), 21460 states left on queue.
+Progress(25) at 2012-08-06 16:29:34: 940629 states generated (183145 s/min), 177408 distinct states found (32638 ds/min), 21326 states left on queue.
+Progress(26) at 2012-08-06 16:30:34: 1060169 states generated (119540 s/min), 192954 distinct states found (15546 ds/min), 20486 states left on queue.
+Progress(28) at 2012-08-06 16:31:34: 1244281 states generated (184112 s/min), 219601 distinct states found (26647 ds/min), 14361 states left on queue.
+Progress(31) at 2012-08-06 16:32:34: 1413749 states generated (169468 s/min), 243181 distinct states found (23580 ds/min), 8413 states left on queue.
+Worker: rmi://griffon-82.nancy.grid5000.fr:42610 Sent: 131224 Rcvd: 126582 (2012-08-06 16:33:31)
+Worker: rmi://griffon-91.nancy.grid5000.fr:38916 Sent: 130920 Rcvd: 130603 (2012-08-06 16:33:31)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.0E-8
+  based on the actual fingerprints:  val = 2.8E-13
+1283694 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 39.
+Finished. (2012-08-06 16:33:32)
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at tlc2.tool.distributed.TLCStatistics.serverStats(TLCStatistics.java:142)
+	at tlc2.tool.distributed.TLCStatistics.writeStats(TLCStatistics.java:40)
+	at tlc2.tool.distributed.TLCServerMonitorAspect.ajc$after$tlc2_tool_distributed_TLCServerMonitorAspect$2$ba850e94(TLCServerMonitorAspect.aj:23)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:630)
