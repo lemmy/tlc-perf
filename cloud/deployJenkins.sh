@@ -4,7 +4,7 @@
 wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | apt-key add -
 sh -c 'echo deb http://pkg.jenkins-ci.org/debian binary/ > /etc/apt/sources.list.d/jenkins.list'
 aptitude update
-aptitude install jenkins
+aptitude install jenkins -y
 
 # Set jenkins prefix which matches the URL under which apache is going to proxy jenkins
 sed -i 's/PREFIX=\/jenkins/PREFIX=\/build/g' /etc/default/jenkins
