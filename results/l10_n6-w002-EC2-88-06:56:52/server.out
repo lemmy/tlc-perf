@@ -1,0 +1,43 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/30885/spec/l10_n6.tla
+Parsing file /mnt/tlc/30885/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/30885/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/30885/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/30885/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/30885/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/30885/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-08-07 06:56:56)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-29-137-141 is ready (2012-08-07 06:56:56)
+Registration for worker at rmi://ip-10-31-134-118.ec2.internal:55135 completed (2012-08-07 06:57:39)
+Registration for worker at rmi://ip-10-29-181-218.ec2.internal:52192 completed (2012-08-07 06:57:39)
+Progress(23) at 2012-08-07 06:58:39: 700523 states generated (700523 s/min), 137303 distinct states found (137303 ds/min), 21913 states left on queue.
+Progress(30) at 2012-08-07 06:59:39: 1450839 states generated (750316 s/min), 248498 distinct states found (111195 ds/min), 7182 states left on queue.
+Worker: rmi://ip-10-31-134-118.ec2.internal:55135 Sent: 128241 Rcvd: 120573 (2012-08-07 06:59:49)
+Worker: rmi://ip-10-29-181-218.ec2.internal:52192 Sent: 133903 Rcvd: 131811 (2012-08-07 06:59:49)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.0E-8
+  based on the actual fingerprints:  val = 2.8E-13
+1275338 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 40.
+Finished. (2012-08-07 07:00:08)
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at tlc2.tool.distributed.TLCStatistics.serverStats(TLCStatistics.java:142)
+	at tlc2.tool.distributed.TLCStatistics.writeStats(TLCStatistics.java:40)
+	at tlc2.tool.distributed.TLCServerMonitorAspect.ajc$after$tlc2_tool_distributed_TLCServerMonitorAspect$2$ba850e94(TLCServerMonitorAspect.aj:23)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:630)
+*** java.lang.instrument ASSERTION FAILED ***: "error == JVMTI_ERROR_NONE" at ../../../src/share/instrument/Reentrancy.c line: 80
+*** java.lang.instrument ASSERTION FAILED ***: "test == expected" at ../../../src/share/instrument/Reentrancy.c line: 81
+*** java.lang.instrument ASSERTION FAILED ***: "error == JVMTI_ERROR_NONE" at ../../../src/share/instrument/Reentrancy.c line: 80
+*** java.lang.instrument ASSERTION FAILED ***: "test == expected" at ../../../src/share/instrument/Reentrancy.c line: 81
+*** java.lang.instrument ASSERTION FAILED ***: "error == JVMTI_ERROR_NONE" at ../../../src/share/instrument/Reentrancy.c line: 139
