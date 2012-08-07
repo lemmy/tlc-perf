@@ -1,0 +1,9 @@
+griffon-39.nancy.grid5000.fr
+griffon-45.nancy.grid5000.fr
+griffon-4.nancy.grid5000.fr
+griffon-55.nancy.grid5000.fr
+griffon-56.nancy.grid5000.fr
+griffon-58.nancy.grid5000.fr
+griffon-71.nancy.grid5000.fr
+griffon-80.nancy.grid5000.fr
+griffon-84.nancy.grid5000.fr

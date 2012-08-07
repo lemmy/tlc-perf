@@ -1,0 +1,82 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/8380/spec/l14_n6.tla
+Parsing file /tmp/8380/spec/GridPerformanceTest.tla
+Parsing file /tmp/8380/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/8380/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/8380/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/8380/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/8380/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l14_n6
+Starting... (2012-08-07 07:25:52)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at griffon-43.nancy.grid5000.fr is ready (2012-08-07 07:25:53)
+Registration for worker at rmi://griffon-55.nancy.grid5000.fr:49833 completed (2012-08-07 07:25:54)
+Registration for worker at rmi://griffon-80.nancy.grid5000.fr:47234 completed (2012-08-07 07:25:54)
+Registration for worker at rmi://griffon-58.nancy.grid5000.fr:50703 completed (2012-08-07 07:25:55)
+Registration for worker at rmi://griffon-39.nancy.grid5000.fr:60457 completed (2012-08-07 07:25:55)
+Registration for worker at rmi://griffon-45.nancy.grid5000.fr:49555 completed (2012-08-07 07:25:55)
+Registration for worker at rmi://griffon-56.nancy.grid5000.fr:44072 completed (2012-08-07 07:25:55)
+Registration for worker at rmi://griffon-84.nancy.grid5000.fr:54086 completed (2012-08-07 07:25:55)
+Registration for worker at rmi://griffon-4.nancy.grid5000.fr:53928 completed (2012-08-07 07:25:55)
+Registration for worker at rmi://griffon-71.nancy.grid5000.fr:35158 completed (2012-08-07 07:25:55)
+Progress(14) at 2012-08-07 07:26:54: 118855 states generated (118855 s/min), 31436 distinct states found (31436 ds/min), 11627 states left on queue.
+Progress(19) at 2012-08-07 07:27:54: 255367 states generated (136512 s/min), 60994 distinct states found (29558 ds/min), 18433 states left on queue.
+Progress(24) at 2012-08-07 07:28:54: 419329 states generated (163962 s/min), 92551 distinct states found (31557 ds/min), 22663 states left on queue.
+Progress(24) at 2012-08-07 07:29:54: 533941 states generated (114612 s/min), 114644 distinct states found (22093 ds/min), 25654 states left on queue.
+Progress(24) at 2012-08-07 07:30:54: 691075 states generated (157134 s/min), 141794 distinct states found (27150 ds/min), 26615 states left on queue.
+Progress(24) at 2012-08-07 07:31:54: 832825 states generated (141750 s/min), 166034 distinct states found (24240 ds/min), 27230 states left on queue.
+Progress(35) at 2012-08-07 07:32:54: 992395 states generated (159570 s/min), 189675 distinct states found (23641 ds/min), 24276 states left on queue.
+Progress(35) at 2012-08-07 07:33:54: 1163983 states generated (171588 s/min), 214813 distinct states found (25138 ds/min), 20816 states left on queue.
+Progress(35) at 2012-08-07 07:34:54: 1336885 states generated (172902 s/min), 237061 distinct states found (22248 ds/min), 14247 states left on queue.
+Progress(36) at 2012-08-07 07:35:54: 1531825 states generated (194940 s/min), 259177 distinct states found (22116 ds/min), 3873 states left on queue.
+Worker: rmi://griffon-84.nancy.grid5000.fr:54086 Sent: 27772 Rcvd: 10539 (2012-08-07 07:36:10)
+Worker: rmi://griffon-4.nancy.grid5000.fr:53928 Sent: 29453 Rcvd: 9881 (2012-08-07 07:36:10)
+Worker: rmi://griffon-56.nancy.grid5000.fr:44072 Sent: 29230 Rcvd: 9240 (2012-08-07 07:36:10)
+Worker: rmi://griffon-58.nancy.grid5000.fr:50703 Sent: 29453 Rcvd: 10309 (2012-08-07 07:36:10)
+Worker: rmi://griffon-45.nancy.grid5000.fr:49555 Sent: 29146 Rcvd: 10990 (2012-08-07 07:36:10)
+Worker: rmi://griffon-39.nancy.grid5000.fr:60457 Sent: 29140 Rcvd: 10279 (2012-08-07 07:36:10)
+Worker: rmi://griffon-55.nancy.grid5000.fr:49833 Sent: 29216 Rcvd: 9699 (2012-08-07 07:36:10)
+Worker: rmi://griffon-71.nancy.grid5000.fr:35158 Sent: 29255 Rcvd: 11116 (2012-08-07 07:36:10)
+Worker: rmi://griffon-80.nancy.grid5000.fr:47234 Sent: 29479 Rcvd: 11664 (2012-08-07 07:36:10)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.9E-8
+  based on the actual fingerprints:  val = 9.8E-13
+1572862 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 44.
+Finished. (2012-08-07 07:36:14)
+Warning: Failed to connect from griffon-43.nancy.grid5000.fr to the fp server at griffon-55.nancy.grid5000.fr.
+Connection refused to host: 172.16.65.55; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from griffon-43.nancy.grid5000.fr to the fp server at griffon-55.nancy.grid5000.fr.
+Connection refused to host: 172.16.65.55; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from griffon-43.nancy.grid5000.fr to the fp server at griffon-55.nancy.grid5000.fr.
+Connection refused to host: 172.16.65.55; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from griffon-43.nancy.grid5000.fr to the fp server at griffon-55.nancy.grid5000.fr.
+Connection refused to host: 172.16.65.55; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from griffon-43.nancy.grid5000.fr to the fp server at griffon-55.nancy.grid5000.fr.
+Connection refused to host: 172.16.65.55; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from griffon-43.nancy.grid5000.fr to the fp server at griffon-55.nancy.grid5000.fr.
+Connection refused to host: 172.16.65.55; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from griffon-43.nancy.grid5000.fr to the fp server at griffon-55.nancy.grid5000.fr.
+Connection refused to host: 172.16.65.55; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from griffon-43.nancy.grid5000.fr to the fp server at griffon-55.nancy.grid5000.fr.
+Connection refused to host: 172.16.65.55; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from griffon-43.nancy.grid5000.fr to the fp server at griffon-55.nancy.grid5000.fr.
+Connection refused to host: 172.16.65.55; nested exception is: 
+	java.net.ConnectException: Connection refused
