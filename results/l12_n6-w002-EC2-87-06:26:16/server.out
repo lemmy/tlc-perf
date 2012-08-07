@@ -1,0 +1,46 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/30914/spec/l12_n6.tla
+Parsing file /mnt/tlc/30914/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/30914/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/30914/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/30914/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/30914/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/30914/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n6
+Starting... (2012-08-07 06:26:20)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-157-4-102 is ready (2012-08-07 06:26:20)
+Registration for worker at rmi://ip-10-157-4-174.ec2.internal:50067 completed (2012-08-07 06:27:02)
+Registration for worker at rmi://ip-10-157-6-158.ec2.internal:48607 completed (2012-08-07 06:27:02)
+Progress(15) at 2012-08-07 06:28:02: 140616 states generated (140616 s/min), 31345 distinct states found (31345 ds/min), 9011 states left on queue.
+Progress(17) at 2012-08-07 06:29:02: 274830 states generated (134214 s/min), 55781 distinct states found (24436 ds/min), 13282 states left on queue.
+Progress(20) at 2012-08-07 06:30:02: 439651 states generated (164821 s/min), 87938 distinct states found (32157 ds/min), 16906 states left on queue.
+Progress(21) at 2012-08-07 06:31:02: 589787 states generated (150136 s/min), 116176 distinct states found (28238 ds/min), 20565 states left on queue.
+Progress(23) at 2012-08-07 06:32:02: 741472 states generated (151685 s/min), 142371 distinct states found (26195 ds/min), 22181 states left on queue.
+Progress(25) at 2012-08-07 06:33:02: 921795 states generated (180323 s/min), 171740 distinct states found (29369 ds/min), 18778 states left on queue.
+Progress(25) at 2012-08-07 06:34:02: 1042801 states generated (121006 s/min), 188061 distinct states found (16321 ds/min), 18713 states left on queue.
+Progress(28) at 2012-08-07 06:35:02: 1224051 states generated (181250 s/min), 216109 distinct states found (28048 ds/min), 13989 states left on queue.
+Progress(29) at 2012-08-07 06:36:02: 1377768 states generated (153717 s/min), 237230 distinct states found (21121 ds/min), 9436 states left on queue.
+Progress(35) at 2012-08-07 06:37:02: 1547510 states generated (169742 s/min), 259525 distinct states found (22295 ds/min), 2011 states left on queue.
+Worker: rmi://ip-10-157-6-158.ec2.internal:48607 Sent: 129695 Rcvd: 130626 (2012-08-07 06:37:11)
+Worker: rmi://ip-10-157-4-174.ec2.internal:50067 Sent: 132449 Rcvd: 139099 (2012-08-07 06:37:11)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.0E-8
+  based on the actual fingerprints:  val = 2.8E-13
+1275736 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 42.
+Finished. (2012-08-07 06:37:30)
+Exception in thread "main" java.lang.ArithmeticException: / by zero
+	at tlc2.tool.distributed.TLCStatistics.serverStats(TLCStatistics.java:142)
+	at tlc2.tool.distributed.TLCStatistics.writeStats(TLCStatistics.java:40)
+	at tlc2.tool.distributed.TLCServerMonitorAspect.ajc$after$tlc2_tool_distributed_TLCServerMonitorAspect$2$ba850e94(TLCServerMonitorAspect.aj:23)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:630)
