@@ -1,0 +1,39 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/30992/spec/l10_n6.tla
+Parsing file /mnt/tlc/30992/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/30992/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/30992/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/30992/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/30992/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/30992/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-08-08 14:08:48)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-30-129-173 is ready (2012-08-08 14:08:48)
+Registration for worker at rmi://ip-10-31-129-55.ec2.internal:40780 completed (2012-08-08 14:09:31)
+Registration for worker at rmi://ip-10-31-135-48.ec2.internal:59596 completed (2012-08-08 14:09:31)
+Progress(22) at 2012-08-08 14:10:31: 657095 states generated (657095 s/min), 126355 distinct states found (126355 ds/min), 20479 states left on queue.
+Progress(30) at 2012-08-08 14:11:31: 1405299 states generated (748204 s/min), 241671 distinct states found (115316 ds/min), 8873 states left on queue.
+Worker: rmi://ip-10-31-129-55.ec2.internal:40780 Sent: 130463 Rcvd: 135819 (2012-08-08 14:11:44)
+Worker: rmi://ip-10-31-135-48.ec2.internal:59596 Sent: 131681 Rcvd: 140230 (2012-08-08 14:11:44)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 10.0E-9
+  based on the actual fingerprints:  val = 2.8E-13
+1273076 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 41.
+Finished. (2012-08-08 14:12:03)
+Warning: Failed to connect from ip-10-30-129-173 to the fp server at ip-10-31-129-55.
+Connection refused to host: 10.31.129.55; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from ip-10-30-129-173 to the fp server at ip-10-31-129-55.
+Connection refused to host: 10.31.129.55; nested exception is: 
+	java.net.ConnectException: Connection refused
