@@ -16,6 +16,7 @@
 # 12: MASTER_VM_PROPS (extra -X JVM properties master side)
 # 13: MASTER_SYS_PROPS (extra -D JVM properties master side)
 # 14: TLC_PARAMS (extra TLC parameters)
+# 15: WORKER_CLASS (Java main class used by worker nodes)
 
 ## Debugging
 set -x
@@ -53,6 +54,7 @@ GIT_PATH=/usr/bin/git
 # Params
 WORKER_VM_PROPS=${10-"-Xmx2096m -Xms2096m"}
 WORKER_SYS_PROPS=${11-""}
+WORKER_CLASS=${15-"tlc2.tool.distributed.fp.TLCWorkerAndFPSet"}
 MASTER_VM_PROPS=${12-"-Xmx2096m -Xms2096m"}
 MASTER_SYS_PROPS=${13-""}
 
@@ -114,7 +116,7 @@ do
 	tail -$WORKER_COUNT $FILE_NODES > $WORKER_FILE
 	
 	## spawn pssh process
-	$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -cp $ROOT_DIR/dist/tla2tools.jar $WORKER_SYS_PROPS tlc2.tool.distributed.fp.TLCWorkerAndFPSet $SERVER_NAME &
+	$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -cp $ROOT_DIR/dist/tla2tools.jar $WORKER_SYS_PROPS $WORKER_CLASS $SERVER_NAME &
 
 	##
 	## spawn server in fg
