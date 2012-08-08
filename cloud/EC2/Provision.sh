@@ -97,6 +97,15 @@ sudo -u kuppe /usr/bin/git clone git@github.com:lemmy/tlc-perf.git /home/kuppe/g
 sudo -u kuppe /usr/bin/git config --global user.email tlaplus.net@lemmster.de
 sudo -u kuppe /usr/bin/git config --global user.name "Markus Alexander Kuppe"
 
+# Dump stats to tla.msr-inria.inria.fr
+echo "MAILTO=root
+*/120 * * * * root ps axu|grep java|grep -v grep >> /var/lib/munin/ps.txt
+*/120 * * * * root /bin/bash -c 'cd /var/lib/munin/tlc/ && for f in *.rrd; do rrdtool dump \${f} > \${f/rrd/xml}; done'
+*/120 * * * * root /bin/bash -c 'cd /var/lib/munin/ec2.internal/ && for f in *.rrd; do rrdtool dump \${f} > \${f/rrd/xml}; done'
+*/120 * * * * kuppe rsync --exclude=*.rrd -avz -e ssh /var/lib/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
+*/120 * * * * kuppe rsync -avz -e ssh /var/cache/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
+" > /etc/cron.d/rrdbackup
+
 # install TLC munin extensions (needs ec2 repo present)
 cd /mnt/kuppe/git/ec2/tools/jmx2munin
 ./install.sh
