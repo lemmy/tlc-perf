@@ -130,7 +130,15 @@ do
 
         ## spawn Java VM with server
 	export CLASSPATH=$TARGET_TLA_DIR:$TARGET_TLA_DIR/lib/*:$CLASSPATH
-        $JAVA_PATH $MASTER_VM_PROPS -javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedFPSetCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ tlc2.tool.distributed.TLCServer $TLC_PARAMS $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
+	
+	## if agent jar file is present, we want it as the javaagent parameter
+	if [ -e $TARGET_TLA_DIR/lib/aspectjweaver.jar ]; then
+	    AGENT_OPTS="-javaagent:$TARGET_TLA_DIR/lib/aspectjweaver.jar"
+	else
+	    AGENT_OPTS=""
+	fi
+
+	$JAVA_PATH $MASTER_VM_PROPS $AGENT_OPTS $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedFPSetCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ tlc2.tool.distributed.TLCServer $TLC_PARAMS $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
