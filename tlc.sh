@@ -152,6 +152,8 @@ do
 	else
 	    $JAVA_PATH $MASTER_VM_PROPS $AGENT_OPTS $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedFPSetCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ $MASTER_CLASS $TLC_PARAMS $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
 	fi
+	
+	echo `pwd`
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
