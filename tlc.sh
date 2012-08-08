@@ -142,7 +142,7 @@ do
 	fi
 
 	cd $TARGET_SPEC_DIR/
-	if [ $MASTER_CLASS = "tlc2.TLC" ];
+	if [ $MASTER_CLASS = "tlc2.TLC" ]; then
 	    cd $TARGET_SPEC_DIR
 	    $JAVA_PATH $MASTER_VM_PROPS $AGENT_OPTS $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ $MASTER_CLASS $TLC_PARAMS $MODEL_NAME 2>&1 | tee $RESULT_DIR/server.out
 	else
