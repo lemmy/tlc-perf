@@ -1,0 +1,47 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/30894/spec/l12_n6.tla
+Parsing file /mnt/tlc/30894/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/30894/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/30894/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/30894/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/30894/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/30894/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n6
+Starting... (2012-08-08 16:17:49)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-29-141-181 is ready (2012-08-08 16:17:49)
+Registration for worker at rmi://ip-10-31-134-243.ec2.internal:36472 completed (2012-08-08 16:18:31)
+Registration for worker at rmi://ip-10-157-3-50.ec2.internal:40861 completed (2012-08-08 16:18:31)
+Progress(16) at 2012-08-08 16:19:31: 143413 states generated (143413 s/min), 32773 distinct states found (32773 ds/min), 9710 states left on queue.
+Progress(18) at 2012-08-08 16:20:31: 282730 states generated (139317 s/min), 58973 distinct states found (26200 ds/min), 14216 states left on queue.
+Progress(20) at 2012-08-08 16:21:31: 416833 states generated (134103 s/min), 81246 distinct states found (22273 ds/min), 16345 states left on queue.
+Progress(22) at 2012-08-08 16:22:31: 599021 states generated (182188 s/min), 117671 distinct states found (36425 ds/min), 20037 states left on queue.
+Progress(22) at 2012-08-08 16:23:31: 719215 states generated (120194 s/min), 135462 distinct states found (17791 ds/min), 21442 states left on queue.
+Progress(25) at 2012-08-08 16:24:31: 900622 states generated (181407 s/min), 167677 distinct states found (32215 ds/min), 20885 states left on queue.
+Progress(25) at 2012-08-08 16:25:31: 1081127 states generated (180505 s/min), 198351 distinct states found (30674 ds/min), 18787 states left on queue.
+Progress(27) at 2012-08-08 16:26:31: 1202429 states generated (121302 s/min), 211905 distinct states found (13554 ds/min), 15955 states left on queue.
+Progress(29) at 2012-08-08 16:27:31: 1383273 states generated (180844 s/min), 238762 distinct states found (26857 ds/min), 10014 states left on queue.
+Progress(36) at 2012-08-08 16:28:31: 1555563 states generated (172290 s/min), 260491 distinct states found (21729 ds/min), 1372 states left on queue.
+Worker: rmi://ip-10-157-3-50.ec2.internal:40861 Sent: 130195 Rcvd: 130622 (2012-08-08 16:28:37)
+Worker: rmi://ip-10-31-134-243.ec2.internal:36472 Sent: 131949 Rcvd: 132765 (2012-08-08 16:28:37)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.0E-8
+  based on the actual fingerprints:  val = 2.8E-13
+1274655 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 40.
+Finished. (2012-08-08 16:28:57)
+Warning: Failed to connect from ip-10-29-141-181 to the fp server at ip-10-31-134-243.
+Connection refused to host: 10.31.134.243; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from ip-10-29-141-181 to the fp server at ip-10-31-134-243.
+Connection refused to host: 10.31.134.243; nested exception is: 
+	java.net.ConnectException: Connection refused
