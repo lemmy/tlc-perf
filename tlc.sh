@@ -16,6 +16,7 @@
 # 12: MASTER_VM_PROPS (extra -X JVM properties master side)
 # 13: MASTER_SYS_PROPS (extra -D JVM properties master side)
 # 14: WORKER_CLASS (Java main class used by worker nodes)
+# 15: MASTER_CLASS (Java main class used by master node)
 
 ## Debugging
 set -x
@@ -56,6 +57,7 @@ WORKER_SYS_PROPS=${11-""}
 WORKER_CLASS=${14-"tlc2.tool.distributed.fp.TLCWorkerAndFPSet"}
 MASTER_VM_PROPS=${12-"-Xmx2096m -Xms2096m"}
 MASTER_SYS_PROPS=${13-""}
+MASTER_CLASS=${15-"tlc2.tool.distributed.TLCServer"}
 
 ## staging area to reduce load on NFS
 TARGET_PREFIX=${8-"/tmp"}
@@ -139,7 +141,7 @@ do
 	    AGENT_OPTS=""
 	fi
 
-	$JAVA_PATH $MASTER_VM_PROPS $AGENT_OPTS $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedFPSetCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ tlc2.tool.distributed.TLCServer $TLC_PARAMS $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
+	$JAVA_PATH $MASTER_VM_PROPS $AGENT_OPTS $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedFPSetCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ $MASTER_CLASS $TLC_PARAMS $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
