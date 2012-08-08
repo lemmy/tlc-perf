@@ -1,0 +1,19 @@
+TLC2 Version 2.05 of 18 May 2012
+Running in Model-Checking mode.
+
+Fatal errors while parsing TLA+ spec in file l10_n6
+
+tla2sany.semantic.AbortException
+*** Abort messages: 1
+
+Unknown location
+
+Cannot find source file for module l10_n6.
+
+
+Starting... (2012-08-08 16:16:25)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.lang.RuntimeException: Parsing or semantic analysis failed.
+Finished. (2012-08-08 16:16:25)
