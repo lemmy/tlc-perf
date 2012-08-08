@@ -15,8 +15,7 @@
 # 11: WORKER_SYS_PROPS (extra -D JVM properties worker side)
 # 12: MASTER_VM_PROPS (extra -X JVM properties master side)
 # 13: MASTER_SYS_PROPS (extra -D JVM properties master side)
-# 14: TLC_PARAMS (extra TLC parameters)
-# 15: WORKER_CLASS (Java main class used by worker nodes)
+# 14: WORKER_CLASS (Java main class used by worker nodes)
 
 ## Debugging
 set -x
@@ -54,7 +53,7 @@ GIT_PATH=/usr/bin/git
 # Params
 WORKER_VM_PROPS=${10-"-Xmx2096m -Xms2096m"}
 WORKER_SYS_PROPS=${11-""}
-WORKER_CLASS=${15-"tlc2.tool.distributed.fp.TLCWorkerAndFPSet"}
+WORKER_CLASS=${14-"tlc2.tool.distributed.fp.TLCWorkerAndFPSet"}
 MASTER_VM_PROPS=${12-"-Xmx2096m -Xms2096m"}
 MASTER_SYS_PROPS=${13-""}
 
