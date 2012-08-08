@@ -1,0 +1,3 @@
+Error opening zip file or JAR manifest missing : /mnt/tlc/30481/tla/lib/aspectjweaver.jar
+Error occurred during initialization of VM
+agent library failed to init: instrument
