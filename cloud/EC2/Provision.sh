@@ -10,7 +10,7 @@
 # format and mount second ephemeral disk
 /sbin/mkfs.ext4 /dev/xvbc
 mkdir /mnt2
-mount /dev/xvbc /mnt2
+mount /dev/xvdc /mnt2
 
 # switch to mount to use the instance ephemeral storage rather than ESB
 cd /mnt
