@@ -1,0 +1,9 @@
+Exception in thread "main" java.lang.NoClassDefFoundError: /tmp/8857/spec/l10_n6/tla
+Caused by: java.lang.ClassNotFoundException: .tmp.8857.spec.l10_n6.tla
+	at java.net.URLClassLoader$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+Could not find the main class: /tmp/8857/spec/l10_n6.tla.  Program will exit.

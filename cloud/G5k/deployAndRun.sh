@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+
 kadeploy3 -e squeeze-x64-nfs -o /home/mkuppe/$OAR_JOB_ID.nodes -f $OAR_FILE_NODES -k
 taktuk -l root -s -o connector -o status -o output='"$host: $line\n"' -f /home/mkuppe/$OAR_JOB_ID.nodes broadcast exec [ "/home/mkuppe/grid5000.git/cloud/G5k/Provision.sh" ]
 
