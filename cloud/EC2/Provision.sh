@@ -7,6 +7,11 @@
 # ec2-run-instances -m --key markus@kuppe.org --instance-type m2.4xlarge --user-data-file /path/to/ProvisionEC2.sh ami-c162a9a8
 #
 
+# format and mount second ephemeral disk
+/sbin/mkfs.ext4 /dev/xvbc
+mkdir /mnt2
+mount /dev/xvbc /mnt2
+
 # switch to mount to use the instance ephemeral storage rather than ESB
 cd /mnt
 
