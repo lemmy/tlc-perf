@@ -1,0 +1,39 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/8479/spec/l10_n6.tla
+Parsing file /tmp/8479/spec/GridPerformanceTest.tla
+Parsing file /tmp/8479/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/8479/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/8479/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/8479/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/8479/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-08-09 10:07:01)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at griffon-79.nancy.grid5000.fr is ready (2012-08-09 10:07:02)
+Registration for worker at rmi://griffon-77.nancy.grid5000.fr:54466 completed (2012-08-09 10:07:03)
+Registration for worker at rmi://griffon-80.nancy.grid5000.fr:50644 completed (2012-08-09 10:07:03)
+Progress(22) at 2012-08-09 10:08:03: 605869 states generated (605869 s/min), 123224 distinct states found (123224 ds/min), 22246 states left on queue.
+Progress(30) at 2012-08-09 10:09:03: 1288471 states generated (682602 s/min), 227011 distinct states found (103787 ds/min), 12266 states left on queue.
+Worker: rmi://griffon-77.nancy.grid5000.fr:54466 Sent: 131262 Rcvd: 258994 (2012-08-09 10:09:27)
+Worker: rmi://griffon-80.nancy.grid5000.fr:50644 Sent: 130882 Rcvd: 253453 (2012-08-09 10:09:27)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.9E-8
+  based on the actual fingerprints:  val = 2.8E-13
+1572865 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 37.
+Finished. (2012-08-09 10:09:28)
+Warning: Failed to connect from griffon-79.nancy.grid5000.fr to the fp server at griffon-77.nancy.grid5000.fr.
+Connection refused to host: 172.16.65.77; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from griffon-79.nancy.grid5000.fr to the fp server at griffon-77.nancy.grid5000.fr.
+Connection refused to host: 172.16.65.77; nested exception is: 
+	java.net.ConnectException: Connection refused
