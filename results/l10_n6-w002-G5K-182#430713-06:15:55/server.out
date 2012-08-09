@@ -1,0 +1,40 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/12349/spec/l10_n6.tla
+Parsing file /tmp/12349/spec/GridPerformanceTest.tla
+Parsing file /tmp/12349/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/12349/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/12349/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/12349/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/12349/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-08-09 06:16:02)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at parapluie-38.rennes.grid5000.fr is ready (2012-08-09 06:16:03)
+Registration for worker at rmi://parapluie-39.rennes.grid5000.fr:50137 completed (2012-08-09 06:16:05)
+Registration for worker at rmi://parapluie-33.rennes.grid5000.fr:35838 completed (2012-08-09 06:16:05)
+Progress(19) at 2012-08-09 06:17:04: 408741 states generated (408741 s/min), 82155 distinct states found (82155 ds/min), 16914 states left on queue.
+Progress(24) at 2012-08-09 06:18:04: 853275 states generated (444534 s/min), 157327 distinct states found (75172 ds/min), 19249 states left on queue.
+Progress(28) at 2012-08-09 06:19:04: 1321835 states generated (468560 s/min), 228587 distinct states found (71260 ds/min), 11272 states left on queue.
+Worker: rmi://parapluie-33.rennes.grid5000.fr:35838 Sent: 130766 Rcvd: 135390 (2012-08-09 06:19:33)
+Worker: rmi://parapluie-39.rennes.grid5000.fr:50137 Sent: 131378 Rcvd: 131242 (2012-08-09 06:19:33)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.1E-8
+  based on the actual fingerprints:  val = 2.8E-13
+1287098 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 42.
+Finished. (2012-08-09 06:19:34)
+Warning: Failed to connect from parapluie-38.rennes.grid5000.fr to the fp server at parapluie-39.rennes.grid5000.fr.
+Connection refused to host: 172.16.99.39; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from parapluie-38.rennes.grid5000.fr to the fp server at parapluie-39.rennes.grid5000.fr.
+Connection refused to host: 172.16.99.39; nested exception is: 
+	java.net.ConnectException: Connection refused
