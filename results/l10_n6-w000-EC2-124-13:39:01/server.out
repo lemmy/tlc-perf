@@ -1,0 +1,32 @@
+TLC2 Version 2.05 of 18 May 2012
+Running in Model-Checking mode.
+Parsing file l10_n6.tla
+Parsing file GridPerformanceTest.tla
+Parsing file /mnt/tlc/29270/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/29270/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/29270/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/29270/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/29270/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-08-09 13:39:06)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated.
+Progress(10) at 2012-08-09 13:39:57: 12432 states generated (12432 s/min), 3634 distinct states found (3634 ds/min), 1562 states left on queue.
+Progress(19) at 2012-08-09 13:40:57: 360733 states generated (348301 s/min), 75367 distinct states found (71733 ds/min), 15244 states left on queue.
+Progress(22) at 2012-08-09 13:41:57: 714209 states generated (353476 s/min), 137527 distinct states found (62160 ds/min), 18492 states left on queue.
+Progress(26) at 2012-08-09 13:42:57: 1067738 states generated (353529 s/min), 193946 distinct states found (56419 ds/min), 15989 states left on queue.
+Progress(30) at 2012-08-09 13:43:57: 1421125 states generated (353387 s/min), 244240 distinct states found (50294 ds/min), 7385 states left on queue.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.9E-8
+  based on the actual fingerprints:  val = 2.0E-12
+1572865 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 43.
+Finished. (2012-08-09 13:44:36)
