@@ -1,0 +1,39 @@
+TLC2 Version 2.05 of 18 May 2012
+Running in Model-Checking mode.
+Parsing file l14_n6.tla
+Parsing file GridPerformanceTest.tla
+Parsing file /mnt/tlc/30829/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/30829/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/30829/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/30829/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/30829/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l14_n6
+Starting... (2012-08-09 13:56:15)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated.
+Progress(10) at 2012-08-09 13:56:59: 4285 states generated (4285 s/min), 1480 distinct states found (1480 ds/min), 762 states left on queue.
+Progress(15) at 2012-08-09 13:57:59: 139260 states generated (134975 s/min), 32471 distinct states found (30991 ds/min), 9256 states left on queue.
+Progress(18) at 2012-08-09 13:58:59: 275285 states generated (136025 s/min), 59559 distinct states found (27088 ds/min), 13674 states left on queue.
+Progress(18) at 2012-08-09 13:59:59: 411440 states generated (136155 s/min), 85405 distinct states found (25846 ds/min), 16826 states left on queue.
+Progress(20) at 2012-08-09 14:00:59: 526461 states generated (115021 s/min), 106084 distinct states found (20679 ds/min), 18337 states left on queue.
+Progress(22) at 2012-08-09 14:01:59: 662605 states generated (136144 s/min), 129326 distinct states found (23242 ds/min), 18887 states left on queue.
+Progress(24) at 2012-08-09 14:02:59: 798558 states generated (135953 s/min), 152200 distinct states found (22874 ds/min), 19102 states left on queue.
+Progress(24) at 2012-08-09 14:03:59: 934581 states generated (136023 s/min), 174060 distinct states found (21860 ds/min), 18292 states left on queue.
+Progress(24) at 2012-08-09 14:04:59: 1070712 states generated (136131 s/min), 194957 distinct states found (20897 ds/min), 16501 states left on queue.
+Progress(26) at 2012-08-09 14:05:59: 1187521 states generated (116809 s/min), 212168 distinct states found (17211 ds/min), 14244 states left on queue.
+Progress(29) at 2012-08-09 14:06:59: 1323699 states generated (136178 s/min), 231503 distinct states found (19335 ds/min), 10884 states left on queue.
+Progress(31) at 2012-08-09 14:07:59: 1459716 states generated (136017 s/min), 249285 distinct states found (17782 ds/min), 5994 states left on queue.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.9E-8
+  based on the actual fingerprints:  val = 2.0E-12
+1572865 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 43.
+Finished. (2012-08-09 14:08:59)
