@@ -1,0 +1,3 @@
+TLC2 Version 2.05 of 18 May 2012
+Error: Error: An integer for checkpoint interval is required. But encountered 0-
+Usage: java tlc2.TLC [-option] inputfile
