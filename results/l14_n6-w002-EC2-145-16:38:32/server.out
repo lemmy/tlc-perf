@@ -1,0 +1,70 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/30911/spec/l14_n6.tla
+Parsing file /mnt/tlc/30911/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/30911/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/30911/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/30911/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/30911/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/30911/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l14_n6
+Starting... (2012-08-13 16:38:36)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-31-128-250 is ready (2012-08-13 16:38:36)
+Registration for worker at rmi://ip-10-31-133-201.ec2.internal:44824 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-30-131-228.ec2.internal:39381 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-30-131-228.ec2.internal:39381 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-30-131-228.ec2.internal:39381 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-30-131-228.ec2.internal:39381 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-30-131-228.ec2.internal:39381 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-30-131-228.ec2.internal:39381 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-30-131-228.ec2.internal:39381 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-30-131-228.ec2.internal:39381 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-31-133-201.ec2.internal:44824 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-31-133-201.ec2.internal:44824 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-31-133-201.ec2.internal:44824 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-31-133-201.ec2.internal:44824 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-31-133-201.ec2.internal:44824 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-31-133-201.ec2.internal:44824 completed (2012-08-13 16:38:37)
+Registration for worker at rmi://ip-10-31-133-201.ec2.internal:44824 completed (2012-08-13 16:38:37)
+Progress(24) at 2012-08-13 16:39:37: 249380 states generated (249380 s/min), 56812 distinct states found (56812 ds/min), 17976 states left on queue.
+Progress(25) at 2012-08-13 16:40:37: 471962 states generated (222582 s/min), 96329 distinct states found (39517 ds/min), 23261 states left on queue.
+Progress(25) at 2012-08-13 16:41:37: 759969 states generated (288007 s/min), 149575 distinct states found (53246 ds/min), 28165 states left on queue.
+Progress(34) at 2012-08-13 16:42:37: 1049719 states generated (289750 s/min), 194375 distinct states found (44800 ds/min), 25144 states left on queue.
+Progress(34) at 2012-08-13 16:43:37: 1373212 states generated (323493 s/min), 239135 distinct states found (44760 ds/min), 13282 states left on queue.
+Worker: rmi://ip-10-30-131-228.ec2.internal:39381 Sent: 15587 Rcvd: 13061 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-31-133-201.ec2.internal:44824 Sent: 17397 Rcvd: 15773 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-30-131-228.ec2.internal:39381 Sent: 15537 Rcvd: 11874 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-30-131-228.ec2.internal:39381 Sent: 15631 Rcvd: 13059 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-30-131-228.ec2.internal:39381 Sent: 15603 Rcvd: 12939 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-31-133-201.ec2.internal:44824 Sent: 16681 Rcvd: 12845 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-31-133-201.ec2.internal:44824 Sent: 17271 Rcvd: 14656 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-31-133-201.ec2.internal:44824 Sent: 17086 Rcvd: 13421 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-30-131-228.ec2.internal:39381 Sent: 15610 Rcvd: 12094 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-31-133-201.ec2.internal:44824 Sent: 17106 Rcvd: 15567 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-31-133-201.ec2.internal:44824 Sent: 17286 Rcvd: 12431 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-30-131-228.ec2.internal:39381 Sent: 15643 Rcvd: 11478 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-30-131-228.ec2.internal:39381 Sent: 15581 Rcvd: 10876 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-31-133-201.ec2.internal:44824 Sent: 17124 Rcvd: 14667 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-31-133-201.ec2.internal:44824 Sent: 17474 Rcvd: 15223 (2012-08-13 16:44:17)
+Worker: rmi://ip-10-30-131-228.ec2.internal:39381 Sent: 15527 Rcvd: 12359 (2012-08-13 16:44:17)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.1E-8
+  based on the actual fingerprints:  val = 2.8E-13
+1054944 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 34.
+Finished. (2012-08-13 16:44:20)
+Warning: Failed to connect from ip-10-31-128-250 to the fp server at ip-10-31-133-201.
+Connection refused to host: 10.31.133.201; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from ip-10-31-128-250 to the fp server at ip-10-31-133-201.
+Connection refused to host: 10.31.133.201; nested exception is: 
+	java.net.ConnectException: Connection refused
