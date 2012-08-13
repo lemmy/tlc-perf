@@ -107,12 +107,29 @@ sudo -u kuppe /usr/bin/git config --global user.name "Markus Alexander Kuppe"
 
 # Dump stats to tla.msr-inria.inria.fr
 echo "MAILTO=root
-*/120 * * * * root ps axu|grep java|grep -v grep >> /var/lib/munin/ps.txt
-*/120 * * * * root /bin/bash -c 'cd /var/lib/munin/tlc/ && for f in *.rrd; do rrdtool dump \${f} > \${f/rrd/xml}; done'
-*/120 * * * * root /bin/bash -c 'cd /var/lib/munin/ec2.internal/ && for f in *.rrd; do rrdtool dump \${f} > \${f/rrd/xml}; done'
-*/120 * * * * kuppe rsync --exclude=*.rrd -avz -e ssh /var/lib/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
-*/120 * * * * kuppe rsync -avz -e ssh /var/cache/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
+*/240 * * * * root /usr/local/bin/rrdbackup.sh
 " > /etc/cron.d/rrdbackup
+
+echo "#!/bin/bash
+# Dump process list
+ps axu|grep java|grep -v grep >> /var/lib/munin/ps.txt
+# Convert from rrd to xml
+cd /var/lib/munin/
+for f in */*.rrd; do rrdtool dump \${f} > \${f/rrd/xml}; done
+# Remove stats we don't need
+for f in `find -L . -name *apache*.xml`; do rm \${f}; done
+for f in `find -L . -name *irqstats*.xml`; do rm \${f}; done
+# Do a little name mangling (-L causes it to follow symlinks)
+for f in `find -L . -name *jmx2munin_org_vafer*.xml`; do mv \${f} \${f/jmx2munin_org_vafer_jmx_contention_/}; done
+for f in `find -L . -name *jmx2munin_tlc2_tool_fp_*.xml`; do mv \${f} \${f/jmx2munin_tlc2_tool_fp_/}; done
+for f in `find -L . -name *mx2munin_tlc2_tool_*.xml`; do mv \${f} \${f/jmx2munin_tlc2_tool_/}; done
+for f in `find -L . -name *jmx_*.xml`; do mv \${f} \${f/jmx_/}; done
+for f in `find -L . -name *.ec2.internal*.xml`; do mv \${f} \${f/.ec2.internal/}; done
+# sync
+sudo -u kuppe rsync --exclude=*.rrd -az -e ssh /var/lib/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
+sudo -u kuppe rsync -az -e ssh /var/cache/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
+" > /usr/local/bin/rrdbackup.sh
+chmod +x /usr/local/bin/rrdbackup.sh
 
 # install TLC munin extensions (needs ec2 repo present)
 cd /mnt/kuppe/git/ec2/tools/jmx2munin
