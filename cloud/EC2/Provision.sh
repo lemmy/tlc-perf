@@ -126,8 +126,8 @@ for f in `find -L . -name *mx2munin_tlc2_tool_*.xml`; do mv \${f} \${f/jmx2munin
 for f in `find -L . -name *jmx_*.xml`; do mv \${f} \${f/jmx_/}; done
 for f in `find -L . -name *.ec2.internal*.xml`; do mv \${f} \${f/.ec2.internal/}; done
 # sync
-sudo -u kuppe rsync --exclude=*.rrd -avz -e ssh /var/lib/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
-sudo -u kuppe rsync -avz -e ssh /var/cache/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
+sudo -u kuppe rsync --exclude=*.rrd -az -e ssh /var/lib/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
+sudo -u kuppe rsync -az -e ssh /var/cache/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
 " > /usr/local/bin/rrdbackup.sh
 chmod +x /usr/local/bin/rrdbackup.sh
 
