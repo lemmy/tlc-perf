@@ -1,0 +1,3 @@
+TLC2 Version 2.05 of 18 May 2012
+Error: Error: expect a nonnegative integer for -checkpoint option.
+Usage: java tlc2.TLC [-option] inputfile
