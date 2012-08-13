@@ -1,0 +1,196 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/9688/spec/l12_n8.tla
+Parsing file /tmp/9688/spec/GridPerformanceTest.tla
+Parsing file /tmp/9688/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/9688/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/9688/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/9688/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/9688/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2012-08-13 18:57:06)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at stremi-42.reims.grid5000.fr is ready (2012-08-13 18:57:07)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:57395 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:35596 completed (2012-08-13 18:57:09)
+Progress(35) at 2012-08-13 18:58:08: 1021275 states generated (1021275 s/min), 376046 distinct states found (376046 ds/min), 193337 states left on queue.
+Progress(35) at 2012-08-13 18:59:08: 1841215 states generated (819940 s/min), 689909 distinct states found (313863 ds/min), 310055 states left on queue.
+Progress(35) at 2012-08-13 19:00:08: 2718234 states generated (877019 s/min), 1044935 distinct states found (355026 ds/min), 435313 states left on queue.
+Progress(35) at 2012-08-13 19:01:08: 3696938 states generated (978704 s/min), 1388853 distinct states found (343918 ds/min), 545160 states left on queue.
+Progress(35) at 2012-08-13 19:02:08: 5010951 states generated (1314013 s/min), 1766557 distinct states found (377704 ds/min), 660642 states left on queue.
+Progress(35) at 2012-08-13 19:03:08: 6525281 states generated (1514330 s/min), 2154538 distinct states found (387981 ds/min), 761795 states left on queue.
+Progress(35) at 2012-08-13 19:04:08: 7917542 states generated (1392261 s/min), 2493384 distinct states found (338846 ds/min), 854763 states left on queue.
+Progress(35) at 2012-08-13 19:05:08: 9227261 states generated (1309719 s/min), 2829375 distinct states found (335991 ds/min), 944856 states left on queue.
+Progress(35) at 2012-08-13 19:06:08: 10855099 states generated (1627838 s/min), 3185076 distinct states found (355701 ds/min), 1013674 states left on queue.
+Progress(35) at 2012-08-13 19:07:08: 12289763 states generated (1434664 s/min), 3505238 distinct states found (320162 ds/min), 1087914 states left on queue.
+Progress(35) at 2012-08-13 19:08:08: 13690701 states generated (1400938 s/min), 3821314 distinct states found (316076 ds/min), 1149857 states left on queue.
+Progress(35) at 2012-08-13 19:09:08: 15336541 states generated (1645840 s/min), 4172755 distinct states found (351441 ds/min), 1222555 states left on queue.
+Progress(35) at 2012-08-13 19:10:09: 16821887 states generated (1485346 s/min), 4470328 distinct states found (297573 ds/min), 1274166 states left on queue.
+Progress(35) at 2012-08-13 19:11:09: 18303684 states generated (1481797 s/min), 4778015 distinct states found (307687 ds/min), 1325366 states left on queue.
+Progress(35) at 2012-08-13 19:12:09: 19903657 states generated (1599973 s/min), 5112815 distinct states found (334800 ds/min), 1385402 states left on queue.
+Progress(35) at 2012-08-13 19:13:09: 21407517 states generated (1503860 s/min), 5405154 distinct states found (292339 ds/min), 1423557 states left on queue.
+Progress(35) at 2012-08-13 19:14:09: 22929134 states generated (1521617 s/min), 5686153 distinct states found (280999 ds/min), 1450369 states left on queue.
+Progress(35) at 2012-08-13 19:15:09: 24478674 states generated (1549540 s/min), 6002297 distinct states found (316144 ds/min), 1504113 states left on queue.
+Progress(43) at 2012-08-13 19:16:09: 26065578 states generated (1586904 s/min), 6289696 distinct states found (287399 ds/min), 1537304 states left on queue.
+Progress(43) at 2012-08-13 19:17:09: 27610143 states generated (1544565 s/min), 6587350 distinct states found (297654 ds/min), 1580733 states left on queue.
+Progress(43) at 2012-08-13 19:18:09: 29173350 states generated (1563207 s/min), 6859575 distinct states found (272225 ds/min), 1590563 states left on queue.
+Progress(43) at 2012-08-13 19:19:09: 30793535 states generated (1620185 s/min), 7152096 distinct states found (292521 ds/min), 1612462 states left on queue.
+Progress(43) at 2012-08-13 19:20:11: 32346442 states generated (1552907 s/min), 7397318 distinct states found (245222 ds/min), 1621023 states left on queue.
+Progress(43) at 2012-08-13 19:21:11: 33972384 states generated (1625942 s/min), 7767425 distinct states found (370107 ds/min), 1704849 states left on queue.
+Progress(43) at 2012-08-13 19:22:11: 35417875 states generated (1445491 s/min), 7991232 distinct states found (223807 ds/min), 1701776 states left on queue.
+Progress(43) at 2012-08-13 19:23:11: 37112934 states generated (1695059 s/min), 8280013 distinct states found (288781 ds/min), 1716798 states left on queue.
+Progress(43) at 2012-08-13 19:24:11: 38579123 states generated (1466189 s/min), 8513927 distinct states found (233914 ds/min), 1709909 states left on queue.
+Progress(43) at 2012-08-13 19:25:12: 40029266 states generated (1450143 s/min), 8734500 distinct states found (220573 ds/min), 1709065 states left on queue.
+Progress(43) at 2012-08-13 19:26:12: 41680394 states generated (1651128 s/min), 9011901 distinct states found (277401 ds/min), 1699441 states left on queue.
+Checkpointing of run -- Checkpointing of run /tmp/9688/spec/states/12-08-13-18-57-06 compl
+Checkpointing completed at (2012-08-13 19:28:37)
+Progress(43) at 2012-08-13 19:28:37: 45621948 states generated (3941554 s/min), 9701308 distinct states found (689407 ds/min), 1754221 states left on queue.
+Progress(43) at 2012-08-13 19:29:37: 45662440 states generated (40492 s/min), 9701782 distinct states found (474 ds/min), 1757784 states left on queue.
+Progress(43) at 2012-08-13 19:30:37: 48139102 states generated (2476662 s/min), 10105931 distinct states found (404149 ds/min), 1761707 states left on queue.
+Progress(43) at 2012-08-13 19:31:37: 49387175 states generated (1248073 s/min), 10332645 distinct states found (226714 ds/min), 1807054 states left on queue.
+Progress(43) at 2012-08-13 19:32:37: 50549730 states generated (1162555 s/min), 10432930 distinct states found (100285 ds/min), 1695457 states left on queue.
+Progress(43) at 2012-08-13 19:33:37: 52920142 states generated (2370412 s/min), 10804891 distinct states found (371961 ds/min), 1681841 states left on queue.
+Progress(43) at 2012-08-13 19:34:37: 55056033 states generated (2135891 s/min), 11130709 distinct states found (325818 ds/min), 1699729 states left on queue.
+Progress(43) at 2012-08-13 19:35:37: 55544586 states generated (488553 s/min), 11236252 distinct states found (105543 ds/min), 1703025 states left on queue.
+Progress(43) at 2012-08-13 19:36:37: 58038705 states generated (2494119 s/min), 11636610 distinct states found (400358 ds/min), 1726074 states left on queue.
+Progress(43) at 2012-08-13 19:37:37: 60366970 states generated (2328265 s/min), 11877471 distinct states found (240861 ds/min), 1647170 states left on queue.
+Progress(43) at 2012-08-13 19:38:37: 60930898 states generated (563928 s/min), 11955320 distinct states found (77849 ds/min), 1634809 states left on queue.
+Progress(43) at 2012-08-13 19:39:37: 63309089 states generated (2378191 s/min), 12259359 distinct states found (304039 ds/min), 1561638 states left on queue.
+Progress(43) at 2012-08-13 19:40:38: 65311274 states generated (2002185 s/min), 12525215 distinct states found (265856 ds/min), 1548665 states left on queue.
+Progress(46) at 2012-08-13 19:41:38: 65951346 states generated (640072 s/min), 12642081 distinct states found (116866 ds/min), 1534330 states left on queue.
+Progress(46) at 2012-08-13 19:42:38: 68370540 states generated (2419194 s/min), 12984246 distinct states found (342165 ds/min), 1499288 states left on queue.
+Progress(46) at 2012-08-13 19:43:38: 70262194 states generated (1891654 s/min), 13197529 distinct states found (213283 ds/min), 1441990 states left on queue.
+Progress(47) at 2012-08-13 19:44:38: 71177826 states generated (915632 s/min), 13313912 distinct states found (116383 ds/min), 1418996 states left on queue.
+Progress(47) at 2012-08-13 19:45:38: 73584015 states generated (2406189 s/min), 13618154 distinct states found (304242 ds/min), 1346034 states left on queue.
+Progress(47) at 2012-08-13 19:46:38: 74827372 states generated (1243357 s/min), 13785876 distinct states found (167722 ds/min), 1316998 states left on queue.
+Progress(47) at 2012-08-13 19:47:38: 76172673 states generated (1345301 s/min), 13959189 distinct states found (173313 ds/min), 1285316 states left on queue.
+Progress(47) at 2012-08-13 19:48:38: 78645077 states generated (2472404 s/min), 14270796 distinct states found (311607 ds/min), 1211577 states left on queue.
+Progress(47) at 2012-08-13 19:49:38: 79916706 states generated (1271629 s/min), 14407686 distinct states found (136890 ds/min), 1159936 states left on queue.
+Progress(47) at 2012-08-13 19:50:38: 81256428 states generated (1339722 s/min), 14574994 distinct states found (167308 ds/min), 1114117 states left on queue.
+Progress(47) at 2012-08-13 19:51:38: 83762290 states generated (2505862 s/min), 14869756 distinct states found (294762 ds/min), 1023621 states left on queue.
+Progress(47) at 2012-08-13 19:52:38: 86161425 states generated (2399135 s/min), 15154404 distinct states found (284648 ds/min), 939426 states left on queue.
+Progress(47) at 2012-08-13 19:53:38: 86464841 states generated (303416 s/min), 15179996 distinct states found (25592 ds/min), 924043 states left on queue.
+Progress(49) at 2012-08-13 19:54:38: 88882917 states generated (2418076 s/min), 15455724 distinct states found (275728 ds/min), 822772 states left on queue.
+Progress(49) at 2012-08-13 19:55:38: 91310501 states generated (2427584 s/min), 15725837 distinct states found (270113 ds/min), 707731 states left on queue.
+Progress(49) at 2012-08-13 19:56:38: 91498260 states generated (187759 s/min), 15741215 distinct states found (15378 ds/min), 698526 states left on queue.
+Checkpointing of run -- Checkpointing of run /tmp/9688/spec/states/12-08-13-18-57-06 compl
+Checkpointing completed at (2012-08-13 19:58:37)
+Progress(49) at 2012-08-13 19:58:37: 96349697 states generated (4851437 s/min), 16249231 distinct states found (508016 ds/min), 429495 states left on queue.
+Progress(49) at 2012-08-13 19:59:37: 96383774 states generated (34077 s/min), 16249231 distinct states found (0 ds/min), 436288 states left on queue.
+Progress(55) at 2012-08-13 20:00:37: 99041444 states generated (2657670 s/min), 16553408 distinct states found (304177 ds/min), 318379 states left on queue.
+Progress(63) at 2012-08-13 20:01:37: 101280466 states generated (2239022 s/min), 16728191 distinct states found (174783 ds/min), 154640 states left on queue.
+Progress(63) at 2012-08-13 20:02:37: 102016959 states generated (736493 s/min), 16771654 distinct states found (43463 ds/min), 88903 states left on queue.
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 348682 Rcvd: 192030 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 350227 Rcvd: 196645 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 345067 Rcvd: 175696 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 347555 Rcvd: 199302 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 357328 Rcvd: 202517 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 346709 Rcvd: 211448 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 349020 Rcvd: 224708 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 348516 Rcvd: 199915 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 344797 Rcvd: 204227 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 355952 Rcvd: 210310 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 353992 Rcvd: 222433 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 348943 Rcvd: 209589 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 346298 Rcvd: 177403 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 353909 Rcvd: 241094 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 351380 Rcvd: 240327 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 346267 Rcvd: 185396 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 346770 Rcvd: 194543 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 345000 Rcvd: 222108 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 349061 Rcvd: 204040 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 345435 Rcvd: 161600 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 348813 Rcvd: 199009 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 351002 Rcvd: 184296 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 353737 Rcvd: 182601 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 344433 Rcvd: 196802 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 346611 Rcvd: 195313 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 358757 Rcvd: 224995 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 347272 Rcvd: 201062 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 349798 Rcvd: 185890 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 348824 Rcvd: 208115 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 356391 Rcvd: 181274 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 350881 Rcvd: 216828 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 349145 Rcvd: 224242 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 352077 Rcvd: 209638 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 352321 Rcvd: 238280 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 347278 Rcvd: 210643 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 355555 Rcvd: 233184 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 344829 Rcvd: 177375 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 352985 Rcvd: 213722 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 345971 Rcvd: 210943 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 344056 Rcvd: 185634 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 349005 Rcvd: 185198 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 351288 Rcvd: 256054 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 350146 Rcvd: 230057 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 350871 Rcvd: 200799 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 344833 Rcvd: 192233 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 351495 Rcvd: 225113 (2012-08-13 20:03:08)
+Worker: rmi://stremi-8.reims.grid5000.fr:35596 Sent: 346978 Rcvd: 212853 (2012-08-13 20:03:08)
+Worker: rmi://stremi-9.reims.grid5000.fr:57395 Sent: 350956 Rcvd: 212290 (2012-08-13 20:03:08)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 7.6E-5
+  based on the actual fingerprints:  val = 6.2E-11
+100291707 states generated, 16777216 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 63.
+Finished. (2012-08-13 20:03:13)
+Warning: Failed to connect from stremi-42.reims.grid5000.fr to the fp server at stremi-9.reims.grid5000.fr.
+Connection refused to host: 172.16.160.9; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from stremi-42.reims.grid5000.fr to the fp server at stremi-9.reims.grid5000.fr.
+Connection refused to host: 172.16.160.9; nested exception is: 
+	java.net.ConnectException: Connection refused
