@@ -8,7 +8,7 @@ usermod -G sudo -a mkuppe
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get upgrade -y
-apt-get --no-install-recommends install ant openjdk-6-jdk unzip mc htop sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git sshfs rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y
+apt-get --no-install-recommends install ant openjdk-6-jdk unzip mc htop sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git sshfs rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y --force-yes
 
 # clear cached packages to save disk space
 apt-get clean
