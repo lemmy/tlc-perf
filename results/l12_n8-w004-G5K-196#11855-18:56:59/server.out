@@ -1,0 +1,257 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/9688/spec/l12_n8.tla
+Parsing file /tmp/9688/spec/GridPerformanceTest.tla
+Parsing file /tmp/9688/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/9688/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/9688/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/9688/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/9688/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2012-08-13 20:05:20)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at stremi-42.reims.grid5000.fr is ready (2012-08-13 20:05:21)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:22)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-9.reims.grid5000.fr:39761 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-8.reims.grid5000.fr:55650 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:37980 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Registration for worker at rmi://stremi-5.reims.grid5000.fr:40364 completed (2012-08-13 20:05:23)
+Progress(25) at 2012-08-13 20:06:22: 2154576 states generated (2154576 s/min), 747218 distinct states found (747218 ds/min), 387544 states left on queue.
+Progress(25) at 2012-08-13 20:07:22: 4021058 states generated (1866482 s/min), 1399608 distinct states found (652390 ds/min), 625148 states left on queue.
+Progress(25) at 2012-08-13 20:08:22: 5751837 states generated (1730779 s/min), 1947210 distinct states found (547602 ds/min), 771277 states left on queue.
+Progress(28) at 2012-08-13 20:09:22: 8471986 states generated (2720149 s/min), 2739927 distinct states found (792717 ds/min), 996079 states left on queue.
+Progress(32) at 2012-08-13 20:10:22: 11366623 states generated (2894637 s/min), 3447164 distinct states found (707237 ds/min), 1170601 states left on queue.
+Progress(32) at 2012-08-13 20:11:23: 13711959 states generated (2345336 s/min), 3939219 distinct states found (492055 ds/min), 1252869 states left on queue.
+Progress(33) at 2012-08-13 20:12:23: 17182541 states generated (3470582 s/min), 4662851 distinct states found (723632 ds/min), 1394493 states left on queue.
+Progress(33) at 2012-08-13 20:13:23: 20400055 states generated (3217514 s/min), 5297140 distinct states found (634289 ds/min), 1487756 states left on queue.
+Progress(36) at 2012-08-13 20:14:23: 23299189 states generated (2899134 s/min), 5837129 distinct states found (539989 ds/min), 1576861 states left on queue.
+Progress(36) at 2012-08-13 20:15:23: 26858857 states generated (3559668 s/min), 6494486 distinct states found (657357 ds/min), 1652126 states left on queue.
+Progress(36) at 2012-08-13 20:16:23: 30117910 states generated (3259053 s/min), 7052148 distinct states found (557662 ds/min), 1685102 states left on queue.
+Progress(36) at 2012-08-13 20:17:23: 33350146 states generated (3232236 s/min), 7613381 distinct states found (561233 ds/min), 1738013 states left on queue.
+Progress(36) at 2012-08-13 20:18:23: 36488354 states generated (3138208 s/min), 8133124 distinct states found (519743 ds/min), 1765816 states left on queue.
+Progress(36) at 2012-08-13 20:19:23: 40142930 states generated (3654576 s/min), 8728808 distinct states found (595684 ds/min), 1779391 states left on queue.
+Progress(38) at 2012-08-13 20:20:23: 43269114 states generated (3126184 s/min), 9226879 distinct states found (498071 ds/min), 1793011 states left on queue.
+Progress(38) at 2012-08-13 20:21:23: 46406244 states generated (3137130 s/min), 9752013 distinct states found (525134 ds/min), 1837565 states left on queue.
+Progress(38) at 2012-08-13 20:22:23: 50036990 states generated (3630746 s/min), 10259707 distinct states found (507694 ds/min), 1781183 states left on queue.
+Progress(38) at 2012-08-13 20:23:23: 53100519 states generated (3063529 s/min), 10730794 distinct states found (471087 ds/min), 1769855 states left on queue.
+Progress(38) at 2012-08-13 20:24:23: 56688727 states generated (3588208 s/min), 11277079 distinct states found (546285 ds/min), 1770946 states left on queue.
+Progress(38) at 2012-08-13 20:25:23: 60012982 states generated (3324255 s/min), 11720297 distinct states found (443218 ds/min), 1693537 states left on queue.
+Progress(38) at 2012-08-13 20:26:23: 62966719 states generated (2953737 s/min), 12126783 distinct states found (406486 ds/min), 1640955 states left on queue.
+Progress(38) at 2012-08-13 20:27:23: 66597871 states generated (3631152 s/min), 12616889 distinct states found (490106 ds/min), 1581827 states left on queue.
+Progress(38) at 2012-08-13 20:28:23: 70071390 states generated (3473519 s/min), 13088945 distinct states found (472056 ds/min), 1504679 states left on queue.
+Progress(42) at 2012-08-13 20:29:23: 73038239 states generated (2966849 s/min), 13481228 distinct states found (392283 ds/min), 1429758 states left on queue.
+Progress(42) at 2012-08-13 20:30:23: 76304580 states generated (3266341 s/min), 13898648 distinct states found (417420 ds/min), 1339028 states left on queue.
+Progress(42) at 2012-08-13 20:31:23: 79741899 states generated (3437319 s/min), 14313244 distinct states found (414596 ds/min), 1220928 states left on queue.
+Progress(42) at 2012-08-13 20:32:27: 82856013 states generated (3114114 s/min), 14672347 distinct states found (359103 ds/min), 1128361 states left on queue.
+Progress(42) at 2012-08-13 20:33:28: 86276802 states generated (3420789 s/min), 15097152 distinct states found (424805 ds/min), 1005108 states left on queue.
+Progress(42) at 2012-08-13 20:34:28: 90057538 states generated (3780736 s/min), 15527319 distinct states found (430167 ds/min), 820774 states left on queue.
+Checkpointing of run -- Checkpointing of run /tmp/9688/spec/states/12-08-13-20-05-20 compl
+Checkpointing completed at (2012-08-13 20:36:51)
+Progress(42) at 2012-08-13 20:36:51: 97468488 states generated (7410950 s/min), 16293209 distinct states found (765890 ds/min), 417038 states left on queue.
+Progress(68) at 2012-08-13 20:37:51: 98917959 states generated (1449471 s/min), 16552471 distinct states found (259262 ds/min), 475026 states left on queue.
+Progress(68) at 2012-08-13 20:38:51: 102903446 states generated (3985487 s/min), 16774435 distinct states found (221964 ds/min), 82692 states left on queue.
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 182887 Rcvd: 75479 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 185013 Rcvd: 53519 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 184903 Rcvd: 66394 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 183221 Rcvd: 63472 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 182567 Rcvd: 53495 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 190076 Rcvd: 71241 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 181777 Rcvd: 55155 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 183111 Rcvd: 57072 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 180419 Rcvd: 32418 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 184466 Rcvd: 56497 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 184596 Rcvd: 73231 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 180085 Rcvd: 36818 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 188982 Rcvd: 63134 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 183536 Rcvd: 57400 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 186523 Rcvd: 27963 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 188231 Rcvd: 77739 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 177713 Rcvd: 44932 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 182634 Rcvd: 69473 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 176800 Rcvd: 36186 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 182271 Rcvd: 70421 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 180800 Rcvd: 29288 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 187867 Rcvd: 66761 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 177738 Rcvd: 34906 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 186040 Rcvd: 60686 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 173250 Rcvd: 20186 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 176647 Rcvd: 27128 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 176072 Rcvd: 34113 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 191325 Rcvd: 55332 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 178542 Rcvd: 31985 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 175506 Rcvd: 30269 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 181512 Rcvd: 26133 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 190425 Rcvd: 62030 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 179675 Rcvd: 35359 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 185273 Rcvd: 62126 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 175981 Rcvd: 35855 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 182117 Rcvd: 26576 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 184814 Rcvd: 59325 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 179767 Rcvd: 34907 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 183079 Rcvd: 69152 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 181231 Rcvd: 37473 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 179727 Rcvd: 34724 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 187493 Rcvd: 59996 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 186851 Rcvd: 54562 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 192238 Rcvd: 65373 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 176393 Rcvd: 33588 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 181123 Rcvd: 58694 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 175845 Rcvd: 37639 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 178389 Rcvd: 37389 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 178087 Rcvd: 37683 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 183872 Rcvd: 72748 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 176619 Rcvd: 31985 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 179487 Rcvd: 34322 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 188617 Rcvd: 67112 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 191359 Rcvd: 72301 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 181971 Rcvd: 25347 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 190874 Rcvd: 56244 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 177954 Rcvd: 34821 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 178359 Rcvd: 36270 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 186864 Rcvd: 62724 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 187233 Rcvd: 58542 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 175628 Rcvd: 48709 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 175689 Rcvd: 29391 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 189176 Rcvd: 62201 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 175229 Rcvd: 30935 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 180791 Rcvd: 40246 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 182121 Rcvd: 63395 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 188531 Rcvd: 85102 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 178479 Rcvd: 25854 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 185499 Rcvd: 66858 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 188569 Rcvd: 62009 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 187244 Rcvd: 43136 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 177528 Rcvd: 29773 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 179873 Rcvd: 31069 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 175807 Rcvd: 28335 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 175255 Rcvd: 28955 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 177552 Rcvd: 32687 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 184965 Rcvd: 65015 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 186320 Rcvd: 57290 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 187098 Rcvd: 76163 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 176151 Rcvd: 27956 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 182702 Rcvd: 29392 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 182502 Rcvd: 59613 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 187993 Rcvd: 52589 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 176794 Rcvd: 30688 (2012-08-13 20:39:29)
+Worker: rmi://stremi-8.reims.grid5000.fr:55650 Sent: 180885 Rcvd: 30862 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 190845 Rcvd: 61197 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 181659 Rcvd: 36071 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 179318 Rcvd: 35306 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 180928 Rcvd: 27205 (2012-08-13 20:39:29)
+Worker: rmi://stremi-6.reims.grid5000.fr:37980 Sent: 187085 Rcvd: 82651 (2012-08-13 20:39:29)
+Worker: rmi://stremi-5.reims.grid5000.fr:40364 Sent: 177628 Rcvd: 35773 (2012-08-13 20:39:29)
+Worker: rmi://stremi-9.reims.grid5000.fr:39761 Sent: 184545 Rcvd: 52742 (2012-08-13 20:39:29)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 7.6E-5
+  based on the actual fingerprints:  val = 3.0E-11
+100454508 states generated, 16777216 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 68.
+Finished. (2012-08-13 20:39:35)
+Warning: Failed to connect from stremi-42.reims.grid5000.fr to the fp server at stremi-9.reims.grid5000.fr.
+Connection refused to host: 172.16.160.9; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from stremi-42.reims.grid5000.fr to the fp server at stremi-9.reims.grid5000.fr.
+Connection refused to host: 172.16.160.9; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from stremi-42.reims.grid5000.fr to the fp server at stremi-9.reims.grid5000.fr.
+Connection refused to host: 172.16.160.9; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from stremi-42.reims.grid5000.fr to the fp server at stremi-9.reims.grid5000.fr.
+Connection refused to host: 172.16.160.9; nested exception is: 
+	java.net.ConnectException: Connection refused
