@@ -1,0 +1,2 @@
+stremi-44.reims.grid5000.fr
+stremi-6.reims.grid5000.fr

@@ -1,0 +1,185 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/9526/spec/l12_n6.tla
+Parsing file /tmp/9526/spec/GridPerformanceTest.tla
+Parsing file /tmp/9526/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/9526/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/9526/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/9526/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/9526/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n6
+Starting... (2012-08-14 07:42:42)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at stremi-7.reims.grid5000.fr is ready (2012-08-14 07:42:43)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-6.reims.grid5000.fr:46626 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Registration for worker at rmi://stremi-44.reims.grid5000.fr:43243 completed (2012-08-14 07:42:45)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5825 Rcvd: 3236 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5186 Rcvd: 2825 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5103 Rcvd: 2801 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5839 Rcvd: 2904 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5111 Rcvd: 3096 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5116 Rcvd: 2831 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5635 Rcvd: 4003 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5841 Rcvd: 2564 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5131 Rcvd: 2922 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5122 Rcvd: 3268 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5041 Rcvd: 3271 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5686 Rcvd: 2307 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5700 Rcvd: 2801 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5797 Rcvd: 2220 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5210 Rcvd: 1834 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5736 Rcvd: 2166 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5169 Rcvd: 2559 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5665 Rcvd: 2411 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5125 Rcvd: 2494 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5153 Rcvd: 2233 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5911 Rcvd: 3002 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5138 Rcvd: 2633 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5102 Rcvd: 2649 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5696 Rcvd: 2889 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5817 Rcvd: 2612 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5275 Rcvd: 1629 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5156 Rcvd: 3173 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5838 Rcvd: 2290 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5846 Rcvd: 2661 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5102 Rcvd: 2688 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5762 Rcvd: 2701 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5068 Rcvd: 2362 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5405 Rcvd: 2110 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5056 Rcvd: 3089 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5677 Rcvd: 3572 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5179 Rcvd: 2830 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5687 Rcvd: 3137 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5796 Rcvd: 2528 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5286 Rcvd: 2858 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5145 Rcvd: 2637 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5715 Rcvd: 3944 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5665 Rcvd: 3527 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5757 Rcvd: 2597 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5732 Rcvd: 3031 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5078 Rcvd: 2353 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5690 Rcvd: 1833 (2012-08-14 07:43:30)
+Worker: rmi://stremi-6.reims.grid5000.fr:46626 Sent: 5836 Rcvd: 3354 (2012-08-14 07:43:30)
+Worker: rmi://stremi-44.reims.grid5000.fr:43243 Sent: 5538 Rcvd: 2174 (2012-08-14 07:43:30)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 9.7E-9
+  based on the actual fingerprints:  val = 2.8E-13
+953828 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 33.
+Finished. (2012-08-14 07:43:31)
+Warning: Failed to connect from stremi-7.reims.grid5000.fr to the fp server at stremi-44.reims.grid5000.fr.
+Connection refused to host: 172.16.160.44; nested exception is: 
+	java.net.ConnectException: Connection refused
+java.rmi.ConnectException: Connection refused to host: 172.16.160.44; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(Unknown Source)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(Unknown Source)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy1.size(Unknown Source)
+	at tlc2.tool.distributed.fp.FPSetManager$FPSets.size(FPSetManager.java:514)
+	at tlc2.tool.distributed.fp.FPSetManager.size(FPSetManager.java:357)
+	at tlc2.tool.distributed.TLCStatistics.serverStats(TLCStatistics.java:162)
+	at tlc2.tool.distributed.TLCStatistics.writeStats(TLCStatistics.java:40)
+	at tlc2.tool.distributed.TLCServerMonitorAspect.ajc$after$tlc2_tool_distributed_TLCServerMonitorAspect$2$ba850e94(TLCServerMonitorAspect.aj:23)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:628)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(Unknown Source)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(Unknown Source)
+	... 13 more
+Warning: Failed to connect from stremi-7.reims.grid5000.fr to the fp server at stremi-44.reims.grid5000.fr.
+Connection refused to host: 172.16.160.44; nested exception is: 
+	java.net.ConnectException: Connection refused
+java.rmi.ConnectException: Connection refused to host: 172.16.160.44; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(Unknown Source)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(Unknown Source)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy1.size(Unknown Source)
+	at tlc2.tool.distributed.fp.FPSetManager$FPSets.size(FPSetManager.java:514)
+	at tlc2.tool.distributed.fp.FPSetManager.size(FPSetManager.java:357)
+	at tlc2.tool.distributed.TLCStatistics.serverStats(TLCStatistics.java:162)
+	at tlc2.tool.distributed.TLCStatistics.writeStats(TLCStatistics.java:40)
+	at tlc2.tool.distributed.TLCServerMonitorAspect.ajc$after$tlc2_tool_distributed_TLCServerMonitorAspect$2$ba850e94(TLCServerMonitorAspect.aj:23)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:628)
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(Unknown Source)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(Unknown Source)
+	... 13 more
