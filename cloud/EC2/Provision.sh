@@ -106,9 +106,12 @@ sudo -u kuppe /usr/bin/git config --global user.email tlaplus.net@lemmster.de
 sudo -u kuppe /usr/bin/git config --global user.name "Markus Alexander Kuppe"
 
 # Dump stats to tla.msr-inria.inria.fr
-echo "MAILTO=root
-*/240 * * * * root /usr/local/bin/rrdbackup.sh
-" > /etc/cron.d/rrdbackup
+# disabled for the moment: 
+# - only useful for multi-day jobs, otherwise put too much load on tla.msr...
+# - stats are collected once at the end explicitly)
+#echo "MAILTO=root
+#*/240 * * * * root /usr/local/bin/rrdbackup.sh
+#" > /etc/cron.d/rrdbackup
 
 echo "#!/bin/bash
 # Dump process list
