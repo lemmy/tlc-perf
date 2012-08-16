@@ -91,7 +91,7 @@ do
     echo "checking model: $MODEL_NAME"
 
     ## loop over workers
-    for ((WORKER_COUNT=$START ; $WORKER_COUNT <= $END; WORKER_COUNT = $WORKER_COUNT $STEP));
+    for ((WORKER_COUNT=$START ; $WORKER_COUNT $END; WORKER_COUNT = $WORKER_COUNT $STEP));
     do
 	echo "with workers: $WORKER_COUNT"
 
