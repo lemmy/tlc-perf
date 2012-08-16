@@ -1,0 +1,4 @@
+sagittaire-78.lyon.grid5000.fr
+sagittaire-79.lyon.grid5000.fr
+sagittaire-7.lyon.grid5000.fr
+sagittaire-9.lyon.grid5000.fr
