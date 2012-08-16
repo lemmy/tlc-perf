@@ -1,0 +1,59 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/8550/spec/l10_n6.tla
+Parsing file /tmp/8550/spec/GridPerformanceTest.tla
+Parsing file /tmp/8550/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/8550/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/8550/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/8550/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/8550/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-08-16 13:40:34)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at griffon-47.nancy.grid5000.fr is ready (2012-08-16 13:40:34)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:48084 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:40619 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:40619 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:40619 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:40619 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:48084 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:40619 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:48084 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:48084 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:48084 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:40619 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:40619 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:48084 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:48084 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:48084 completed (2012-08-16 13:40:37)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:40619 completed (2012-08-16 13:40:37)
+Worker: rmi://griffon-85.nancy.grid5000.fr:40619 Sent: 16676 Rcvd: 8744 (2012-08-16 13:40:58)
+Worker: rmi://griffon-83.nancy.grid5000.fr:48084 Sent: 16543 Rcvd: 7021 (2012-08-16 13:40:58)
+Worker: rmi://griffon-83.nancy.grid5000.fr:48084 Sent: 16039 Rcvd: 9706 (2012-08-16 13:40:58)
+Worker: rmi://griffon-85.nancy.grid5000.fr:40619 Sent: 16225 Rcvd: 9663 (2012-08-16 13:40:58)
+Worker: rmi://griffon-83.nancy.grid5000.fr:48084 Sent: 16099 Rcvd: 7592 (2012-08-16 13:40:58)
+Worker: rmi://griffon-85.nancy.grid5000.fr:40619 Sent: 16461 Rcvd: 8486 (2012-08-16 13:40:58)
+Worker: rmi://griffon-83.nancy.grid5000.fr:48084 Sent: 16074 Rcvd: 7440 (2012-08-16 13:40:58)
+Worker: rmi://griffon-83.nancy.grid5000.fr:48084 Sent: 16413 Rcvd: 7911 (2012-08-16 13:40:58)
+Worker: rmi://griffon-85.nancy.grid5000.fr:40619 Sent: 16797 Rcvd: 7234 (2012-08-16 13:40:58)
+Worker: rmi://griffon-85.nancy.grid5000.fr:40619 Sent: 16623 Rcvd: 8457 (2012-08-16 13:40:58)
+Worker: rmi://griffon-85.nancy.grid5000.fr:40619 Sent: 16561 Rcvd: 8836 (2012-08-16 13:40:58)
+Worker: rmi://griffon-85.nancy.grid5000.fr:40619 Sent: 16483 Rcvd: 8138 (2012-08-16 13:40:58)
+Worker: rmi://griffon-85.nancy.grid5000.fr:40619 Sent: 16470 Rcvd: 8576 (2012-08-16 13:40:58)
+Worker: rmi://griffon-83.nancy.grid5000.fr:48084 Sent: 16259 Rcvd: 8091 (2012-08-16 13:40:58)
+Worker: rmi://griffon-83.nancy.grid5000.fr:48084 Sent: 16076 Rcvd: 7799 (2012-08-16 13:40:58)
+Worker: rmi://griffon-83.nancy.grid5000.fr:48084 Sent: 16345 Rcvd: 8503 (2012-08-16 13:40:58)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 9.0E-9
+  based on the actual fingerprints:  val = 2.8E-13
+909756 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 34.
+Finished. (2012-08-16 13:41:01)
