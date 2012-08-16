@@ -1,0 +1,102 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/8177/spec/l10_n8.tla
+Parsing file /tmp/8177/spec/GridPerformanceTest.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-08-16 21:40:39)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at sagittaire-74.lyon.grid5000.fr is ready (2012-08-16 21:40:40)
+Registration for worker at rmi://sagittaire-70.lyon.grid5000.fr:37906 completed (2012-08-16 21:40:42)
+Registration for worker at rmi://sagittaire-78.lyon.grid5000.fr:49443 completed (2012-08-16 21:40:42)
+Registration for worker at rmi://sagittaire-79.lyon.grid5000.fr:50855 completed (2012-08-16 21:40:42)
+Registration for worker at rmi://sagittaire-9.lyon.grid5000.fr:45435 completed (2012-08-16 21:40:42)
+Registration for worker at rmi://sagittaire-6.lyon.grid5000.fr:39019 completed (2012-08-16 21:40:42)
+Registration for worker at rmi://sagittaire-75.lyon.grid5000.fr:60124 completed (2012-08-16 21:40:42)
+Registration for worker at rmi://sagittaire-7.lyon.grid5000.fr:59335 completed (2012-08-16 21:40:42)
+Registration for worker at rmi://sagittaire-6.lyon.grid5000.fr:39019 completed (2012-08-16 21:40:43)
+Registration for worker at rmi://sagittaire-7.lyon.grid5000.fr:59335 completed (2012-08-16 21:40:43)
+Registration for worker at rmi://sagittaire-75.lyon.grid5000.fr:60124 completed (2012-08-16 21:40:43)
+Registration for worker at rmi://sagittaire-9.lyon.grid5000.fr:45435 completed (2012-08-16 21:40:43)
+Registration for worker at rmi://sagittaire-79.lyon.grid5000.fr:50855 completed (2012-08-16 21:40:43)
+Registration for worker at rmi://sagittaire-78.lyon.grid5000.fr:49443 completed (2012-08-16 21:40:43)
+Registration for worker at rmi://sagittaire-71.lyon.grid5000.fr:53759 completed (2012-08-16 21:40:43)
+Registration for worker at rmi://sagittaire-71.lyon.grid5000.fr:53759 completed (2012-08-16 21:40:43)
+Registration for worker at rmi://sagittaire-70.lyon.grid5000.fr:37906 completed (2012-08-16 21:40:43)
+Progress(17) at 2012-08-16 21:41:42: 1937016 states generated (1937016 s/min), 656949 distinct states found (656949 ds/min), 261945 states left on queue.
+Progress(20) at 2012-08-16 21:42:42: 5015459 states generated (3078443 s/min), 1386820 distinct states found (729871 ds/min), 466728 states left on queue.
+Progress(21) at 2012-08-16 21:43:42: 8114010 states generated (3098551 s/min), 2061623 distinct states found (674803 ds/min), 632508 states left on queue.
+Progress(22) at 2012-08-16 21:44:42: 11420868 states generated (3306858 s/min), 2730811 distinct states found (669188 ds/min), 775866 states left on queue.
+Progress(26) at 2012-08-16 21:45:42: 14401690 states generated (2980822 s/min), 3318252 distinct states found (587441 ds/min), 873354 states left on queue.
+Progress(26) at 2012-08-16 21:46:42: 17345048 states generated (2943358 s/min), 3845856 distinct states found (527604 ds/min), 937527 states left on queue.
+Progress(27) at 2012-08-16 21:47:42: 20503759 states generated (3158711 s/min), 4460615 distinct states found (614759 ds/min), 1065393 states left on queue.
+Progress(27) at 2012-08-16 21:48:42: 23804607 states generated (3300848 s/min), 5010820 distinct states found (550205 ds/min), 1095653 states left on queue.
+Progress(28) at 2012-08-16 21:49:42: 27065037 states generated (3260430 s/min), 5613777 distinct states found (602957 ds/min), 1182393 states left on queue.
+Progress(29) at 2012-08-16 21:50:42: 30232949 states generated (3167912 s/min), 6120428 distinct states found (506651 ds/min), 1195400 states left on queue.
+Progress(29) at 2012-08-16 21:51:42: 33226552 states generated (2993603 s/min), 6673723 distinct states found (553295 ds/min), 1279155 states left on queue.
+Progress(29) at 2012-08-16 21:52:43: 36603771 states generated (3377219 s/min), 7167731 distinct states found (494008 ds/min), 1262479 states left on queue.
+Progress(29) at 2012-08-16 21:53:43: 39941578 states generated (3337807 s/min), 7743508 distinct states found (575777 ds/min), 1310914 states left on queue.
+Progress(29) at 2012-08-16 21:54:43: 43237981 states generated (3296403 s/min), 8257607 distinct states found (514099 ds/min), 1322120 states left on queue.
+Progress(32) at 2012-08-16 21:55:43: 46385326 states generated (3147345 s/min), 8742748 distinct states found (485141 ds/min), 1312928 states left on queue.
+Progress(32) at 2012-08-16 21:56:43: 49499443 states generated (3114117 s/min), 9247971 distinct states found (505223 ds/min), 1341792 states left on queue.
+Progress(33) at 2012-08-16 21:57:43: 52709521 states generated (3210078 s/min), 9685722 distinct states found (437751 ds/min), 1288112 states left on queue.
+Progress(33) at 2012-08-16 21:58:43: 56078202 states generated (3368681 s/min), 10229880 distinct states found (544158 ds/min), 1312856 states left on queue.
+Progress(33) at 2012-08-16 21:59:43: 59473315 states generated (3395113 s/min), 10709379 distinct states found (479499 ds/min), 1265196 states left on queue.
+Progress(34) at 2012-08-16 22:00:43: 62523110 states generated (3049795 s/min), 11168286 distinct states found (458907 ds/min), 1246185 states left on queue.
+Progress(34) at 2012-08-16 22:01:43: 65656653 states generated (3133543 s/min), 11630543 distinct states found (462257 ds/min), 1222593 states left on queue.
+Progress(35) at 2012-08-16 22:02:43: 69169118 states generated (3512465 s/min), 12086415 distinct states found (455872 ds/min), 1143332 states left on queue.
+Progress(35) at 2012-08-16 22:03:43: 72254721 states generated (3085603 s/min), 12552990 distinct states found (466575 ds/min), 1132261 states left on queue.
+Progress(35) at 2012-08-16 22:04:43: 75733838 states generated (3479117 s/min), 12990498 distinct states found (437508 ds/min), 1026468 states left on queue.
+Progress(36) at 2012-08-16 22:05:43: 78801937 states generated (3068099 s/min), 13454850 distinct states found (464352 ds/min), 1005232 states left on queue.
+Progress(36) at 2012-08-16 22:06:43: 81906159 states generated (3104222 s/min), 13822439 distinct states found (367589 ds/min), 895875 states left on queue.
+Progress(37) at 2012-08-16 22:07:43: 85207322 states generated (3301163 s/min), 14295745 distinct states found (473306 ds/min), 842994 states left on queue.
+Progress(38) at 2012-08-16 22:08:43: 88510903 states generated (3303581 s/min), 14707425 distinct states found (411680 ds/min), 737054 states left on queue.
+Progress(38) at 2012-08-16 22:09:43: 91611224 states generated (3100321 s/min), 15095377 distinct states found (387952 ds/min), 632277 states left on queue.
+Checkpointing of run -- Checkpointing of run /tmp/8177/spec/states/12-08-16-21-40-39 compl
+Error: Failed to checkpoint the fingerprint server at sagittaire-70.lyon.grid5000.fr. This server might be down.
+Error: Failed to checkpoint the fingerprint server at sagittaire-75.lyon.grid5000.fr. This server might be down.
+Error: Failed to checkpoint the fingerprint server at sagittaire-71.lyon.grid5000.fr. This server might be down.
+Error: Failed to checkpoint the fingerprint server at sagittaire-78.lyon.grid5000.fr. This server might be down.
+Error: Failed to checkpoint the fingerprint server at sagittaire-79.lyon.grid5000.fr. This server might be down.
+Error: Failed to checkpoint the fingerprint server at sagittaire-9.lyon.grid5000.fr. This server might be down.
+Error: Failed to checkpoint the fingerprint server at sagittaire-7.lyon.grid5000.fr. This server might be down.
+Error: Failed to checkpoint the fingerprint server at sagittaire-6.lyon.grid5000.fr. This server might be down.
+Checkpointing completed at (2012-08-16 22:11:16)
+Progress(38) at 2012-08-16 22:11:16: 95555522 states generated (3944298 s/min), 15586158 distinct states found (490781 ds/min), 490858 states left on queue.
+Progress(41) at 2012-08-16 22:12:17: 98210044 states generated (2654522 s/min), 15920317 distinct states found (334159 ds/min), 397874 states left on queue.
+Progress(41) at 2012-08-16 22:13:17: 101495408 states generated (3285364 s/min), 16314548 distinct states found (394231 ds/min), 261204 states left on queue.
+Progress(46) at 2012-08-16 22:14:17: 104657010 states generated (3161602 s/min), 16681849 distinct states found (367301 ds/min), 87806 states left on queue.
+Worker: rmi://sagittaire-7.lyon.grid5000.fr:59335 Sent: 972689 Rcvd: 93132 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-71.lyon.grid5000.fr:53759 Sent: 1126557 Rcvd: 207541 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-75.lyon.grid5000.fr:60124 Sent: 1054892 Rcvd: 128595 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-70.lyon.grid5000.fr:37906 Sent: 1091014 Rcvd: 172996 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-7.lyon.grid5000.fr:59335 Sent: 970375 Rcvd: 95668 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-71.lyon.grid5000.fr:53759 Sent: 1123101 Rcvd: 203018 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-78.lyon.grid5000.fr:49443 Sent: 1107213 Rcvd: 180663 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-9.lyon.grid5000.fr:45435 Sent: 962096 Rcvd: 69939 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-9.lyon.grid5000.fr:45435 Sent: 963483 Rcvd: 76779 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-75.lyon.grid5000.fr:60124 Sent: 1055907 Rcvd: 129862 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-70.lyon.grid5000.fr:37906 Sent: 1093934 Rcvd: 164491 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-79.lyon.grid5000.fr:50855 Sent: 1108859 Rcvd: 180213 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-6.lyon.grid5000.fr:39019 Sent: 968750 Rcvd: 78268 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-79.lyon.grid5000.fr:50855 Sent: 1113126 Rcvd: 183663 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-78.lyon.grid5000.fr:49443 Sent: 1103775 Rcvd: 184712 (2012-08-16 22:14:38)
+Worker: rmi://sagittaire-6.lyon.grid5000.fr:39019 Sent: 961445 Rcvd: 79562 (2012-08-16 22:14:38)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 7.9E-5
+  based on the actual fingerprints:  val = 3.0E-11
+104121556 states generated, 16777216 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 47.
+Finished. (2012-08-16 22:14:44)
