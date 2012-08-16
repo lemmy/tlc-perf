@@ -1,0 +1,164 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/8177/spec/l10_n8.tla
+Parsing file /tmp/8177/spec/GridPerformanceTest.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-08-16 21:05:57)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at sagittaire-74.lyon.grid5000.fr is ready (2012-08-16 21:05:58)
+Registration for worker at rmi://sagittaire-61.lyon.grid5000.fr:57348 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-75.lyon.grid5000.fr:33943 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-49.lyon.grid5000.fr:52151 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-75.lyon.grid5000.fr:33943 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-49.lyon.grid5000.fr:52151 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-55.lyon.grid5000.fr:57672 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-78.lyon.grid5000.fr:48857 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-55.lyon.grid5000.fr:57672 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-61.lyon.grid5000.fr:57348 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-78.lyon.grid5000.fr:48857 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-28.lyon.grid5000.fr:39702 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-59.lyon.grid5000.fr:34751 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-58.lyon.grid5000.fr:59392 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-52.lyon.grid5000.fr:56291 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-9.lyon.grid5000.fr:47110 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-68.lyon.grid5000.fr:48504 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-70.lyon.grid5000.fr:57687 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-69.lyon.grid5000.fr:59749 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-66.lyon.grid5000.fr:42861 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-39.lyon.grid5000.fr:48823 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-68.lyon.grid5000.fr:48504 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-70.lyon.grid5000.fr:57687 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-5.lyon.grid5000.fr:52628 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-66.lyon.grid5000.fr:42861 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-39.lyon.grid5000.fr:48823 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-69.lyon.grid5000.fr:59749 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-79.lyon.grid5000.fr:60690 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-71.lyon.grid5000.fr:58993 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-56.lyon.grid5000.fr:43648 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-79.lyon.grid5000.fr:60690 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-71.lyon.grid5000.fr:58993 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-56.lyon.grid5000.fr:43648 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-19.lyon.grid5000.fr:59536 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-19.lyon.grid5000.fr:59536 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-6.lyon.grid5000.fr:56709 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-50.lyon.grid5000.fr:47854 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-6.lyon.grid5000.fr:56709 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-63.lyon.grid5000.fr:52732 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-51.lyon.grid5000.fr:54272 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-7.lyon.grid5000.fr:58481 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-50.lyon.grid5000.fr:47854 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-63.lyon.grid5000.fr:52732 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-51.lyon.grid5000.fr:54272 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-7.lyon.grid5000.fr:58481 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-67.lyon.grid5000.fr:45268 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-58.lyon.grid5000.fr:59392 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-31.lyon.grid5000.fr:44752 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-67.lyon.grid5000.fr:45268 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-48.lyon.grid5000.fr:39794 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-48.lyon.grid5000.fr:39794 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-31.lyon.grid5000.fr:44752 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-64.lyon.grid5000.fr:39300 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-64.lyon.grid5000.fr:39300 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-53.lyon.grid5000.fr:42221 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-53.lyon.grid5000.fr:42221 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-2.lyon.grid5000.fr:35121 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-65.lyon.grid5000.fr:57332 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-9.lyon.grid5000.fr:47110 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-28.lyon.grid5000.fr:39702 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-52.lyon.grid5000.fr:56291 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-5.lyon.grid5000.fr:52628 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-59.lyon.grid5000.fr:34751 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-2.lyon.grid5000.fr:35121 completed (2012-08-16 21:06:04)
+Registration for worker at rmi://sagittaire-65.lyon.grid5000.fr:57332 completed (2012-08-16 21:06:04)
+Progress(20) at 2012-08-16 21:07:04: 8827339 states generated (8827339 s/min), 2439070 distinct states found (2439070 ds/min), 982160 states left on queue.
+Progress(23) at 2012-08-16 21:08:04: 20837521 states generated (12010182 s/min), 4689733 distinct states found (2250663 ds/min), 1362906 states left on queue.
+Progress(29) at 2012-08-16 21:09:04: 33455179 states generated (12617658 s/min), 6807138 distinct states found (2117405 ds/min), 1553021 states left on queue.
+Progress(29) at 2012-08-16 21:10:05: 45733126 states generated (12277947 s/min), 8726804 distinct states found (1919666 ds/min), 1615176 states left on queue.
+Progress(30) at 2012-08-16 21:11:05: 57312440 states generated (11579314 s/min), 10423787 distinct states found (1696983 ds/min), 1553003 states left on queue.
+Progress(32) at 2012-08-16 21:12:05: 68864196 states generated (11551756 s/min), 12010895 distinct states found (1587108 ds/min), 1393403 states left on queue.
+Progress(35) at 2012-08-16 21:13:05: 81290573 states generated (12426377 s/min), 13634251 distinct states found (1623356 ds/min), 1133053 states left on queue.
+Progress(39) at 2012-08-16 21:14:05: 94121810 states generated (12831237 s/min), 15188516 distinct states found (1554265 ds/min), 726225 states left on queue.
+Progress(48) at 2012-08-16 21:15:06: 106891690 states generated (12769880 s/min), 16725664 distinct states found (1537148 ds/min), 265599 states left on queue.
+Worker: rmi://sagittaire-39.lyon.grid5000.fr:48823 Sent: 245103 Rcvd: 5563 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-65.lyon.grid5000.fr:57332 Sent: 263692 Rcvd: 7597 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-66.lyon.grid5000.fr:42861 Sent: 251356 Rcvd: 6515 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-9.lyon.grid5000.fr:47110 Sent: 254442 Rcvd: 8989 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-50.lyon.grid5000.fr:47854 Sent: 254238 Rcvd: 4223 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-70.lyon.grid5000.fr:57687 Sent: 272375 Rcvd: 11404 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-56.lyon.grid5000.fr:43648 Sent: 266254 Rcvd: 7423 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-6.lyon.grid5000.fr:56709 Sent: 261657 Rcvd: 11124 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-5.lyon.grid5000.fr:52628 Sent: 267593 Rcvd: 9380 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-63.lyon.grid5000.fr:52732 Sent: 257677 Rcvd: 9812 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-55.lyon.grid5000.fr:57672 Sent: 269241 Rcvd: 12191 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-59.lyon.grid5000.fr:34751 Sent: 269894 Rcvd: 10170 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-51.lyon.grid5000.fr:54272 Sent: 243998 Rcvd: 6236 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-2.lyon.grid5000.fr:35121 Sent: 245887 Rcvd: 4464 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-79.lyon.grid5000.fr:60690 Sent: 273002 Rcvd: 10695 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-70.lyon.grid5000.fr:57687 Sent: 273825 Rcvd: 11095 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-19.lyon.grid5000.fr:59536 Sent: 270948 Rcvd: 10341 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-48.lyon.grid5000.fr:39794 Sent: 272684 Rcvd: 11047 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-49.lyon.grid5000.fr:52151 Sent: 249966 Rcvd: 7969 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-6.lyon.grid5000.fr:56709 Sent: 264441 Rcvd: 9391 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-65.lyon.grid5000.fr:57332 Sent: 260232 Rcvd: 7187 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-64.lyon.grid5000.fr:39300 Sent: 271219 Rcvd: 10233 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-53.lyon.grid5000.fr:42221 Sent: 269073 Rcvd: 9922 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-64.lyon.grid5000.fr:39300 Sent: 274468 Rcvd: 9456 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-50.lyon.grid5000.fr:47854 Sent: 255076 Rcvd: 5020 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-78.lyon.grid5000.fr:48857 Sent: 272047 Rcvd: 10342 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-61.lyon.grid5000.fr:57348 Sent: 260311 Rcvd: 9278 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-67.lyon.grid5000.fr:45268 Sent: 259929 Rcvd: 9175 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-68.lyon.grid5000.fr:48504 Sent: 277014 Rcvd: 9363 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-2.lyon.grid5000.fr:35121 Sent: 244502 Rcvd: 4888 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-55.lyon.grid5000.fr:57672 Sent: 270309 Rcvd: 10238 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-51.lyon.grid5000.fr:54272 Sent: 242542 Rcvd: 5426 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-28.lyon.grid5000.fr:39702 Sent: 267751 Rcvd: 7072 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-53.lyon.grid5000.fr:42221 Sent: 268192 Rcvd: 11631 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-7.lyon.grid5000.fr:58481 Sent: 248880 Rcvd: 4670 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-49.lyon.grid5000.fr:52151 Sent: 253159 Rcvd: 6813 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-63.lyon.grid5000.fr:52732 Sent: 257472 Rcvd: 10004 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-71.lyon.grid5000.fr:58993 Sent: 262632 Rcvd: 8809 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-58.lyon.grid5000.fr:59392 Sent: 267477 Rcvd: 6710 (2012-08-16 21:15:19)
+Worker: rmi://sagittaire-66.lyon.grid5000.fr:42861 Sent: 249916 Rcvd: 6691 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-71.lyon.grid5000.fr:58993 Sent: 261295 Rcvd: 10158 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-31.lyon.grid5000.fr:44752 Sent: 251713 Rcvd: 8807 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-5.lyon.grid5000.fr:52628 Sent: 266679 Rcvd: 13929 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-19.lyon.grid5000.fr:59536 Sent: 273917 Rcvd: 11057 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-56.lyon.grid5000.fr:43648 Sent: 264916 Rcvd: 7792 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-52.lyon.grid5000.fr:56291 Sent: 257418 Rcvd: 6623 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-7.lyon.grid5000.fr:58481 Sent: 247508 Rcvd: 4986 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-28.lyon.grid5000.fr:39702 Sent: 266421 Rcvd: 8407 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-59.lyon.grid5000.fr:34751 Sent: 268418 Rcvd: 11549 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-69.lyon.grid5000.fr:59749 Sent: 264488 Rcvd: 7460 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-52.lyon.grid5000.fr:56291 Sent: 258660 Rcvd: 6725 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-79.lyon.grid5000.fr:60690 Sent: 271709 Rcvd: 12370 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-48.lyon.grid5000.fr:39794 Sent: 273376 Rcvd: 11039 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-75.lyon.grid5000.fr:33943 Sent: 273124 Rcvd: 12767 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-68.lyon.grid5000.fr:48504 Sent: 278711 Rcvd: 11323 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-58.lyon.grid5000.fr:59392 Sent: 260403 Rcvd: 9380 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-69.lyon.grid5000.fr:59749 Sent: 263720 Rcvd: 7467 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-78.lyon.grid5000.fr:48857 Sent: 271568 Rcvd: 9617 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-39.lyon.grid5000.fr:48823 Sent: 249056 Rcvd: 6238 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-61.lyon.grid5000.fr:57348 Sent: 254672 Rcvd: 8999 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-31.lyon.grid5000.fr:44752 Sent: 252119 Rcvd: 8695 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-9.lyon.grid5000.fr:47110 Sent: 258210 Rcvd: 8271 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-75.lyon.grid5000.fr:33943 Sent: 271353 Rcvd: 10615 (2012-08-16 21:15:20)
+Worker: rmi://sagittaire-67.lyon.grid5000.fr:45268 Sent: 257288 Rcvd: 8953 (2012-08-16 21:15:20)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 8.2E-5
+  based on the actual fingerprints:  val = 3.7E-12
+107162221 states generated, 16777216 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 48.
+Finished. (2012-08-16 21:15:36)
