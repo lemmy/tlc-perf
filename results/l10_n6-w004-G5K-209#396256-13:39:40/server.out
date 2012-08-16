@@ -1,0 +1,91 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/8550/spec/l10_n6.tla
+Parsing file /tmp/8550/spec/GridPerformanceTest.tla
+Parsing file /tmp/8550/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/8550/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/8550/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/8550/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/8550/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-08-16 13:39:45)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at griffon-47.nancy.grid5000.fr is ready (2012-08-16 13:39:46)
+Registration for worker at rmi://griffon-72.nancy.grid5000.fr:58760 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:33786 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:51248 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-72.nancy.grid5000.fr:58760 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:33786 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:33786 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-72.nancy.grid5000.fr:58760 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:33786 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:51248 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-72.nancy.grid5000.fr:58760 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-49.nancy.grid5000.fr:51991 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-49.nancy.grid5000.fr:51991 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-49.nancy.grid5000.fr:51991 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-49.nancy.grid5000.fr:51991 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:51248 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:33786 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:33786 completed (2012-08-16 13:39:48)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:51248 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-49.nancy.grid5000.fr:51991 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:51248 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:33786 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:51248 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-72.nancy.grid5000.fr:58760 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-85.nancy.grid5000.fr:33786 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-72.nancy.grid5000.fr:58760 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:51248 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-72.nancy.grid5000.fr:58760 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-49.nancy.grid5000.fr:51991 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-72.nancy.grid5000.fr:58760 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-49.nancy.grid5000.fr:51991 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-83.nancy.grid5000.fr:51248 completed (2012-08-16 13:39:49)
+Registration for worker at rmi://griffon-49.nancy.grid5000.fr:51991 completed (2012-08-16 13:39:49)
+Worker: rmi://griffon-49.nancy.grid5000.fr:51991 Sent: 8200 Rcvd: 1827 (2012-08-16 13:40:00)
+Worker: rmi://griffon-49.nancy.grid5000.fr:51991 Sent: 8111 Rcvd: 2166 (2012-08-16 13:40:00)
+Worker: rmi://griffon-85.nancy.grid5000.fr:33786 Sent: 7929 Rcvd: 1794 (2012-08-16 13:40:00)
+Worker: rmi://griffon-49.nancy.grid5000.fr:51991 Sent: 8276 Rcvd: 2045 (2012-08-16 13:40:00)
+Worker: rmi://griffon-49.nancy.grid5000.fr:51991 Sent: 7994 Rcvd: 1915 (2012-08-16 13:40:00)
+Worker: rmi://griffon-72.nancy.grid5000.fr:58760 Sent: 8264 Rcvd: 2624 (2012-08-16 13:40:00)
+Worker: rmi://griffon-49.nancy.grid5000.fr:51991 Sent: 7953 Rcvd: 1889 (2012-08-16 13:40:00)
+Worker: rmi://griffon-85.nancy.grid5000.fr:33786 Sent: 8187 Rcvd: 1963 (2012-08-16 13:40:00)
+Worker: rmi://griffon-72.nancy.grid5000.fr:58760 Sent: 7940 Rcvd: 2772 (2012-08-16 13:40:00)
+Worker: rmi://griffon-83.nancy.grid5000.fr:51248 Sent: 8149 Rcvd: 1733 (2012-08-16 13:40:00)
+Worker: rmi://griffon-85.nancy.grid5000.fr:33786 Sent: 8112 Rcvd: 1926 (2012-08-16 13:40:00)
+Worker: rmi://griffon-72.nancy.grid5000.fr:58760 Sent: 8183 Rcvd: 2338 (2012-08-16 13:40:00)
+Worker: rmi://griffon-83.nancy.grid5000.fr:51248 Sent: 8140 Rcvd: 1802 (2012-08-16 13:40:00)
+Worker: rmi://griffon-72.nancy.grid5000.fr:58760 Sent: 8165 Rcvd: 2998 (2012-08-16 13:40:01)
+Worker: rmi://griffon-85.nancy.grid5000.fr:33786 Sent: 8172 Rcvd: 2108 (2012-08-16 13:40:01)
+Worker: rmi://griffon-72.nancy.grid5000.fr:58760 Sent: 8370 Rcvd: 1919 (2012-08-16 13:40:01)
+Worker: rmi://griffon-83.nancy.grid5000.fr:51248 Sent: 8326 Rcvd: 1559 (2012-08-16 13:40:01)
+Worker: rmi://griffon-49.nancy.grid5000.fr:51991 Sent: 7951 Rcvd: 2736 (2012-08-16 13:40:01)
+Worker: rmi://griffon-83.nancy.grid5000.fr:51248 Sent: 8406 Rcvd: 2662 (2012-08-16 13:40:01)
+Worker: rmi://griffon-49.nancy.grid5000.fr:51991 Sent: 8330 Rcvd: 1809 (2012-08-16 13:40:01)
+Worker: rmi://griffon-85.nancy.grid5000.fr:33786 Sent: 8719 Rcvd: 2117 (2012-08-16 13:40:01)
+Worker: rmi://griffon-49.nancy.grid5000.fr:51991 Sent: 8225 Rcvd: 1709 (2012-08-16 13:40:01)
+Worker: rmi://griffon-72.nancy.grid5000.fr:58760 Sent: 8596 Rcvd: 1779 (2012-08-16 13:40:01)
+Worker: rmi://griffon-72.nancy.grid5000.fr:58760 Sent: 8263 Rcvd: 1515 (2012-08-16 13:40:01)
+Worker: rmi://griffon-85.nancy.grid5000.fr:33786 Sent: 7911 Rcvd: 1425 (2012-08-16 13:40:01)
+Worker: rmi://griffon-85.nancy.grid5000.fr:33786 Sent: 8005 Rcvd: 1617 (2012-08-16 13:40:01)
+Worker: rmi://griffon-72.nancy.grid5000.fr:58760 Sent: 8339 Rcvd: 1957 (2012-08-16 13:40:01)
+Worker: rmi://griffon-83.nancy.grid5000.fr:51248 Sent: 7985 Rcvd: 2775 (2012-08-16 13:40:01)
+Worker: rmi://griffon-83.nancy.grid5000.fr:51248 Sent: 7939 Rcvd: 2594 (2012-08-16 13:40:01)
+Worker: rmi://griffon-83.nancy.grid5000.fr:51248 Sent: 8213 Rcvd: 2154 (2012-08-16 13:40:01)
+Worker: rmi://griffon-85.nancy.grid5000.fr:33786 Sent: 8075 Rcvd: 1793 (2012-08-16 13:40:01)
+Worker: rmi://griffon-83.nancy.grid5000.fr:51248 Sent: 8716 Rcvd: 2288 (2012-08-16 13:40:01)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.1E-8
+  based on the actual fingerprints:  val = 2.7E-14
+1018766 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 29.
+Finished. (2012-08-16 13:40:04)
