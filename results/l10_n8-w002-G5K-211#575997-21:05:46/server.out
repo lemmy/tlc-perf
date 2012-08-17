@@ -1,0 +1,72 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /tmp/8177/spec/l10_n8.tla
+Parsing file /tmp/8177/spec/GridPerformanceTest.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/8177/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-08-16 23:31:28)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at sagittaire-74.lyon.grid5000.fr is ready (2012-08-16 23:31:29)
+Registration for worker at rmi://sagittaire-9.lyon.grid5000.fr:58964 completed (2012-08-16 23:31:33)
+Registration for worker at rmi://sagittaire-9.lyon.grid5000.fr:58964 completed (2012-08-16 23:31:33)
+Registration for worker at rmi://sagittaire-7.lyon.grid5000.fr:47756 completed (2012-08-16 23:31:33)
+Registration for worker at rmi://sagittaire-7.lyon.grid5000.fr:47756 completed (2012-08-16 23:31:33)
+Progress(15) at 2012-08-16 23:32:32: 415836 states generated (415836 s/min), 174249 distinct states found (174249 ds/min), 75527 states left on queue.
+Progress(17) at 2012-08-16 23:33:32: 1053271 states generated (637435 s/min), 361495 distinct states found (187246 ds/min), 139836 states left on queue.
+Progress(18) at 2012-08-16 23:34:32: 1734227 states generated (680956 s/min), 537052 distinct states found (175557 ds/min), 192428 states left on queue.
+Progress(18) at 2012-08-16 23:35:32: 2390657 states generated (656430 s/min), 696913 distinct states found (159861 ds/min), 237449 states left on queue.
+Progress(18) at 2012-08-16 23:36:32: 2905457 states generated (514800 s/min), 805213 distinct states found (108300 ds/min), 255538 states left on queue.
+Progress(19) at 2012-08-16 23:37:33: 3578529 states generated (673072 s/min), 978307 distinct states found (173094 ds/min), 313779 states left on queue.
+Progress(19) at 2012-08-16 23:38:33: 4305966 states generated (727437 s/min), 1122161 distinct states found (143854 ds/min), 334556 states left on queue.
+Progress(20) at 2012-08-16 23:39:33: 5093892 states generated (787926 s/min), 1292167 distinct states found (170006 ds/min), 373249 states left on queue.
+Progress(20) at 2012-08-16 23:40:33: 5681858 states generated (587966 s/min), 1422919 distinct states found (130752 ds/min), 405505 states left on queue.
+Progress(21) at 2012-08-16 23:41:33: 6271569 states generated (589711 s/min), 1541795 distinct states found (118876 ds/min), 425910 states left on queue.
+Progress(21) at 2012-08-16 23:42:33: 7025841 states generated (754272 s/min), 1704878 distinct states found (163083 ds/min), 465858 states left on queue.
+Progress(21) at 2012-08-16 23:43:33: 7770857 states generated (745016 s/min), 1863342 distinct states found (158464 ds/min), 501162 states left on queue.
+Progress(22) at 2012-08-16 23:44:33: 8472491 states generated (701634 s/min), 1999089 distinct states found (135747 ds/min), 521943 states left on queue.
+Progress(22) at 2012-08-16 23:45:33: 9190336 states generated (717845 s/min), 2164727 distinct states found (165638 ds/min), 564364 states left on queue.
+Progress(22) at 2012-08-16 23:46:33: 9766862 states generated (576526 s/min), 2262953 distinct states found (98226 ds/min), 572260 states left on queue.
+Progress(22) at 2012-08-16 23:47:33: 10416639 states generated (649777 s/min), 2398784 distinct states found (135831 ds/min), 601334 states left on queue.
+Progress(22) at 2012-08-16 23:48:33: 11234185 states generated (817546 s/min), 2539532 distinct states found (140748 ds/min), 610691 states left on queue.
+Progress(23) at 2012-08-16 23:49:33: 11975631 states generated (741446 s/min), 2687417 distinct states found (147885 ds/min), 635280 states left on queue.
+Progress(23) at 2012-08-16 23:50:33: 12619714 states generated (644083 s/min), 2838275 distinct states found (150858 ds/min), 679301 states left on queue.
+Progress(23) at 2012-08-16 23:51:33: 13254424 states generated (634710 s/min), 2938482 distinct states found (100207 ds/min), 680956 states left on queue.
+Progress(23) at 2012-08-16 23:52:33: 14017492 states generated (763068 s/min), 3087248 distinct states found (148766 ds/min), 706421 states left on queue.
+Progress(24) at 2012-08-16 23:53:33: 14792985 states generated (775493 s/min), 3207944 distinct states found (120696 ds/min), 703808 states left on queue.
+Progress(25) at 2012-08-16 23:54:33: 15492604 states generated (699619 s/min), 3360151 distinct states found (152207 ds/min), 740873 states left on queue.
+Progress(25) at 2012-08-16 23:55:33: 16171418 states generated (678814 s/min), 3503822 distinct states found (143671 ds/min), 769434 states left on queue.
+Progress(25) at 2012-08-16 23:56:33: 16790361 states generated (618943 s/min), 3622451 distinct states found (118629 ds/min), 789457 states left on queue.
+Progress(25) at 2012-08-16 23:57:33: 17522063 states generated (731702 s/min), 3734281 distinct states found (111830 ds/min), 786207 states left on queue.
+Progress(25) at 2012-08-16 23:58:33: 18219863 states generated (697800 s/min), 3871448 distinct states found (137167 ds/min), 808263 states left on queue.
+Progress(25) at 2012-08-16 23:59:33: 19037434 states generated (817571 s/min), 3995987 distinct states found (124539 ds/min), 801304 states left on queue.
+Progress(25) at 2012-08-17 00:00:33: 19643161 states generated (605727 s/min), 4134759 distinct states found (138772 ds/min), 841350 states left on queue.
+Checkpointing of run -- Checkpointing of run /tmp/8177/spec/states/12-08-16-23-31-28 compl
+Error: Failed to checkpoint the fingerprint server at sagittaire-7.lyon.grid5000.fr. This server might be down.
+Error: Failed to checkpoint the fingerprint server at sagittaire-9.lyon.grid5000.fr. This server might be down.
+Checkpointing completed at (2012-08-17 00:01:43)
+Progress(25) at 2012-08-17 00:01:43: 20433961 states generated (790800 s/min), 4276308 distinct states found (141549 ds/min), 851490 states left on queue.
+Progress(25) at 2012-08-17 00:02:43: 21043383 states generated (609422 s/min), 4405510 distinct states found (129202 ds/min), 881718 states left on queue.
+Progress(25) at 2012-08-17 00:03:43: 21877380 states generated (833997 s/min), 4545817 distinct states found (140307 ds/min), 890439 states left on queue.
+Progress(25) at 2012-08-17 00:04:43: 22590060 states generated (712680 s/min), 4657658 distinct states found (111841 ds/min), 887182 states left on queue.
+Progress(25) at 2012-08-17 00:05:43: 23251142 states generated (661082 s/min), 4783688 distinct states found (126030 ds/min), 906253 states left on queue.
+Progress(26) at 2012-08-17 00:06:43: 23872819 states generated (621677 s/min), 4868000 distinct states found (84312 ds/min), 891954 states left on queue.
+Progress(26) at 2012-08-17 00:07:43: 24625738 states generated (752919 s/min), 5041584 distinct states found (173584 ds/min), 941938 states left on queue.
+Progress(26) at 2012-08-17 00:08:43: 25339514 states generated (713776 s/min), 5163123 distinct states found (121539 ds/min), 948258 states left on queue.
+Progress(26) at 2012-08-17 00:09:43: 26090350 states generated (750836 s/min), 5297614 distinct states found (134491 ds/min), 967507 states left on queue.
+Progress(26) at 2012-08-17 00:10:43: 26726229 states generated (635879 s/min), 5408460 distinct states found (110846 ds/min), 971342 states left on queue.
+Progress(26) at 2012-08-17 00:11:43: 27348836 states generated (622607 s/min), 5510278 distinct states found (101818 ds/min), 974464 states left on queue.
+Progress(26) at 2012-08-17 00:12:43: 28100924 states generated (752088 s/min), 5633484 distinct states found (123206 ds/min), 974328 states left on queue.
+Progress(26) at 2012-08-17 00:13:43: 28872078 states generated (771154 s/min), 5762811 distinct states found (129327 ds/min), 980243 states left on queue.
+Progress(27) at 2012-08-17 00:14:43: 29586617 states generated (714539 s/min), 5874152 distinct states found (111341 ds/min), 976388 states left on queue.
+Progress(27) at 2012-08-17 00:15:43: 30243190 states generated (656573 s/min), 6025179 distinct states found (151027 ds/min), 1020364 states left on queue.
+Progress(28) at 2012-08-17 00:16:43: 30866503 states generated (623313 s/min), 6126867 distinct states found (101688 ds/min), 1023295 states left on queue.
