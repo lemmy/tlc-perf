@@ -1,0 +1,254 @@
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/3173/spec/l4_n10.tla
+Parsing file /mnt/tlc/3173/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/3173/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/3173/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/3173/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/3173/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/3173/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l4_n10
+Starting... (2012-08-20 10:21:13)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-157-4-35 is ready (2012-08-20 10:21:16)
+Registration for worker at rmi://ip-10-31-131-49.ec2.internal:49208 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-131-49.ec2.internal:49208 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-131-49.ec2.internal:49208 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-131-49.ec2.internal:49208 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-131-49.ec2.internal:49208 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-131-49.ec2.internal:49208 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-131-49.ec2.internal:49208 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-131-49.ec2.internal:49208 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-137-3.ec2.internal:34066 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-137-3.ec2.internal:34066 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-137-3.ec2.internal:34066 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-137-3.ec2.internal:34066 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-137-3.ec2.internal:34066 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-137-3.ec2.internal:34066 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-137-3.ec2.internal:34066 completed (2012-08-20 10:21:18)
+Registration for worker at rmi://ip-10-31-137-3.ec2.internal:34066 completed (2012-08-20 10:21:18)
+Progress(19) at 2012-08-20 10:22:16: 47935440 states generated (47,935,440 s/min), 8322231 distinct states found (8,322,231 ds/min), 3117408 states left on queue.
+Progress(20) at 2012-08-20 10:23:16: 102338264 states generated (54,402,824 s/min), 16604816 distinct states found (8,282,585 ds/min), 5799376 states left on queue.
+Progress(22) at 2012-08-20 10:24:16: 158509031 states generated (56,170,767 s/min), 24675791 distinct states found (8,070,975 ds/min), 7972384 states left on queue.
+Progress(23) at 2012-08-20 10:25:16: 210132512 states generated (51,623,481 s/min), 32234823 distinct states found (7,559,032 ds/min), 10064022 states left on queue.
+Progress(23) at 2012-08-20 10:26:16: 266255732 states generated (56,123,220 s/min), 40042245 distinct states found (7,807,422 ds/min), 11970632 states left on queue.
+Progress(23) at 2012-08-20 10:27:16: 328463675 states generated (62,207,943 s/min), 48116506 distinct states found (8,074,261 ds/min), 13520094 states left on queue.
+Progress(24) at 2012-08-20 10:28:16: 384974207 states generated (56,510,532 s/min), 56238241 distinct states found (8,121,735 ds/min), 15669562 states left on queue.
+Progress(24) at 2012-08-20 10:29:16: 447317548 states generated (62,343,341 s/min), 64140265 distinct states found (7,902,024 ds/min), 17054010 states left on queue.
+Progress(25) at 2012-08-20 10:30:16: 500937683 states generated (53,620,135 s/min), 71673449 distinct states found (7,533,184 ds/min), 18831069 states left on queue.
+Progress(26) at 2012-08-20 10:31:16: 559751785 states generated (58,814,102 s/min), 79545491 distinct states found (7,872,042 ds/min), 20594721 states left on queue.
+Progress(26) at 2012-08-20 10:32:16: 624890287 states generated (65,138,502 s/min), 87535196 distinct states found (7,989,705 ds/min), 21722845 states left on queue.
+Progress(26) at 2012-08-20 10:33:16: 684594930 states generated (59,704,643 s/min), 95555485 distinct states found (8,020,289 ds/min), 23434973 states left on queue.
+Progress(27) at 2012-08-20 10:34:16: 746735319 states generated (62,140,389 s/min), 103709052 distinct states found (8,153,567 ds/min), 25065181 states left on queue.
+Progress(27) at 2012-08-20 10:35:16: 810742428 states generated (64,007,109 s/min), 110876336 distinct states found (7,167,284 ds/min), 25412311 states left on queue.
+Progress(27) at 2012-08-20 10:36:16: 862268241 states generated (51,525,813 s/min), 118294883 distinct states found (7,418,547 ds/min), 27411159 states left on queue.
+Progress(27) at 2012-08-20 10:37:16: 925022245 states generated (62,754,004 s/min), 126039782 distinct states found (7,744,899 ds/min), 28541664 states left on queue.
+Progress(27) at 2012-08-20 10:38:16: 987044927 states generated (62,022,682 s/min), 134116694 distinct states found (8,076,912 ds/min), 30073559 states left on queue.
+Progress(28) at 2012-08-20 10:39:16: 1056376934 states generated (69,332,007 s/min), 142004031 distinct states found (7,887,337 ds/min), 30638807 states left on queue.
+Progress(28) at 2012-08-20 10:40:16: 1110005271 states generated (53,628,337 s/min), 149394971 distinct states found (7,390,940 ds/min), 32250102 states left on queue.
+Progress(28) at 2012-08-20 10:41:16: 1174689837 states generated (64,684,566 s/min), 157088548 distinct states found (7,693,577 ds/min), 33193312 states left on queue.
+Progress(29) at 2012-08-20 10:42:17: 1235281785 states generated (60,591,948 s/min), 164787386 distinct states found (7,698,838 ds/min), 34471264 states left on queue.
+Progress(29) at 2012-08-20 10:43:17: 1301967736 states generated (66,685,951 s/min), 172671348 distinct states found (7,883,962 ds/min), 35364192 states left on queue.
+Progress(29) at 2012-08-20 10:44:17: 1364496006 states generated (62,528,270 s/min), 180571074 distinct states found (7,899,726 ds/min), 36535648 states left on queue.
+Progress(29) at 2012-08-20 10:45:17: 1421569486 states generated (57,073,480 s/min), 187822301 distinct states found (7,251,227 ds/min), 37721474 states left on queue.
+Progress(29) at 2012-08-20 10:46:17: 1485076064 states generated (63,506,578 s/min), 194907585 distinct states found (7,085,284 ds/min), 38155650 states left on queue.
+Progress(30) at 2012-08-20 10:47:17: 1545412161 states generated (60,336,097 s/min), 202474049 distinct states found (7,566,464 ds/min), 39343490 states left on queue.
+Progress(30) at 2012-08-20 10:48:17: 1610747355 states generated (65,335,194 s/min), 210360982 distinct states found (7,886,933 ds/min), 40330082 states left on queue.
+Progress(30) at 2012-08-20 10:49:17: 1678283447 states generated (67,536,092 s/min), 218118646 distinct states found (7,757,664 ds/min), 40859010 states left on queue.
+Progress(30) at 2012-08-20 10:50:17: 1732763812 states generated (54,480,365 s/min), 225252513 distinct states found (7,133,867 ds/min), 42164738 states left on queue.
+Progress(30) at 2012-08-20 10:51:17: 1785015393 states generated (52,251,581 s/min), 231429603 distinct states found (6,177,090 ds/min), 42902018 states left on queue.
+Progress(30) at 2012-08-20 10:52:17: 1834984387 states generated (49,968,994 s/min), 236946264 distinct states found (5,516,661 ds/min), 43106818 states left on queue.
+Progress(31) at 2012-08-20 10:53:17: 1883112985 states generated (48,128,598 s/min), 242837019 distinct states found (5,890,755 ds/min), 43936099 states left on queue.
+Progress(31) at 2012-08-20 10:54:17: 1935521435 states generated (52,408,450 s/min), 249526402 distinct states found (6,689,383 ds/min), 44851714 states left on queue.
+Flushed disk DiskFPSet0 1. time, in 21 sec
+Progress(31) at 2012-08-20 10:55:17: 1947032688 states generated (11,511,253 s/min), 250917651 distinct states found (1,391,249 ds/min), 45221101 states left on queue.
+Flushed disk DiskFPSet1 1. time, in 28 sec
+Progress(31) at 2012-08-20 10:56:17: 1995885723 states generated (48,853,035 s/min), 256317738 distinct states found (5,400,087 ds/min), 45326971 states left on queue.
+Progress(31) at 2012-08-20 10:57:17: 2052050269 states generated (56,164,546 s/min), 262667151 distinct states found (6,349,413 ds/min), 45687419 states left on queue.
+Progress(31) at 2012-08-20 10:58:17: 2105671919 states generated (53,621,650 s/min), 269536474 distinct states found (6,869,323 ds/min), 46809723 states left on queue.
+Progress(31) at 2012-08-20 10:59:17: 2162212494 states generated (56,540,575 s/min), 276234113 distinct states found (6,697,639 ds/min), 47530619 states left on queue.
+Progress(31) at 2012-08-20 11:00:17: 2216320462 states generated (54,107,968 s/min), 282052459 distinct states found (5,818,346 ds/min), 47611083 states left on queue.
+Progress(31) at 2012-08-20 11:01:17: 2267814865 states generated (51,494,403 s/min), 288045608 distinct states found (5,993,149 ds/min), 48037067 states left on queue.
+Progress(32) at 2012-08-20 11:02:17: 2319579167 states generated (51,764,302 s/min), 294537323 distinct states found (6,491,715 ds/min), 49061067 states left on queue.
+Progress(32) at 2012-08-20 11:03:17: 2371744282 states generated (52,165,115 s/min), 300993008 distinct states found (6,455,685 ds/min), 49953995 states left on queue.
+Progress(32) at 2012-08-20 11:04:17: 2433090050 states generated (61,345,768 s/min), 307382882 distinct states found (6,389,874 ds/min), 49732811 states left on queue.
+Progress(32) at 2012-08-20 11:05:17: 2485312011 states generated (52,221,961 s/min), 313800265 distinct states found (6,417,383 ds/min), 50435598 states left on queue.
+Progress(32) at 2012-08-20 11:06:17: 2534400041 states generated (49,088,030 s/min), 319914756 distinct states found (6,114,491 ds/min), 51316967 states left on queue.
+Progress(32) at 2012-08-20 11:07:17: 2591118607 states generated (56,718,566 s/min), 326394590 distinct states found (6,479,834 ds/min), 51714281 states left on queue.
+Progress(32) at 2012-08-20 11:08:17: 2650744232 states generated (59,625,625 s/min), 332746412 distinct states found (6,351,822 ds/min), 51747621 states left on queue.
+Progress(32) at 2012-08-20 11:09:17: 2709378470 states generated (58,634,238 s/min), 339410026 distinct states found (6,663,614 ds/min), 52037863 states left on queue.
+Progress(33) at 2012-08-20 11:10:17: 2757880662 states generated (48,502,192 s/min), 345608624 distinct states found (6,198,598 ds/min), 53111015 states left on queue.
+Progress(33) at 2012-08-20 11:11:17: 2808189532 states generated (50,308,870 s/min), 351477804 distinct states found (5,869,180 ds/min), 53586151 states left on queue.
+Progress(33) at 2012-08-20 11:12:17: 2865453460 states generated (57,263,928 s/min), 357778199 distinct states found (6,300,395 ds/min), 53749991 states left on queue.
+Progress(33) at 2012-08-20 11:13:17: 2924019756 states generated (58,566,296 s/min), 363876385 distinct states found (6,098,186 ds/min), 53307623 states left on queue.
+Progress(33) at 2012-08-20 11:14:17: 2974170792 states generated (50,151,036 s/min), 370496092 distinct states found (6,619,707 ds/min), 54618343 states left on queue.
+Progress(33) at 2012-08-20 11:15:17: 3027589113 states generated (53,418,321 s/min), 376506887 distinct states found (6,010,795 ds/min), 54905556 states left on queue.
+Progress(33) at 2012-08-20 11:16:17: 3079704846 states generated (52,115,733 s/min), 382478630 distinct states found (5,971,743 ds/min), 55233236 states left on queue.
+Progress(33) at 2012-08-20 11:17:17: 3141057761 states generated (61,352,915 s/min), 388568102 distinct states found (6,089,472 ds/min), 54827189 states left on queue.
+Progress(34) at 2012-08-20 11:18:17: 3194798016 states generated (53,740,255 s/min), 395126550 distinct states found (6,558,448 ds/min), 55585492 states left on queue.
+Progress(34) at 2012-08-20 11:19:17: 3243903059 states generated (49,105,043 s/min), 401439164 distinct states found (6,312,614 ds/min), 56584916 states left on queue.
+Progress(34) at 2012-08-20 11:20:17: 3295968204 states generated (52,065,145 s/min), 407268366 distinct states found (5,829,202 ds/min), 56767729 states left on queue.
+Progress(34) at 2012-08-20 11:21:17: 3343669460 states generated (47,701,256 s/min), 412690351 distinct states found (5,421,985 ds/min), 57144561 states left on queue.
+Progress(34) at 2012-08-20 11:22:17: 3400642736 states generated (56,973,276 s/min), 418091864 distinct states found (5,401,513 ds/min), 56325865 states left on queue.
+Progress(34) at 2012-08-20 11:23:17: 3446445154 states generated (45,802,418 s/min), 424203869 distinct states found (6,112,005 ds/min), 57390321 states left on queue.
+Progress(34) at 2012-08-20 11:24:17: 3497426463 states generated (50,981,309 s/min), 430027654 distinct states found (5,823,785 ds/min), 57673173 states left on queue.
+Progress(34) at 2012-08-20 11:25:17: 3545049104 states generated (47,622,641 s/min), 435294756 distinct states found (5,267,102 ds/min), 57848265 states left on queue.
+Progress(34) at 2012-08-20 11:26:17: 3593141914 states generated (48,092,810 s/min), 440442868 distinct states found (5,148,112 ds/min), 57860997 states left on queue.
+Progress(34) at 2012-08-20 11:27:17: 3644006684 states generated (50,864,770 s/min), 445488757 distinct states found (5,045,889 ds/min), 57397705 states left on queue.
+Progress(35) at 2012-08-20 11:28:17: 3689295678 states generated (45,288,994 s/min), 450675183 distinct states found (5,186,426 ds/min), 57422281 states left on queue.
+Progress(35) at 2012-08-20 11:29:17: 3730099296 states generated (40,803,618 s/min), 456021379 distinct states found (5,346,196 ds/min), 58522262 states left on queue.
+Progress(35) at 2012-08-20 11:30:17: 3769960607 states generated (39,861,311 s/min), 460835456 distinct states found (4,814,077 ds/min), 59094110 states left on queue.
+Progress(35) at 2012-08-20 11:31:17: 3809737361 states generated (39,776,754 s/min), 465144114 distinct states found (4,308,658 ds/min), 59024362 states left on queue.
+Progress(35) at 2012-08-20 11:32:17: 3848270110 states generated (38,532,749 s/min), 469748592 distinct states found (4,604,478 ds/min), 59478473 states left on queue.
+Progress(35) at 2012-08-20 11:33:17: 3890736019 states generated (42,465,909 s/min), 473918438 distinct states found (4,169,846 ds/min), 59027913 states left on queue.
+Flushed disk DiskFPSet0 2. time, in 35 sec
+Progress(35) at 2012-08-20 11:34:17: 3899153296 states generated (8,417,277 s/min), 474606586 distinct states found (688,148 ds/min), 58832846 states left on queue.
+Flushed disk DiskFPSet1 2. time, in 34 sec
+Progress(35) at 2012-08-20 11:35:17: 3933323822 states generated (34,170,526 s/min), 478288563 distinct states found (3,681,977 ds/min), 58535930 states left on queue.
+Progress(35) at 2012-08-20 11:36:17: 3979862720 states generated (46,538,898 s/min), 484387099 distinct states found (6,098,536 ds/min), 59592698 states left on queue.
+Progress(35) at 2012-08-20 11:37:17: 4036942571 states generated (57,079,851 s/min), 490683874 distinct states found (6,296,775 ds/min), 59666426 states left on queue.
+Progress(35) at 2012-08-20 11:38:17: 4095642059 states generated (58,699,488 s/min), 497153244 distinct states found (6,469,370 ds/min), 59785829 states left on queue.
+Progress(35) at 2012-08-20 11:39:17: 4157862372 states generated (62,220,313 s/min), 503125811 distinct states found (5,972,567 ds/min), 58978298 states left on queue.
+Progress(36) at 2012-08-20 11:40:17: 4213094176 states generated (55,231,804 s/min), 509161863 distinct states found (6,036,052 ds/min), 58833791 states left on queue.
+Progress(36) at 2012-08-20 11:41:17: 4259326119 states generated (46,231,943 s/min), 515335923 distinct states found (6,174,060 ds/min), 60128234 states left on queue.
+Progress(36) at 2012-08-20 11:42:17: 4311981920 states generated (52,655,801 s/min), 521549719 distinct states found (6,213,796 ds/min), 60627946 states left on queue.
+Progress(36) at 2012-08-20 11:43:17: 4366310281 states generated (54,328,361 s/min), 527451988 distinct states found (5,902,269 ds/min), 60566835 states left on queue.
+Progress(36) at 2012-08-20 11:44:17: 4426014904 states generated (59,704,623 s/min), 533488712 distinct states found (6,036,724 ds/min), 60111850 states left on queue.
+Progress(36) at 2012-08-20 11:45:17: 4479036857 states generated (53,021,953 s/min), 539407195 distinct states found (5,918,483 ds/min), 59939818 states left on queue.
+Progress(36) at 2012-08-20 11:46:17: 4530750815 states generated (51,713,958 s/min), 545615980 distinct states found (6,208,785 ds/min), 60570602 states left on queue.
+Progress(36) at 2012-08-20 11:47:17: 4587613744 states generated (56,862,929 s/min), 551894564 distinct states found (6,278,584 ds/min), 60595178 states left on queue.
+Progress(36) at 2012-08-20 11:48:17: 4648641588 states generated (61,027,844 s/min), 558114947 distinct states found (6,220,383 ds/min), 60161002 states left on queue.
+Progress(36) at 2012-08-20 11:49:17: 4711536624 states generated (62,895,036 s/min), 563975545 distinct states found (5,860,598 ds/min), 59079658 states left on queue.
+Progress(37) at 2012-08-20 11:50:17: 4759929837 states generated (48,393,213 s/min), 570363729 distinct states found (6,388,184 ds/min), 60128234 states left on queue.
+Progress(37) at 2012-08-20 11:51:17: 4810334949 states generated (50,405,112 s/min), 576298499 distinct states found (5,934,770 ds/min), 60611562 states left on queue.
+Progress(37) at 2012-08-20 11:52:17: 4865303447 states generated (54,968,498 s/min), 582494148 distinct states found (6,195,649 ds/min), 60867904 states left on queue.
+Progress(37) at 2012-08-20 11:53:17: 4920900283 states generated (55,596,836 s/min), 588401339 distinct states found (5,907,191 ds/min), 60640673 states left on queue.
+Progress(37) at 2012-08-20 11:54:17: 4980730794 states generated (59,830,511 s/min), 594182832 distinct states found (5,781,493 ds/min), 59861412 states left on queue.
+Progress(37) at 2012-08-20 11:55:17: 5031401158 states generated (50,670,364 s/min), 600337902 distinct states found (6,155,070 ds/min), 60181375 states left on queue.
+Progress(37) at 2012-08-20 11:56:17: 5084375656 states generated (52,974,498 s/min), 606132613 distinct states found (5,794,711 ds/min), 60267162 states left on queue.
+Progress(37) at 2012-08-20 11:57:17: 5141172090 states generated (56,796,434 s/min), 612228928 distinct states found (6,096,315 ds/min), 60115839 states left on queue.
+Progress(37) at 2012-08-20 11:58:17: 5202432441 states generated (61,260,351 s/min), 618050511 distinct states found (5,821,583 ds/min), 59263871 states left on queue.
+Progress(38) at 2012-08-20 11:59:17: 5259452577 states generated (57,020,136 s/min), 623580786 distinct states found (5,530,275 ds/min), 58338175 states left on queue.
+Progress(38) at 2012-08-20 12:00:17: 5304473711 states generated (45,021,134 s/min), 629849290 distinct states found (6,268,504 ds/min), 59708674 states left on queue.
+Progress(38) at 2012-08-20 12:01:17: 5352829438 states generated (48,355,727 s/min), 635367310 distinct states found (5,518,020 ds/min), 60022073 states left on queue.
+Progress(38) at 2012-08-20 12:02:17: 5402360065 states generated (49,530,627 s/min), 640779199 distinct states found (5,411,889 ds/min), 59995394 states left on queue.
+Progress(38) at 2012-08-20 12:03:17: 5453665996 states generated (51,305,931 s/min), 646208316 distinct states found (5,429,117 ds/min), 59659522 states left on queue.
+Progress(38) at 2012-08-20 12:04:17: 5505827155 states generated (52,161,159 s/min), 651286463 distinct states found (5,078,147 ds/min), 59175518 states left on queue.
+Progress(38) at 2012-08-20 12:05:17: 5552668902 states generated (46,841,747 s/min), 655974408 distinct states found (4,687,945 ds/min), 58453566 states left on queue.
+Progress(38) at 2012-08-20 12:06:17: 5593665730 states generated (40,996,828 s/min), 661221783 distinct states found (5,247,375 ds/min), 59159810 states left on queue.
+Progress(38) at 2012-08-20 12:07:17: 5642172315 states generated (48,506,585 s/min), 666189988 distinct states found (4,968,205 ds/min), 58782978 states left on queue.
+Progress(38) at 2012-08-20 12:08:17: 5689602262 states generated (47,429,947 s/min), 670922808 distinct states found (4,732,820 ds/min), 58295898 states left on queue.
+Progress(38) at 2012-08-20 12:09:17: 5734360814 states generated (44,758,552 s/min), 675273566 distinct states found (4,350,758 ds/min), 57687889 states left on queue.
+Progress(38) at 2012-08-20 12:10:17: 5775705716 states generated (41,344,902 s/min), 678947246 distinct states found (3,673,680 ds/min), 56628291 states left on queue.
+Progress(39) at 2012-08-20 12:11:17: 5811458117 states generated (35,752,401 s/min), 683301159 distinct states found (4,353,913 ds/min), 57054620 states left on queue.
+Progress(39) at 2012-08-20 12:12:17: 5849927006 states generated (38,468,889 s/min), 688769268 distinct states found (5,468,109 ds/min), 58322517 states left on queue.
+Progress(39) at 2012-08-20 12:13:17: 5891842669 states generated (41,915,663 s/min), 693152618 distinct states found (4,383,350 ds/min), 58176525 states left on queue.
+Progress(39) at 2012-08-20 12:14:17: 5910828398 states generated (18,985,729 s/min), 695138783 distinct states found (1,986,165 ds/min), 58116725 states left on queue.
+Flushed disk DiskFPSet0 3. time, in 47 sec
+Progress(39) at 2012-08-20 12:15:17: 5910903650 states generated (75,252 s/min), 695169281 distinct states found (30,498 ds/min), 58117438 states left on queue.
+Flushed disk DiskFPSet1 3. time, in 53 sec
+Progress(39) at 2012-08-20 12:16:17: 5950809923 states generated (39,906,273 s/min), 699582770 distinct states found (4,413,489 ds/min), 58079109 states left on queue.
+Progress(39) at 2012-08-20 12:17:17: 6008540315 states generated (57,730,392 s/min), 705295566 distinct states found (5,712,796 ds/min), 57372327 states left on queue.
+Progress(39) at 2012-08-20 12:18:17: 6069786082 states generated (61,245,767 s/min), 711276215 distinct states found (5,980,649 ds/min), 56358789 states left on queue.
+Progress(39) at 2012-08-20 12:19:17: 6123575837 states generated (53,789,755 s/min), 717742005 distinct states found (6,465,790 ds/min), 56776581 states left on queue.
+Progress(39) at 2012-08-20 12:20:17: 6179219927 states generated (55,644,090 s/min), 723296402 distinct states found (5,554,397 ds/min), 56140587 states left on queue.
+Progress(39) at 2012-08-20 12:21:17: 6232178226 states generated (52,958,299 s/min), 728478808 distinct states found (5,182,406 ds/min), 55395115 states left on queue.
+Progress(40) at 2012-08-20 12:22:17: 6292357915 states generated (60,179,689 s/min), 734111898 distinct states found (5,633,090 ds/min), 54252726 states left on queue.
+Progress(40) at 2012-08-20 12:23:17: 6343727151 states generated (51,369,236 s/min), 740918728 distinct states found (6,806,830 ds/min), 55239467 states left on queue.
+Progress(40) at 2012-08-20 12:24:17: 6402045232 states generated (58,318,081 s/min), 747312937 distinct states found (6,394,209 ds/min), 55452459 states left on queue.
+Progress(40) at 2012-08-20 12:25:17: 6454553397 states generated (52,508,165 s/min), 752919588 distinct states found (5,606,651 ds/min), 55183304 states left on queue.
+Progress(40) at 2012-08-20 12:26:17: 6505424401 states generated (50,871,004 s/min), 757996880 distinct states found (5,077,292 ds/min), 54446024 states left on queue.
+Progress(40) at 2012-08-20 12:27:17: 6566009893 states generated (60,585,492 s/min), 763619957 distinct states found (5,623,077 ds/min), 53216647 states left on queue.
+Progress(40) at 2012-08-20 12:28:17: 6619010122 states generated (53,000,229 s/min), 769861189 distinct states found (6,241,232 ds/min), 53520328 states left on queue.
+Progress(40) at 2012-08-20 12:29:17: 6676312315 states generated (57,302,193 s/min), 775478465 distinct states found (5,617,276 ds/min), 52806171 states left on queue.
+Progress(40) at 2012-08-20 12:30:17: 6734049019 states generated (57,736,704 s/min), 780931126 distinct states found (5,452,661 ds/min), 51682421 states left on queue.
+Progress(41) at 2012-08-20 12:31:17: 6783250688 states generated (49,201,669 s/min), 786157759 distinct states found (5,226,633 ds/min), 51272821 states left on queue.
+Progress(41) at 2012-08-20 12:32:17: 6837300825 states generated (54,050,137 s/min), 792794202 distinct states found (6,636,443 ds/min), 51904055 states left on queue.
+Progress(41) at 2012-08-20 12:33:17: 6894923121 states generated (57,622,296 s/min), 798855144 distinct states found (6,060,942 ds/min), 51749682 states left on queue.
+Progress(41) at 2012-08-20 12:34:17: 6951270948 states generated (56,347,827 s/min), 804574167 distinct states found (5,719,023 ds/min), 51141749 states left on queue.
+Progress(41) at 2012-08-20 12:35:18: 7006310976 states generated (55,040,028 s/min), 809823446 distinct states found (5,249,279 ds/min), 50171921 states left on queue.
+Progress(41) at 2012-08-20 12:36:18: 7055194525 states generated (48,883,549 s/min), 814593430 distinct states found (4,769,984 ds/min), 49221177 states left on queue.
+Progress(41) at 2012-08-20 12:37:18: 7109069377 states generated (53,874,852 s/min), 820567689 distinct states found (5,974,259 ds/min), 49188881 states left on queue.
+Progress(41) at 2012-08-20 12:38:18: 7166896623 states generated (57,827,246 s/min), 826072774 distinct states found (5,505,085 ds/min), 48123158 states left on queue.
+Progress(42) at 2012-08-20 12:39:18: 7224236925 states generated (57,340,302 s/min), 831685295 distinct states found (5,612,521 ds/min), 47140881 states left on queue.
+Progress(42) at 2012-08-20 12:40:18: 7277522578 states generated (53,285,653 s/min), 837947344 distinct states found (6,262,049 ds/min), 47460369 states left on queue.
+Progress(42) at 2012-08-20 12:41:18: 7326355746 states generated (48,833,168 s/min), 843506913 distinct states found (5,559,569 ds/min), 47736892 states left on queue.
+Progress(42) at 2012-08-20 12:42:18: 7381006362 states generated (54,650,616 s/min), 848673468 distinct states found (5,166,555 ds/min), 46906971 states left on queue.
+Progress(42) at 2012-08-20 12:43:18: 7434980803 states generated (53,974,441 s/min), 853854835 distinct states found (5,181,367 ds/min), 45884932 states left on queue.
+Progress(42) at 2012-08-20 12:44:18: 7485853552 states generated (50,872,749 s/min), 858768344 distinct states found (4,913,509 ds/min), 44832946 states left on queue.
+Progress(42) at 2012-08-20 12:45:18: 7532652583 states generated (46,799,031 s/min), 863848114 distinct states found (5,079,770 ds/min), 44699079 states left on queue.
+Progress(42) at 2012-08-20 12:46:18: 7577463254 states generated (44,810,671 s/min), 868021411 distinct states found (4,173,297 ds/min), 43741201 states left on queue.
+Progress(42) at 2012-08-20 12:47:18: 7627441489 states generated (49,978,235 s/min), 872402891 distinct states found (4,381,480 ds/min), 42201105 states left on queue.
+Progress(43) at 2012-08-20 12:48:18: 7674871599 states generated (47,430,110 s/min), 877908106 distinct states found (5,505,215 ds/min), 42497327 states left on queue.
+Progress(43) at 2012-08-20 12:49:18: 7716692930 states generated (41,821,331 s/min), 883028624 distinct states found (5,120,518 ds/min), 42944990 states left on queue.
+Progress(43) at 2012-08-20 12:50:18: 7761013510 states generated (44,320,580 s/min), 887496849 distinct states found (4,468,225 ds/min), 42559506 states left on queue.
+Progress(43) at 2012-08-20 12:51:18: 7800564288 states generated (39,550,778 s/min), 891211405 distinct states found (3,714,556 ds/min), 41814560 states left on queue.
+Progress(43) at 2012-08-20 12:52:18: 7843450763 states generated (42,886,475 s/min), 895233774 distinct states found (4,022,369 ds/min), 40787011 states left on queue.
+Progress(43) at 2012-08-20 12:53:18: 7883565274 states generated (40,114,511 s/min), 899144107 distinct states found (3,910,333 ds/min), 39891254 states left on queue.
+Progress(43) at 2012-08-20 12:54:18: 7924349810 states generated (40,784,536 s/min), 903493043 distinct states found (4,348,936 ds/min), 39637867 states left on queue.
+Progress(43) at 2012-08-20 12:55:18: 7962707955 states generated (38,358,145 s/min), 906976781 distinct states found (3,483,738 ds/min), 38631910 states left on queue.
+Progress(44) at 2012-08-20 12:56:18: 7996803634 states generated (34,095,679 s/min), 910027791 distinct states found (3,051,010 ds/min), 37455201 states left on queue.
+Progress(44) at 2012-08-20 12:57:18: 8037173273 states generated (40,369,639 s/min), 914717273 distinct states found (4,689,482 ds/min), 37781498 states left on queue.
+Progress(44) at 2012-08-20 12:58:18: 8069588192 states generated (32,414,919 s/min), 918508746 distinct states found (3,791,473 ds/min), 37893995 states left on queue.
+Flushed disk DiskFPSet0 4. time, in 57 sec
+Progress(44) at 2012-08-20 12:59:18: 8069588192 states generated (0 s/min), 918527788 distinct states found (19,042 ds/min), 37893995 states left on queue.
+Flushed disk DiskFPSet1 4. time, in 61 sec
+Progress(44) at 2012-08-20 13:00:18: 8073026134 states generated (3,437,942 s/min), 918952836 distinct states found (425,048 ds/min), 37958252 states left on queue.
+Progress(44) at 2012-08-20 13:01:18: 8125178332 states generated (52,152,198 s/min), 924216576 distinct states found (5,263,740 ds/min), 37474924 states left on queue.
+Progress(44) at 2012-08-20 13:02:18: 8185143387 states generated (59,965,055 s/min), 929671932 distinct states found (5,455,356 ds/min), 36016306 states left on queue.
+Progress(44) at 2012-08-20 13:03:18: 8243076315 states generated (57,932,928 s/min), 935249422 distinct states found (5,577,490 ds/min), 34730047 states left on queue.
+Progress(44) at 2012-08-20 13:04:18: 8302964518 states generated (59,888,203 s/min), 940855681 distinct states found (5,606,259 ds/min), 33414424 states left on queue.
+Progress(45) at 2012-08-20 13:05:18: 8357157344 states generated (54,192,826 s/min), 946628160 distinct states found (5,772,479 ds/min), 32975036 states left on queue.
+Progress(45) at 2012-08-20 13:06:18: 8402752494 states generated (45,595,150 s/min), 951704950 distinct states found (5,076,790 ds/min), 32911154 states left on queue.
+Progress(45) at 2012-08-20 13:07:18: 8464375180 states generated (61,622,686 s/min), 957416488 distinct states found (5,711,538 ds/min), 31797042 states left on queue.
+Progress(45) at 2012-08-20 13:08:18: 8522423449 states generated (58,048,269 s/min), 962698320 distinct states found (5,281,832 ds/min), 30093106 states left on queue.
+Progress(45) at 2012-08-20 13:09:18: 8579923379 states generated (57,499,930 s/min), 968219539 distinct states found (5,521,219 ds/min), 28929757 states left on queue.
+Progress(46) at 2012-08-20 13:10:18: 8632231804 states generated (52,308,425 s/min), 973555164 distinct states found (5,335,625 ds/min), 28232171 states left on queue.
+Progress(46) at 2012-08-20 13:11:18: 8678865309 states generated (46,633,505 s/min), 978545993 distinct states found (4,990,829 ds/min), 27888107 states left on queue.
+Progress(46) at 2012-08-20 13:12:18: 8737508235 states generated (58,642,926 s/min), 983873750 distinct states found (5,327,757 ds/min), 26724843 states left on queue.
+Progress(46) at 2012-08-20 13:13:18: 8794419562 states generated (56,911,327 s/min), 989196988 distinct states found (5,323,238 ds/min), 25061867 states left on queue.
+Progress(47) at 2012-08-20 13:14:18: 8850300183 states generated (55,880,621 s/min), 994559914 distinct states found (5,362,926 ds/min), 23775723 states left on queue.
+Progress(47) at 2012-08-20 13:15:18: 8906805014 states generated (56,504,831 s/min), 1000397459 distinct states found (5,837,545 ds/min), 23097458 states left on queue.
+Progress(47) at 2012-08-20 13:16:18: 8962191700 states generated (55,386,686 s/min), 1005475267 distinct states found (5,077,808 ds/min), 22059391 states left on queue.
+Progress(47) at 2012-08-20 13:17:18: 9023890965 states generated (61,699,265 s/min), 1011176095 distinct states found (5,700,828 ds/min), 20193878 states left on queue.
+Progress(48) at 2012-08-20 13:18:18: 9085712568 states generated (61,821,603 s/min), 1017212121 distinct states found (6,036,026 ds/min), 19066994 states left on queue.
+Progress(48) at 2012-08-20 13:19:18: 9144813232 states generated (59,100,664 s/min), 1022837110 distinct states found (5,624,989 ds/min), 17890802 states left on queue.
+Progress(48) at 2012-08-20 13:20:18: 9201152850 states generated (56,339,618 s/min), 1027864221 distinct states found (5,027,111 ds/min), 15906439 states left on queue.
+Progress(49) at 2012-08-20 13:21:18: 9252208174 states generated (51,055,324 s/min), 1032859403 distinct states found (4,995,182 ds/min), 14981891 states left on queue.
+Progress(49) at 2012-08-20 13:22:18: 9311808038 states generated (59,599,864 s/min), 1038221185 distinct states found (5,361,782 ds/min), 13234994 states left on queue.
+Progress(50) at 2012-08-20 13:23:18: 9370770649 states generated (58,962,611 s/min), 1043826140 distinct states found (5,604,955 ds/min), 11908406 states left on queue.
+Progress(50) at 2012-08-20 13:24:18: 9430633324 states generated (59,862,675 s/min), 1049123938 distinct states found (5,297,798 ds/min), 9986388 states left on queue.
+Progress(51) at 2012-08-20 13:25:18: 9485672018 states generated (55,038,694 s/min), 1054331994 distinct states found (5,208,056 ds/min), 8641805 states left on queue.
+Progress(52) at 2012-08-20 13:26:18: 9538460141 states generated (52,788,123 s/min), 1058998389 distinct states found (4,666,395 ds/min), 6994238 states left on queue.
+Progress(53) at 2012-08-20 13:27:18: 9610351993 states generated (71,891,852 s/min), 1065187582 distinct states found (6,189,193 ds/min), 4481362 states left on queue.
+Progress(56) at 2012-08-20 13:28:18: 9691382215 states generated (81,030,222 s/min), 1071755394 distinct states found (6,567,812 ds/min), 1334544 states left on queue.
+Worker: rmi://ip-10-31-137-3.ec2.internal:34066 Sent: 67944742 Rcvd: 130980220 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-131-49.ec2.internal:49208 Sent: 67798141 Rcvd: 131087817 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-131-49.ec2.internal:49208 Sent: 67936172 Rcvd: 131011866 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-131-49.ec2.internal:49208 Sent: 67750432 Rcvd: 131086838 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-131-49.ec2.internal:49208 Sent: 67815559 Rcvd: 131248386 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-137-3.ec2.internal:34066 Sent: 64186453 Rcvd: 128004137 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-137-3.ec2.internal:34066 Sent: 67750294 Rcvd: 130357103 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-131-49.ec2.internal:49208 Sent: 64846540 Rcvd: 128052156 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-137-3.ec2.internal:34066 Sent: 67746065 Rcvd: 130670574 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-137-3.ec2.internal:34066 Sent: 64508186 Rcvd: 127825992 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-137-3.ec2.internal:34066 Sent: 67527004 Rcvd: 130188273 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-131-49.ec2.internal:49208 Sent: 67879716 Rcvd: 131188036 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-137-3.ec2.internal:34066 Sent: 67600832 Rcvd: 130762995 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-137-3.ec2.internal:34066 Sent: 67228830 Rcvd: 130912882 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-131-49.ec2.internal:49208 Sent: 67463357 Rcvd: 130859968 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Worker: rmi://ip-10-31-131-49.ec2.internal:49208 Sent: 67759501 Rcvd: 130788039 CacheRatio: 0.007 (2012-08-20 13:28:36)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 0.0
+  based on the actual fingerprints:  val = 2.2E-9
+9648758779 states generated, 1073741824 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 63.
+Finished. (2012-08-20 13:31:38)
