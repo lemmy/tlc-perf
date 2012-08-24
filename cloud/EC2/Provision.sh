@@ -128,6 +128,44 @@ for f in `find -L . -name *jmx2munin_tlc2_tool_fp_*.xml`; do mv \${f} \${f/jmx2m
 for f in `find -L . -name *mx2munin_tlc2_tool_*.xml`; do mv \${f} \${f/jmx2munin_tlc2_tool_/}; done
 for f in `find -L . -name *jmx_*.xml`; do mv \${f} \${f/jmx_/}; done
 for f in `find -L . -name *.ec2.internal*.xml`; do mv \${f} \${f/.ec2.internal/}; done
+for f in `find -L . -name *tlc-*.rrd`; do mv \${f} \${f/tlc-/}; done
+for f in `find -L . -name *-g.rrd`; do mv \${f} \${f/-g/}; done
+for f in `find -L . -name ModelChecker__averageblockcnt-tlc2_tool_modelchecker_averageblockcnt.rrd`; do mv \${f} \${f/__averageblockcnt-tlc2_tool_modelchecker/}; done
+for f in `find -L . -name ModelChecker__distinctstatesgeneratedperminute-tlc2_tool_modelchecker*.rrd`; do mv \${f} \${f/__distinctstatesgeneratedperminute-tlc2_tool_modelchecker/}; done
+for f in `find -L . -name ModelChecker__distinctstatesgenerated-tlc2_tool_modelchecker_distinctstatesgenerated.rrd`; do mv \${f} \${f/__distinctstatesgenerated-tlc2_tool_modelchecker/}; done
+for f in `find -L . -name ModelChecker__progress-tlc2_tool_modelchecker_progress.rrd`; do mv \${f} \${f/__progress-tlc2_tool_modelchecker/}; done
+for f in `find -L . -name ModelChecker__statequeuesize-tlc2_tool_modelchecker_statequeuesize.rrd`; do mv \${f} \${f/__statequeuesize-tlc2_tool_modelchecker/}; done
+for f in `find -L . -name ModelChecker__statesgeneratedperminute-tlc2_tool_modelchecker_statesgeneratedperminute.rrd`; do mv \${f} \${f/__statesgeneratedperminute-tlc2_tool_modelchecker/}; done
+for f in `find -L . -name ModelChecker__statesgenerated-tlc2_tool_modelchecker_statesgenerated.rrd`; do mv \${f} \${f/__statesgenerated-tlc2_tool_modelchecker/}; done
+for f in `find -L . -name ModelChecker__workercount-tlc2_tool_modelchecker_workercount.rrd`; do mv \${f} \${f/__workercount-tlc2_tool_modelchecker/}; done
+
+for f in `find -L . -name *__bucketcapacity-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__bucketcapacity-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__checkpointmark-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__checkpointmark-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__collisionbucketcnt-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__collisionbucketcnt-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__collisionratio-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__collisionratio-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__diskhitcnt-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__diskhitcnt-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__disklookupcnt-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__disklookupcnt-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__diskseekcache-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__diskseekcache-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__diskseekcnt-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__diskseekcnt-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__diskseekrate-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__diskseekrate-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__diskwritecnt-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__diskwritecnt-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__filecnt-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__filecnt-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__flushtime-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__flushtime-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__growdiskmark-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__growdiskmark-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__indexcnt-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__indexcnt-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__loadfactor-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__loadfactor-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__maxtblcnt-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__maxtblcnt-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__memhitcnt-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__memhitcnt-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__overallcapacity-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__overallcapacity-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__readerwritercnt-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__readerwritercnt-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__sizeof-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__sizeof-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__tblcapacity-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__tblcapacity-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__tblcnt-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__tblcnt-tlc2_tool_fp_diskfpset/}; done
+for f in `find -L . -name *__tblload-tlc2_tool_fp_diskfpset*.rrd`; do mv \${f} \${f/__tblload-tlc2_tool_fp_diskfpset/}; done
+
+for f in `find -L . -name *__blockedtime-org_vafer_contention_tlcworkerthread*.rrd`; do mv \${f} \${f/__blockedtime-org_vafer_contention_tlcworkerthread/}; done
+for f in `find -L . -name *__waitedtime-org_vafer_contention_tlcworkerthread*.rrd`; do mv \${f} \${f/__waitedtime-org_vafer_contention_tlcworkerthread/}; done
+
 # sync
 sudo -u kuppe rsync --exclude=*.rrd -az -e ssh /var/lib/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
 sudo -u kuppe rsync -az -e ssh /var/cache/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
