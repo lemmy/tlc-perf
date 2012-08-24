@@ -143,6 +143,9 @@ do
 	    AGENT_OPTS=""
 	fi
 
+	## Activate remote debugging interface to make it possible to connect to the VM during the run
+	MASTER_VM_PROPS=$MASTER_VM_PROPS" -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=1044"
+
 	if [ $MASTER_CLASS = "tlc2.TLC" ]; then
 	    cd $TARGET_SPEC_DIR
 	    $JAVA_PATH $MASTER_VM_PROPS $AGENT_OPTS $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ $MASTER_CLASS $TLC_PARAMS $MODEL_NAME 2>&1 | tee $RESULT_DIR/server.out
