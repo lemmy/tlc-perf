@@ -1,0 +1,9 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 18 May 2012
+Error: unrecognized option: -workers
+Usage: java tlc2.tool.TLCServer [-option] inputfile
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.lang.RuntimeException: TLC server found null work.
+Fri Aug 24 07:04:36 UTC 2012: Model checking appears to have failed, skipping statistics!
