@@ -28,4 +28,4 @@ Next ==
 =============================================================================
 \* Modification History
 \* Last modified Fri Jun 10 17:43:21 CEST 2011 by mkuppe
-\* Created Fri Jun 10 17:38:38 CEST 2011 by mkuppe
+\* Created Fri Jun 10 17:38:38 CEST 2011 by Leslie Lamport
