@@ -118,7 +118,11 @@ do
 	
 	## spawn pssh process
 	if [ $WORKER_COUNT -gt 0 ]; then
-	    $PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -cp $ROOT_DIR/dist/tla2tools.jar $WORKER_SYS_PROPS $WORKER_CLASS $SERVER_NAME &
+	    if [ $WORKER_CLASS = "osgi" ]; then
+		$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -Dorg.lamport.tla.distributed.consumer.TLCWorkerConsumer.uri=rmi://$SERVER_NAME:10997 -Dorg.lamport.tla.distributed.consumer.DistributedFPSetConsumer.uri=rmi://$SERVER_NAME:10997 -jar $ROOT_DIR/dist/disttlc/org.eclipse.osgi_*.jar $WORKER_SYS_PROPS &
+	    else
+		$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -cp $ROOT_DIR/dist/tla2tools.jar $WORKER_SYS_PROPS $WORKER_CLASS $SERVER_NAME &
+	    fi
 	fi
 
 	##
