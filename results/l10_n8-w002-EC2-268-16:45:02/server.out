@@ -1,0 +1,79 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/1561/spec/l10_n8.tla
+Parsing file /mnt/tlc/1561/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/1561/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/1561/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/1561/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/1561/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/1561/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-09-06 16:45:04)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-31-128-244 is ready (2012-09-06 16:45:46)
+Registration for worker at rmi://ip-10-31-133-228.ec2.internal:56447 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-133-228.ec2.internal:56447 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-133-228.ec2.internal:56447 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-133-228.ec2.internal:56447 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-133-228.ec2.internal:56447 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-133-228.ec2.internal:56447 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-133-228.ec2.internal:56447 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-133-228.ec2.internal:56447 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-134-175.ec2.internal:60221 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-134-175.ec2.internal:60221 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-134-175.ec2.internal:60221 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-134-175.ec2.internal:60221 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-134-175.ec2.internal:60221 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-134-175.ec2.internal:60221 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-134-175.ec2.internal:60221 completed (2012-09-06 16:45:56)
+Registration for worker at rmi://ip-10-31-134-175.ec2.internal:60221 completed (2012-09-06 16:45:56)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.rmi.NoSuchObjectException: no such object in tablejava.rmi.NoSuchObjectException: no such object in table
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy2.getCacheRateRatio(Unknown Source)
+	at tlc2.tool.distributed.TLCWorkerSmartProxy.getCacheRateRatio(TLCWorkerSmartProxy.java:104)
+	at tlc2.tool.distributed.TLCServerThread.run(TLCServerThread.java:202)
+
+Worker: rmi://ip-10-31-134-175.ec2.internal:60221 Sent: 15396 Rcvd: 27143 CacheRatio: 0.078 (2012-09-06 16:46:27)
+Worker: rmi://ip-10-31-133-228.ec2.internal:56447 Sent: 17148 Rcvd: 23169 CacheRatio: 0.100 (2012-09-06 16:46:27)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-31-134-175.ec2.internal:60221 Sent: 14123 Rcvd: 17404 CacheRatio: 0.112 (2012-09-06 16:46:27)
+Worker: rmi://ip-10-31-133-228.ec2.internal:56447 Sent: 14946 Rcvd: 32390 CacheRatio: 0.105 (2012-09-06 16:46:27)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-31-133-228.ec2.internal:56447 Sent: 14658 Rcvd: 26303 CacheRatio: 0.099 (2012-09-06 16:46:27)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-31-134-175.ec2.internal:60221 Sent: 19148 Rcvd: 29210 CacheRatio: 0.074 (2012-09-06 16:46:33)
+Worker: rmi://ip-10-31-133-228.ec2.internal:56447 Sent: 17262 Rcvd: 33431 CacheRatio: 0.149 (2012-09-06 16:46:33)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-31-133-228.ec2.internal:56447 Sent: 16612 Rcvd: 25693 CacheRatio: 0.127 (2012-09-06 16:46:33)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-31-134-175.ec2.internal:60221 Sent: 12893 Rcvd: 22065 CacheRatio: 0.102 (2012-09-06 16:46:33)
+Worker: rmi://ip-10-31-134-175.ec2.internal:60221 Sent: 16429 Rcvd: 34966 CacheRatio: 0.081 (2012-09-06 16:46:33)
+Worker: rmi://ip-10-31-133-228.ec2.internal:56447 Sent: 14199 Rcvd: 23300 CacheRatio: 0.144 (2012-09-06 16:46:33)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-31-133-228.ec2.internal:56447 Sent: 16761 Rcvd: 32215 CacheRatio: 0.180 (2012-09-06 16:46:33)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-31-134-175.ec2.internal:60221 Sent: 13479 Rcvd: 24958 CacheRatio: 0.081 (2012-09-06 16:46:33)
+Worker: rmi://ip-10-31-133-228.ec2.internal:56447 Sent: 20947 Rcvd: 34593 CacheRatio: 0.094 (2012-09-06 16:46:33)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-31-134-175.ec2.internal:60221 Sent: 15515 Rcvd: 21851 CacheRatio: 0.071 (2012-09-06 16:46:33)
+Worker: rmi://ip-10-31-134-175.ec2.internal:60221 Sent: 12388 Rcvd: 19119 CacheRatio: 0.084 (2012-09-06 16:46:33)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 0.0
+  based on the actual fingerprints:  val = 6.2E-11
+ip-10-31-128-244, work completed. Thank you!
