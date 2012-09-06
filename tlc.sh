@@ -18,9 +18,6 @@
 # 14: WORKER_CLASS (Java main class used by worker nodes)
 # 15: MASTER_CLASS (Java main class used by master node)
 
-## Debugging
-set -x
-
 ## ID of this script
 PID=$$
 
