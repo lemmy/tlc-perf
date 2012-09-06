@@ -1,0 +1,64 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/1857/spec/l10_n8.tla
+Parsing file /mnt/tlc/1857/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/1857/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/1857/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/1857/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/1857/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/1857/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-09-06 06:59:11)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-28-245-232 is ready (2012-09-06 06:59:46)
+Registration for worker at rmi://ip-10-28-65-174.ec2.internal:42936 completed (2012-09-06 06:59:47)
+Registration for worker at rmi://ip-10-28-65-174.ec2.internal:42936 completed (2012-09-06 06:59:47)
+Registration for worker at rmi://ip-10-28-65-174.ec2.internal:42936 completed (2012-09-06 06:59:47)
+Registration for worker at rmi://ip-10-28-65-174.ec2.internal:42936 completed (2012-09-06 06:59:47)
+Registration for worker at rmi://ip-10-28-65-174.ec2.internal:42936 completed (2012-09-06 06:59:47)
+Registration for worker at rmi://ip-10-28-65-174.ec2.internal:42936 completed (2012-09-06 06:59:47)
+Registration for worker at rmi://ip-10-28-65-174.ec2.internal:42936 completed (2012-09-06 06:59:47)
+Registration for worker at rmi://ip-10-28-65-174.ec2.internal:42936 completed (2012-09-06 06:59:47)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:03)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:03)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:03)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:03)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:03)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:03)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:03)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:03)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.rmi.NoSuchObjectException: no such object in table
+Worker: rmi://ip-10-28-191-106.ec2.internal:60484 Sent: 5500 Rcvd: 15956 CacheRatio: 0.285 (2012-09-06 07:00:17)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-28-65-174.ec2.internal:42936 Sent: 19140 Rcvd: 29851 CacheRatio: 0.065 (2012-09-06 07:00:23)
+Worker: rmi://ip-10-28-65-174.ec2.internal:42936 Sent: 14708 Rcvd: 22305 CacheRatio: 0.081 (2012-09-06 07:00:23)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:27)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:27)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:27)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:27)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:27)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:27)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:27)
+Registration for worker at rmi://ip-10-28-191-106.ec2.internal:60484 completed (2012-09-06 07:00:27)
+Worker: rmi://ip-10-28-65-174.ec2.internal:42936 Sent: 21516 Rcvd: 32342 CacheRatio: 0.062 (2012-09-06 07:00:27)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.util.ConcurrentModificationExceptionjava.util.ConcurrentModificationException
+	at java.util.HashMap$HashIterator.nextEntry(Unknown Source)
+	at java.util.HashMap$EntryIterator.next(Unknown Source)
+	at java.util.HashMap$EntryIterator.next(Unknown Source)
+	at tlc2.tool.distributed.TLCServer.modelCheck(TLCServer.java:475)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:642)
+
+ip-10-28-245-232, work completed. Thank you!
