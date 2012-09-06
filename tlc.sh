@@ -160,6 +160,9 @@ do
 	    fi
 	fi
 
+	## Print visual divider
+	echo "=== Done model checking ==="
+
 	## Explicitly kill any stuck (remote) workers by killing the PSSH process that forked them. If workers exited normally, calling kill has no effect.
 	## (This code ignores the fact that the PSSH process could exit normally and a new process get the same pid assigned in the meantime)
 	kill $PSSH_PID > /dev/null 2>&1
