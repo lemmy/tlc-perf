@@ -70,7 +70,7 @@ rm -rf $TARGET_SPEC_DIR
 rm -rf $TARGET_TLA_DIR
 
 ## extract tla.zip distribution to (local) target directory for server
-$UNZIP_PATH -q $ROOT_DIR/dist/tla.zip -d $TARGET_DIR/
+$UNZIP_PATH -qq $ROOT_DIR/dist/tla.zip -d $TARGET_DIR/
 
 ## copy spec to target directory
 cp -a $SPEC_PATH $TARGET_SPEC_DIR
