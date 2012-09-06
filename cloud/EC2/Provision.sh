@@ -180,3 +180,5 @@ chmod +x /usr/local/bin/rrdbackup.sh
 cd /mnt/kuppe/git/ec2/tools/jmx2munin
 ./install.sh
 
+# Last but not least mark the completion of this script
+mkdir /tmp/data-file-init-complete/
