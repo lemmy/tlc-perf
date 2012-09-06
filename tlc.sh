@@ -119,9 +119,9 @@ do
 	## spawn pssh process
 	if [ $WORKER_COUNT -gt 0 ]; then
 	    if [ $WORKER_CLASS = "osgi" ]; then
-		$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -Dorg.lamport.tla.distributed.consumer.TLCWorkerConsumer.uri=rmi://$SERVER_NAME:10997 -Dorg.lamport.tla.distributed.consumer.DistributedFPSetConsumer.uri=rmi://$SERVER_NAME:10997 -jar $ROOT_DIR/dist/disttlc/org.eclipse.osgi_3.7.0.v20110613.jar $WORKER_SYS_PROPS &
+		$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -Dorg.lamport.tla.distributed.consumer.TLCWorkerConsumer.uri=rmi://$SERVER_NAME:10997 -Dorg.lamport.tla.distributed.consumer.DistributedFPSetConsumer.uri=rmi://$SERVER_NAME:10997 -jar $ROOT_DIR/dist/disttlc/org.eclipse.osgi_3.7.0.v20110613.jar $WORKER_SYS_PROPS & PSSH_PID=$!
 	    else
-		$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -cp $ROOT_DIR/dist/tla2tools.jar $WORKER_SYS_PROPS $WORKER_CLASS $SERVER_NAME &
+		$PSSH_PATH -O UserKnownHostsFile=/dev/null -O StrictHostKeyChecking=no -t -1 -p $WORKER_COUNT -h $WORKER_FILE $JAVA_PATH $WORKER_VM_PROPS -cp $ROOT_DIR/dist/tla2tools.jar $WORKER_SYS_PROPS $WORKER_CLASS $SERVER_NAME & PSSH_PID=$!
 	    fi
 	fi
 
@@ -162,8 +162,10 @@ do
 		$JAVA_PATH $MASTER_VM_PROPS $AGENT_OPTS $MASTER_SYS_PROPS -Dtlc2.tool.distributed.TLCServer.expectedWorkerCount=$WORKER_COUNT -Dtlc2.tool.distributed.TLCStatistics.path=$RESULT_DIR/ $MASTER_CLASS $TLC_PARAMS $TARGET_SPEC_DIR/$MODEL_NAME.tla 2>&1 | tee $RESULT_DIR/server.out
 	    fi
 	fi
-	
-	echo `pwd`
+
+	## Explicitly kill any stuck (remote) workers by killing the PSSH process that forked them. If workers exited normally, calling kill has no effect.
+	## (This code ignores the fact that the PSSH process could exit normally and a new process get the same pid assigned in the meantime)
+	kill $PSSH_PID > /dev/null 2>&1
 
         ## log start timestamp to result directory
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
