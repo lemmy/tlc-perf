@@ -9,7 +9,7 @@
 
 # Exit if this script has run before (e.g. booting up a custom EC2 AMI)
 # The decision is simply based on the existence of the kuppe user account
-id kuppe || exit 0
+id kuppe && exit 0
 
 # format and mount second ephemeral disk
 /sbin/mkfs.ext4 /dev/xvbc
