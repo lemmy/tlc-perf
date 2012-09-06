@@ -1,0 +1,93 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/3854/spec/l10_n8.tla
+Parsing file /mnt/tlc/3854/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/3854/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/3854/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/3854/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/3854/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/3854/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-09-06 10:06:17)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-28-138-102 is ready (2012-09-06 10:06:17)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.lang.ArithmeticException: / by zerojava.lang.ArithmeticException: / by zero
+	at tlc2.tool.distributed.fp.FPSetManager.getIndex(FPSetManager.java:160)
+	at tlc2.tool.distributed.fp.FPSetManager.put(FPSetManager.java:167)
+	at tlc2.tool.distributed.TLCServer.modelCheck(TLCServer.java:459)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:684)
+
+Registration for worker at rmi://ip-10-28-191-100.ec2.internal:55482 completed (2012-09-06 10:06:19)
+Registration for worker at rmi://ip-10-28-191-100.ec2.internal:55482 completed (2012-09-06 10:06:19)
+Registration for worker at rmi://ip-10-28-191-100.ec2.internal:55482 completed (2012-09-06 10:06:19)
+Registration for worker at rmi://ip-10-28-191-100.ec2.internal:55482 completed (2012-09-06 10:06:19)
+Registration for worker at rmi://ip-10-28-191-100.ec2.internal:55482 completed (2012-09-06 10:06:19)
+Registration for worker at rmi://ip-10-28-191-100.ec2.internal:55482 completed (2012-09-06 10:06:19)
+Registration for worker at rmi://ip-10-28-191-100.ec2.internal:55482 completed (2012-09-06 10:06:19)
+Registration for worker at rmi://ip-10-28-191-100.ec2.internal:55482 completed (2012-09-06 10:06:19)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a tlc2.tool.WorkerException: / by zerotlc2.tool.WorkerException: / by zero
+	at tlc2.tool.distributed.TLCWorker.getNextStates(TLCWorker.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy1.getNextStates(Unknown Source)
+	at tlc2.tool.distributed.TLCWorkerSmartProxy.getNextStates(TLCWorkerSmartProxy.java:35)
+	at tlc2.tool.distributed.TLCServerThread.run(TLCServerThread.java:142)
+Caused by: java.lang.ArithmeticException: / by zero
+	at tlc2.tool.distributed.fp.FPSetManager.getFPSetIndex(FPSetManager.java:211)
+	at tlc2.tool.distributed.TLCWorker.getNextStates(TLCWorker.java:132)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Error: The behavior up to this point is:
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.io.IOException: Bad file descriptorjava.io.IOException: Bad file descriptor
+	at java.io.RandomAccessFile.seek(Native Method)
+	at tlc2.util.BufferedRandomAccessFile.seek(BufferedRandomAccessFile.java:212)
+	at tlc2.tool.TLCTrace.getTrace(TLCTrace.java:216)
+	at tlc2.tool.TLCTrace.printTrace(TLCTrace.java:267)
+	at tlc2.tool.distributed.TLCServerThread.run(TLCServerThread.java:214)
+
