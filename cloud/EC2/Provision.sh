@@ -80,9 +80,9 @@ add-apt-repository ppa:x2go/stable -y
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get upgrade -y
-apt-get --no-install-recommends install ant openjdk-7-jdk visualvm openjdk-6-jdk juju unzip mc htop sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git sshfs rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y
-# if UI/X needed
-apt-get --no-install-recommends install gnome-core gdm gnome-session-fallback firefox libwebkitgtk-1.0-0 tightvncserver xorg x2goserver x2goserver-xsession -y
+apt-get --no-install-recommends install unzip sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y
+# UI/X and dev environment (forked)
+apt-get --no-install-recommends install ant openjdk-7-jdk gnome-core gdm gnome-session-fallback firefox visualvm mc libwebkitgtk-1.0-0 tightvncserver xorg x2goserver x2goserver-xsession htop -y &
 
 # clear cached packages to save disk space
 apt-get clean
