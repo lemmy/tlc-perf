@@ -1,0 +1,49 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/3507/spec/l10_n8.tla
+Parsing file /mnt/tlc/3507/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/3507/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/3507/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/3507/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/3507/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/3507/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-09-06 08:51:28)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-28-191-153 is ready (2012-09-06 08:51:28)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.lang.ArithmeticException: / by zero
+Registration for worker at rmi://ip-10-28-138-102.ec2.internal:59023 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-138-102.ec2.internal:59023 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-138-102.ec2.internal:59023 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-138-102.ec2.internal:59023 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-138-102.ec2.internal:59023 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-138-102.ec2.internal:59023 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-138-102.ec2.internal:59023 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-138-102.ec2.internal:59023 completed (2012-09-06 08:51:30)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a tlc2.tool.WorkerException: / by zero
+Error: The behavior up to this point is:
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.io.IOException: Bad file descriptor
+Registration for worker at rmi://ip-10-28-167-143.ec2.internal:40409 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-167-143.ec2.internal:40409 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-167-143.ec2.internal:40409 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-167-143.ec2.internal:40409 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-167-143.ec2.internal:40409 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-167-143.ec2.internal:40409 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-167-143.ec2.internal:40409 completed (2012-09-06 08:51:30)
+Registration for worker at rmi://ip-10-28-167-143.ec2.internal:40409 completed (2012-09-06 08:51:30)
