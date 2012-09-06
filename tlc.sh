@@ -168,14 +168,14 @@ do
 	echo `date -u +%T` > $RESULT_DIR/end_time.txt
 
 	# locally
-	$CONVERTRRD_PATH $RESULT_DIR $9
+	$CONVERTRRD_PATH $RESULT_DIR $9 > /dev/null
 
 	##
 	## persistently store result (implicitly like a sleep letting workers/server shutdown)
 	#$GIT_PATH pull origin master
-	$GIT_PATH add $RESULT_DIR/*
-	find $RESULT_DIR -type d | xargs -I {} $GIT_PATH add {}/*
-	$GIT_PATH commit -m ''$RESULT_DIR''
+	$GIT_PATH add $RESULT_DIR/* > /dev/null
+	find $RESULT_DIR -type d | xargs -I {} $GIT_PATH add {}/* > /dev/null
+	$GIT_PATH commit -m ''$RESULT_DIR'' > /dev/null
 	#$GIT_PATH push origin master
     done
 done
