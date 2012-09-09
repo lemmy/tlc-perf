@@ -1,0 +1,179 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/5080/spec/l10_n8.tla
+Parsing file /mnt/tlc/5080/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/5080/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/5080/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/5080/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/5080/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/5080/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-09-09 09:21:07)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-32-42-187 is ready (2012-09-09 09:21:07)
+Registration for worker at rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/6 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/3 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/0 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/2 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/7 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/4 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/5 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/1 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/5 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/4 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/0 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/1 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/2 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/6 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/7 completed (2012-09-09 09:21:12)
+Registration for worker at rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/3 completed (2012-09-09 09:21:12)
+Progress(22) at 2012-09-09 09:22:12: 7364831 states generated (7,364,831 s/min), 947764 distinct states found (947,764 ds/min), 356389 states left on queue.
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a tlc2.tool.WorkerExceptiontlc2.tool.WorkerException
+	at tlc2.tool.distributed.TLCWorker.getNextStates(TLCWorker.java:183)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy2.getNextStates(Unknown Source)
+	at tlc2.tool.distributed.TLCWorkerSmartProxy.getNextStates(TLCWorkerSmartProxy.java:35)
+	at tlc2.tool.distributed.TLCServerThread.run(TLCServerThread.java:188)
+Caused by: java.util.concurrent.RejectedExecutionException
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.reject(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.execute(Unknown Source)
+	at java.util.concurrent.AbstractExecutorService.submit(Unknown Source)
+	at tlc2.tool.distributed.fp.FPSetManager.containsBlock(FPSetManager.java:310)
+	at tlc2.tool.distributed.TLCWorker.getNextStates(TLCWorker.java:148)
+	at sun.reflect.GeneratedMethodAccessor17.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+x = <<0, 0, 0, 0, 0, 0, 0, 0>>
+
+State 2: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<1, 0, 0, 0, 0, 0, 0, 0>>
+
+State 3: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<1, 0, 0, 0, 1, 0, 0, 0>>
+
+State 4: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<1, 0, 0, 0, 1, 0, 1, 0>>
+
+State 5: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<2, 0, 0, 0, 1, 0, 1, 0>>
+
+State 6: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<3, 0, 0, 0, 1, 0, 1, 0>>
+
+State 7: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<4, 0, 0, 0, 1, 0, 1, 0>>
+
+State 8: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 0, 0, 0, 1, 0, 1, 0>>
+
+State 9: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 1, 0, 0, 1, 0, 1, 0>>
+
+State 10: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 2, 0, 0, 1, 0, 1, 0>>
+
+State 11: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 2, 0, 0, 1, 0, 1, 1>>
+
+State 12: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 2, 0, 0, 1, 0, 1, 2>>
+
+State 13: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 3, 0, 0, 1, 0, 1, 2>>
+
+State 14: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 3, 0, 1, 1, 0, 1, 2>>
+
+State 15: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 3, 0, 1, 1, 1, 1, 2>>
+
+State 16: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 3, 0, 2, 1, 1, 1, 2>>
+
+State 17: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 3, 0, 2, 1, 2, 1, 2>>
+
+State 18: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 3, 0, 2, 1, 3, 1, 2>>
+
+State 19: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 3, 0, 3, 1, 3, 1, 2>>
+
+State 20: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 3, 0, 4, 1, 3, 1, 2>>
+
+State 21: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 3, 0, 4, 1, 3, 1, 3>>
+
+State 22: <Action line 24, col 19 to line 25, col 58 of module GridPerformanceTest>
+x = <<5, 3, 0, 4, 1, 3, 1, 4>>
+
+Warning: Failed to read remote worker cache statistic (Expect to see a negative chache hit rate. Does not invalid model checking results)
+(Use the -nowarning option to disable this warning.)
+Worker: rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/3 Sent: 77981 Rcvd: 64615 CacheRatio: n/a (2012-09-09 09:23:05)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/5 Sent: 79630 Rcvd: 54670 CacheRatio: n/a (2012-09-09 09:23:07)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/4 Sent: 72075 Rcvd: 56085 CacheRatio: 0.02 (2012-09-09 09:23:07)
+Worker: rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/6 Sent: 71220 Rcvd: 44625 CacheRatio: 0.03 (2012-09-09 09:23:07)
+Worker: rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/0 Sent: 73236 Rcvd: 45430 CacheRatio: n/a (2012-09-09 09:23:07)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/2 Sent: 73488 Rcvd: 59339 CacheRatio: 0.03 (2012-09-09 09:23:07)
+Worker: rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/1 Sent: 78607 Rcvd: 44387 CacheRatio: 0.03 (2012-09-09 09:23:09)
+Worker: rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/2 Sent: 73207 Rcvd: 62725 CacheRatio: n/a (2012-09-09 09:23:09)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/0 Sent: 75319 Rcvd: 67533 CacheRatio: 0.03 (2012-09-09 09:23:09)
+Worker: rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/3 Sent: 75913 Rcvd: 53622 CacheRatio: 0.03 (2012-09-09 09:23:09)
+Worker: rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/4 Sent: 80379 Rcvd: 59156 CacheRatio: n/a (2012-09-09 09:23:09)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/5 Sent: 76689 Rcvd: 48655 CacheRatio: 0.03 (2012-09-09 09:23:09)
+Worker: rmi://ip-10-32-45-80.eu-west-1.compute.internal:34323/7 Sent: 76693 Rcvd: 56590 CacheRatio: 0.03 (2012-09-09 09:23:09)
+Worker: rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/6 Sent: 78917 Rcvd: 62277 CacheRatio: n/a (2012-09-09 09:23:09)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/1 Sent: 81053 Rcvd: 49689 CacheRatio: n/a (2012-09-09 09:23:09)
+Ignoring attempt to exit dead worker
+Worker: rmi://ip-10-32-49-138.eu-west-1.compute.internal:44736/7 Sent: 78447 Rcvd: 65065 CacheRatio: n/a (2012-09-09 09:23:09)
+Ignoring attempt to exit dead worker
+14899362 states generated, 1735266 distinct states found, 512412 states left on queue.
+Finished. (2012-09-09 09:23:09)
