@@ -1,0 +1,118 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/5072/spec/l10_n8.tla
+Parsing file /mnt/tlc/5072/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/5072/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/5072/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/5072/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/5072/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/5072/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-10-16 13:56:13)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-32-44-124 is ready (2012-10-16 13:56:13)
+Registration for worker at rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/6 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/5 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/4 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/7 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/0 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/1 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/2 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/3 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/6 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/5 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/0 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/1 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/2 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/7 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/4 completed (2012-10-16 13:56:15)
+Registration for worker at rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/3 completed (2012-10-16 13:56:15)
+Progress(25) at 2012-10-16 13:57:14: 8182764 states generated (8,182,764 s/min), 1037706 distinct states found (1,037,706 ds/min), 397805 states left on queue.
+Progress(25) at 2012-10-16 13:58:14: 17826591 states generated (9,643,827 s/min), 2020463 distinct states found (982,757 ds/min), 674790 states left on queue.
+Progress(25) at 2012-10-16 13:59:14: 28060501 states generated (10,233,910 s/min), 2944449 distinct states found (923,986 ds/min), 867692 states left on queue.
+Progress(25) at 2012-10-16 14:00:14: 35646868 states generated (7,586,367 s/min), 3601317 distinct states found (656,868 ds/min), 981694 states left on queue.
+Progress(25) at 2012-10-16 14:01:14: 42366361 states generated (6,719,493 s/min), 4166043 distinct states found (564,726 ds/min), 1077176 states left on queue.
+Progress(25) at 2012-10-16 14:02:14: 52671157 states generated (10,304,796 s/min), 5015622 distinct states found (849,579 ds/min), 1194644 states left on queue.
+Progress(25) at 2012-10-16 14:03:14: 62652632 states generated (9,981,475 s/min), 5786894 distinct states found (771,272 ds/min), 1266489 states left on queue.
+Progress(27) at 2012-10-16 14:04:14: 72861902 states generated (10,209,270 s/min), 6566535 distinct states found (779,641 ds/min), 1330088 states left on queue.
+Progress(35) at 2012-10-16 14:05:14: 82308309 states generated (9,446,407 s/min), 7287105 distinct states found (720,570 ds/min), 1375815 states left on queue.
+Progress(35) at 2012-10-16 14:06:14: 91733109 states generated (9,424,800 s/min), 7972508 distinct states found (685,403 ds/min), 1402632 states left on queue.
+Progress(35) at 2012-10-16 14:07:14: 101824903 states generated (10,091,794 s/min), 8708722 distinct states found (736,214 ds/min), 1422221 states left on queue.
+Progress(35) at 2012-10-16 14:08:14: 111459318 states generated (9,634,415 s/min), 9375654 distinct states found (666,932 ds/min), 1414097 states left on queue.
+Progress(36) at 2012-10-16 14:09:14: 122028390 states generated (10,569,072 s/min), 10118439 distinct states found (742,785 ds/min), 1407678 states left on queue.
+Progress(37) at 2012-10-16 14:10:14: 130828580 states generated (8,800,190 s/min), 10694945 distinct states found (576,506 ds/min), 1372780 states left on queue.
+Progress(37) at 2012-10-16 14:11:14: 139603966 states generated (8,775,386 s/min), 11285605 distinct states found (590,660 ds/min), 1333482 states left on queue.
+Progress(39) at 2012-10-16 14:12:14: 150013844 states generated (10,409,878 s/min), 11962747 distinct states found (677,142 ds/min), 1278154 states left on queue.
+Progress(39) at 2012-10-16 14:13:14: 159805774 states generated (9,791,930 s/min), 12583846 distinct states found (621,099 ds/min), 1207958 states left on queue.
+Progress(40) at 2012-10-16 14:14:14: 169819210 states generated (10,013,436 s/min), 13206614 distinct states found (622,768 ds/min), 1123449 states left on queue.
+Progress(40) at 2012-10-16 14:15:14: 178860530 states generated (9,041,320 s/min), 13743141 distinct states found (536,527 ds/min), 1018907 states left on queue.
+Progress(40) at 2012-10-16 14:16:14: 187856621 states generated (8,996,091 s/min), 14279928 distinct states found (536,787 ds/min), 914770 states left on queue.
+Progress(42) at 2012-10-16 14:17:14: 197668814 states generated (9,812,193 s/min), 14852907 distinct states found (572,979 ds/min), 789806 states left on queue.
+Progress(42) at 2012-10-16 14:18:14: 207521819 states generated (9,853,005 s/min), 15403798 distinct states found (550,891 ds/min), 634767 states left on queue.
+Progress(42) at 2012-10-16 14:19:14: 217467827 states generated (9,946,008 s/min), 15932468 distinct states found (528,670 ds/min), 449685 states left on queue.
+Progress(46) at 2012-10-16 14:20:14: 226342894 states generated (8,875,067 s/min), 16378983 distinct states found (446,515 ds/min), 256708 states left on queue.
+Worker: rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/0 Sent: 1043009 Rcvd: 550978 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/2 Sent: 1051319 Rcvd: 583305 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/7 Sent: 1052925 Rcvd: 571131 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/1 Sent: 1042325 Rcvd: 550270 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/4 Sent: 1044625 Rcvd: 535409 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/3 Sent: 1047590 Rcvd: 538973 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/0 Sent: 1051616 Rcvd: 548708 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/2 Sent: 1046809 Rcvd: 536503 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/5 Sent: 1047092 Rcvd: 510296 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/6 Sent: 1043976 Rcvd: 515212 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/3 Sent: 1050590 Rcvd: 563155 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/4 Sent: 1051662 Rcvd: 560911 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/6 Sent: 1053578 Rcvd: 558229 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-53-134.eu-west-1.compute.internal:53519/7 Sent: 1043897 Rcvd: 511478 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/1 Sent: 1054299 Rcvd: 572137 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Worker: rmi://ip-10-32-49-87.eu-west-1.compute.internal:54778/5 Sent: 1051904 Rcvd: 558631 CacheRatio: 0.02 (2012-10-16 14:21:13)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 7.7E-5
+  based on the actual fingerprints:  val = 6.2E-11
+235271500 states generated, 16777216 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 47.
+Finished. (2012-10-16 14:21:15)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.io.EOFExceptionjava.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy2.exit(Unknown Source)
+	at tlc2.tool.distributed.TLCServer$WorkerShutdownHook.run(TLCServer.java:814)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(Unknown Source)
+	... 7 more
+
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.io.EOFExceptionjava.rmi.UnmarshalException: Error unmarshaling return header; nested exception is: 
+	java.io.EOFException
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy2.exit(Unknown Source)
+	at tlc2.tool.distributed.TLCServer$WorkerShutdownHook.run(TLCServer.java:814)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException
+	at java.io.DataInputStream.readByte(Unknown Source)
+	... 7 more
+
