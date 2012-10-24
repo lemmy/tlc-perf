@@ -1,0 +1,103 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/2967/spec/l10_n8.tla
+Parsing file /mnt/tlc/2967/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/2967/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/2967/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/2967/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/2967/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/2967/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-10-24 15:21:59)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-32-22-171 is ready (2012-10-24 15:21:59)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/1 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/2 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/6 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/4 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/3 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/0 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/7 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/5 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/2 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/4 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/6 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/5 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/3 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/1 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/0 completed (2012-10-24 15:22:18)
+Registration for worker at rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/7 completed (2012-10-24 15:22:18)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a tlc2.tool.WorkerExceptiontlc2.tool.WorkerException
+	at tlc2.tool.distributed.TLCWorker.getNextStates(TLCWorker.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy2.getNextStates(Unknown Source)
+	at tlc2.tool.distributed.TLCWorkerSmartProxy.getNextStates(TLCWorkerSmartProxy.java:35)
+	at tlc2.tool.distributed.TLCServerThread.run(TLCServerThread.java:189)
+Caused by: java.lang.NullPointerException
+	at tlc2.util.FP64.compareTo(FP64.java:311)
+	at tlc2.tool.distributed.TLCWorker.getNextStates(TLCWorker.java:139)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+x = <<0, 0, 0, 0, 0, 0, 0, 0>>
+
+Worker: rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/4 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/3 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/1 Sent: 1 Rcvd: 0 CacheRatio: 0.11 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/5 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/5 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/2 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/7 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/2 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/0 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/7 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/6 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:50130/4 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/0 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/3 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/1 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+Worker: rmi://ip-10-32-17-25.eu-west-1.compute.internal:33663/6 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:22:18)
+1 states generated, 1 distinct states found, 0 states left on queue.
+Finished. (2012-10-24 15:22:18)
