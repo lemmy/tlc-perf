@@ -1,0 +1,86 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/3083/spec/l10_n8.tla
+Parsing file /mnt/tlc/3083/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/3083/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/3083/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/3083/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/3083/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/3083/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-10-25 07:19:17)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-32-17-106 is ready (2012-10-25 07:19:17)
+Registration for worker at rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/7 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/2 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/5 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/3 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/6 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/0 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/1 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/4 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/3 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/5 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/6 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/4 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/2 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/7 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/0 completed (2012-10-25 07:19:36)
+Registration for worker at rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/1 completed (2012-10-25 07:19:36)
+Progress(26) at 2012-10-25 07:20:36: 6478079 states generated (6,478,079 s/min), 825457 distinct states found (825,457 ds/min), 306047 states left on queue.
+Progress(26) at 2012-10-25 07:21:36: 15143966 states generated (8,665,887 s/min), 1719695 distinct states found (894,238 ds/min), 566045 states left on queue.
+Progress(26) at 2012-10-25 07:22:36: 24484361 states generated (9,340,395 s/min), 2568311 distinct states found (848,616 ds/min), 747145 states left on queue.
+Progress(26) at 2012-10-25 07:23:36: 33998151 states generated (9,513,790 s/min), 3397436 distinct states found (829,125 ds/min), 902453 states left on queue.
+Progress(26) at 2012-10-25 07:24:36: 43505144 states generated (9,506,993 s/min), 4195477 distinct states found (798,041 ds/min), 1034421 states left on queue.
+Progress(30) at 2012-10-25 07:25:36: 51324616 states generated (7,819,472 s/min), 4858807 distinct states found (663,330 ds/min), 1146533 states left on queue.
+Progress(30) at 2012-10-25 07:26:36: 60942185 states generated (9,617,569 s/min), 5566254 distinct states found (707,447 ds/min), 1181307 states left on queue.
+Progress(30) at 2012-10-25 07:27:36: 70627037 states generated (9,684,852 s/min), 6321612 distinct states found (755,358 ds/min), 1262070 states left on queue.
+Progress(30) at 2012-10-25 07:28:36: 80103774 states generated (9,476,737 s/min), 7018662 distinct states found (697,050 ds/min), 1292783 states left on queue.
+Progress(32) at 2012-10-25 07:29:36: 89807634 states generated (9,703,860 s/min), 7745893 distinct states found (727,231 ds/min), 1345178 states left on queue.
+Progress(32) at 2012-10-25 07:30:36: 97671502 states generated (7,863,868 s/min), 8297963 distinct states found (552,070 ds/min), 1345889 states left on queue.
+Progress(34) at 2012-10-25 07:31:36: 107234000 states generated (9,562,498 s/min), 8980100 distinct states found (682,137 ds/min), 1361697 states left on queue.
+Progress(34) at 2012-10-25 07:32:36: 116618548 states generated (9,384,548 s/min), 9626344 distinct states found (646,244 ds/min), 1349979 states left on queue.
+Progress(34) at 2012-10-25 07:33:36: 126047397 states generated (9,428,849 s/min), 10268747 distinct states found (642,403 ds/min), 1334279 states left on queue.
+Progress(34) at 2012-10-25 07:34:36: 135412652 states generated (9,365,255 s/min), 10888583 distinct states found (619,836 ds/min), 1296063 states left on queue.
+Progress(34) at 2012-10-25 07:35:36: 143353382 states generated (7,940,730 s/min), 11403892 distinct states found (515,309 ds/min), 1255883 states left on queue.
+Progress(36) at 2012-10-25 07:36:36: 152351750 states generated (8,998,368 s/min), 11989782 distinct states found (585,890 ds/min), 1208650 states left on queue.
+Progress(36) at 2012-10-25 07:37:36: 161703855 states generated (9,352,105 s/min), 12591081 distinct states found (601,299 ds/min), 1152140 states left on queue.
+Progress(36) at 2012-10-25 07:38:36: 171121239 states generated (9,417,384 s/min), 13189237 distinct states found (598,156 ds/min), 1084417 states left on queue.
+Progress(38) at 2012-10-25 07:39:36: 180837242 states generated (9,716,003 s/min), 13755208 distinct states found (565,971 ds/min), 968349 states left on queue.
+Progress(38) at 2012-10-25 07:40:36: 188507024 states generated (7,669,782 s/min), 14218023 distinct states found (462,815 ds/min), 889072 states left on queue.
+Progress(39) at 2012-10-25 07:41:36: 197338483 states generated (8,831,459 s/min), 14733974 distinct states found (515,951 ds/min), 780914 states left on queue.
+Progress(42) at 2012-10-25 07:42:36: 206581141 states generated (9,242,658 s/min), 15256167 distinct states found (522,193 ds/min), 646437 states left on queue.
+Progress(43) at 2012-10-25 07:43:36: 215689892 states generated (9,108,751 s/min), 15750017 distinct states found (493,850 ds/min), 492127 states left on queue.
+Progress(43) at 2012-10-25 07:44:36: 224854953 states generated (9,165,061 s/min), 16228976 distinct states found (478,959 ds/min), 315065 states left on queue.
+Progress(44) at 2012-10-25 07:45:36: 232462294 states generated (7,607,341 s/min), 16606551 distinct states found (377,575 ds/min), 140588 states left on queue.
+Worker: rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/3 Sent: 1080070 Rcvd: 682338 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/4 Sent: 1081545 Rcvd: 767959 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/2 Sent: 1081467 Rcvd: 662234 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/0 Sent: 1082809 Rcvd: 686724 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/1 Sent: 1082980 Rcvd: 685227 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/7 Sent: 1018534 Rcvd: 373905 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/5 Sent: 1081969 Rcvd: 655749 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/2 Sent: 1015411 Rcvd: 412028 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/1 Sent: 1016574 Rcvd: 389060 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/0 Sent: 1014706 Rcvd: 412049 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/7 Sent: 1082800 Rcvd: 709827 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-173.eu-west-1.compute.internal:45883/6 Sent: 1080031 Rcvd: 666290 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/4 Sent: 1015437 Rcvd: 379979 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/6 Sent: 1014316 Rcvd: 398260 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/5 Sent: 1015391 Rcvd: 391241 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Worker: rmi://ip-10-32-27-215.eu-west-1.compute.internal:48427/3 Sent: 1013176 Rcvd: 441468 CacheRatio: 0.02 (2012-10-25 07:46:03)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 7.8E-5
+  based on the actual fingerprints:  val = 6.2E-11
+236680098 states generated, 16777216 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 50.
+Finished. (2012-10-25 07:46:10)
