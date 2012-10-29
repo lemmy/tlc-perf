@@ -1,0 +1,30 @@
+Listening for transport dt_socket at address: 1044
+TLC2 Version 2.05 of 18 May 2012
+Running in Model-Checking mode.
+Parsing file l4_n10.tla
+Parsing file GridPerformanceTest.tla
+Parsing file /mnt/tlc/3007/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/3007/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/3007/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/3007/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/3007/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l4_n10
+Starting... (2012-10-29 13:37:27)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.io.IOException: Unable to open /mnt/states/12-10-29-13-37-27/l4_n10.fp.
+/mnt/states/12-10-29-13-37-27/l4_n10.fp (No such file or directory)java.io.IOException: Unable to open /mnt/states/12-10-29-13-37-27/l4_n10.fp.
+/mnt/states/12-10-29-13-37-27/l4_n10.fp (No such file or directory)
+	at tlc2.tool.fp.DiskFPSet.init(DiskFPSet.java:282)
+	at tlc2.tool.ModelChecker.<init>(ModelChecker.java:71)
+	at tlc2.TLC.process(TLC.java:690)
+	at tlc2.TLC.main(TLC.java:168)
+
+Finished. (2012-10-29 13:38:01)
