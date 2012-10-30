@@ -1,0 +1,89 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/4515/spec/l10_n8.tla
+Parsing file /mnt/tlc/4515/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/4515/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/4515/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/4515/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/4515/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/4515/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-10-24 15:50:29)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-32-27-217 is ready (2012-10-24 15:50:30)
+Registration for worker at rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/7 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/4 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/5 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/3 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/2 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/6 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/0 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/1 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/4 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/7 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/3 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/6 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/2 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/5 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/0 completed (2012-10-24 15:50:49)
+Registration for worker at rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/1 completed (2012-10-24 15:50:49)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.lang.UnsupportedOperationException: Not yet implementedjava.lang.UnsupportedOperationException: Not yet implemented
+	at tlc2.util.FP64.read(FP64.java:347)
+	at tlc2.util.LongVec.readObject(LongVec.java:78)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at java.io.ObjectStreamClass.invokeReadObject(Unknown Source)
+	at java.io.ObjectInputStream.readSerialData(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readArray(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.defaultReadFields(Unknown Source)
+	at java.io.ObjectInputStream.readSerialData(Unknown Source)
+	at java.io.ObjectInputStream.readOrdinaryObject(Unknown Source)
+	at java.io.ObjectInputStream.readObject0(Unknown Source)
+	at java.io.ObjectInputStream.readObject(Unknown Source)
+	at sun.rmi.server.UnicastRef.unmarshalValue(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy2.getNextStates(Unknown Source)
+	at tlc2.tool.distributed.TLCWorkerSmartProxy.getNextStates(TLCWorkerSmartProxy.java:35)
+	at tlc2.tool.distributed.TLCServerThread.run(TLCServerThread.java:189)
+
+Worker: rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/0 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/6 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/7 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/4 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/4 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/6 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/3 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/2 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/7 Sent: 1 Rcvd: 0 CacheRatio: 0.11 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/5 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/2 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/0 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/1 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/3 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-16-133.eu-west-1.compute.internal:35099/1 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Worker: rmi://ip-10-32-3-38.eu-west-1.compute.internal:59514/5 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 15:50:49)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 0.0
+  based on the actual fingerprints:  val = 1.1E-19
+1 states generated, 1 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 1.
+Finished. (2012-10-24 15:50:58)

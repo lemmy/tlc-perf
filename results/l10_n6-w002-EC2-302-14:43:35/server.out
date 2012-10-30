@@ -1,0 +1,110 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 18 May 2012
+Parsing file /mnt/tlc/3059/spec/l10_n6.tla
+Parsing file /mnt/tlc/3059/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/3059/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/3059/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/3059/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/3059/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/3059/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-10-24 14:43:43)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-32-17-6 is ready (2012-10-24 14:43:43)
+Warning: Failed to connect from ip-10-32-17-6 to the fp server at ip-10-32-22-176.
+error marshalling arguments; nested exception is: 
+	java.io.NotSerializableException: tlc2.util.FP64
+Warning: Failed to connect from ip-10-32-17-6 to the fp server at ip-10-32-27-141.
+error marshalling arguments; nested exception is: 
+	java.io.NotSerializableException: tlc2.util.FP64
+Warning: there is no fp server available.
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/4 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/2 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/7 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/1 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/3 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/4 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/6 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/0 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/7 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/1 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/2 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/0 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/6 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/5 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/3 completed (2012-10-24 14:44:03)
+Registration for worker at rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/5 completed (2012-10-24 14:44:03)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a tlc2.tool.WorkerExceptiontlc2.tool.WorkerException
+	at tlc2.tool.distributed.TLCWorker.getNextStates(TLCWorker.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy2.getNextStates(Unknown Source)
+	at tlc2.tool.distributed.TLCWorkerSmartProxy.getNextStates(TLCWorkerSmartProxy.java:35)
+	at tlc2.tool.distributed.TLCServerThread.run(TLCServerThread.java:189)
+Caused by: java.lang.NullPointerException
+	at tlc2.util.SimpleCache.hit(SimpleCache.java:37)
+	at tlc2.tool.distributed.TLCWorker.getNextStates(TLCWorker.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Error: The behavior up to this point is:
+State 1: <Initial predicate>
+x = <<0, 0, 0, 0, 0, 0>>
+
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/1 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/4 Sent: 1 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/5 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/3 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/1 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/3 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/2 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/7 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/6 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/0 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/5 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/0 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/7 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/2 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-27-141.eu-west-1.compute.internal:55328/4 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+Worker: rmi://ip-10-32-22-176.eu-west-1.compute.internal:34782/6 Sent: 0 Rcvd: 0 CacheRatio: 1.00 (2012-10-24 14:44:03)
+1 states generated, 0 distinct states found, 0 states left on queue.
+Finished. (2012-10-24 14:44:03)
