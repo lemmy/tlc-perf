@@ -1,0 +1,106 @@
+Warning: Permanently added 'ip-10-33-145-12.eu-west-1.compute.internal,10.33.145.12' (ECDSA) to the list of known hosts.
+TLC Worker Version 2.05 of 24 October 2012
+Server ip-10-32-50-194.eu-west-1.compute.internal unreachable, sleeping 1s for server to come online...
+Server ip-10-32-50-194.eu-west-1.compute.internal unreachable, sleeping 1s for server to come online...
+Server ip-10-32-50-194.eu-west-1.compute.internal unreachable, sleeping 2s for server to come online...
+Server ip-10-32-50-194.eu-west-1.compute.internal unreachable, sleeping 2s for server to come online...
+Server ip-10-32-50-194.eu-west-1.compute.internal unreachable, sleeping 4s for server to come online...
+Server ip-10-32-50-194.eu-west-1.compute.internal unreachable, sleeping 5s for server to come online...
+Server ip-10-32-50-194.eu-west-1.compute.internal unreachable, sleeping 8s for server to come online...
+Server ip-10-32-50-194.eu-west-1.compute.internal unreachable, sleeping 11s for server to come online...
+Parsing file /tmp/1352126870111/l10_n8.tla
+Parsing file /tmp/1352126870111/GridPerformanceTest.tla
+Parsing file /tmp/1352126870111/TLC.tla
+Parsing file /tmp/1352126870111/Integers.tla
+Parsing file /tmp/1352126870111/FiniteSets.tla
+Parsing file /tmp/1352126870111/Naturals.tla
+Parsing file /tmp/1352126870111/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-11-05 14:47:50)
+TLC worker with 8 threads ready at: Mon Nov 05 14:47:50 UTC 2012
+Exception in thread "TLCWorkerThread-002" java.lang.IllegalMonitorStateException
+	at java.lang.Object.notifyAll(Native Method)
+	at tlc2.tool.queue.StateQueue.resumeAllStuck(StateQueue.java:250)
+	at tlc2.tool.distributed.TLCServer.registerWorker(TLCServer.java:238)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy0.registerWorker(Unknown Source)
+	at tlc2.tool.distributed.TLCWorker$TLCWorkerRunnable.run(TLCWorker.java:410)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "TLCWorkerThread-005" java.lang.IllegalMonitorStateException
+	at java.lang.Object.notifyAll(Native Method)
+	at tlc2.tool.queue.StateQueue.resumeAllStuck(StateQueue.java:250)
+	at tlc2.tool.distributed.TLCServer.registerWorker(TLCServer.java:238)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy0.registerWorker(Unknown Source)
+	at tlc2.tool.distributed.TLCWorker$TLCWorkerRunnable.run(TLCWorker.java:410)
+	at java.lang.Thread.run(Unknown Source)
+Exception in thread "TLCWorkerThread-004" java.lang.IllegalMonitorStateException
+	at java.lang.Object.notifyAll(Native Method)
+	at tlc2.tool.queue.StateQueue.resumeAllStuck(StateQueue.java:250)
+	at tlc2.tool.distributed.TLCServer.registerWorker(TLCServer.java:238)
+	at sun.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy0.registerWorker(Unknown Source)
+	at tlc2.tool.distributed.TLCWorker$TLCWorkerRunnable.run(TLCWorker.java:410)
+	at java.lang.Thread.run(Unknown Source)
+ip-10-33-145-12.eu-west-1.compute.internal, work completed at: Mon Nov 05 14:50:54 UTC 2012 Computed: 979704 and a cache hit ratio of 0.024, Thank you!
+ip-10-33-145-12.eu-west-1.compute.internal, work completed at: Mon Nov 05 14:50:54 UTC 2012 Computed: 995136 and a cache hit ratio of 0.028, Thank you!
+ip-10-33-145-12.eu-west-1.compute.internal, work completed at: Mon Nov 05 14:50:54 UTC 2012 Computed: 1001368 and a cache hit ratio of 0.032, Thank you!
+ip-10-33-145-12.eu-west-1.compute.internal, work completed at: Mon Nov 05 14:50:54 UTC 2012 Computed: 999144 and a cache hit ratio of 0.026, Thank you!
+ip-10-33-145-12.eu-west-1.compute.internal, work completed at: Mon Nov 05 14:50:54 UTC 2012 Computed: 999240 and a cache hit ratio of 0.026, Thank you!
