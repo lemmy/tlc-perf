@@ -1,0 +1,64 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 7 November 2012
+Parsing file /mnt/tlc/3857/spec/l10_n6.tla
+Parsing file /mnt/tlc/3857/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/3857/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/3857/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/3857/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/3857/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/3857/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-11-07 10:50:17)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-32-54-224 is ready (2012-11-07 10:50:17)
+Waiting for 2 FPSet server(s) to register (2012-11-07 10:50:17)
+1 out of 2 FPSet server(s) registered (2012-11-07 10:50:43)
+2 out of 2 FPSet server(s) registered (2012-11-07 10:50:44)
+Done waiting for FPSet server(s) (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/3 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/5 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/7 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/2 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/6 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/0 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/1 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/4 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/6 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/7 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/5 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/4 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/2 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/1 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/0 completed (2012-11-07 10:50:44)
+Registration for worker at rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/3 completed (2012-11-07 10:50:44)
+Worker: rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/3 Sent: 16652 Rcvd: 8325 CacheRatio: 0.17 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/6 Sent: 15981 Rcvd: 8447 CacheRatio: 0.23 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/2 Sent: 16722 Rcvd: 8164 CacheRatio: 0.23 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/5 Sent: 16239 Rcvd: 7548 CacheRatio: 0.17 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/0 Sent: 16757 Rcvd: 8764 CacheRatio: 0.15 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/4 Sent: 16739 Rcvd: 6970 CacheRatio: 0.20 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/4 Sent: 16065 Rcvd: 8620 CacheRatio: 0.20 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/0 Sent: 15964 Rcvd: 8205 CacheRatio: 0.22 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/5 Sent: 16930 Rcvd: 8363 CacheRatio: 0.20 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/1 Sent: 16382 Rcvd: 7733 CacheRatio: 0.20 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/1 Sent: 16485 Rcvd: 9613 CacheRatio: 0.24 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/6 Sent: 16365 Rcvd: 8331 CacheRatio: 0.20 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/7 Sent: 16215 Rcvd: 7599 CacheRatio: 0.18 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/2 Sent: 16020 Rcvd: 8193 CacheRatio: 0.17 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-49-84.eu-west-1.compute.internal:59066/3 Sent: 16111 Rcvd: 8449 CacheRatio: 0.16 (2012-11-07 10:51:03)
+Worker: rmi://ip-10-32-50-203.eu-west-1.compute.internal:42927/7 Sent: 16517 Rcvd: 8384 CacheRatio: 0.21 (2012-11-07 10:51:03)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 8.3E-9
+  based on the actual fingerprints:  val = 2.8E-13
+2416229 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 37.
+Finished. (2012-11-07 10:51:08)
