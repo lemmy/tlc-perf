@@ -1,0 +1,98 @@
+Warning: Permanently added 'ip-10-33-0-238.eu-west-1.compute.internal,10.33.0.238' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1352883275415/l10_n10.tla
+Parsing file /tmp/1352883275415/GridPerformanceTest.tla
+Parsing file /tmp/1352883275415/TLC.tla
+Parsing file /tmp/1352883275415/Integers.tla
+Parsing file /tmp/1352883275415/FiniteSets.tla
+Parsing file /tmp/1352883275415/Naturals.tla
+Parsing file /tmp/1352883275415/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n10
+Starting... (2012-11-14 08:54:35)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-0-238 is ready.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 0.
+TLC worker with 32 threads ready at: Wed Nov 14 08:54:46 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 5101849.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 9378665.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 13526946.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 17609682.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 21401609.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 25015446.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 28750894.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 32403868.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 35985355.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 39430218.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 43059903.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 46311802.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 49722967.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 53134379.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 56306685.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 59702153.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 62885766.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 66171794.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 69626293.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 72948770.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 76056044.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 79405344.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 82520019.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 85713975.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 88761176.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 91784440.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 94999290.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 97915008.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 101070260.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 104085706.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 107088592.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 110071639.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 113087248.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 115941263.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 118820576.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 121606701.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 124292672.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 127042378.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 129674921.
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 132208871.
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37002380 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37223110 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37168610 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 36884660 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37124990 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 36976780 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37315580 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37366510 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37501330 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37586400 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37338640 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37113040 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37459870 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37376920 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37169100 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37158980 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37613390 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37462560 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37107170 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 36985800 and a cache hit ratio of 0.004, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37052400 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37157370 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37054730 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37234300 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37402140 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37432060 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37260070 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37444350 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37182520 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37107440 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37149590 and a cache hit ratio of 0.003, Thank you!
+ip-10-33-0-238.eu-west-1.compute.internal, work completed at: Wed Nov 14 12:19:13 UTC 2012 Computed: 37335890 and a cache hit ratio of 0.003, Thank you!
+Progress: The number of fingerprints stored at ip-10-33-0-238 is 134217728.
+ip-10-33-0-238, work completed. Thank you!
