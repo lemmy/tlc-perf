@@ -1,0 +1,62 @@
+Warning: Permanently added 'ip-10-32-17-240.eu-west-1.compute.internal,10.32.17.240' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1352991888373/l4_n10.tla
+Parsing file /tmp/1352991888373/GridPerformanceTest.tla
+Parsing file /tmp/1352991888373/TLC.tla
+Parsing file /tmp/1352991888373/Integers.tla
+Parsing file /tmp/1352991888373/FiniteSets.tla
+Parsing file /tmp/1352991888373/Naturals.tla
+Parsing file /tmp/1352991888373/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l4_n10
+Starting... (2012-11-15 15:04:48)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-32-17-240 is ready.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 0.
+TLC worker with 8 threads ready at: Thu Nov 15 15:05:05 UTC 2012
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 20428589.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 40487519.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 60220938.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 80150526.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 99826786.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 118779726.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 136894966.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 154832327.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 172789973.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 190597241.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 208572125.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 226470273.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 244351368.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 262068403.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 279558399.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 297550395.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 315419000.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 333184617.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 351008501.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 369035323.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 386751800.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 404617836.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 422494564.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 440264203.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 458389218.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 476357223.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 494425020.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 512497480.
+Progress: The number of fingerprints stored at ip-10-32-17-240 is 530491728.
+ip-10-32-17-240.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 673496950 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-17-240.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 669144690 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-17-240.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 668323980 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-17-240.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 671990760 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-17-240.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 671667410 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-17-240.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 673801670 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-17-240.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 665167440 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-17-240.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 666740800 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-17-240, work completed. Thank you!

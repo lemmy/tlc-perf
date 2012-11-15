@@ -1,0 +1,421 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 7 November 2012
+Parsing file /mnt/tlc/3308/spec/l4_n10.tla
+Parsing file /mnt/tlc/3308/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/3308/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/3308/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/3308/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/3308/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/3308/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l4_n10
+Starting... (2012-11-15 15:04:37)
+2012-11-15T15:04:37.618+0000: [GC 251658K->1808K(24117248K), 0.0052900 secs]
+2012-11-15T15:04:37.623+0000: [Full GC 1808K->1658K(24117248K), 0.0435220 secs]
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-32-16-189 is ready (2012-11-15 15:04:37)
+Waiting for 2 FPSet server(s) to register (2012-11-15 15:04:37)
+1 out of 2 FPSet server(s) registered (2012-11-15 15:05:01)
+2 out of 2 FPSet server(s) registered (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/5 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/6 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/3 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/2 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/1 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/0 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/4 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/7 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/3 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/5 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/1 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/6 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/4 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/7 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/2 completed (2012-11-15 15:05:05)
+Registration for worker at rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/0 completed (2012-11-15 15:05:05)
+2012-11-15T15:05:19.983+0000: [GC 6293114K->117526K(24117248K), 0.0773520 secs]
+2012-11-15T15:05:54.934+0000: [GC 6408982K->95399K(24117248K), 0.0647250 secs]
+Progress(19) at 2012-11-15 15:06:05: 92408272 states generated (92,408,272 s/min), 8230851 distinct states found (8,230,851 ds/min), 3327642 states left on queue.
+2012-11-15T15:06:35.091+0000: [GC 6386855K->111693K(24117248K), 0.0542250 secs]
+Progress(21) at 2012-11-15 15:07:05: 204759302 states generated (112,351,030 s/min), 16631769 distinct states found (8,400,918 ds/min), 5809786 states left on queue.
+2012-11-15T15:07:14.995+0000: [GC 6403325K->115920K(24117248K), 0.0556230 secs]
+2012-11-15T15:07:47.702+0000: [GC 6407376K->129136K(24986880K), 0.0628990 secs]
+Progress(22) at 2012-11-15 15:08:05: 316148420 states generated (111,389,118 s/min), 24794548 distinct states found (8,162,779 ds/min), 8347369 states left on queue.
+2012-11-15T15:08:33.362+0000: [GC 7290224K->129906K(24117248K), 0.0854570 secs]
+Progress(23) at 2012-11-15 15:09:05: 442695415 states generated (126,546,995 s/min), 33185090 distinct states found (8,390,542 ds/min), 10114063 states left on queue.
+2012-11-15T15:09:16.588+0000: [GC 7290994K->130709K(24977408K), 0.0778130 secs]
+2012-11-15T15:10:06.793+0000: [GC 8146581K->120370K(24979456K), 0.0721600 secs]
+Progress(23) at 2012-11-15 15:10:06: 553756730 states generated (111,061,315 s/min), 40862668 distinct states found (7,677,578 ds/min), 12284266 states left on queue.
+2012-11-15T15:10:53.937+0000: [GC 8136242K->125112K(24986240K), 0.0585700 secs]
+Progress(24) at 2012-11-15 15:11:06: 667154609 states generated (113,397,879 s/min), 48944872 distinct states found (8,082,204 ds/min), 14537743 states left on queue.
+2012-11-15T15:11:41.036+0000: [GC 8151365K->121223K(24983296K), 0.0569130 secs]
+Progress(24) at 2012-11-15 15:12:06: 799018299 states generated (131,863,690 s/min), 56961854 distinct states found (8,016,982 ds/min), 15807503 states left on queue.
+2012-11-15T15:12:23.732+0000: [GC 8147719K->121213K(24995008K), 0.0575470 secs]
+Progress(25) at 2012-11-15 15:13:06: 909823087 states generated (110,804,788 s/min), 65136722 distinct states found (8,174,868 ds/min), 18232335 states left on queue.
+2012-11-15T15:13:18.664+0000: [GC 8163901K->108975K(24990720K), 0.0600960 secs]
+2012-11-15T15:14:01.617+0000: [GC 8151663K->112422K(25006144K), 0.0575160 secs]
+Progress(25) at 2012-11-15 15:14:06: 1048145799 states generated (138,322,712 s/min), 73308192 distinct states found (8,171,470 ds/min), 19313679 states left on queue.
+2012-11-15T15:14:44.826+0000: [GC 8176038K->105038K(25000512K), 0.0616260 secs]
+Progress(26) at 2012-11-15 15:15:06: 1171617458 states generated (123,471,659 s/min), 81014363 distinct states found (7,706,171 ds/min), 20681743 states left on queue.
+2012-11-15T15:15:42.299+0000: [GC 8168654K->128979K(25008768K), 0.0717200 secs]
+Progress(26) at 2012-11-15 15:16:06: 1279143528 states generated (107,526,070 s/min), 88950417 distinct states found (7,936,054 ds/min), 23195033 states left on queue.
+2012-11-15T15:16:29.631+0000: [GC 8204755K->120609K(25009408K), 0.0616720 secs]
+Progress(26) at 2012-11-15 15:17:06: 1422421691 states generated (143,278,163 s/min), 96917221 distinct states found (7,966,804 ds/min), 23810841 states left on queue.
+2012-11-15T15:17:12.430+0000: [GC 8196385K->121330K(25015040K), 0.0556990 secs]
+2012-11-15T15:17:50.132+0000: [GC 8205746K->184050K(25012416K), 0.1009680 secs]
+Progress(27) at 2012-11-15 15:18:06: 1553284904 states generated (130,863,213 s/min), 105027037 distinct states found (8,109,816 ds/min), 25178905 states left on queue.
+2012-11-15T15:18:51.155+0000: [GC 8268466K->189331K(24958656K), 0.0833290 secs]
+Progress(27) at 2012-11-15 15:19:06: 1660385108 states generated (107,100,204 s/min), 113110535 distinct states found (8,083,498 ds/min), 27775769 states left on queue.
+2012-11-15T15:19:39.120+0000: [GC 8217363K->157763K(24985536K), 0.0593810 secs]
+Progress(27) at 2012-11-15 15:20:06: 1799022074 states generated (138,636,966 s/min), 120650443 distinct states found (7,539,908 ds/min), 28275481 states left on queue.
+2012-11-15T15:20:20.815+0000: [GC 8185795K->156513K(24995328K), 0.0635910 secs]
+2012-11-15T15:21:04.568+0000: [GC 8199201K->150444K(24990400K), 0.0588520 secs]
+Progress(27) at 2012-11-15 15:21:06: 1945065150 states generated (146,043,076 s/min), 128293375 distinct states found (7,642,932 ds/min), 28411522 states left on queue.
+2012-11-15T15:21:54.652+0000: [GC 8193132K->182338K(24988800K), 0.0710140 secs]
+Progress(28) at 2012-11-15 15:22:06: 2050807837 states generated (105,742,687 s/min), 136594882 distinct states found (8,301,507 ds/min), 31266964 states left on queue.
+2012-11-15T15:22:45.353+0000: [GC 8227906K->159245K(24994304K), 0.0641050 secs]
+Progress(28) at 2012-11-15 15:23:06: 2171680827 states generated (120,872,990 s/min), 144539974 distinct states found (7,945,092 ds/min), 33069204 states left on queue.
+2012-11-15T15:23:32.736+0000: [GC 8204813K->149010K(25001856K), 0.0608630 secs]
+Progress(28) at 2012-11-15 15:24:06: 2321906618 states generated (150,225,791 s/min), 152471360 distinct states found (7,931,386 ds/min), 33331348 states left on queue.
+2012-11-15T15:24:12.707+0000: [GC 8206482K->138473K(24998656K), 0.0547290 secs]
+2012-11-15T15:24:53.156+0000: [GC 8195945K->144222K(25005696K), 0.0521750 secs]
+Progress(28) at 2012-11-15 15:25:06: 2475516296 states generated (153,609,678 s/min), 160350364 distinct states found (7,879,004 ds/min), 33290388 states left on queue.
+2012-11-15T15:25:30.223+0000: [GC 8209950K->195435K(25001536K), 0.0791040 secs]
+Progress(29) at 2012-11-15 15:26:06: 2584267389 states generated (108,751,093 s/min), 168250132 distinct states found (7,899,768 ds/min), 35540651 states left on queue.
+2012-11-15T15:26:34.398+0000: [GC 8261163K->164083K(24993600K), 0.0603190 secs]
+Progress(29) at 2012-11-15 15:27:07: 2699474998 states generated (115,207,609 s/min), 176203018 distinct states found (7,952,886 ds/min), 37673108 states left on queue.
+2012-11-15T15:27:20.592+0000: [GC 8216179K->160808K(24997568K), 0.0630210 secs]
+2012-11-15T15:28:06.216+0000: [GC 8212904K->151591K(25004480K), 0.0563190 secs]
+Progress(29) at 2012-11-15 15:28:07: 2836239280 states generated (136,764,282 s/min), 184292674 distinct states found (8,089,656 ds/min), 38787220 states left on queue.
+2012-11-15T15:28:47.082+0000: [GC 8214631K->163095K(25001600K), 0.0610880 secs]
+Progress(29) at 2012-11-15 15:29:07: 3001280187 states generated (165,040,907 s/min), 192126233 distinct states found (7,833,559 ds/min), 38148244 states left on queue.
+2012-11-15T15:29:24.167+0000: [GC 8226135K->151732K(25009280K), 0.0615010 secs]
+2012-11-15T15:30:07.091+0000: [GC 8224820K->156447K(25006848K), 0.0736330 secs]
+Progress(29) at 2012-11-15 15:30:07: 3155022433 states generated (153,742,246 s/min), 199662484 distinct states found (7,536,251 ds/min), 37777524 states left on queue.
+2012-11-15T15:31:02.596+0000: [GC 8229535K->150076K(25014336K), 0.0537490 secs]
+Progress(30) at 2012-11-15 15:31:07: 3243747223 states generated (88,724,790 s/min), 207692180 distinct states found (8,029,696 ds/min), 41195668 states left on queue.
+2012-11-15T15:31:55.797+0000: [GC 8233916K->158877K(25012544K), 0.0591020 secs]
+Progress(30) at 2012-11-15 15:32:07: 3358035637 states generated (114,288,414 s/min), 215480164 distinct states found (7,787,984 ds/min), 43169940 states left on queue.
+2012-11-15T15:32:41.729+0000: [GC 8242717K->140380K(25016832K), 0.0596750 secs]
+Progress(30) at 2012-11-15 15:33:07: 3500044234 states generated (142,008,597 s/min), 223279711 distinct states found (7,799,547 ds/min), 43743380 states left on queue.
+2012-11-15T15:33:28.129+0000: [GC 8231260K->151963K(25016960K), 0.0555490 secs]
+Progress(30) at 2012-11-15 15:34:07: 3641743128 states generated (141,698,894 s/min), 230583659 distinct states found (7,303,948 ds/min), 43767956 states left on queue.
+2012-11-15T15:34:12.373+0000: [GC 8242843K->132069K(25016896K), 0.0567690 secs]
+2012-11-15T15:34:50.494+0000: [GC 8225253K->137831K(25018112K), 0.0605360 secs]
+Progress(30) at 2012-11-15 15:35:07: 3792635139 states generated (150,892,011 s/min), 237516474 distinct states found (6,932,815 ds/min), 42885949 states left on queue.
+2012-11-15T15:35:35.604+0000: [GC 8231015K->161515K(25018304K), 0.1128390 secs]
+Progress(31) at 2012-11-15 15:36:07: 3919706096 states generated (127,070,957 s/min), 244793229 distinct states found (7,276,755 ds/min), 43532948 states left on queue.
+2012-11-15T15:36:32.464+0000: [GC 8255467K->150600K(25018496K), 0.0565090 secs]
+Progress(31) at 2012-11-15 15:37:07: 4007114857 states generated (87,408,761 s/min), 252090631 distinct states found (7,297,402 ds/min), 46416532 states left on queue.
+2012-11-15T15:37:30.626+0000: [GC 8244596K->142574K(25022464K), 0.0588780 secs]
+Progress(31) at 2012-11-15 15:38:07: 4115078650 states generated (107,963,793 s/min), 259476238 distinct states found (7,385,607 ds/min), 48317076 states left on queue.
+2012-11-15T15:38:23.422+0000: [GC 8242936K->144506K(25021312K), 0.0528360 secs]
+Progress(31) at 2012-11-15 15:39:07: 4247717211 states generated (132,638,561 s/min), 266801586 distinct states found (7,325,348 ds/min), 48890516 states left on queue.
+2012-11-15T15:39:10.969+0000: [GC 8245242K->130916K(25022976K), 0.0517730 secs]
+2012-11-15T15:39:54.921+0000: [GC 8234980K->154991K(25023552K), 0.0598440 secs]
+Progress(31) at 2012-11-15 15:40:07: 4386036402 states generated (138,319,191 s/min), 273800535 distinct states found (6,998,949 ds/min), 48816788 states left on queue.
+2012-11-15T15:40:41.551+0000: [GC 8259055K->146944K(25027136K), 0.0658250 secs]
+Progress(31) at 2012-11-15 15:41:07: 4537941296 states generated (151,904,894 s/min), 280681161 distinct states found (6,880,626 ds/min), 47899588 states left on queue.
+2012-11-15T15:41:20.426+0000: [GC 8255680K->165200K(25012096K), 0.0630810 secs]
+2012-11-15T15:42:01.508+0000: [GC 8273936K->139648K(25025152K), 0.0496230 secs]
+Progress(31) at 2012-11-15 15:42:07: 4696580242 states generated (158,638,946 s/min), 288047269 distinct states found (7,366,108 ds/min), 47071538 states left on queue.
+2012-11-15T15:42:54.954+0000: [GC 8246080K->141592K(25024320K), 0.0573180 secs]
+Progress(32) at 2012-11-15 15:43:07: 4782853796 states generated (86,273,554 s/min), 295536755 distinct states found (7,489,486 ds/min), 50095044 states left on queue.
+2012-11-15T15:43:56.250+0000: [GC 8248024K->147330K(25029056K), 0.0590810 secs]
+Progress(32) at 2012-11-15 15:44:07: 4889277578 states generated (106,423,782 s/min), 302885455 distinct states found (7,348,700 ds/min), 52050434 states left on queue.
+2012-11-15T15:44:49.439+0000: [GC 8259906K->138797K(25026560K), 0.0525670 secs]
+Progress(32) at 2012-11-15 15:45:07: 5001154278 states generated (111,876,700 s/min), 309667791 distinct states found (6,782,336 ds/min), 53141378 states left on queue.
+2012-11-15T15:45:42.507+0000: [GC 8251373K->161194K(25025856K), 0.0673150 secs]
+Progress(32) at 2012-11-15 15:46:07: 5129590524 states generated (128,436,246 s/min), 316711022 distinct states found (7,043,231 ds/min), 53614625 states left on queue.
+2012-11-15T15:46:29.057+0000: [GC 8273834K->147376K(25027840K), 0.0523080 secs]
+Progress(32) at 2012-11-15 15:47:07: 5283815098 states generated (154,224,574 s/min), 323927993 distinct states found (7,216,971 ds/min), 52967490 states left on queue.
+2012-11-15T15:47:10.748+0000: [GC 8260016K->133030K(25029632K), 0.0533480 secs]
+2012-11-15T15:47:51.776+0000: [GC 8249766K->164939K(25019008K), 0.0637510 secs]
+Progress(32) at 2012-11-15 15:48:07: 5441628140 states generated (157,813,042 s/min), 331198880 distinct states found (7,270,887 ds/min), 52184004 states left on queue.
+2012-11-15T15:48:28.920+0000: [GC 8281675K->128729K(25025152K), 0.0511850 secs]
+Progress(32) at 2012-11-15 15:49:07: 5605823839 states generated (164,195,699 s/min), 338572267 distinct states found (7,373,387 ds/min), 51031192 states left on queue.
+2012-11-15T15:49:08.806+0000: [GC 8237273K->157825K(25003648K), 0.0564370 secs]
+Progress(33) at 2012-11-15 15:50:09: 5690429284 states generated (84,605,445 s/min), 345611853 distinct states found (7,039,586 ds/min), 53736960 states left on queue.
+2012-11-15T15:50:12.155+0000: [GC 8266369K->138983K(25026752K), 0.0569550 secs]
+Progress(33) at 2012-11-15 15:51:09: 5783700155 states generated (93,270,871 s/min), 352801717 distinct states found (7,189,864 ds/min), 56148932 states left on queue.
+2012-11-15T15:51:12.446+0000: [GC 8248063K->147610K(25025280K), 0.0525400 secs]
+2012-11-15T15:51:12.499+0000: [GC 163653K->147864K(24998720K), 0.0869910 secs]
+2012-11-15T15:52:03.763+0000: [GC 8233368K->280816K(24995840K), 0.0595620 secs]
+Progress(33) at 2012-11-15 15:52:09: 5908470095 states generated (124,769,940 s/min), 359964074 distinct states found (7,162,357 ds/min), 56984516 states left on queue.
+2012-11-15T15:52:53.410+0000: [GC 8366320K->284841K(25009280K), 0.0688080 secs]
+Progress(33) at 2012-11-15 15:53:09: 6037161772 states generated (128,691,677 s/min), 367086338 distinct states found (7,122,264 ds/min), 57566148 states left on queue.
+2012-11-15T15:53:39.285+0000: [GC 8357481K->297121K(25006400K), 0.0628970 secs]
+Progress(33) at 2012-11-15 15:54:09: 6181258185 states generated (144,096,413 s/min), 374322935 distinct states found (7,236,597 ds/min), 57426884 states left on queue.
+2012-11-15T15:54:22.694+0000: [GC 8369761K->292227K(25008320K), 0.0591420 secs]
+2012-11-15T15:55:01.789+0000: [GC 8365059K->283119K(25007552K), 0.0546990 secs]
+Progress(33) at 2012-11-15 15:55:09: 6340373811 states generated (159,115,626 s/min), 381435374 distinct states found (7,112,439 ds/min), 56378308 states left on queue.
+2012-11-15T15:55:43.910+0000: [GC 8355951K->281208K(25017536K), 0.0785330 secs]
+Progress(33) at 2012-11-15 15:56:09: 6504652391 states generated (164,278,580 s/min), 388211600 distinct states found (6,776,226 ds/min), 54688579 states left on queue.
+2012-11-15T15:56:18.654+0000: [GC 8368504K->315762K(25003776K), 0.0678670 secs]
+2012-11-15T15:56:55.306+0000: [GC 8403058K->411629K(24924992K), 0.1434530 secs]
+Progress(34) at 2012-11-15 15:57:09: 6649782043 states generated (145,129,652 s/min), 395775149 distinct states found (7,563,549 ds/min), 54715332 states left on queue.
+2012-11-15T15:58:05.588+0000: [GC 8402498K->380415K(24967104K), 0.0735290 secs]
+Progress(34) at 2012-11-15 15:58:09: 6723223059 states generated (73,441,016 s/min), 403163019 distinct states found (7,387,870 ds/min), 58377156 states left on queue.
+2012-11-15T15:59:01.337+0000: [GC 8371583K->400857K(24977984K), 0.0683910 secs]
+Progress(34) at 2012-11-15 15:59:09: 6832155334 states generated (108,932,275 s/min), 410526431 distinct states found (7,363,412 ds/min), 60201000 states left on queue.
+2012-11-15T15:59:51.515+0000: [GC 8408857K->386445K(24973056K), 0.0548690 secs]
+Progress(34) at 2012-11-15 16:00:09: 6956231282 states generated (124,075,948 s/min), 417390729 distinct states found (6,864,298 ds/min), 60731874 states left on queue.
+2012-11-15T16:00:40.908+0000: [GC 8394445K->411045K(24983360K), 0.0734040 secs]
+Progress(34) at 2012-11-15 16:01:09: 7093350485 states generated (137,119,203 s/min), 424349737 distinct states found (6,959,008 ds/min), 60737781 states left on queue.
+2012-11-15T16:01:26.558+0000: [GC 8434597K->402069K(24983232K), 0.0664770 secs]
+Progress(34) at 2012-11-15 16:02:09: 7242074231 states generated (148,723,746 s/min), 431561612 distinct states found (7,211,875 ds/min), 60317828 states left on queue.
+2012-11-15T16:02:09.725+0000: [GC 8425621K->373539K(24989056K), 0.0510490 secs]
+2012-11-15T16:02:49.039+0000: [GC 8406947K->390010K(24987392K), 0.0575940 secs]
+Progress(34) at 2012-11-15 16:03:09: 7411052310 states generated (168,978,079 s/min), 438708944 distinct states found (7,147,332 ds/min), 58845429 states left on queue.
+2012-11-15T16:03:26.818+0000: [GC 8423418K->373169K(24995648K), 0.0618240 secs]
+2012-11-15T16:04:01.700+0000: [GC 8419761K->373822K(24993984K), 0.0629350 secs]
+Progress(34) at 2012-11-15 16:04:09: 7587314585 states generated (176,262,275 s/min), 445967569 distinct states found (7,258,625 ds/min), 56944885 states left on queue.
+2012-11-15T16:04:37.667+0000: [GC 8044225K->393298K(25002048K), 0.0723310 secs]
+2012-11-15T16:04:37.740+0000: [Full GC 393298K->392838K(25002048K), 0.6671890 secs]
+Progress(35) at 2012-11-15 16:05:09: 7713434935 states generated (126,120,350 s/min), 453202794 distinct states found (7,235,225 ds/min), 57649397 states left on queue.
+2012-11-15T16:05:38.755+0000: [GC 8449670K->521962K(24997824K), 0.0699520 secs]
+Progress(35) at 2012-11-15 16:06:09: 7785287022 states generated (71,852,087 s/min), 460424129 distinct states found (7,221,335 ds/min), 61212917 states left on queue.
+2012-11-15T16:06:38.984+0000: [GC 8578794K->487083K(25001792K), 0.0538230 secs]
+Progress(35) at 2012-11-15 16:07:09: 7900783979 states generated (115,496,957 s/min), 467546934 distinct states found (7,122,805 ds/min), 62482677 states left on queue.
+2012-11-15T16:07:29.840+0000: [GC 8547627K->527770K(24967232K), 0.0702380 secs]
+Progress(35) at 2012-11-15 16:08:09: 8028668277 states generated (127,884,298 s/min), 474944288 distinct states found (7,397,354 ds/min), 63334645 states left on queue.
+2012-11-15T16:08:18.536+0000: [GC 8588314K->498373K(25003328K), 0.0498510 secs]
+2012-11-15T16:09:02.697+0000: [GC 8559749K->524377K(25001088K), 0.0610290 secs]
+Progress(35) at 2012-11-15 16:09:09: 8177208267 states generated (148,539,990 s/min), 482086231 distinct states found (7,141,943 ds/min), 62892603 states left on queue.
+2012-11-15T16:09:46.518+0000: [GC 8585753K->505365K(25007040K), 0.0653540 secs]
+Progress(35) at 2012-11-15 16:10:09: 8324647970 states generated (147,439,703 s/min), 488999750 distinct states found (6,913,519 ds/min), 62310645 states left on queue.
+2012-11-15T16:10:29.682+0000: [GC 8573141K->509373K(25003776K), 0.0565840 secs]
+Progress(35) at 2012-11-15 16:11:09: 8481100800 states generated (156,452,830 s/min), 495804773 distinct states found (6,805,023 ds/min), 61122805 states left on queue.
+2012-11-15T16:11:10.665+0000: [GC 8577149K->506260K(25013760K), 0.0569410 secs]
+2012-11-15T16:11:10.722+0000: [GC 538985K->504976K(24858880K), 0.0886640 secs]
+2012-11-15T16:11:46.721+0000: [GC 8586512K->646523K(24982144K), 0.0673940 secs]
+Progress(35) at 2012-11-15 16:12:09: 8662915806 states generated (181,815,006 s/min), 503024244 distinct states found (7,219,471 ds/min), 58960117 states left on queue.
+2012-11-15T16:12:19.490+0000: [GC 8684027K->694190K(24981056K), 0.0953030 secs]
+2012-11-15T16:13:02.615+0000: [GC 8731694K->639928K(24982784K), 0.0606290 secs]
+Progress(36) at 2012-11-15 16:13:09: 8805013043 states generated (142,097,237 s/min), 510401622 distinct states found (7,377,378 ds/min), 58910965 states left on queue.
+2012-11-15T16:14:06.181+0000: [GC 8660728K->660411K(24981056K), 0.0683660 secs]
+Progress(36) at 2012-11-15 16:14:09: 8883455630 states generated (78,442,587 s/min), 517607958 distinct states found (7,206,336 ds/min), 62122229 states left on queue.
+2012-11-15T16:15:09.255+0000: [GC 8681211K->625193K(24986368K), 0.0611830 secs]
+Progress(36) at 2012-11-15 16:15:09: 8979283933 states generated (95,828,303 s/min), 524419098 distinct states found (6,811,140 ds/min), 64025563 states left on queue.
+2012-11-15T16:15:58.736+0000: [GC 8650857K->640807K(24982336K), 0.0588520 secs]
+Progress(36) at 2012-11-15 16:16:09: 9104605907 states generated (125,321,974 s/min), 531154731 distinct states found (6,735,633 ds/min), 64365583 states left on queue.
+2012-11-15T16:16:46.889+0000: [GC 8666471K->648173K(24996352K), 0.0584380 secs]
+Progress(36) at 2012-11-15 16:17:09: 9240387110 states generated (135,781,203 s/min), 538221590 distinct states found (7,066,859 ds/min), 64563041 states left on queue.
+2012-11-15T16:17:30.702+0000: [GC 8694509K->624933K(24993024K), 0.0518290 secs]
+Progress(36) at 2012-11-15 16:18:09: 9400674794 states generated (160,287,684 s/min), 545421311 distinct states found (7,199,721 ds/min), 63534307 states left on queue.
+2012-11-15T16:18:11.356+0000: [GC 8671269K->640849K(25004352K), 0.0547820 secs]
+2012-11-15T16:18:51.665+0000: [GC 8701329K->650175K(24999168K), 0.0601460 secs]
+Progress(36) at 2012-11-15 16:19:09: 9564501865 states generated (163,827,071 s/min), 552574537 distinct states found (7,153,226 ds/min), 62327029 states left on queue.
+2012-11-15T16:19:29.575+0000: [GC 8710655K->637567K(25009792K), 0.0565530 secs]
+2012-11-15T16:20:06.663+0000: [GC 8709951K->657129K(25005632K), 0.0812040 secs]
+Progress(36) at 2012-11-15 16:20:09: 9737342355 states generated (172,840,490 s/min), 559512334 distinct states found (6,937,797 ds/min), 60344901 states left on queue.
+2012-11-15T16:20:41.797+0000: [GC 8729221K->643224K(25012352K), 0.0656040 secs]
+Progress(37) at 2012-11-15 16:21:09: 9903531043 states generated (166,188,688 s/min), 566596622 distinct states found (7,084,288 ds/min), 58619951 states left on queue.
+2012-11-15T16:21:26.355+0000: [GC 8720728K->637605K(25008192K), 0.0706850 secs]
+Progress(37) at 2012-11-15 16:22:09: 10004345919 states generated (100,814,876 s/min), 573880951 distinct states found (7,284,329 ds/min), 60868853 states left on queue.
+2012-11-15T16:22:20.785+0000: [GC 8715109K->667610K(25004224K), 0.0736630 secs]
+Progress(37) at 2012-11-15 16:23:09: 10092307179 states generated (87,961,260 s/min), 581285178 distinct states found (7,404,227 ds/min), 63777013 states left on queue.
+2012-11-15T16:23:22.709+0000: [GC 8744154K->621495K(25009792K), 0.0471440 secs]
+Progress(37) at 2012-11-15 16:24:09: 10215015478 states generated (122,708,299 s/min), 588573261 distinct states found (7,288,083 ds/min), 64893497 states left on queue.
+2012-11-15T16:24:12.711+0000: [GC 8698039K->620243K(25010240K), 0.0467690 secs]
+2012-11-15T16:24:57.582+0000: [GC 8697235K->646442K(25009792K), 0.0666090 secs]
+Progress(37) at 2012-11-15 16:25:09: 10356112527 states generated (141,097,049 s/min), 595381588 distinct states found (6,808,327 ds/min), 64475315 states left on queue.
+2012-11-15T16:25:45.525+0000: [GC 8723434K->622637K(25013440K), 0.0586300 secs]
+Progress(37) at 2012-11-15 16:26:09: 10500996560 states generated (144,884,033 s/min), 602290343 distinct states found (6,908,755 ds/min), 63975280 states left on queue.
+2012-11-15T16:26:27.316+0000: [GC 8705517K->629816K(25012480K), 0.0508840 secs]
+2012-11-15T16:27:05.225+0000: [GC 8712696K->640207K(25019520K), 0.0542880 secs]
+2012-11-15T16:27:05.292+0000: [GC 721354K->642420K(24872640K), 0.0908680 secs]
+Progress(37) at 2012-11-15 16:27:09: 10671310779 states generated (170,314,219 s/min), 609308542 distinct states found (7,018,199 ds/min), 62304112 states left on queue.
+2012-11-15T16:27:42.365+0000: [GC 8734964K->756417K(25005632K), 0.0567600 secs]
+Progress(37) at 2012-11-15 16:28:09: 10848582578 states generated (177,271,799 s/min), 616489350 distinct states found (7,180,808 ds/min), 60346224 states left on queue.
+2012-11-15T16:28:16.572+0000: [GC 8824193K->747791K(25005184K), 0.0589480 secs]
+2012-11-15T16:28:48.585+0000: [GC 8815567K->752059K(25013184K), 0.0597490 secs]
+Progress(38) at 2012-11-15 16:29:10: 11037494914 states generated (188,912,336 s/min), 624062214 distinct states found (7,572,864 ds/min), 57801748 states left on queue.
+2012-11-15T16:29:33.114+0000: [GC 8831227K->800373K(24993664K), 0.0666820 secs]
+Progress(38) at 2012-11-15 16:30:10: 11138491758 states generated (100,996,844 s/min), 631317090 distinct states found (7,254,876 ds/min), 59928432 states left on queue.
+2012-11-15T16:30:26.578+0000: [GC 8879541K->773824K(25006720K), 0.0666150 secs]
+Progress(38) at 2012-11-15 16:31:10: 11228566394 states generated (90,074,636 s/min), 638266278 distinct states found (6,949,188 ds/min), 62476144 states left on queue.
+2012-11-15T16:31:27.086+0000: [GC 8841536K->779386K(25004032K), 0.0601360 secs]
+Progress(38) at 2012-11-15 16:32:10: 11345540225 states generated (116,973,831 s/min), 645488916 distinct states found (7,222,638 ds/min), 63770480 states left on queue.
+2012-11-15T16:32:18.250+0000: [GC 8847098K->796239K(24997120K), 0.0652600 secs]
+2012-11-15T16:33:03.869+0000: [GC 8857807K->769721K(25002304K), 0.0561750 secs]
+Progress(38) at 2012-11-15 16:33:10: 11487770914 states generated (142,230,689 s/min), 652781009 distinct states found (7,292,093 ds/min), 63786864 states left on queue.
+2012-11-15T16:33:44.589+0000: [GC 8831289K->787581K(25005440K), 0.0639920 secs]
+Progress(38) at 2012-11-15 16:34:10: 11650170788 states generated (162,399,874 s/min), 659913542 distinct states found (7,132,533 ds/min), 62653623 states left on queue.
+2012-11-15T16:34:26.158+0000: [GC 8857853K->751947K(25006656K), 0.0599090 secs]
+2012-11-15T16:35:07.212+0000: [GC 8822219K->783928K(25008320K), 0.0678400 secs]
+Progress(38) at 2012-11-15 16:35:10: 11813339797 states generated (163,169,009 s/min), 666691841 distinct states found (6,778,299 ds/min), 61034352 states left on queue.
+2012-11-15T16:35:45.654+0000: [GC 8857464K->769658K(25008256K), 0.0696580 secs]
+Progress(38) at 2012-11-15 16:36:10: 11986637808 states generated (173,298,011 s/min), 673388845 distinct states found (6,697,004 ds/min), 58780956 states left on queue.
+2012-11-15T16:36:19.390+0000: [GC 8843194K->787642K(25010240K), 0.0614200 secs]
+2012-11-15T16:36:49.902+0000: [GC 8867770K->755591K(25011584K), 0.0540990 secs]
+Progress(39) at 2012-11-15 16:37:10: 12164208120 states generated (177,570,312 s/min), 680810928 distinct states found (7,422,083 ds/min), 56848228 states left on queue.
+2012-11-15T16:37:37.445+0000: [GC 8835763K->756518K(25015104K), 0.0538300 secs]
+Progress(39) at 2012-11-15 16:38:10: 12281625899 states generated (117,417,779 s/min), 688247522 distinct states found (7,436,594 ds/min), 58298224 states left on queue.
+2012-11-15T16:38:28.521+0000: [GC 8841702K->784713K(25013120K), 0.0610350 secs]
+Progress(39) at 2012-11-15 16:39:10: 12386731852 states generated (105,105,953 s/min), 695454932 distinct states found (7,207,410 ds/min), 60125040 states left on queue.
+2012-11-15T16:39:23.798+0000: [GC 8869898K->800922K(25003200K), 0.0659710 secs]
+Progress(39) at 2012-11-15 16:40:10: 12496933250 states generated (110,201,398 s/min), 702422373 distinct states found (6,967,441 ds/min), 61501296 states left on queue.
+2012-11-15T16:40:17.091+0000: [GC 8875930K->757678K(25009024K), 0.0598470 secs]
+2012-11-15T16:41:04.521+0000: [GC 8833038K->756935K(25012288K), 0.0596910 secs]
+2012-11-15T16:41:04.600+0000: [GC 837241K->756390K(24858752K), 0.0804670 secs]
+Progress(39) at 2012-11-15 16:41:10: 12634294309 states generated (137,361,059 s/min), 709412814 distinct states found (6,990,441 ds/min), 61468528 states left on queue.
+2012-11-15T16:41:46.494+0000: [GC 8836198K->903690K(24974016K), 0.0686750 secs]
+Progress(39) at 2012-11-15 16:42:10: 12803580696 states generated (169,286,387 s/min), 716491634 distinct states found (7,078,820 ds/min), 59937636 states left on queue.
+2012-11-15T16:42:23.024+0000: [GC 8933898K->889268K(24986624K), 0.0684280 secs]
+2012-11-15T16:43:00.550+0000: [GC 8919476K->873161K(24996544K), 0.0560080 secs]
+Progress(39) at 2012-11-15 16:43:10: 12980241592 states generated (176,660,896 s/min), 723587120 distinct states found (7,095,486 ds/min), 57963407 states left on queue.
+2012-11-15T16:43:34.199+0000: [GC 8916873K->890250K(24990208K), 0.0626400 secs]
+2012-11-15T16:44:06.383+0000: [GC 8933962K->870202K(25003712K), 0.0598820 secs]
+Progress(39) at 2012-11-15 16:44:10: 13179186508 states generated (198,944,916 s/min), 730809463 distinct states found (7,222,343 ds/min), 54822870 states left on queue.
+2012-11-15T16:44:43.439+0000: [GC 8929850K->887233K(24998976K), 0.0589080 secs]
+Progress(40) at 2012-11-15 16:45:10: 13311682225 states generated (132,495,717 s/min), 738305501 distinct states found (7,496,038 ds/min), 55431024 states left on queue.
+2012-11-15T16:45:33.743+0000: [GC 8946881K->875203K(25011584K), 0.1021740 secs]
+Progress(40) at 2012-11-15 16:46:10: 13432496119 states generated (120,813,894 s/min), 745400303 distinct states found (7,094,802 ds/min), 56315760 states left on queue.
+2012-11-15T16:46:26.297+0000: [GC 8950467K->894883K(25006720K), 0.0569690 secs]
+Progress(40) at 2012-11-15 16:47:10: 13549834450 states generated (117,338,331 s/min), 752650501 distinct states found (7,250,198 ds/min), 57601904 states left on queue.
+2012-11-15T16:47:15.777+0000: [GC 8970147K->896492K(25009984K), 0.0608480 secs]
+2012-11-15T16:48:04.479+0000: [GC 8974572K->871487K(25010560K), 0.0570000 secs]
+Progress(40) at 2012-11-15 16:48:10: 13679829310 states generated (129,994,860 s/min), 759911803 distinct states found (7,261,302 ds/min), 58216304 states left on queue.
+2012-11-15T16:48:48.019+0000: [GC 8949655K->872372K(25016832K), 0.0550900 secs]
+Progress(40) at 2012-11-15 16:49:10: 13839000567 states generated (159,171,257 s/min), 767106303 distinct states found (7,194,500 ds/min), 57253982 states left on queue.
+2012-11-15T16:49:27.105+0000: [GC 8959796K->886580K(25013632K), 0.0591540 secs]
+2012-11-15T16:50:02.519+0000: [GC 8974004K->896955K(25016512K), 0.0849870 secs]
+Progress(40) at 2012-11-15 16:50:10: 14015217031 states generated (176,216,464 s/min), 773911262 distinct states found (6,804,959 ds/min), 55044753 states left on queue.
+2012-11-15T16:50:41.845+0000: [GC 8989755K->898882K(24990976K), 0.0750370 secs]
+Progress(40) at 2012-11-15 16:51:10: 14199767114 states generated (184,550,083 s/min), 780540741 distinct states found (6,629,479 ds/min), 52092580 states left on queue.
+2012-11-15T16:51:13.610+0000: [GC 8991682K->884013K(25020480K), 0.0582130 secs]
+2012-11-15T16:51:46.385+0000: [GC 8977714K->922236K(25015040K), 0.0743260 secs]
+Progress(41) at 2012-11-15 16:52:10: 14344863452 states generated (145,096,338 s/min), 787940961 distinct states found (7,400,220 ds/min), 51924848 states left on queue.
+2012-11-15T16:52:37.733+0000: [GC 9015996K->889053K(25014656K), 0.0571840 secs]
+Progress(41) at 2012-11-15 16:53:10: 14481195541 states generated (136,332,089 s/min), 795245101 distinct states found (7,304,140 ds/min), 52203376 states left on queue.
+2012-11-15T16:53:24.853+0000: [GC 8975709K->897767K(25014848K), 0.0635120 secs]
+Progress(41) at 2012-11-15 16:54:10: 14603623534 states generated (122,427,993 s/min), 802610144 distinct states found (7,365,043 ds/min), 53309296 states left on queue.
+2012-11-15T16:54:12.598+0000: [GC 8984423K->906211K(25011072K), 0.0661150 secs]
+2012-11-15T16:55:02.437+0000: [GC 8989397K->888609K(25013312K), 0.0731860 secs]
+Progress(41) at 2012-11-15 16:55:10: 14728048069 states generated (124,424,535 s/min), 809620057 distinct states found (7,009,913 ds/min), 53981040 states left on queue.
+2012-11-15T16:55:47.505+0000: [GC 8972193K->887967K(25019840K), 0.0559220 secs]
+Progress(41) at 2012-11-15 16:56:10: 14884893382 states generated (156,845,313 s/min), 816452194 distinct states found (6,832,137 ds/min), 52817776 states left on queue.
+2012-11-15T16:56:26.524+0000: [GC 8981679K->877524K(25016768K), 0.0583100 secs]
+2012-11-15T16:57:00.508+0000: [GC 8971092K->895991K(25022080K), 0.0622790 secs]
+Progress(41) at 2012-11-15 16:57:10: 15075839666 states generated (190,946,284 s/min), 823539491 distinct states found (7,087,297 ds/min), 50035330 states left on queue.
+2012-11-15T16:57:32.784+0000: [GC 8995895K->888133K(25020864K), 0.0587170 secs]
+2012-11-15T16:58:01.768+0000: [GC 8988037K->891330K(25027520K), 0.0628980 secs]
+Progress(42) at 2012-11-15 16:58:10: 15277172178 states generated (201,332,512 s/min), 830859903 distinct states found (7,320,412 ds/min), 46763888 states left on queue.
+2012-11-15T16:58:50.349+0000: [GC 9000578K->902459K(25024768K), 0.0601170 secs]
+Progress(42) at 2012-11-15 16:59:10: 15394484211 states generated (117,312,033 s/min), 838298577 distinct states found (7,438,674 ds/min), 48207364 states left on queue.
+2012-11-15T16:59:32.651+0000: [GC 9012059K->882476K(25026944K), 0.0733190 secs]
+Progress(42) at 2012-11-15 17:00:10: 15524720529 states generated (130,236,318 s/min), 845315718 distinct states found (7,017,141 ds/min), 48566706 states left on queue.
+2012-11-15T17:00:23.316+0000: [GC 8992236K->888788K(25025856K), 0.0871840 secs]
+2012-11-15T17:01:07.900+0000: [GC 8998548K->907540K(25023296K), 0.0646390 secs]
+Progress(42) at 2012-11-15 17:01:10: 15664476249 states generated (139,755,720 s/min), 852459353 distinct states found (7,143,635 ds/min), 48406916 states left on queue.
+2012-11-15T17:01:54.613+0000: [GC 9016724K->900954K(25026112K), 0.0596470 secs]
+Progress(42) at 2012-11-15 17:02:10: 15808274348 states generated (143,798,099 s/min), 859528968 distinct states found (7,069,615 ds/min), 48210308 states left on queue.
+2012-11-15T17:02:33.218+0000: [GC 9010138K->890941K(25028288K), 0.0602670 secs]
+2012-11-15T17:03:07.912+0000: [GC 9002621K->879702K(25026432K), 0.0646240 secs]
+Progress(42) at 2012-11-15 17:03:10: 15998091127 states generated (189,816,779 s/min), 866636355 distinct states found (7,107,387 ds/min), 45534586 states left on queue.
+2012-11-15T17:03:38.465+0000: [GC 8991382K->899727K(25028480K), 0.0597990 secs]
+Progress(43) at 2012-11-15 17:04:10: 16192012527 states generated (193,921,400 s/min), 874016972 distinct states found (7,380,617 ds/min), 42729860 states left on queue.
+2012-11-15T17:04:12.697+0000: [GC 9013327K->909117K(25017856K), 0.0725010 secs]
+2012-11-15T17:04:38.407+0000: [GC 4979586K->897257K(25027584K), 0.0580210 secs]
+2012-11-15T17:04:38.465+0000: [Full GC 897257K->896965K(25027584K), 0.6724540 secs]
+Progress(43) at 2012-11-15 17:05:10: 16312975538 states generated (120,963,011 s/min), 880993694 distinct states found (6,976,722 ds/min), 43524484 states left on queue.
+2012-11-15T17:05:23.548+0000: [GC 9006981K->997592K(25025472K), 0.0681620 secs]
+Progress(43) at 2012-11-15 17:06:10: 16444845438 states generated (131,869,900 s/min), 887888741 distinct states found (6,895,047 ds/min), 43647364 states left on queue.
+2012-11-15T17:06:11.396+0000: [GC 9107608K->1013831K(25029504K), 0.0645200 secs]
+2012-11-15T17:06:55.579+0000: [GC 9128135K->1002398K(25027840K), 0.0539790 secs]
+Progress(43) at 2012-11-15 17:07:10: 16599619851 states generated (154,774,413 s/min), 895332923 distinct states found (7,444,182 ds/min), 43000196 states left on queue.
+2012-11-15T17:07:35.648+0000: [GC 9116702K->993915K(25029248K), 0.0583070 secs]
+Progress(43) at 2012-11-15 17:08:10: 16763467159 states generated (163,847,308 s/min), 902415173 distinct states found (7,082,250 ds/min), 41783359 states left on queue.
+2012-11-15T17:08:13.075+0000: [GC 9110395K->1018163K(25012416K), 0.0687140 secs]
+2012-11-15T17:08:44.473+0000: [GC 9134643K->1018667K(25028224K), 0.0638680 secs]
+Progress(43) at 2012-11-15 17:09:10: 16982295382 states generated (218,828,223 s/min), 909687734 distinct states found (7,272,561 ds/min), 37593476 states left on queue.
+2012-11-15T17:09:12.447+0000: [GC 9132971K->1024337K(25016192K), 0.0697840 secs]
+2012-11-15T17:10:01.102+0000: [GC 9138641K->1030577K(25018432K), 0.0670810 secs]
+Progress(44) at 2012-11-15 17:10:10: 17107158207 states generated (124,862,825 s/min), 917165292 distinct states found (7,477,558 ds/min), 38633860 states left on queue.
+2012-11-15T17:10:43.024+0000: [GC 9132337K->1017938K(25022400K), 0.0656410 secs]
+Progress(44) at 2012-11-15 17:11:10: 17252849093 states generated (145,690,886 s/min), 924145555 distinct states found (6,980,263 ds/min), 38038292 states left on queue.
+2012-11-15T17:11:28.092+0000: [GC 9119698K->994769K(25022336K), 0.0561400 secs]
+2012-11-15T17:12:08.456+0000: [GC 9098065K->1015692K(25023168K), 0.0598610 secs]
+Progress(44) at 2012-11-15 17:12:10: 17404191867 states generated (151,342,774 s/min), 931397389 distinct states found (7,251,834 ds/min), 37519748 states left on queue.
+2012-11-15T17:12:45.279+0000: [GC 9118988K->1011277K(25027584K), 0.0690070 secs]
+Progress(44) at 2012-11-15 17:13:10: 17587638546 states generated (183,446,679 s/min), 938659028 distinct states found (7,261,639 ds/min), 35317890 states left on queue.
+2012-11-15T17:13:18.463+0000: [GC 9121037K->1006195K(25025216K), 0.0689640 secs]
+2012-11-15T17:13:48.492+0000: [GC 9115955K->1017972K(25029376K), 0.0607520 secs]
+Progress(45) at 2012-11-15 17:14:10: 17759983106 states generated (172,344,560 s/min), 946068943 distinct states found (7,409,915 ds/min), 33690941 states left on queue.
+2012-11-15T17:14:35.689+0000: [GC 9133172K->993764K(24985664K), 0.0607360 secs]
+Progress(45) at 2012-11-15 17:15:10: 17915026879 states generated (155,043,773 s/min), 953148548 distinct states found (7,079,605 ds/min), 32743355 states left on queue.
+2012-11-15T17:15:15.027+0000: [GC 9108964K->1024957K(25023680K), 0.0686110 secs]
+2012-11-15T17:16:00.651+0000: [GC 9134013K->1016270K(25026048K), 0.0596590 secs]
+Progress(45) at 2012-11-15 17:16:10: 18056154820 states generated (141,127,941 s/min), 960218138 distinct states found (7,069,590 ds/min), 32524104 states left on queue.
+2012-11-15T17:16:37.455+0000: [GC 9125326K->1032586K(25018496K), 0.0665800 secs]
+Progress(45) at 2012-11-15 17:17:10: 18241015468 states generated (184,860,648 s/min), 967387755 distinct states found (7,169,617 ds/min), 30162971 states left on queue.
+2012-11-15T17:17:12.097+0000: [GC 9135626K->1006192K(25023040K), 0.0572020 secs]
+2012-11-15T17:17:41.585+0000: [GC 9109232K->1022791K(25023808K), 0.0665690 secs]
+Progress(46) at 2012-11-15 17:18:10: 18407578112 states generated (166,562,644 s/min), 974854936 distinct states found (7,467,181 ds/min), 28849743 states left on queue.
+2012-11-15T17:18:27.616+0000: [GC 9127879K->1021679K(25024064K), 0.0647530 secs]
+2012-11-15T17:19:02.980+0000: [GC 9126767K->1076934K(24984704K), 0.1017520 secs]
+Progress(46) at 2012-11-15 17:19:10: 18577595916 states generated (170,017,804 s/min), 982206003 distinct states found (7,351,067 ds/min), 27469640 states left on queue.
+2012-11-15T17:19:44.787+0000: [GC 9142853K->1074702K(25004608K), 0.0833810 secs]
+Progress(46) at 2012-11-15 17:20:10: 18738543144 states generated (160,947,228 s/min), 989257631 distinct states found (7,051,628 ds/min), 26138301 states left on queue.
+2012-11-15T17:20:20.415+0000: [GC 9140878K->1065859K(25009536K), 0.0696690 secs]
+2012-11-15T17:20:52.363+0000: [GC 9140355K->1126989K(25008000K), 0.0909300 secs]
+Progress(47) at 2012-11-15 17:21:10: 18911035799 states generated (172,492,655 s/min), 996190320 distinct states found (6,932,689 ds/min), 24020808 states left on queue.
+2012-11-15T17:21:37.865+0000: [GC 9201485K->1116926K(24978432K), 0.0785530 secs]
+Progress(47) at 2012-11-15 17:22:10: 19080646424 states generated (169,610,625 s/min), 1003484591 distinct states found (7,294,271 ds/min), 22539949 states left on queue.
+2012-11-15T17:22:10.873+0000: [GC 9160318K->1101354K(24993216K), 0.0669510 secs]
+2012-11-15T17:22:49.290+0000: [GC 9144746K->1098325K(24996032K), 0.0695600 secs]
+Progress(47) at 2012-11-15 17:23:10: 19254805990 states generated (174,159,566 s/min), 1010897184 distinct states found (7,412,593 ds/min), 20859991 states left on queue.
+2012-11-15T17:23:20.114+0000: [GC 9146005K->1093267K(24994688K), 0.0610870 secs]
+2012-11-15T17:23:58.751+0000: [GC 9140947K->1090087K(24997760K), 0.0621580 secs]
+Progress(48) at 2012-11-15 17:24:10: 19424386399 states generated (169,580,409 s/min), 1018400918 distinct states found (7,503,734 ds/min), 19508740 states left on queue.
+2012-11-15T17:24:33.836+0000: [GC 9141735K->1106851K(24996928K), 0.0600430 secs]
+Progress(48) at 2012-11-15 17:25:10: 19594012336 states generated (169,625,937 s/min), 1025387909 distinct states found (6,986,991 ds/min), 17639238 states left on queue.
+2012-11-15T17:25:12.411+0000: [GC 9158499K->1124228K(25001216K), 0.0880790 secs]
+2012-11-15T17:25:46.098+0000: [GC 9184388K->1105716K(25001600K), 0.0652330 secs]
+Progress(49) at 2012-11-15 17:26:10: 19762132280 states generated (168,119,944 s/min), 1032310781 distinct states found (6,922,872 ds/min), 15743745 states left on queue.
+2012-11-15T17:26:25.161+0000: [GC 9165876K->1085532K(25004480K), 0.0590960 secs]
+2012-11-15T17:26:58.341+0000: [GC 9151964K->1108810K(25004736K), 0.0592790 secs]
+Progress(49) at 2012-11-15 17:27:10: 19948262648 states generated (186,130,368 s/min), 1039589930 distinct states found (7,279,149 ds/min), 13265754 states left on queue.
+2012-11-15T17:27:29.479+0000: [GC 9175242K->1119038K(25009664K), 0.0717240 secs]
+2012-11-15T17:28:05.847+0000: [GC 9194878K->1115065K(25009216K), 0.0709630 secs]
+Progress(50) at 2012-11-15 17:28:10: 20131883696 states generated (183,621,048 s/min), 1047076748 distinct states found (7,486,818 ds/min), 11001224 states left on queue.
+2012-11-15T17:28:36.497+0000: [GC 9191033K->1099866K(25013632K), 0.0676190 secs]
+Progress(51) at 2012-11-15 17:29:10: 20315367744 states generated (183,484,048 s/min), 1054388872 distinct states found (7,312,124 ds/min), 8744286 states left on queue.
+2012-11-15T17:29:12.309+0000: [GC 9182298K->1113562K(25011840K), 0.0628310 secs]
+2012-11-15T17:29:43.211+0000: [GC 9195994K->1157521K(24991488K), 0.0868500 secs]
+Progress(52) at 2012-11-15 17:30:10: 20499689284 states generated (184,321,540 s/min), 1061429197 distinct states found (7,040,325 ds/min), 5951545 states left on queue.
+2012-11-15T17:30:18.992+0000: [GC 9223057K->1105857K(24937920K), 0.0921260 secs]
+2012-11-15T17:30:55.824+0000: [GC 9171393K->1103338K(25004160K), 0.0568630 secs]
+Progress(54) at 2012-11-15 17:31:10: 20690200125 states generated (190,510,841 s/min), 1068556315 distinct states found (7,127,118 ds/min), 2919429 states left on queue.
+2012-11-15T17:31:30.106+0000: [GC 9168554K->1099753K(25004096K), 0.0536050 secs]
+Worker: rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/6 Sent: 67158506 Rcvd: 53513777 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/5 Sent: 67349695 Rcvd: 54991548 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/4 Sent: 67226763 Rcvd: 53658731 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/2 Sent: 66914469 Rcvd: 54787758 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/2 Sent: 67027760 Rcvd: 53712692 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/6 Sent: 66832398 Rcvd: 54586850 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/0 Sent: 67646048 Rcvd: 53381159 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/1 Sent: 67189093 Rcvd: 53377232 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/7 Sent: 67411005 Rcvd: 54169337 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/7 Sent: 67199076 Rcvd: 54850633 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/5 Sent: 67343366 Rcvd: 53732849 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-3-36.eu-west-1.compute.internal:49464/3 Sent: 66705913 Rcvd: 53602161 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/3 Sent: 67166741 Rcvd: 54338822 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/0 Sent: 67380167 Rcvd: 54751865 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/1 Sent: 66516744 Rcvd: 54585638 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Worker: rmi://ip-10-32-17-240.eu-west-1.compute.internal:40990/4 Sent: 66674080 Rcvd: 54646339 CacheRatio: 0.00 (2012-11-15 17:31:51)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = .53
+  based on the actual fingerprints:  val = 9.6E-10
+20839183898 states generated, 1073741824 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 63.
+Finished. (2012-11-15 17:33:42)
