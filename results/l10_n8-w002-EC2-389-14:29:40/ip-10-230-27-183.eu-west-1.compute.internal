@@ -1,0 +1,38 @@
+Warning: Permanently added 'ip-10-230-27-183.eu-west-1.compute.internal,10.230.27.183' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1352989788412/l10_n8.tla
+Parsing file /tmp/1352989788412/GridPerformanceTest.tla
+Parsing file /tmp/1352989788412/TLC.tla
+Parsing file /tmp/1352989788412/Integers.tla
+Parsing file /tmp/1352989788412/FiniteSets.tla
+Parsing file /tmp/1352989788412/Naturals.tla
+Parsing file /tmp/1352989788412/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-11-15 14:29:48)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-230-27-183 is ready.
+Progress: The number of fingerprints stored at ip-10-230-27-183 is 0.
+TLC worker with 8 threads ready at: Thu Nov 15 14:30:05 UTC 2012
+Progress: The number of fingerprints stored at ip-10-230-27-183 is 2113448.
+Progress: The number of fingerprints stored at ip-10-230-27-183 is 3872479.
+Progress: The number of fingerprints stored at ip-10-230-27-183 is 5453801.
+Progress: The number of fingerprints stored at ip-10-230-27-183 is 6857400.
+Progress: The number of fingerprints stored at ip-10-230-27-183 is 8076016.
+ip-10-230-27-183.eu-west-1.compute.internal, work completed at: Thu Nov 15 14:56:43 UTC 2012 Computed: 8723920 and a cache hit ratio of 0.018, Thank you!
+ip-10-230-27-183.eu-west-1.compute.internal, work completed at: Thu Nov 15 14:56:44 UTC 2012 Computed: 8736616 and a cache hit ratio of 0.018, Thank you!
+ip-10-230-27-183.eu-west-1.compute.internal, work completed at: Thu Nov 15 14:56:44 UTC 2012 Computed: 8754904 and a cache hit ratio of 0.016, Thank you!
+ip-10-230-27-183.eu-west-1.compute.internal, work completed at: Thu Nov 15 14:56:44 UTC 2012 Computed: 8735080 and a cache hit ratio of 0.017, Thank you!
+ip-10-230-27-183.eu-west-1.compute.internal, work completed at: Thu Nov 15 14:56:44 UTC 2012 Computed: 8741672 and a cache hit ratio of 0.016, Thank you!
+ip-10-230-27-183.eu-west-1.compute.internal, work completed at: Thu Nov 15 14:56:44 UTC 2012 Computed: 8738440 and a cache hit ratio of 0.017, Thank you!
+ip-10-230-27-183.eu-west-1.compute.internal, work completed at: Thu Nov 15 14:56:44 UTC 2012 Computed: 8725904 and a cache hit ratio of 0.017, Thank you!
+ip-10-230-27-183.eu-west-1.compute.internal, work completed at: Thu Nov 15 14:56:44 UTC 2012 Computed: 8731992 and a cache hit ratio of 0.017, Thank you!
+ip-10-230-27-183, work completed. Thank you!
