@@ -1,0 +1,85 @@
+Warning: Permanently added 'ip-10-33-1-117.eu-west-1.compute.internal,10.33.1.117' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1353694200166/l4_n10.tla
+Parsing file /tmp/1353694200166/GridPerformanceTest.tla
+Parsing file /tmp/1353694200166/TLC.tla
+Parsing file /tmp/1353694200166/Integers.tla
+Parsing file /tmp/1353694200166/FiniteSets.tla
+Parsing file /tmp/1353694200166/Naturals.tla
+Parsing file /tmp/1353694200166/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l4_n10
+Starting... (2012-11-23 18:10:00)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-1-117 is ready.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 0.
+TLC worker with 32 threads ready at: Fri Nov 23 18:10:11 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 5575221.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 10792794.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 15930329.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 21003182.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 26098555.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 31033708.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 35583860.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 40168461.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 44701120.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 49185976.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 53762536.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 58228538.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 62845510.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 67347617.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 71834965.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 76324749.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 80859178.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 85330605.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 89824426.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 94403366.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 98954103.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 103561880.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 108133111.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 112617449.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 117144693.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 121733186.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 126395587.
+Progress: The number of fingerprints stored at ip-10-33-1-117 is 131022711.
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36076190 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 37513640 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36517740 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36189880 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 35872040 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 37556470 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36677150 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36194030 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 35352670 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36336880 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 37329340 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 35882020 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 37515560 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 37098940 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 38121620 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 33640230 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36123360 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36678170 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36435590 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36172720 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 38270600 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36451110 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36711250 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 37140370 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 35650670 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 35332910 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36157640 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36277550 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36860250 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 35346780 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 36713280 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117.eu-west-1.compute.internal, work completed at: Fri Nov 23 20:33:36 UTC 2012 Computed: 34438890 and a cache hit ratio of 0.002, Thank you!
+ip-10-33-1-117, work completed. Thank you!
