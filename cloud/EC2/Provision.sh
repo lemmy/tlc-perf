@@ -80,7 +80,16 @@ add-apt-repository ppa:x2go/stable -y
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get upgrade -y
-apt-get --no-install-recommends install unzip sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y
+apt-get --no-install-recommends install unzip sysstat apache2 munin munin-node munin-plugins-extra git rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y
+# On Ubuntu 12.10 munin-java-plugins has been renamed to munin-plugins-java
+if [ -f /etc/lsb-release ]; then
+    source /etc/lsb-release
+    if [ $DISTRIB_RELEASE = "12.10" ]; then
+        apt-get --no-install-recommends install munin-plugins-java -y
+    else
+        apt-get --no-install-recommends install munin-java-plugins -y
+    fi
+fi
 # UI/X and dev environment (forked)
 apt-get --no-install-recommends install ant openjdk-7-jdk gnome-core gdm gnome-session-fallback firefox visualvm mc libwebkitgtk-1.0-0 tightvncserver xorg x2goserver x2goserver-xsession htop -y &
 
