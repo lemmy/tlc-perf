@@ -1,0 +1,13 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 7 November 2012
+Error: unrecognized option: -fp128
+Usage: java tlc2.tool.TLCServer [-option] inputfile
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the User Output or TLC Console for clues to what happened.
+The exception was a java.lang.RuntimeException: TLC server found null work.java.lang.RuntimeException: TLC server found null work.
+	at util.Assert.check(Assert.java:129)
+	at tlc2.tool.distributed.TLCServer.<init>(TLCServer.java:151)
+	at tlc2.tool.distributed.DistributedFPSetTLCServer.<init>(DistributedFPSetTLCServer.java:23)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:676)
+
