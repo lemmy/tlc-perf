@@ -1,0 +1,35 @@
+Warning: Permanently added 'ip-10-32-53-181.eu-west-1.compute.internal,10.32.53.181' (ECDSA) to the list of known hosts.
+TLC Worker Version 2.05 of 24 October 2012
+Server ip-10-32-50-34.eu-west-1.compute.internal unreachable, sleeping 1s for server to come online...
+Server ip-10-32-50-34.eu-west-1.compute.internal unreachable, sleeping 1s for server to come online...
+Server ip-10-32-50-34.eu-west-1.compute.internal unreachable, sleeping 2s for server to come online...
+Server ip-10-32-50-34.eu-west-1.compute.internal unreachable, sleeping 2s for server to come online...
+Server ip-10-32-50-34.eu-west-1.compute.internal unreachable, sleeping 4s for server to come online...
+Server ip-10-32-50-34.eu-west-1.compute.internal unreachable, sleeping 5s for server to come online...
+Server ip-10-32-50-34.eu-west-1.compute.internal unreachable, sleeping 8s for server to come online...
+Server ip-10-32-50-34.eu-west-1.compute.internal unreachable, sleeping 11s for server to come online...
+Server ip-10-32-50-34.eu-west-1.compute.internal unreachable, sleeping 16s for server to come online...
+Parsing file /tmp/1352128628138/l10_n8.tla
+Parsing file /tmp/1352128628138/GridPerformanceTest.tla
+Parsing file /tmp/1352128628138/TLC.tla
+Parsing file /tmp/1352128628138/Integers.tla
+Parsing file /tmp/1352128628138/FiniteSets.tla
+Parsing file /tmp/1352128628138/Naturals.tla
+Parsing file /tmp/1352128628138/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-11-05 15:17:08)
+TLC worker with 8 threads ready at: Mon Nov 05 15:17:08 UTC 2012
+ip-10-32-53-181.eu-west-1.compute.internal, work completed at: Mon Nov 05 15:19:52 UTC 2012 Computed: 920024 and a cache hit ratio of 0.023, Thank you!
+ip-10-32-53-181.eu-west-1.compute.internal, work completed at: Mon Nov 05 15:19:52 UTC 2012 Computed: 905912 and a cache hit ratio of 0.022, Thank you!
+ip-10-32-53-181.eu-west-1.compute.internal, work completed at: Mon Nov 05 15:19:52 UTC 2012 Computed: 899488 and a cache hit ratio of 0.023, Thank you!
+ip-10-32-53-181.eu-west-1.compute.internal, work completed at: Mon Nov 05 15:19:52 UTC 2012 Computed: 913168 and a cache hit ratio of 0.023, Thank you!
+ip-10-32-53-181.eu-west-1.compute.internal, work completed at: Mon Nov 05 15:19:52 UTC 2012 Computed: 907800 and a cache hit ratio of 0.021, Thank you!
+ip-10-32-53-181.eu-west-1.compute.internal, work completed at: Mon Nov 05 15:19:52 UTC 2012 Computed: 902752 and a cache hit ratio of 0.026, Thank you!
+ip-10-32-53-181.eu-west-1.compute.internal, work completed at: Mon Nov 05 15:19:52 UTC 2012 Computed: 906848 and a cache hit ratio of 0.034, Thank you!
+ip-10-32-53-181.eu-west-1.compute.internal, work completed at: Mon Nov 05 15:19:52 UTC 2012 Computed: 910432 and a cache hit ratio of 0.025, Thank you!

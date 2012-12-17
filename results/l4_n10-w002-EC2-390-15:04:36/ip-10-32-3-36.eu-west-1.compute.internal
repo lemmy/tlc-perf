@@ -1,0 +1,62 @@
+Warning: Permanently added 'ip-10-32-3-36.eu-west-1.compute.internal,10.32.3.36' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1352991883793/l4_n10.tla
+Parsing file /tmp/1352991883793/GridPerformanceTest.tla
+Parsing file /tmp/1352991883793/TLC.tla
+Parsing file /tmp/1352991883793/Integers.tla
+Parsing file /tmp/1352991883793/FiniteSets.tla
+Parsing file /tmp/1352991883793/Naturals.tla
+Parsing file /tmp/1352991883793/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l4_n10
+Starting... (2012-11-15 15:04:44)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-32-3-36 is ready.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 0.
+TLC worker with 8 threads ready at: Thu Nov 15 15:05:05 UTC 2012
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 20362363.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 40338105.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 60123104.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 79930885.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 99721056.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 118643347.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 136733471.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 154697135.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 172685523.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 190302043.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 208386018.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 226157102.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 244096800.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 261848879.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 279394287.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 297350689.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 315114913.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 333014910.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 350843837.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 368708067.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 386570955.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 404438565.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 422297354.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 440136745.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 458083430.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 476131241.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 494196894.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 512355314.
+Progress: The number of fingerprints stored at ip-10-32-3-36 is 530341284.
+ip-10-32-3-36.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 671585060 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-3-36.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 672267630 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-3-36.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 670277600 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-3-36.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 676460480 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-3-36.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 671890930 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-3-36.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 674110050 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-3-36.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 673433660 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-3-36.eu-west-1.compute.internal, work completed at: Thu Nov 15 17:31:51 UTC 2012 Computed: 667059130 and a cache hit ratio of 0.005, Thank you!
+ip-10-32-3-36, work completed. Thank you!

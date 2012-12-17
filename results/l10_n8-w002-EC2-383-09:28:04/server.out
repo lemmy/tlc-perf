@@ -1,0 +1,168 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 7 November 2012
+Parsing file /mnt/tlc/10814/spec/l10_n8.tla
+Parsing file /mnt/tlc/10814/spec/GridPerformanceTest.tla
+Parsing file /mnt/tlc/10814/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/10814/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/10814/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/10814/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/10814/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-11-13 09:28:05)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at ip-10-33-1-224 is ready (2012-11-13 09:28:05)
+Waiting for 2 FPSet server(s) to register (2012-11-13 09:28:05)
+1 out of 2 FPSet server(s) registered (2012-11-13 09:28:16)
+2 out of 2 FPSet server(s) registered (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/21 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/19 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/31 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/2 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/16 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/7 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/18 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/1 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/29 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/13 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/15 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/0 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/8 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/11 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/3 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/27 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/17 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/19 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/9 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/3 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/6 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/23 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/22 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/24 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/18 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/5 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/11 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/5 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/17 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/9 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/14 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/0 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/20 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/8 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/15 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/25 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/2 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/10 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/10 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/7 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/12 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/1 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/4 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/6 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/26 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/16 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/13 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/31 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/29 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/26 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/30 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/27 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/28 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/23 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/22 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/24 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/21 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/14 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/25 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/4 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/28 completed (2012-11-13 09:28:18)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/20 completed (2012-11-13 09:28:19)
+Registration for worker at rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/30 completed (2012-11-13 09:28:19)
+Registration for worker at rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/12 completed (2012-11-13 09:28:19)
+Progress(31) at 2012-11-13 09:29:18: 20826105 states generated (20,826,105 s/min), 2633230 distinct states found (2,633,230 ds/min), 1025261 states left on queue.
+Progress(35) at 2012-11-13 09:30:18: 46329811 states generated (25,503,706 s/min), 5021932 distinct states found (2,388,702 ds/min), 1603656 states left on queue.
+Progress(35) at 2012-11-13 09:31:18: 72880279 states generated (26,550,468 s/min), 7108256 distinct states found (2,086,324 ds/min), 1849911 states left on queue.
+Progress(35) at 2012-11-13 09:32:18: 100639128 states generated (27,758,849 s/min), 9109886 distinct states found (2,001,630 ds/min), 1939020 states left on queue.
+Progress(35) at 2012-11-13 09:33:18: 127247961 states generated (26,608,833 s/min), 10874530 distinct states found (1,764,644 ds/min), 1874384 states left on queue.
+Progress(35) at 2012-11-13 09:34:18: 155198608 states generated (27,950,647 s/min), 12602191 distinct states found (1,727,661 ds/min), 1675283 states left on queue.
+Progress(35) at 2012-11-13 09:35:18: 179723270 states generated (24,524,662 s/min), 13981253 distinct states found (1,379,062 ds/min), 1360513 states left on queue.
+Progress(39) at 2012-11-13 09:36:18: 206023727 states generated (26,300,457 s/min), 15360520 distinct states found (1,379,267 ds/min), 925356 states left on queue.
+Progress(49) at 2012-11-13 09:37:18: 234156852 states generated (28,133,125 s/min), 16661197 distinct states found (1,300,677 ds/min), 279838 states left on queue.
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/15 Sent: 268847 Rcvd: 235571 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/24 Sent: 255752 Rcvd: 96440 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/8 Sent: 267821 Rcvd: 183227 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/3 Sent: 268285 Rcvd: 168951 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/0 Sent: 270582 Rcvd: 178647 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/4 Sent: 254958 Rcvd: 84762 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/31 Sent: 255139 Rcvd: 103878 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/19 Sent: 253849 Rcvd: 110649 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/12 Sent: 254683 Rcvd: 113537 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/22 Sent: 269425 Rcvd: 193068 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/2 Sent: 267524 Rcvd: 154886 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/28 Sent: 271936 Rcvd: 216584 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/28 Sent: 252762 Rcvd: 108789 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/1 Sent: 269765 Rcvd: 178924 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/23 Sent: 255414 Rcvd: 95471 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/11 Sent: 255124 Rcvd: 128170 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/29 Sent: 267427 Rcvd: 160064 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/20 Sent: 268836 Rcvd: 192522 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/5 Sent: 255780 Rcvd: 100183 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/5 Sent: 269872 Rcvd: 161946 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/8 Sent: 254158 Rcvd: 91665 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/4 Sent: 269420 Rcvd: 191338 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/17 Sent: 268265 Rcvd: 179141 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/1 Sent: 253993 Rcvd: 93507 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/18 Sent: 270027 Rcvd: 202576 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/2 Sent: 254270 Rcvd: 96378 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/14 Sent: 255679 Rcvd: 124483 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/7 Sent: 254612 Rcvd: 102493 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/6 Sent: 255578 Rcvd: 103772 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/21 Sent: 255162 Rcvd: 114801 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/29 Sent: 257058 Rcvd: 103284 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/22 Sent: 255169 Rcvd: 93776 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/3 Sent: 253098 Rcvd: 84189 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/25 Sent: 255014 Rcvd: 108595 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/27 Sent: 257043 Rcvd: 97470 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/19 Sent: 269673 Rcvd: 182961 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/0 Sent: 253950 Rcvd: 86802 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/16 Sent: 269054 Rcvd: 195108 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/24 Sent: 266992 Rcvd: 179078 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/15 Sent: 256862 Rcvd: 104689 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/13 Sent: 269054 Rcvd: 160228 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/9 Sent: 270549 Rcvd: 180373 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/26 Sent: 271955 Rcvd: 172992 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/12 Sent: 269346 Rcvd: 190435 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/11 Sent: 268739 Rcvd: 174384 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/18 Sent: 254381 Rcvd: 115106 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/30 Sent: 254839 Rcvd: 88986 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/31 Sent: 267384 Rcvd: 167113 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/9 Sent: 255452 Rcvd: 102389 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/26 Sent: 255759 Rcvd: 103112 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/30 Sent: 270005 Rcvd: 189513 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/10 Sent: 269184 Rcvd: 192527 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/21 Sent: 272172 Rcvd: 182355 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/16 Sent: 253324 Rcvd: 112369 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/6 Sent: 271085 Rcvd: 191756 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/10 Sent: 254346 Rcvd: 101431 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/14 Sent: 268637 Rcvd: 183953 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/7 Sent: 269216 Rcvd: 158581 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/27 Sent: 268117 Rcvd: 186441 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/25 Sent: 267858 Rcvd: 166721 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-2-225.eu-west-1.compute.internal:47287/23 Sent: 271561 Rcvd: 184274 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/13 Sent: 255380 Rcvd: 107186 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/20 Sent: 256526 Rcvd: 103061 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Worker: rmi://ip-10-33-1-194.eu-west-1.compute.internal:37550/17 Sent: 253489 Rcvd: 93960 CacheRatio: 0.02 (2012-11-13 09:37:28)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 8.1E-5
+  based on the actual fingerprints:  val = 6.2E-11
+239782111 states generated, 16777216 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 49.
+Finished. (2012-11-13 09:37:35)

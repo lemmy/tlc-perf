@@ -1,0 +1,58 @@
+Warning: Permanently added 'ip-10-33-1-194.eu-west-1.compute.internal,10.33.1.194' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1352798886762/l10_n8.tla
+Parsing file /tmp/1352798886762/GridPerformanceTest.tla
+Parsing file /tmp/1352798886762/TLC.tla
+Parsing file /tmp/1352798886762/Integers.tla
+Parsing file /tmp/1352798886762/FiniteSets.tla
+Parsing file /tmp/1352798886762/Naturals.tla
+Parsing file /tmp/1352798886762/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-11-13 09:28:07)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-1-194 is ready.
+Progress: The number of fingerprints stored at ip-10-33-1-194 is 0.
+TLC worker with 32 threads ready at: Tue Nov 13 09:28:18 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-1-194 is 5436815.
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2046016 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2039664 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2041112 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2030792 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2037464 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2022096 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2043312 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2040992 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2046240 and a cache hit ratio of 0.022, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2033264 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2031944 and a cache hit ratio of 0.016, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2034160 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2045432 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2036896 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2044624 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2041296 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2056464 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2041352 and a cache hit ratio of 0.022, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2024784 and a cache hit ratio of 0.016, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2040112 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2056344 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2031600 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2054896 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2035048 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2038712 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2043616 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2046072 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2026592 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2034768 and a cache hit ratio of 0.016, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2043040 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2052208 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-1-194.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:37:28 UTC 2012 Computed: 2027912 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-1-194, work completed. Thank you!

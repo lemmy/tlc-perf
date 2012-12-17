@@ -80,7 +80,16 @@ add-apt-repository ppa:x2go/stable -y
 export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get upgrade -y
-apt-get --no-install-recommends install unzip sysstat apache2 munin munin-node munin-java-plugins munin-plugins-extra git rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y
+apt-get --no-install-recommends install unzip sysstat apache2 munin munin-node munin-plugins-extra git rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y
+# On Ubuntu 12.10 munin-java-plugins has been renamed to munin-plugins-java
+if [ -f /etc/lsb-release ]; then
+    source /etc/lsb-release
+    if [ $DISTRIB_RELEASE = "12.10" ]; then
+        apt-get --no-install-recommends install munin-plugins-java -y
+    else
+        apt-get --no-install-recommends install munin-java-plugins -y
+    fi
+fi
 # UI/X and dev environment (forked)
 apt-get --no-install-recommends install ant openjdk-7-jdk gnome-core gdm gnome-session-fallback firefox visualvm mc libwebkitgtk-1.0-0 tightvncserver xorg x2goserver x2goserver-xsession htop -y &
 
@@ -118,6 +127,8 @@ sudo -u kuppe /usr/bin/git config --global user.name "Markus Alexander Kuppe"
 #" > /etc/cron.d/rrdbackup
 
 echo "#!/bin/bash
+# Either empty or set externally as first parameter
+BUILD_ID=\${1-\"\"}
 # Dump process list
 ps axu|grep java|grep -v grep >> /var/lib/munin/ps.txt
 # Convert from rrd to xml
@@ -171,8 +182,9 @@ for f in `find -L . -name *__blockedtime-org_vafer_contention_tlcworkerthread*.r
 for f in `find -L . -name *__waitedtime-org_vafer_contention_tlcworkerthread*.rrd`; do mv \${f} \${f/__waitedtime-org_vafer_contention_tlcworkerthread/}; done
 
 # sync
-sudo -u kuppe rsync --exclude=*.rrd -az -e ssh /var/lib/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
-sudo -u kuppe rsync -az -e ssh /var/cache/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/`hostname`
+sudo -u kuppe ssh kuppe@tla.msr-inria.inria.fr mkdir -p /home/kuppe/rrdtool/\$BUILD_ID
+sudo -u kuppe rsync --exclude=*.rrd -az -e ssh /var/lib/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/\$BUILD_ID/\`hostname\`
+sudo -u kuppe rsync -az -e ssh /var/cache/munin/ kuppe@tla.msr-inria.inria.fr:~/rrdtool/\$BUILD_ID/\`hostname\`
 " > /usr/local/bin/rrdbackup.sh
 chmod +x /usr/local/bin/rrdbackup.sh
 

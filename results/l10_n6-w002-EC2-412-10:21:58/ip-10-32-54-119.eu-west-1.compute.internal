@@ -1,0 +1,33 @@
+Warning: Permanently added 'ip-10-32-54-119.eu-west-1.compute.internal,10.32.54.119' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1355653325055/l10_n6.tla
+Parsing file /tmp/1355653325055/GridPerformanceTest.tla
+Parsing file /tmp/1355653325055/TLC.tla
+Parsing file /tmp/1355653325055/Integers.tla
+Parsing file /tmp/1355653325055/FiniteSets.tla
+Parsing file /tmp/1355653325055/Naturals.tla
+Parsing file /tmp/1355653325055/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2012-12-16 10:22:05)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-32-54-119 is ready.
+Progress: The number of fingerprints stored at ip-10-32-54-119 is 0.
+TLC worker with 8 threads ready at: Sun Dec 16 10:22:25 UTC 2012
+ip-10-32-54-119.eu-west-1.compute.internal, work completed at: Sun Dec 16 10:22:44 UTC 2012 Computed: 99618 and a cache hit ratio of 0.163, Thank you!
+ip-10-32-54-119.eu-west-1.compute.internal, work completed at: Sun Dec 16 10:22:44 UTC 2012 Computed: 100494 and a cache hit ratio of 0.151, Thank you!
+ip-10-32-54-119.eu-west-1.compute.internal, work completed at: Sun Dec 16 10:22:44 UTC 2012 Computed: 97650 and a cache hit ratio of 0.21, Thank you!
+ip-10-32-54-119.eu-west-1.compute.internal, work completed at: Sun Dec 16 10:22:44 UTC 2012 Computed: 99336 and a cache hit ratio of 0.157, Thank you!
+ip-10-32-54-119.eu-west-1.compute.internal, work completed at: Sun Dec 16 10:22:44 UTC 2012 Computed: 100116 and a cache hit ratio of 0.174, Thank you!
+ip-10-32-54-119.eu-west-1.compute.internal, work completed at: Sun Dec 16 10:22:44 UTC 2012 Computed: 99804 and a cache hit ratio of 0.159, Thank you!
+ip-10-32-54-119.eu-west-1.compute.internal, work completed at: Sun Dec 16 10:22:44 UTC 2012 Computed: 99798 and a cache hit ratio of 0.185, Thank you!
+ip-10-32-54-119.eu-west-1.compute.internal, work completed at: Sun Dec 16 10:22:44 UTC 2012 Computed: 98772 and a cache hit ratio of 0.192, Thank you!
+ip-10-32-54-119, work completed. Thank you!

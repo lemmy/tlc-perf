@@ -1,0 +1,263 @@
+Warning: Permanently added 'ip-10-32-49-202.eu-west-1.compute.internal,10.32.49.202' (ECDSA) to the list of known hosts.
+FPSet: TLC Distributed FP Server Version 2.05 of 24 October 2012
+FPSet: TLC Worker Version 2.05 of 24 October 2012
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 1s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 1s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 1s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 1s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 2s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 2s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 2s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 2s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 4s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 4s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 5s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 5s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 8s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 8s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 11s for server to come online...
+FPSet: Server ip-10-32-53-163.eu-west-1.compute.internal unreachable, sleeping 11s for server to come online...
+FPSet: Parsing file /tmp/1352201364045/l10_n10.tla
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.MSBDiskFPSet
+...with nested instance type: tlc2.tool.fp.MSBDiskFPSet
+FPSet: Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.lang.UnsupportedOperationException: Not applicable for non-distributed TLCServerjava.lang.UnsupportedOperationException: Not applicable for non-distributed TLCServer
+	at tlc2.tool.distributed.TLCServer.registerFPSet(TLCServer.java:253)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.exceptionReceivedFromServer(Unknown Source)
+	at sun.rmi.transport.StreamRemoteCall.executeCall(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy0.registerFPSet(Unknown Source)
+	at tlc2.tool.distributed.fp.DistributedFPSet.main(DistributedFPSet.java:74)
+	at org.lamport.tlatools.impl.distributed.TLCDistributedFPSetWrapper.connect(TLCDistributedFPSetWrapper.java:17)
+	at org.lamport.tla.distributed.consumer.DistributedFPSetConsumer$1.run(DistributedFPSetConsumer.java:35)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+FPSet: Error: Failed to start FPSet  for server ip-10-32-53-163.eu-west-1.compute.internal.
+Not applicable for non-distributed TLCServer
+FPSet: Parsing file /tmp/1352201364045/GridPerformanceTest.tla
+FPSet: Parsing file /tmp/1352201364045/TLC.tla
+FPSet: Parsing file /tmp/1352201364045/Integers.tla
+FPSet: Parsing file /tmp/1352201364045/FiniteSets.tla
+FPSet: Parsing file /tmp/1352201364045/Naturals.tla
+FPSet: Parsing file /tmp/1352201364045/Sequences.tla
+FPSet: Semantic processing of module Naturals
+FPSet: Semantic processing of module Integers
+FPSet: Semantic processing of module Sequences
+FPSet: Semantic processing of module FiniteSets
+FPSet: Semantic processing of module GridPerformanceTest
+FPSet: Semantic processing of module TLC
+FPSet: Semantic processing of module l10_n10
+FPSet: Starting... (2012-11-06 11:29:24)
+FPSet: TLC worker with 8 threads ready at: Tue Nov 06 11:29:24 UTC 2012
+Forcefully disconnecting TLCWorkers from TLCServer after 103s
+
+
+FPSet: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:31:08 UTC 2012 Computed: 451560 and a cache hit ratio of 0.027, Thank you!
+FPSet: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:31:08 UTC 2012 Computed: 461100 and a cache hit ratio of 0.027, Thank you!
+FPSet: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:31:08 UTC 2012 Computed: 406370 and a cache hit ratio of 0.026, Thank you!
+FPSet: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:31:08 UTC 2012 Computed: 426470 and a cache hit ratio of 0.024, Thank you!
+FPSet: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:31:08 UTC 2012 Computed: 473760 and a cache hit ratio of 0.02, Thank you!
+FPSet: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:31:08 UTC 2012 Computed: 469310 and a cache hit ratio of 0.026, Thank you!
+FPSet: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:31:08 UTC 2012 Computed: 440600 and a cache hit ratio of 0.018, Thank you!
+FPSet: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:31:08 UTC 2012 Computed: 502140 and a cache hit ratio of 0.021, Thank you!
+TLCWorker: TLC Worker Version 2.05 of 24 October 2012
+TLCWorker: Parsing file /tmp/1352201598604/l10_n10.tla
+TLCWorker: Parsing file /tmp/1352201598604/GridPerformanceTest.tla
+TLCWorker: Parsing file /tmp/1352201598604/TLC.tla
+TLCWorker: Parsing file /tmp/1352201598604/Integers.tla
+TLCWorker: Parsing file /tmp/1352201598604/FiniteSets.tla
+TLCWorker: Parsing file /tmp/1352201598604/Naturals.tla
+TLCWorker: Parsing file /tmp/1352201598604/Sequences.tla
+TLCWorker: Semantic processing of module Naturals
+TLCWorker: Semantic processing of module Integers
+TLCWorker: Semantic processing of module Sequences
+TLCWorker: Semantic processing of module FiniteSets
+TLCWorker: Semantic processing of module GridPerformanceTest
+TLCWorker: Semantic processing of module TLC
+TLCWorker: Semantic processing of module l10_n10
+TLCWorker: Starting... (2012-11-06 11:33:18)
+TLCWorker: TLC worker with 8 threads ready at: Tue Nov 06 11:33:18 UTC 2012
+Forcefully disconnecting TLCWorkers from TLCServer after 57s
+
+
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:34:16 UTC 2012 Computed: 254540 and a cache hit ratio of 0.014, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:34:16 UTC 2012 Computed: 259520 and a cache hit ratio of 0.009, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:34:16 UTC 2012 Computed: 255510 and a cache hit ratio of 0.007, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:34:16 UTC 2012 Computed: 232540 and a cache hit ratio of 0.012, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:34:16 UTC 2012 Computed: 257050 and a cache hit ratio of 0.015, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:34:16 UTC 2012 Computed: 258710 and a cache hit ratio of 0.013, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:34:16 UTC 2012 Computed: 258840 and a cache hit ratio of 0.012, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:34:16 UTC 2012 Computed: 256870 and a cache hit ratio of 0.011, Thank you!
+TLCWorker: TLC Worker Version 2.05 of 24 October 2012
+TLCWorker: Parsing file /tmp/1352201807746/l10_n10.tla
+TLCWorker: Parsing file /tmp/1352201807746/GridPerformanceTest.tla
+TLCWorker: Parsing file /tmp/1352201807746/TLC.tla
+TLCWorker: Parsing file /tmp/1352201807746/Integers.tla
+TLCWorker: Parsing file /tmp/1352201807746/FiniteSets.tla
+TLCWorker: Parsing file /tmp/1352201807746/Naturals.tla
+TLCWorker: Parsing file /tmp/1352201807746/Sequences.tla
+TLCWorker: Semantic processing of module Naturals
+TLCWorker: Semantic processing of module Integers
+TLCWorker: Semantic processing of module Sequences
+TLCWorker: Semantic processing of module FiniteSets
+TLCWorker: Semantic processing of module GridPerformanceTest
+TLCWorker: Semantic processing of module TLC
+TLCWorker: Semantic processing of module l10_n10
+TLCWorker: Starting... (2012-11-06 11:36:47)
+TLCWorker: TLC worker with 8 threads ready at: Tue Nov 06 11:36:47 UTC 2012
+Forcefully disconnecting TLCWorkers from TLCServer after 144s
+
+
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:39:12 UTC 2012 Computed: 777400 and a cache hit ratio of 0.012, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:39:12 UTC 2012 Computed: 779060 and a cache hit ratio of 0.014, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:39:12 UTC 2012 Computed: 776390 and a cache hit ratio of 0.01, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:39:12 UTC 2012 Computed: 778230 and a cache hit ratio of 0.012, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:39:12 UTC 2012 Computed: 701270 and a cache hit ratio of 0.013, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:39:12 UTC 2012 Computed: 700270 and a cache hit ratio of 0.012, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:39:12 UTC 2012 Computed: 777940 and a cache hit ratio of 0.011, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:39:12 UTC 2012 Computed: 693200 and a cache hit ratio of 0.011, Thank you!
+TLCWorker: TLC Worker Version 2.05 of 24 October 2012
+TLCWorker: Parsing file /tmp/1352202077823/l10_n10.tla
+TLCWorker: Parsing file /tmp/1352202077823/GridPerformanceTest.tla
+TLCWorker: Parsing file /tmp/1352202077823/TLC.tla
+TLCWorker: Parsing file /tmp/1352202077823/Integers.tla
+TLCWorker: Parsing file /tmp/1352202077823/FiniteSets.tla
+TLCWorker: Parsing file /tmp/1352202077823/Naturals.tla
+TLCWorker: Parsing file /tmp/1352202077823/Sequences.tla
+TLCWorker: Semantic processing of module Naturals
+TLCWorker: Semantic processing of module Integers
+TLCWorker: Semantic processing of module Sequences
+TLCWorker: Semantic processing of module FiniteSets
+TLCWorker: Semantic processing of module GridPerformanceTest
+TLCWorker: Semantic processing of module TLC
+TLCWorker: Semantic processing of module l10_n10
+TLCWorker: Starting... (2012-11-06 11:41:17)
+TLCWorker: TLC worker with 8 threads ready at: Tue Nov 06 11:41:17 UTC 2012
+Forcefully disconnecting TLCWorkers from TLCServer after 36s
+
+
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:41:54 UTC 2012 Computed: 176620 and a cache hit ratio of 0.015, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:41:54 UTC 2012 Computed: 172880 and a cache hit ratio of 0.01, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:41:54 UTC 2012 Computed: 178200 and a cache hit ratio of 0.014, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:41:54 UTC 2012 Computed: 179620 and a cache hit ratio of 0.012, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:41:54 UTC 2012 Computed: 176470 and a cache hit ratio of 0.009, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:41:54 UTC 2012 Computed: 179670 and a cache hit ratio of 0.016, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:41:54 UTC 2012 Computed: 181470 and a cache hit ratio of 0.01, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:41:54 UTC 2012 Computed: 178330 and a cache hit ratio of 0.017, Thank you!
+TLCWorker: TLC Worker Version 2.05 of 24 October 2012
+TLCWorker: Parsing file /tmp/1352202218978/l10_n10.tla
+TLCWorker: Parsing file /tmp/1352202218978/GridPerformanceTest.tla
+TLCWorker: Parsing file /tmp/1352202218978/TLC.tla
+TLCWorker: Parsing file /tmp/1352202218978/Integers.tla
+TLCWorker: Parsing file /tmp/1352202218978/FiniteSets.tla
+TLCWorker: Parsing file /tmp/1352202218978/Naturals.tla
+TLCWorker: Parsing file /tmp/1352202218978/Sequences.tla
+TLCWorker: Semantic processing of module Naturals
+TLCWorker: Semantic processing of module Integers
+TLCWorker: Semantic processing of module Sequences
+TLCWorker: Semantic processing of module FiniteSets
+TLCWorker: Semantic processing of module GridPerformanceTest
+TLCWorker: Semantic processing of module TLC
+TLCWorker: Semantic processing of module l10_n10
+TLCWorker: Starting... (2012-11-06 11:43:39)
+TLCWorker: TLC worker with 8 threads ready at: Tue Nov 06 11:43:39 UTC 2012
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:45:38 UTC 2012 Computed: 445420 and a cache hit ratio of 0.009, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:45:38 UTC 2012 Computed: 524910 and a cache hit ratio of 0.011, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:45:38 UTC 2012 Computed: 525490 and a cache hit ratio of 0.011, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:45:38 UTC 2012 Computed: 527120 and a cache hit ratio of 0.012, Thank you!
+Forcefully disconnecting TLCWorkers from TLCServer after 118s
+
+
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:45:38 UTC 2012 Computed: 448170 and a cache hit ratio of 0.014, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:45:38 UTC 2012 Computed: 526680 and a cache hit ratio of 0.014, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:45:38 UTC 2012 Computed: 511620 and a cache hit ratio of 0.013, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:45:38 UTC 2012 Computed: 504120 and a cache hit ratio of 0.012, Thank you!
+TLCWorker: Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the TLC Console for clues to what happened.
+The exception was a java.rmi.ConnectException: Connection refused to host: 10.32.53.163; nested exception is: 
+	java.net.ConnectException: Connection timed outjava.rmi.ConnectException: Connection refused to host: 10.32.53.163; nested exception is: 
+	java.net.ConnectException: Connection timed out
+	at sun.rmi.transport.tcp.TCPEndpoint.newSocket(Unknown Source)
+	at sun.rmi.transport.tcp.TCPChannel.createConnection(Unknown Source)
+	at sun.rmi.transport.tcp.TCPChannel.newConnection(Unknown Source)
+	at sun.rmi.server.UnicastRef.invoke(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(Unknown Source)
+	at java.rmi.server.RemoteObjectInvocationHandler.invoke(Unknown Source)
+	at $Proxy1.containsBlock(Unknown Source)
+	at tlc2.tool.distributed.fp.NonDistributedFPSetManager.containsBlock(NonDistributedFPSetManager.java:119)
+	at tlc2.tool.distributed.fp.NonDistributedFPSetManager.containsBlock(NonDistributedFPSetManager.java:134)
+	at tlc2.tool.distributed.TLCWorker.getNextStates(TLCWorker.java:148)
+	at sun.reflect.GeneratedMethodAccessor11.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at sun.rmi.server.UnicastServerRef.dispatch(Unknown Source)
+	at sun.rmi.transport.Transport$1.run(Unknown Source)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.ConnectException: Connection timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.PlainSocketImpl.doConnect(Unknown Source)
+	at java.net.PlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at sun.rmi.transport.proxy.RMIDirectSocketFactory.createSocket(Unknown Source)
+	at sun.rmi.transport.proxy.RMIMasterSocketFactory.createSocket(Unknown Source)
+	... 23 more
+
+TLCWorker: TLC Worker Version 2.05 of 24 October 2012
+TLCWorker: Parsing file /tmp/1352202397482/l10_n10.tla
+TLCWorker: Parsing file /tmp/1352202397482/GridPerformanceTest.tla
+TLCWorker: Parsing file /tmp/1352202397482/TLC.tla
+TLCWorker: Parsing file /tmp/1352202397482/Integers.tla
+TLCWorker: Parsing file /tmp/1352202397482/FiniteSets.tla
+TLCWorker: Parsing file /tmp/1352202397482/Naturals.tla
+TLCWorker: Parsing file /tmp/1352202397482/Sequences.tla
+TLCWorker: Semantic processing of module Naturals
+TLCWorker: Semantic processing of module Integers
+TLCWorker: Semantic processing of module Sequences
+TLCWorker: Semantic processing of module FiniteSets
+TLCWorker: Semantic processing of module GridPerformanceTest
+TLCWorker: Semantic processing of module TLC
+TLCWorker: Semantic processing of module l10_n10
+TLCWorker: Starting... (2012-11-06 11:46:37)
+TLCWorker: TLC worker with 8 threads ready at: Tue Nov 06 11:46:37 UTC 2012
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:46:42 UTC 2012 Computed: 0 and a cache hit ratio of 1, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:46:53 UTC 2012 Computed: 81920 and a cache hit ratio of 0.008, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:46:53 UTC 2012 Computed: 81920 and a cache hit ratio of 0.009, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:46:53 UTC 2012 Computed: 81920 and a cache hit ratio of 0.017, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:46:53 UTC 2012 Computed: 0 and a cache hit ratio of 1, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:46:53 UTC 2012 Computed: 0 and a cache hit ratio of 1, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:46:53 UTC 2012 Computed: 81920 and a cache hit ratio of 0.008, Thank you!
+TLCWorker: ip-10-32-49-202.eu-west-1.compute.internal, work completed at: Tue Nov 06 11:46:53 UTC 2012 Computed: 81920 and a cache hit ratio of 0.013, Thank you!

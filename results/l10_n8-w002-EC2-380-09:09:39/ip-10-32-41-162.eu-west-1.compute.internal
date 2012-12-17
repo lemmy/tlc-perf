@@ -1,0 +1,37 @@
+Warning: Permanently added 'ip-10-32-41-162.eu-west-1.compute.internal,10.32.41.162' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1352797785774/l10_n8.tla
+Parsing file /tmp/1352797785774/GridPerformanceTest.tla
+Parsing file /tmp/1352797785774/TLC.tla
+Parsing file /tmp/1352797785774/Integers.tla
+Parsing file /tmp/1352797785774/FiniteSets.tla
+Parsing file /tmp/1352797785774/Naturals.tla
+Parsing file /tmp/1352797785774/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2012-11-13 09:09:46)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-32-41-162 is ready.
+Progress: The number of fingerprints stored at ip-10-32-41-162 is 0.
+TLC worker with 8 threads ready at: Tue Nov 13 09:10:07 UTC 2012
+Progress: The number of fingerprints stored at ip-10-32-41-162 is 2309365.
+Progress: The number of fingerprints stored at ip-10-32-41-162 is 4195589.
+Progress: The number of fingerprints stored at ip-10-32-41-162 is 5850959.
+Progress: The number of fingerprints stored at ip-10-32-41-162 is 7325792.
+ip-10-32-41-162.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:34:27 UTC 2012 Computed: 8285944 and a cache hit ratio of 0.016, Thank you!
+ip-10-32-41-162.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:34:27 UTC 2012 Computed: 8269496 and a cache hit ratio of 0.017, Thank you!
+ip-10-32-41-162.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:34:27 UTC 2012 Computed: 8254824 and a cache hit ratio of 0.017, Thank you!
+ip-10-32-41-162.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:34:27 UTC 2012 Computed: 8274232 and a cache hit ratio of 0.017, Thank you!
+ip-10-32-41-162.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:34:27 UTC 2012 Computed: 8289976 and a cache hit ratio of 0.016, Thank you!
+ip-10-32-41-162.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:34:27 UTC 2012 Computed: 8271960 and a cache hit ratio of 0.016, Thank you!
+ip-10-32-41-162.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:34:27 UTC 2012 Computed: 8275424 and a cache hit ratio of 0.016, Thank you!
+ip-10-32-41-162.eu-west-1.compute.internal, work completed at: Tue Nov 13 09:34:27 UTC 2012 Computed: 8276000 and a cache hit ratio of 0.017, Thank you!
+ip-10-32-41-162, work completed. Thank you!
