@@ -1,0 +1,89 @@
+Warning: Permanently added 'ip-10-33-2-131.eu-west-1.compute.internal,10.33.2.131' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1355771612093/l1_n32_k2.tla
+Parsing file /tmp/1355771612093/GridPerformanceTest.tla
+Parsing file /tmp/1355771612093/TLC.tla
+Parsing file /tmp/1355771612093/Integers.tla
+Parsing file /tmp/1355771612093/FiniteSets.tla
+Parsing file /tmp/1355771612093/Naturals.tla
+Parsing file /tmp/1355771612093/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l1_n32_k2
+Starting... (2012-12-17 19:13:32)
+FPSet instance type is: tlc2.tool.fp.fp128.FP128MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-2-131 is ready.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 0.
+TLC worker with 32 threads ready at: Mon Dec 17 19:14:02 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 3883044.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 6511029.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 8593666.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 9755940.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 12081548.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 14852608.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 17124311.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 18977315.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 20971257.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 22416264.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 24158886.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 26126044.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 28058949.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 30212181.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 32310580.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 34479537.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 36779920.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 38676776.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 40895922.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 42661595.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 44773943.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 46691473.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 48619150.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 50497365.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 52553429.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 54453528.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 56468687.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 58549504.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 60643359.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 62663847.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 64856697.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 66809862.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 68846800.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 70796136.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 72967582.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 74845241.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 76913759.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 78838396.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 80802791.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 82646034.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 84659375.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 86610358.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 88672723.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 90506825.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 92591093.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 94550168.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 96589200.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 98512737.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 100598411.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 102667501.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 104589891.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 106485948.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 108650737.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 110629203.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 112577054.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 114437958.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 116495815.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 118424551.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 120396512.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 122384231.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 124336139.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 126309574.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 128243055.
+Progress: The number of fingerprints stored at ip-10-33-2-131 is 129198258.
+Write failed: Broken pipe

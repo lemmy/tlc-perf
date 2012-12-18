@@ -1,0 +1,289 @@
+Warning: Permanently added 'ip-10-33-0-235.eu-west-1.compute.internal,10.33.0.235' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1355771611678/l1_n32_k2.tla
+Parsing file /tmp/1355771611678/GridPerformanceTest.tla
+Parsing file /tmp/1355771611678/TLC.tla
+Parsing file /tmp/1355771611678/Integers.tla
+Parsing file /tmp/1355771611678/FiniteSets.tla
+Parsing file /tmp/1355771611678/Naturals.tla
+Parsing file /tmp/1355771611678/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l1_n32_k2
+Starting... (2012-12-17 19:13:32)
+FPSet instance type is: tlc2.tool.fp.fp128.FP128MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-0-235 is ready.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 0.
+TLC worker with 32 threads ready at: Mon Dec 17 19:14:02 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 3576436.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 5908363.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 7787074.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 9289717.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 11265324.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 13441933.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 15403746.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 17175061.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 19438381.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 21448673.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 23705767.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 25869807.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 28115423.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 30257500.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 32396106.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 34423071.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 36621511.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 38697372.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 40772935.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 42684616.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 44813068.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 46794739.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 48771684.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 50759542.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 52884979.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 54832230.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 56998519.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 58869771.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 60959096.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 62840666.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 65021774.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 66915374.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 68970627.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 70883583.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 73035033.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 74888384.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 77007241.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 78936539.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 80876583.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 82696667.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 84756509.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 86653143.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 88733332.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 90537917.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 92612889.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 94561949.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 96617223.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 98542940.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 100632765.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 102713349.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 104601474.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 106524927.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 108635255.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 110707738.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 112646268.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 114551627.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 116655085.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 118551265.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 120536441.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 122476733.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 124390442.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 126428411.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 128396258.
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-2-131.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-2-141.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-2-141.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-248.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 129719765.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 130066191.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 130277930.
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection refused
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 130393374.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 130740143.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 131047189.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 131352634.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 131680419.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 131972079.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 132332822.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 132706587.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 133137695.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 133592010.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 134016634.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 134470183.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 134928426.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 135528460.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 136117924.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 136620162.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 137267292.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 137928566.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 138629973.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 139402143.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 140219414.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 141020343.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 141953512.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 142839705.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 143768218.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 144804800.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 145712147.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 146765738.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 147784424.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 148938746.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 149991484.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 151171357.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 152359089.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 153748535.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 155014374.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 156290684.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 157683459.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 159158798.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 160584083.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 162068706.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 163576078.
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 165162268.
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-235 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.3.246; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Progress: The number of fingerprints stored at ip-10-33-0-235 is 166067994.

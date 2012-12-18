@@ -1,0 +1,226 @@
+Warning: Permanently added 'ip-10-33-2-141.eu-west-1.compute.internal,10.33.2.141' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1355771612255/l1_n32_k2.tla
+Parsing file /tmp/1355771612255/GridPerformanceTest.tla
+Parsing file /tmp/1355771612255/TLC.tla
+Parsing file /tmp/1355771612255/Integers.tla
+Parsing file /tmp/1355771612255/FiniteSets.tla
+Parsing file /tmp/1355771612255/Naturals.tla
+Parsing file /tmp/1355771612255/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l1_n32_k2
+Starting... (2012-12-17 19:13:32)
+FPSet instance type is: tlc2.tool.fp.fp128.FP128MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-2-141 is ready.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 0.
+TLC worker with 32 threads ready at: Mon Dec 17 19:14:02 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 3331547.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 5326714.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 7092735.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 9107849.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 11461406.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 13758407.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 15897961.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 17713988.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 19969237.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 21975554.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 24072707.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 26042598.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 28288724.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 30323490.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 32086109.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 34175396.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 36529149.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 38545050.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 40773857.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 42538442.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 44736513.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 46567583.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 48589800.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 50408953.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 52620030.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 54490520.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 56598954.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 58505297.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 60503380.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 62378822.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 64259974.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 66252852.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 68307028.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 70303819.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 72324027.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 74187425.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 76332685.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 78194472.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 80434625.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 82386229.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 84529306.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 86485200.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 88520766.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 90429701.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 92491472.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 94366964.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 96376348.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 98285775.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 100300461.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 102315002.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 104236092.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 106044953.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 108258548.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 110193249.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 112131007.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 113997379.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 116086357.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 117936970.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 119933877.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 121844542.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 123819887.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 125761227.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 127651051.
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-2-131.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-2-141.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-2-157.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-2-157.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from ip-10-33-2-141 to the fp server at ip-10-33-3-246.
+error marshalling arguments; nested exception is: 
+	java.net.SocketException: Broken pipe
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.
+Progress: The number of fingerprints stored at ip-10-33-2-141 is 134909535.

@@ -1,0 +1,226 @@
+Warning: Permanently added 'ip-10-33-3-246.eu-west-1.compute.internal,10.33.3.246' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1355771613377/l1_n32_k2.tla
+Parsing file /tmp/1355771613377/GridPerformanceTest.tla
+Parsing file /tmp/1355771613377/TLC.tla
+Parsing file /tmp/1355771613377/Integers.tla
+Parsing file /tmp/1355771613377/FiniteSets.tla
+Parsing file /tmp/1355771613377/Naturals.tla
+Parsing file /tmp/1355771613377/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l1_n32_k2
+Starting... (2012-12-17 19:13:33)
+FPSet instance type is: tlc2.tool.fp.fp128.FP128MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-3-246 is ready.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 0.
+TLC worker with 32 threads ready at: Mon Dec 17 19:14:03 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 3185628.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 4924347.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 6952112.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 9107439.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 11441912.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 13613255.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 15581148.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 17491383.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 19876089.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 21863006.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 24116430.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 26023718.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 28293299.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 30387874.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 32226525.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 34308167.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 36610302.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 38593198.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 40801416.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 42584836.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 44740378.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 46606125.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 48593136.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 50512938.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 52701990.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 54552110.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 56626813.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 58531506.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 60562761.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 62549010.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 64443059.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 66405759.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 68480596.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 70436532.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 72461338.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 74307233.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 76400106.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 78283085.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 80523576.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 82470463.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 84632849.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 86617649.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 88633485.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 90501339.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 92582468.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 94465441.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 96459045.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 98376808.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 100414990.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 102430720.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 104339184.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 106178394.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 108353638.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 110257067.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 112266345.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 114130523.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 116188427.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 118051955.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 120058717.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 122003060.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 123976250.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 125832279.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 127791519.
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-2-131.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-2-141.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-2-157.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-248.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 129327423.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 152461478.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 168019081.
+Warning: Failed to connect from ip-10-33-3-246 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection refused
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 174850443.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 191807551.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 207554800.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 220808552.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 235882135.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 248742447.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 262442261.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 276038256.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 289795534.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 304700360.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 318035561.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 331971599.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 344779338.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 359486368.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 373286203.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 385942608.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 400323561.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 412315721.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 426027690.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 438497691.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 451824377.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 464157633.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 477372130.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 490545223.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 502902242.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 515747139.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 527293527.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 539871947.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 551624356.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 563863494.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 574910341.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 587213647.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 598673724.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 610859069.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 621850669.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 633523880.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 645360576.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 656444005.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 668196731.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 679130827.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 690086724.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 701654711.
+Progress: The number of fingerprints stored at ip-10-33-3-246 is 706587321.

@@ -1,0 +1,229 @@
+Warning: Permanently added 'ip-10-33-0-107.eu-west-1.compute.internal,10.33.0.107' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1355771611855/l1_n32_k2.tla
+Parsing file /tmp/1355771611855/GridPerformanceTest.tla
+Parsing file /tmp/1355771611855/TLC.tla
+Parsing file /tmp/1355771611855/Integers.tla
+Parsing file /tmp/1355771611855/FiniteSets.tla
+Parsing file /tmp/1355771611855/Naturals.tla
+Parsing file /tmp/1355771611855/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l1_n32_k2
+Starting... (2012-12-17 19:13:32)
+FPSet instance type is: tlc2.tool.fp.fp128.FP128MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-0-107 is ready.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 0.
+TLC worker with 32 threads ready at: Mon Dec 17 19:14:02 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 3951041.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 6488535.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 7991680.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 9454117.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 11715630.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 14019632.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 16132243.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 17819247.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 19789221.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 21709715.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 23787376.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 25938232.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 28128095.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 30159503.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 32295110.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 34343822.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 36582096.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 38561550.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 40695268.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 42578741.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 44712624.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 46711812.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 48749936.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 50714510.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 52813904.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 54725288.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 56834938.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 58705350.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 60776112.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 62646353.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 64864706.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 66787267.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 68869723.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 70820616.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 73001243.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 74829299.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 76940529.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 78838828.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 80785100.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 82600554.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 84649375.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 86542635.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 88603109.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 90428674.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 92507919.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 94494746.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 96541260.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 98465278.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 100563886.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 102628713.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 104499230.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 106427882.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 108532009.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 110563330.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 112483094.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 114381075.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 116463785.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 118377375.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 120372591.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 122331760.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 124263689.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 126302014.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 128229476.
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-2-131.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-2-141.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-2-157.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-248.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection timed out
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 129548552.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 129895206.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 130113007.
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection refused
+Warning: Failed to connect from ip-10-33-0-107 to the fp server at ip-10-33-3-246.
+Connection refused to host: 10.33.2.131; nested exception is: 
+	java.net.ConnectException: Connection refused
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 130230118.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 130563417.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 130873237.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 131175305.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 131505024.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 131800642.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 132166556.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 132536481.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 132963195.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 133417323.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 133840118.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 134299488.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 134755935.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 135350422.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 135940020.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 136446947.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 137109987.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 137768264.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 138489242.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 139252640.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 140075339.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 140880045.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 141809698.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 142708078.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 143640370.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 144690662.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 145606663.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 146684195.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 147727952.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 148891824.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 149977494.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 151174866.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 152376583.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 153767201.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 155045024.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 156309293.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 157722731.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 159199278.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 160629373.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 162107541.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 163620683.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 165199817.
+Progress: The number of fingerprints stored at ip-10-33-0-107 is 166102349.
