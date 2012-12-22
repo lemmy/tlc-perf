@@ -1,0 +1,341 @@
+Warning: Permanently added 'ip-10-33-3-29.eu-west-1.compute.internal,10.33.3.29' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1356088228246/l1_n32_k2.tla
+Parsing file /tmp/1356088228246/GridPerformanceTest.tla
+Parsing file /tmp/1356088228246/TLC.tla
+Parsing file /tmp/1356088228246/Integers.tla
+Parsing file /tmp/1356088228246/FiniteSets.tla
+Parsing file /tmp/1356088228246/Naturals.tla
+Parsing file /tmp/1356088228246/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l1_n32_k2
+Starting... (2012-12-21 11:10:28)
+FPSet instance type is: tlc2.tool.fp.fp128.FP128MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-3-29 is ready.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 0.
+TLC worker with 32 threads ready at: Fri Dec 21 11:10:47 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 3684022.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 6102299.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 8193182.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 10083954.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 11991019.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 14093918.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 16506504.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 18864397.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 20423575.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 22308502.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 24444446.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 26496411.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 28358596.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 30439087.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 32469798.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 34633342.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 36695272.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 38792709.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 40842089.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 43143388.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 45134895.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 47060996.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 48972182.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 50972751.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 52749797.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 54713439.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 56724909.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 58919387.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 60881210.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 62921972.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 64950619.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 66915807.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 68955990.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 71134346.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 73198851.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 75267526.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 77179876.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 79122057.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 81141546.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 83089540.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 85046252.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 86846854.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 88917505.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 90952666.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 92848155.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 94764754.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 96698165.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 98741302.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 100723171.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 102684631.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 104707662.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 106578874.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 108564000.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 110559194.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 112371785.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 114374823.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 116340352.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 118481275.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 120500470.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 122387438.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 124356754.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 126254759.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 128254112.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 130180176.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 131975757.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 134002554.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 135942981.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 137968947.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 139945551.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 141864393.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 143843597.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 145779045.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 147758270.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 149662466.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 151576581.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 153555962.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 155415868.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 157527753.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 159299760.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 161293848.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 163317203.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 165204749.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 167229895.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 169112343.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 170978475.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 172899829.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 174793892.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 176748567.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 178723331.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 180640123.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 182714222.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 184525970.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 186515747.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 188454758.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 190232667.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 192240547.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 193983103.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 195927853.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 197756538.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 199659735.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 201599359.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 203443129.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 205341429.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 207198877.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 209004724.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 210865513.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 212739923.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 214711861.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 216586771.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 218409641.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 220377459.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 222277138.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 224182298.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 226151924.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 227989606.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 229932655.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 231929958.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 233747273.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 235665631.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 237540686.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 239553882.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 241396035.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 243318263.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 245292967.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 247286596.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 249157394.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 251085343.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 253003320.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 254907221.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 256726774.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 258666063.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 260539578.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 262408127.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 264344247.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 266331893.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 268139597.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 270034109.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 271811116.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 273730250.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 275652309.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 277563836.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 279486312.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 281421467.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 283320077.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 285244626.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 287101908.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 289012025.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 290854319.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 292723588.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 294647179.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 296451856.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 298379125.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 300248399.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 302029176.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 303884109.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 305810019.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 307616478.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 309516143.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 311309424.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 313223164.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 315066679.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 317027083.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 318874448.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 320686857.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 322622208.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 324525167.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 326374051.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 328302366.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 330130497.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 332045889.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 333875160.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 335698410.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 337694635.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 339580785.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 341494503.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 343363182.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 345183747.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 347109933.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 349000254.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 350751134.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 352704642.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 354635704.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 356479881.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 358395401.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 360192645.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 362185909.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 364075681.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 365882545.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 367802245.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 369552278.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 371387862.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 373200869.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 375061787.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 376948983.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 378824170.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 380639896.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 382545668.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 384422913.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 386160724.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 388067530.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 389829552.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 391746766.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 393586730.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 395296712.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 397181198.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 398963357.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 400770965.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 402593967.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 404401219.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 406331796.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 408134559.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 410072580.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 411888357.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 413701403.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 415586633.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 417389465.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 419290624.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 421156007.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 423106685.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 424952493.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 426784549.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 428627257.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 430519663.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 432401440.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 434182675.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 435920229.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 437758576.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 439560364.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 441419635.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 443284590.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 445041332.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 446857065.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 448668184.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 450469760.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 452283738.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 454040016.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 455932677.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 457827352.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 459645005.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 461419231.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 463222680.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 465033108.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 466875736.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 468675500.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 470572276.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 472320972.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 474107137.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 475803564.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 477683540.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 479604524.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 481434857.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 483119073.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 484892650.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 486749747.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 488539913.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 490304745.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 492166035.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 493875415.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 495721424.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 497462263.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 499208911.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 500982114.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 502765257.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 504517897.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 506275230.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 508074942.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 509833476.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 511635895.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 513478310.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 515151901.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 516959369.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 518644358.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 520414315.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 522161094.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 523994400.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 525746187.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 527431477.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 529295926.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 530950590.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 532675923.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 534362174.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 536012315.
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 515732064 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 510596256 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 518762624 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 504852896 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 580768288 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 578888672 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 571192032 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 562339328 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 513230688 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 507532672 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 512476448 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 509029760 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 572770816 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 515896672 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 511118080 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 561873152 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 567047552 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 510857472 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 505969184 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 518821760 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 572517536 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 571538400 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 561042752 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 513598720 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 571842048 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 511702880 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 554283200 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 567416672 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 510093728 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 511379616 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 512006944 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-3-29.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 523647712 and a cache hit ratio of 0.017, Thank you!
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 536870912.
+Progress: The number of fingerprints stored at ip-10-33-3-29 is 536870912.
+ip-10-33-3-29, work completed. Thank you!

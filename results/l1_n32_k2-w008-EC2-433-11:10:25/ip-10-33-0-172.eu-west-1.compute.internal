@@ -1,0 +1,341 @@
+Warning: Permanently added 'ip-10-33-0-172.eu-west-1.compute.internal,10.33.0.172' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1356088228013/l1_n32_k2.tla
+Parsing file /tmp/1356088228013/GridPerformanceTest.tla
+Parsing file /tmp/1356088228013/TLC.tla
+Parsing file /tmp/1356088228013/Integers.tla
+Parsing file /tmp/1356088228013/FiniteSets.tla
+Parsing file /tmp/1356088228013/Naturals.tla
+Parsing file /tmp/1356088228013/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l1_n32_k2
+Starting... (2012-12-21 11:10:28)
+FPSet instance type is: tlc2.tool.fp.fp128.FP128MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-0-172 is ready.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 0.
+TLC worker with 32 threads ready at: Fri Dec 21 11:10:47 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 3253188.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 5258743.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 7178682.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 9279905.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 11535114.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 13739328.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 15836828.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 17848015.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 19896971.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 22004519.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 23908696.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 26217437.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 28119774.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 30234765.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 32163833.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 34302155.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 36285481.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 38375636.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 40247156.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 42451883.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 44592833.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 46553543.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 48398609.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 50468588.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 52405966.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 54467540.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 56374184.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 58311310.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 60218506.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 62292794.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 64344679.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 66451872.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 68301869.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 70409292.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 72451636.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 74580293.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 76505159.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 78362306.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 80502702.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 82322539.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 84315431.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 86152904.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 88251423.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 90281231.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 92144445.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 94188650.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 96242199.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 98365749.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 100324363.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 102304754.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 104301083.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 106141783.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 108066858.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 110128358.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 111969998.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 113947274.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 115836993.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 117861175.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 119853956.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 121726422.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 123683514.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 125675509.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 127688915.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 129651823.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 131436200.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 133479974.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 135390435.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 137457881.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 139457895.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 141368845.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 143352808.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 145316227.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 147362773.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 149291429.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 151126569.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 153124565.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 154965753.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 157024173.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 158730711.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 160740359.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 162758301.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 164680383.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 166675164.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 168589784.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 170430014.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 172407987.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 174348511.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 176228031.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 178150418.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 180062793.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 182122107.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 183982019.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 185959786.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 187870075.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 189686394.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 191654199.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 193416823.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 195370413.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 197206170.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 199041583.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 200976336.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 202827391.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 204720235.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 206598849.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 208488791.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 210373357.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 212253289.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 214215095.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 216153489.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 218015459.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 219963174.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 221908192.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 223803403.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 225769325.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 227659931.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 229644910.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 231610034.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 233480034.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 235397851.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 237264560.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 239274595.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 241110420.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 243037135.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 244985627.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 246941708.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 248767668.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 250650925.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 252560213.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 254456092.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 256286619.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 258249986.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 260134936.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 261967836.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 263943167.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 265907613.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 267719674.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 269648043.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 271397543.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 273301573.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 275232684.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 277203260.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 279150769.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 281025690.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 282944960.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 284822920.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 286700832.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 288613152.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 290447352.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 292355553.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 294268791.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 296055047.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 298026356.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 299896559.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 301687765.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 303539752.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 305444047.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 307283386.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 309163241.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 310972765.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 312966293.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 314837402.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 316802781.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 318666552.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 320524851.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 322459770.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 324396769.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 326263884.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 328179147.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 330071628.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 331951434.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 333800970.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 335578656.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 337531040.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 339419400.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 341359613.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 343176990.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 345000930.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 346941101.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 348818639.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 350558985.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 352500539.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 354419129.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 356278000.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 358217643.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 359995009.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 361996995.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 363913483.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 365707987.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 367611722.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 369380207.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 371217595.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 373043642.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 374900566.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 376762519.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 378655462.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 380477531.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 382376925.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 384249232.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 386001643.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 387894342.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 389650032.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 391564243.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 393390132.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 395120222.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 397006466.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 398815882.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 400654508.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 402523740.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 404337044.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 406305876.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 408106234.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 410040207.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 411854307.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 413657826.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 415535812.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 417358682.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 419270414.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 421126842.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 423080625.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 424912955.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 426725327.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 428550389.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 430424710.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 432301948.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 434083142.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 435828141.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 437668796.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 439474217.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 441329923.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 443203290.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 444955512.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 446755027.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 448593677.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 450397891.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 452197314.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 453951734.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 455852466.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 457743903.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 459569046.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 461344727.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 463152166.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 464977181.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 466849105.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 468665736.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 470549950.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 472323083.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 474098586.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 475803524.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 477668618.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 479565700.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 481378443.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 483064831.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 484825233.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 486707154.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 488501911.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 490271997.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 492131769.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 493835477.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 495677706.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 497424872.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 499179400.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 500955413.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 502733383.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 504501236.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 506266575.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 508055559.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 509819116.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 511625282.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 513448716.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 515122788.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 516926253.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 518616764.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 520391298.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 522132927.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 523974153.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 525751127.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 527428938.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 529283104.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 530942387.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 532664811.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 534345517.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 536006655.
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 563719008 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 518849792 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 569768448 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 508495680 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 508642336 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 519010272 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 520381024 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 519295872 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 567818880 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 507521920 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 507567712 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 513843168 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 563002176 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 508048800 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 567317344 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 517250624 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 517227104 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 506541728 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 567570944 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 576246816 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 495854912 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 519068800 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 512813632 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 498990848 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 505032832 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 518637888 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 567534048 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 505539072 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 525383296 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 565088160 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 520154848 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-172.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:57 UTC 2012 Computed: 567410720 and a cache hit ratio of 0.017, Thank you!
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 536870912.
+Progress: The number of fingerprints stored at ip-10-33-0-172 is 536870912.
+ip-10-33-0-172, work completed. Thank you!

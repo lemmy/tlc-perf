@@ -1,0 +1,341 @@
+Warning: Permanently added 'ip-10-33-1-44.eu-west-1.compute.internal,10.33.1.44' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1356088227991/l1_n32_k2.tla
+Parsing file /tmp/1356088227991/GridPerformanceTest.tla
+Parsing file /tmp/1356088227991/TLC.tla
+Parsing file /tmp/1356088227991/Integers.tla
+Parsing file /tmp/1356088227991/FiniteSets.tla
+Parsing file /tmp/1356088227991/Naturals.tla
+Parsing file /tmp/1356088227991/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l1_n32_k2
+Starting... (2012-12-21 11:10:28)
+FPSet instance type is: tlc2.tool.fp.fp128.FP128MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-1-44 is ready.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 0.
+TLC worker with 32 threads ready at: Fri Dec 21 11:10:47 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 3088374.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 4926592.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 6949461.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 9083456.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 11369133.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 13584794.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 15623564.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 17727654.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 19732089.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 21947591.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 23853670.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 26147453.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 28064399.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 30208352.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 32178413.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 34304358.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 36279136.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 38395217.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 40268209.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 42468983.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 44633945.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 46574101.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 48445694.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 50470457.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 52405133.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 54469372.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 56405355.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 58345206.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 60246459.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 62358196.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 64399921.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 66525295.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 68385214.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 70481508.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 72533344.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 74637238.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 76552029.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 78393607.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 80533908.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 82349977.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 84336382.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 86171024.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 88245090.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 90277485.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 92153443.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 94183187.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 96249883.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 98376939.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 100342372.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 102322846.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 104333944.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 106157802.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 108083293.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 110157247.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 111996425.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 113944957.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 115820700.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 117840428.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 119844012.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 121727829.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 123693229.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 125681561.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 127687103.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 129646731.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 131437754.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 133460393.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 135379728.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 137441578.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 139449484.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 141351909.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 143335541.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 145285686.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 147335588.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 149271564.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 151115579.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 153101782.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 154931405.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 156994427.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 158700212.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 160722319.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 162737053.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 164659463.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 166642268.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 168547147.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 170398671.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 172367416.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 174294060.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 176177600.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 178111514.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 180029125.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 182088944.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 183945109.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 185927377.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 187835580.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 189657183.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 191631777.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 193399042.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 195360492.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 197191950.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 199024572.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 200969645.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 202820409.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 204713486.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 206593578.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 208479647.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 210358935.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 212240771.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 214183514.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 216136497.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 217982958.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 219925354.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 221867975.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 223752056.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 225731830.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 227616327.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 229602203.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 231571654.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 233429521.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 235351405.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 237217763.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 239224957.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 241069861.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 242994011.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 244941109.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 246917949.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 248742393.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 250638342.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 252542157.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 254441398.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 256263262.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 258223179.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 260124089.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 261960388.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 263937595.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 265895634.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 267712445.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 269633333.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 271386360.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 273307209.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 275242518.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 277209247.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 279153380.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 281030101.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 282955231.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 284831282.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 286707843.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 288625609.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 290463505.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 292378927.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 294279365.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 296066651.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 298031874.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 299889206.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 301686194.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 303533564.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 305440659.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 307277685.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 309155331.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 310966342.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 312977875.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 314856470.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 316820852.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 318693002.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 320549442.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 322483719.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 324405368.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 326268374.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 328178874.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 330065858.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 331957809.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 333800482.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 335593690.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 337538272.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 339429532.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 341363005.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 343189300.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 345019718.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 346953595.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 348835252.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 350583516.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 352516195.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 354437469.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 356293058.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 358224809.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 360013601.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 362012153.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 363931931.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 365731388.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 367632497.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 369391111.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 371226910.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 373058301.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 374920304.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 376775910.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 378680286.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 380498290.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 382391838.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 384262024.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 386016041.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 387899002.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 389666290.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 391569110.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 393401224.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 395128572.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 397019925.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 398828868.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 400674669.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 402533988.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 404344096.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 406320250.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 408121093.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 410062354.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 411873942.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 413675007.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 415547548.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 417372495.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 419275986.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 421130391.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 423087011.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 424928157.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 426742843.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 428552592.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 430424494.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 432295222.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 434086254.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 435830148.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 437678651.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 439471580.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 441327537.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 443197672.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 444948701.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 446756507.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 448587804.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 450398244.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 452194114.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 453943355.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 455855821.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 457742752.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 459571222.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 461343004.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 463153642.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 464975055.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 466841990.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 468661458.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 470555454.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 472322032.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 474116648.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 475807163.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 477667132.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 479558317.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 481376662.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 483070679.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 484841257.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 486707113.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 488504596.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 490272710.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 492137382.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 493844177.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 495684252.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 497422243.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 499185336.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 500966495.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 502743784.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 504500094.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 506266850.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 508053150.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 509815786.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 511620111.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 513444190.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 515122769.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 516926660.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 518621101.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 520394528.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 522135789.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 523973437.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 525751522.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 527411247.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 529259035.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 530913537.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 532644231.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 534323831.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 535994477.
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 587451296 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 521108992 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 530482656 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 517070272 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 518950912 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 516807840 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 517741088 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 509486528 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 516733408 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 512478912 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 515936640 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 516217088 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 524860192 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 568823712 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 556342688 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 514249536 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 523228384 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 569306720 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 524467904 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 526853312 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 510442112 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 513878400 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 519492928 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 520344768 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 564584640 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 571889632 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 525901280 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 579874752 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 529807328 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 528068800 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 515013088 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-1-44.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:55 UTC 2012 Computed: 517855904 and a cache hit ratio of 0.017, Thank you!
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 536870912.
+Progress: The number of fingerprints stored at ip-10-33-1-44 is 536870912.
+ip-10-33-1-44, work completed. Thank you!

@@ -1,0 +1,341 @@
+Warning: Permanently added 'ip-10-33-0-81.eu-west-1.compute.internal,10.33.0.81' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1356088228057/l1_n32_k2.tla
+Parsing file /tmp/1356088228057/GridPerformanceTest.tla
+Parsing file /tmp/1356088228057/TLC.tla
+Parsing file /tmp/1356088228057/Integers.tla
+Parsing file /tmp/1356088228057/FiniteSets.tla
+Parsing file /tmp/1356088228057/Naturals.tla
+Parsing file /tmp/1356088228057/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l1_n32_k2
+Starting... (2012-12-21 11:10:28)
+FPSet instance type is: tlc2.tool.fp.fp128.FP128MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-0-81 is ready.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 0.
+TLC worker with 32 threads ready at: Fri Dec 21 11:10:47 UTC 2012
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 3104071.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 4955648.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 6940147.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 9088768.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 11380868.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 13618533.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 15649990.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 17751848.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 19776441.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 21974855.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 23903819.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 26202725.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 28142532.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 30254644.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 32208432.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 34334425.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 36301207.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 38429199.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 40292983.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 42437611.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 44585454.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 46556497.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 48444186.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 50471316.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 52407299.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 54483841.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 56411977.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 58361251.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 60305480.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 62394557.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 64439584.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 66531148.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 68367475.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 70432441.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 72459520.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 74572583.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 76486171.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 78306371.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 80457665.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 82276439.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 84310046.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 86147166.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 88234377.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 90282263.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 92183716.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 94204715.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 96245939.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 98361864.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 100334016.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 102319688.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 104345675.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 106171951.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 108107478.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 110177502.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 111998919.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 113975000.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 115862500.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 117878155.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 119858047.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 121755415.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 123729206.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 125715469.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 127716684.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 129661046.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 131439465.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 133472761.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 135370972.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 137437990.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 139452289.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 141350613.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 143359986.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 145303042.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 147359432.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 149284581.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 151128162.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 153139248.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 154960641.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 157039731.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 158762887.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 160798592.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 162798865.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 164703462.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 166709521.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 168616096.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 170468363.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 172437175.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 174362111.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 176231116.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 178165777.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 180075568.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 182135643.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 183992817.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 185988630.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 187878204.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 189696704.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 191649009.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 193407506.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 195375015.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 197209444.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 199057969.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 200999052.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 202828871.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 204718272.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 206593742.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 208485078.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 210347456.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 212193106.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 214159633.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 216086976.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 217932199.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 219888208.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 221834563.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 223735199.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 225715188.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 227623727.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 229636589.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 231587726.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 233452834.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 235365864.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 237224246.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 239218996.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 241056313.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 242972327.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 244929047.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 246898127.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 248724882.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 250618630.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 252520339.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 254408190.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 256220052.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 258190229.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 260083530.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 261930914.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 263906553.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 265864704.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 267678036.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 269600811.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 271358521.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 273271086.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 275208764.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 277161852.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 279106439.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 280994818.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 282911826.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 284792199.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 286667750.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 288578408.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 290421772.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 292326678.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 294230606.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 296011109.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 297973871.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 299833608.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 301641741.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 303476590.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 305383666.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 307232340.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 309130233.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 310934183.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 312944014.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 314821632.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 316792777.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 318661765.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 320511706.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 322437271.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 324371990.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 326215407.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 328133921.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 330011910.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 331902187.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 333744608.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 335547531.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 337493512.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 339404343.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 341331561.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 343157015.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 344969902.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 346910964.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 348787622.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 350538465.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 352487800.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 354420589.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 356275036.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 358205460.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 359991096.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 361995559.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 363915639.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 365718122.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 367618311.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 369382062.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 371207721.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 373032969.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 374891841.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 376749258.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 378638759.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 380462914.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 382360400.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 384242231.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 385993936.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 387885257.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 389641584.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 391558592.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 393392387.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 395127860.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 397014020.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 398808835.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 400660579.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 402513321.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 404342705.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 406293379.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 408097946.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 410042684.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 411852668.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 413666123.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 415544508.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 417358752.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 419252366.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 421117351.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 423071766.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 424896653.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 426713491.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 428543066.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 430428379.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 432303884.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 434076769.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 435829519.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 437653024.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 439465993.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 441327779.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 443191177.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 444952132.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 446765382.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 448592913.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 450392851.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 452188643.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 453944476.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 455846979.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 457732327.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 459569732.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 461341898.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 463150862.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 464978501.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 466845456.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 468657977.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 470540170.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 472322863.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 474101492.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 475802040.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 477663798.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 479566282.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 481382796.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 483068824.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 484816839.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 486689589.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 488490888.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 490259498.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 492119302.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 493829908.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 495671701.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 497422613.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 499172057.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 500943288.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 502724987.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 504489492.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 506267386.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 508066581.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 509821667.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 511635764.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 513455690.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 515121653.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 516935126.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 518627619.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 520397937.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 522138787.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 523971260.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 525748563.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 527425855.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 529284603.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 530944135.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 532665012.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 534347059.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 536006432.
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 577618880 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 569076608 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 577731552 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 552933120 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 584381440 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 565159488 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 566987520 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 566896000 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 569732864 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 564540608 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 575320192 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 563461536 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 566528448 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 561712032 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 559505440 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 570612960 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 578631392 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 578110272 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 567629280 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 571547008 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 564528768 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 581185408 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 547619136 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 569868800 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 564194080 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 574827072 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 571640128 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 566907488 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 565275264 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 572919168 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 576593920 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-0-81.eu-west-1.compute.internal, work completed at: Sat Dec 22 10:43:56 UTC 2012 Computed: 580019808 and a cache hit ratio of 0.017, Thank you!
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 536870912.
+Progress: The number of fingerprints stored at ip-10-33-0-81 is 536870912.
+ip-10-33-0-81, work completed. Thank you!
