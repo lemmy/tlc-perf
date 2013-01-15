@@ -30,7 +30,7 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDaFesWicuMjw2s9+4rl36IP781nZ07Vasir5
 echo "ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAy4sKgMk2QS8wKze690bmar4cJXz2/AGJr36uJ8gds6zAhM9cyQ4GEuOgOORAOWcUAg3HZI65GdCqtHE+P4t9P5Qi1bE+d24ZL0Ebg6z5P8f8XvSId7Gd/p7YXgCcOJj4nxRHRr3fmHvLw+s0PLCaCg5uqShOBhyxbD8H8pgh4WqxUhHtAeIV+OhuazgLjCYL9b2DFSUtad6j+c+podcZGOJq+DLhP3NWJI5eiO2u7PuX06sRCTo4UxZlP+bvjhU7tH/VRIg9R7CO9TvmMykJEAwa6G5vf4kCFeh9f0pYA26UUFg8z0P2ki7+Z0zHXD3w7zbDYzZ9snFY9RtajtNkXw== markus@kuppe.org" >> /home/kuppe/.ssh/authorized_keys
 echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDZWGzBB+uHHtLOw0PsizjW4YpHs4u+8Wo4Exy+Yr+iYcVCNzAcR8e+ixpve14FaVN9ia7Trjd8xC8j/AWiQ+oMHXdJZQNrfKUtUxebSxA0yqlE3WXSjq+uAyRUT8czc5aM8h93iVz5AZwbUPy6ayxFr0PrVE/XmA+ZSAZ2pbPOg/KVZhqMILznCwhQ5lyUsIMSdZNIUlZH5+347zEvhJFhoPy95c4qs5qWvEaXD9Dxu/wCHqIv0KAKC4dxr+/nqPi3PRqHqLgolbQVwkjyfN4yxsyHx3uni25Z1TCT21LR9Zq0FkP4M0k02U73NKbmDeVHwyyQk6XDBfNqt8krsFdR jenkins@tla.msr-inria.inria.fr" >> /home/kuppe/.ssh/authorized_keys
 # ec2 keypair to ssh out
-echo "@@PRIV_KEY@@" > /home/kuppe/.ssh/id_rsa
+echo "##PRIV_KEY##" > /home/kuppe/.ssh/id_rsa
 echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDY+EiWONhPeuupD26mtePrFDzel5ewHcLow0FfdCNnTyRdXRJVo8iyDROP5YyNfphmgezsRcv62sXAft4sqKoVw14luX9XPjNWDARsTbPOyhBTsJe6qMm/8nZ78zGbL8EEWVE52l3rx2MWYy67VwBaAP5szVVpmj+7VJ4fCh/1Vp9ORgOxwgzdpkt2qx8Tn5qVkjOwxqpGsANsaXLmfdRo9eXFXO845Ok7bytPqdwJsSoB2tRUH8rwHrVPQsJsXYnTQFKf8mhf21uxhdsnHg4jWEk1My/XI+x/mjR8ksQWcpjumVAFw7flMD1ZYBijo3CR+b2GtV4uKTxjf8bbEcBn kuppe@ec2.amazonaws.com" > /home/kuppe/.ssh/id_rsa.pub
 chmod 600 /home/kuppe/.ssh/id_rsa
 
