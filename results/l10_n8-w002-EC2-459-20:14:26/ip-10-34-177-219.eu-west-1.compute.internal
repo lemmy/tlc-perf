@@ -1,0 +1,38 @@
+Warning: Permanently added 'ip-10-34-177-219.eu-west-1.compute.internal,10.34.177.219' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1368821673250/l10_n8.tla
+Parsing file /tmp/1368821673250/GridPerformanceTest.tla
+Parsing file /tmp/1368821673250/TLC.tla
+Parsing file /tmp/1368821673250/Integers.tla
+Parsing file /tmp/1368821673250/FiniteSets.tla
+Parsing file /tmp/1368821673250/Naturals.tla
+Parsing file /tmp/1368821673250/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2013-05-17 20:14:33)
+FPSet instance type is: tlc2.tool.fp.fp128.FP128MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+Fingerprint set server at ip-10-34-177-219 is ready.
+Progress: The number of fingerprints stored at ip-10-34-177-219 is 0.
+TLC worker with 8 threads ready at: Fri May 17 20:15:11 UTC 2013
+Progress: The number of fingerprints stored at ip-10-34-177-219 is 2201944.
+Progress: The number of fingerprints stored at ip-10-34-177-219 is 4063876.
+Progress: The number of fingerprints stored at ip-10-34-177-219 is 5697526.
+Progress: The number of fingerprints stored at ip-10-34-177-219 is 7156415.
+ip-10-34-177-219.eu-west-1.compute.internal, work completed at: Fri May 17 20:40:00 UTC 2013 Computed: 8531496 and a cache hit ratio of 0.025, Thank you!
+ip-10-34-177-219.eu-west-1.compute.internal, work completed at: Fri May 17 20:40:00 UTC 2013 Computed: 8523840 and a cache hit ratio of 0.026, Thank you!
+ip-10-34-177-219.eu-west-1.compute.internal, work completed at: Fri May 17 20:40:00 UTC 2013 Computed: 8536808 and a cache hit ratio of 0.026, Thank you!
+ip-10-34-177-219.eu-west-1.compute.internal, work completed at: Fri May 17 20:40:00 UTC 2013 Computed: 8538144 and a cache hit ratio of 0.025, Thank you!
+ip-10-34-177-219.eu-west-1.compute.internal, work completed at: Fri May 17 20:40:00 UTC 2013 Computed: 8527736 and a cache hit ratio of 0.026, Thank you!
+ip-10-34-177-219.eu-west-1.compute.internal, work completed at: Fri May 17 20:40:00 UTC 2013 Computed: 8520136 and a cache hit ratio of 0.025, Thank you!
+ip-10-34-177-219.eu-west-1.compute.internal, work completed at: Fri May 17 20:40:00 UTC 2013 Computed: 8510544 and a cache hit ratio of 0.026, Thank you!
+ip-10-34-177-219.eu-west-1.compute.internal, work completed at: Fri May 17 20:40:00 UTC 2013 Computed: 8517832 and a cache hit ratio of 0.026, Thank you!
+Progress: The number of fingerprints stored at ip-10-34-177-219 is 8388608.
+ip-10-34-177-219, work completed. Thank you!
