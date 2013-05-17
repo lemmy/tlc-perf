@@ -1,0 +1,38 @@
+Warning: Permanently added 'ip-10-35-138-123.eu-west-1.compute.internal,10.35.138.123' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 7 November 2012
+TLC Worker Version 2.05 of 7 November 2012
+Parsing file /tmp/1368778160691/l10_n8.tla
+Parsing file /tmp/1368778160691/GridPerformanceTest.tla
+Parsing file /tmp/1368778160691/TLC.tla
+Parsing file /tmp/1368778160691/Integers.tla
+Parsing file /tmp/1368778160691/FiniteSets.tla
+Parsing file /tmp/1368778160691/Naturals.tla
+Parsing file /tmp/1368778160691/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2013-05-17 08:09:21)
+FPSet instance type is: tlc2.tool.fp.fp128.FP128MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.fp128.OffHeapDiskFPSet
+Fingerprint set server at ip-10-35-138-123 is ready.
+Progress: The number of fingerprints stored at ip-10-35-138-123 is 0.
+TLC worker with 8 threads ready at: Fri May 17 08:09:58 UTC 2013
+Progress: The number of fingerprints stored at ip-10-35-138-123 is 2252948.
+Progress: The number of fingerprints stored at ip-10-35-138-123 is 4070577.
+Progress: The number of fingerprints stored at ip-10-35-138-123 is 5674755.
+Progress: The number of fingerprints stored at ip-10-35-138-123 is 7074984.
+Progress: The number of fingerprints stored at ip-10-35-138-123 is 8277240.
+ip-10-35-138-123.eu-west-1.compute.internal, work completed at: Fri May 17 08:35:42 UTC 2013 Computed: 8012616 and a cache hit ratio of 0.024, Thank you!
+ip-10-35-138-123.eu-west-1.compute.internal, work completed at: Fri May 17 08:35:42 UTC 2013 Computed: 8105136 and a cache hit ratio of 0.025, Thank you!
+ip-10-35-138-123.eu-west-1.compute.internal, work completed at: Fri May 17 08:35:42 UTC 2013 Computed: 8076712 and a cache hit ratio of 0.024, Thank you!
+ip-10-35-138-123.eu-west-1.compute.internal, work completed at: Fri May 17 08:35:42 UTC 2013 Computed: 8075728 and a cache hit ratio of 0.025, Thank you!
+ip-10-35-138-123.eu-west-1.compute.internal, work completed at: Fri May 17 08:35:42 UTC 2013 Computed: 8056616 and a cache hit ratio of 0.024, Thank you!
+ip-10-35-138-123.eu-west-1.compute.internal, work completed at: Fri May 17 08:35:42 UTC 2013 Computed: 8066080 and a cache hit ratio of 0.024, Thank you!
+ip-10-35-138-123.eu-west-1.compute.internal, work completed at: Fri May 17 08:35:43 UTC 2013 Computed: 8066624 and a cache hit ratio of 0.025, Thank you!
+ip-10-35-138-123.eu-west-1.compute.internal, work completed at: Fri May 17 08:35:43 UTC 2013 Computed: 8062192 and a cache hit ratio of 0.024, Thank you!
+ip-10-35-138-123, work completed. Thank you!
