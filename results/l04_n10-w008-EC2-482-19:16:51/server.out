@@ -1,0 +1,16 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 17 April 2013
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the User Output or TLC Console for clues to what happened.
+The exception was a tlc2.tool.ConfigFileException: TLC encountered the following error when trying to read the configuration file /mnt/tlc/11580/spec/l04_n10.cfg:
+File not found.tlc2.tool.ConfigFileException: TLC encountered the following error when trying to read the configuration file /mnt/tlc/11580/spec/l04_n10.cfg:
+File not found.
+	at tlc2.tool.ModelConfig.parse(ModelConfig.java:137)
+	at tlc2.tool.Spec.<init>(Spec.java:134)
+	at tlc2.tool.Tool.<init>(Tool.java:91)
+	at tlc2.tool.distributed.TLCApp.<init>(TLCApp.java:57)
+	at tlc2.tool.distributed.TLCApp.<init>(TLCApp.java:37)
+	at tlc2.tool.distributed.TLCApp.create(TLCApp.java:509)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:674)
+
