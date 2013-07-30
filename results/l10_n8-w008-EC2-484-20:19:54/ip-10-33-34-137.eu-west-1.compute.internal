@@ -1,0 +1,57 @@
+Warning: Permanently added 'ip-10-33-34-137.eu-west-1.compute.internal,10.33.34.137' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1375215596125/l10_n8.tla
+Parsing file /tmp/1375215596125/GridPerformanceTest.tla
+Parsing file /tmp/1375215596125/TLC.tla
+Parsing file /tmp/1375215596125/Integers.tla
+Parsing file /tmp/1375215596125/FiniteSets.tla
+Parsing file /tmp/1375215596125/Naturals.tla
+Parsing file /tmp/1375215596125/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2013-07-30 20:19:56)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-34-137 is ready.
+Progress: The number of fingerprints stored at ip-10-33-34-137 is 0.
+TLC worker with 32 threads ready at: Tue Jul 30 20:20:05 UTC 2013
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 552760 and a cache hit ratio of 0.021, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 530880 and a cache hit ratio of 0.025, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 539872 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 547552 and a cache hit ratio of 0.024, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 543832 and a cache hit ratio of 0.015, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 528376 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 540384 and a cache hit ratio of 0.021, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 540288 and a cache hit ratio of 0.016, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 565608 and a cache hit ratio of 0.022, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 539320 and a cache hit ratio of 0.015, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 534800 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 538720 and a cache hit ratio of 0.022, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 550608 and a cache hit ratio of 0.022, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 539128 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 540936 and a cache hit ratio of 0.024, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 545640 and a cache hit ratio of 0.024, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 543800 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 547792 and a cache hit ratio of 0.022, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 543568 and a cache hit ratio of 0.021, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 542256 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 550880 and a cache hit ratio of 0.024, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 554760 and a cache hit ratio of 0.024, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 547960 and a cache hit ratio of 0.021, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 534528 and a cache hit ratio of 0.023, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 536688 and a cache hit ratio of 0.022, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 531656 and a cache hit ratio of 0.021, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 561280 and a cache hit ratio of 0.022, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 547160 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 539576 and a cache hit ratio of 0.025, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 535888 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 544872 and a cache hit ratio of 0.029, Thank you!
+ip-10-33-34-137.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 535456 and a cache hit ratio of 0.023, Thank you!
+ip-10-33-34-137, work completed. Thank you!

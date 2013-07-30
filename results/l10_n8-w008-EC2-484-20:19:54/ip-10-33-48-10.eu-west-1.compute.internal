@@ -1,0 +1,57 @@
+Warning: Permanently added 'ip-10-33-48-10.eu-west-1.compute.internal,10.33.48.10' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1375215596199/l10_n8.tla
+Parsing file /tmp/1375215596199/GridPerformanceTest.tla
+Parsing file /tmp/1375215596199/TLC.tla
+Parsing file /tmp/1375215596199/Integers.tla
+Parsing file /tmp/1375215596199/FiniteSets.tla
+Parsing file /tmp/1375215596199/Naturals.tla
+Parsing file /tmp/1375215596199/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2013-07-30 20:19:56)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-48-10 is ready.
+Progress: The number of fingerprints stored at ip-10-33-48-10 is 0.
+TLC worker with 32 threads ready at: Tue Jul 30 20:20:05 UTC 2013
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 516144 and a cache hit ratio of 0.016, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 527976 and a cache hit ratio of 0.023, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 510360 and a cache hit ratio of 0.021, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 521680 and a cache hit ratio of 0.023, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 514144 and a cache hit ratio of 0.016, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 518976 and a cache hit ratio of 0.023, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 525104 and a cache hit ratio of 0.025, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 528936 and a cache hit ratio of 0.026, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 530344 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 503248 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 521200 and a cache hit ratio of 0.016, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 513848 and a cache hit ratio of 0.023, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 507368 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 514600 and a cache hit ratio of 0.023, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 513744 and a cache hit ratio of 0.015, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 533344 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 543912 and a cache hit ratio of 0.028, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 545376 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 532792 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 519472 and a cache hit ratio of 0.022, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 517448 and a cache hit ratio of 0.023, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 524024 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 516024 and a cache hit ratio of 0.025, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 511904 and a cache hit ratio of 0.022, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 517304 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 524456 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 513096 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 511232 and a cache hit ratio of 0.024, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 520624 and a cache hit ratio of 0.023, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 528104 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 509248 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-48-10.eu-west-1.compute.internal, work completed at: Tue Jul 30 20:22:30 UTC 2013 Computed: 514552 and a cache hit ratio of 0.022, Thank you!
+ip-10-33-48-10, work completed. Thank you!
