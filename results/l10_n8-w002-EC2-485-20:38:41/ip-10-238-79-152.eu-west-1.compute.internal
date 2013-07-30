@@ -1,0 +1,35 @@
+Warning: Permanently added 'ip-10-238-79-152.eu-west-1.compute.internal,10.238.79.152' (ECDSA) to the list of known hosts.
+TLC Worker Version 2.05 of 23 July 2013
+Server ip-10-239-42-73.eu-west-1.compute.internal unreachable, sleeping 1s for server to come online...
+Server ip-10-239-42-73.eu-west-1.compute.internal unreachable, sleeping 1s for server to come online...
+Server ip-10-239-42-73.eu-west-1.compute.internal unreachable, sleeping 2s for server to come online...
+Server ip-10-239-42-73.eu-west-1.compute.internal unreachable, sleeping 2s for server to come online...
+Server ip-10-239-42-73.eu-west-1.compute.internal unreachable, sleeping 4s for server to come online...
+Server ip-10-239-42-73.eu-west-1.compute.internal unreachable, sleeping 5s for server to come online...
+Server ip-10-239-42-73.eu-west-1.compute.internal unreachable, sleeping 8s for server to come online...
+Server ip-10-239-42-73.eu-west-1.compute.internal unreachable, sleeping 11s for server to come online...
+Server ip-10-239-42-73.eu-west-1.compute.internal unreachable, sleeping 16s for server to come online...
+Parsing file /tmp/1375216773651/l10_n8.tla
+Parsing file /tmp/1375216773651/GridPerformanceTest.tla
+Parsing file /tmp/1375216773651/TLC.tla
+Parsing file /tmp/1375216773651/Integers.tla
+Parsing file /tmp/1375216773651/FiniteSets.tla
+Parsing file /tmp/1375216773651/Naturals.tla
+Parsing file /tmp/1375216773651/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n8
+Starting... (2013-07-30 20:39:34)
+TLC worker with 8 threads ready at: Tue Jul 30 20:39:34 UTC 2013
+ip-10-238-79-152.eu-west-1.compute.internal, work completed at: Tue Jul 30 21:06:35 UTC 2013 Computed: 8681216 and a cache hit ratio of 0.023, Thank you!
+ip-10-238-79-152.eu-west-1.compute.internal, work completed at: Tue Jul 30 21:06:35 UTC 2013 Computed: 8692960 and a cache hit ratio of 0.023, Thank you!
+ip-10-238-79-152.eu-west-1.compute.internal, work completed at: Tue Jul 30 21:06:35 UTC 2013 Computed: 8667360 and a cache hit ratio of 0.023, Thank you!
+ip-10-238-79-152.eu-west-1.compute.internal, work completed at: Tue Jul 30 21:06:35 UTC 2013 Computed: 8684344 and a cache hit ratio of 0.024, Thank you!
+ip-10-238-79-152.eu-west-1.compute.internal, work completed at: Tue Jul 30 21:06:35 UTC 2013 Computed: 8668400 and a cache hit ratio of 0.023, Thank you!
+ip-10-238-79-152.eu-west-1.compute.internal, work completed at: Tue Jul 30 21:06:35 UTC 2013 Computed: 8677912 and a cache hit ratio of 0.022, Thank you!
+ip-10-238-79-152.eu-west-1.compute.internal, work completed at: Tue Jul 30 21:06:35 UTC 2013 Computed: 8669200 and a cache hit ratio of 0.023, Thank you!
+ip-10-238-79-152.eu-west-1.compute.internal, work completed at: Tue Jul 30 21:06:35 UTC 2013 Computed: 8680336 and a cache hit ratio of 0.022, Thank you!
