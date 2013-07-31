@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-241-5-141.eu-west-1.compute.internal,10.241.5.141' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1375250525925/l12_n8.tla
+Parsing file /tmp/1375250525925/GridPerformanceTest.tla
+Parsing file /tmp/1375250525925/TLC.tla
+Parsing file /tmp/1375250525925/Integers.tla
+Parsing file /tmp/1375250525925/FiniteSets.tla
+Parsing file /tmp/1375250525925/Naturals.tla
+Parsing file /tmp/1375250525925/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2013-07-31 06:02:06)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-241-5-141 is ready.
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 0.
+TLC worker with 8 threads ready at: Wed Jul 31 06:02:23 UTC 2013
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 517336.
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 995102.
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 1450413.
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 1860352.
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 2259767.
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 2625137.
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 2967288.
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 3305967.
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 3624421.
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 3915389.
+Progress: The number of fingerprints stored at ip-10-241-5-141 is 4181584.
+ip-10-241-5-141.eu-west-1.compute.internal, work completed at: Wed Jul 31 06:57:51 UTC 2013 Computed: 4304304 and a cache hit ratio of 0.017, Thank you!
+ip-10-241-5-141.eu-west-1.compute.internal, work completed at: Wed Jul 31 06:57:51 UTC 2013 Computed: 4309464 and a cache hit ratio of 0.018, Thank you!
+ip-10-241-5-141.eu-west-1.compute.internal, work completed at: Wed Jul 31 06:57:51 UTC 2013 Computed: 4305464 and a cache hit ratio of 0.017, Thank you!
+ip-10-241-5-141.eu-west-1.compute.internal, work completed at: Wed Jul 31 06:57:51 UTC 2013 Computed: 4309056 and a cache hit ratio of 0.018, Thank you!
+ip-10-241-5-141.eu-west-1.compute.internal, work completed at: Wed Jul 31 06:57:51 UTC 2013 Computed: 4310584 and a cache hit ratio of 0.019, Thank you!
+ip-10-241-5-141.eu-west-1.compute.internal, work completed at: Wed Jul 31 06:57:51 UTC 2013 Computed: 4317904 and a cache hit ratio of 0.017, Thank you!
+ip-10-241-5-141.eu-west-1.compute.internal, work completed at: Wed Jul 31 06:57:51 UTC 2013 Computed: 4303736 and a cache hit ratio of 0.02, Thank you!
+ip-10-241-5-141.eu-west-1.compute.internal, work completed at: Wed Jul 31 06:57:51 UTC 2013 Computed: 4298512 and a cache hit ratio of 0.018, Thank you!
+ip-10-241-5-141, work completed. Thank you!
