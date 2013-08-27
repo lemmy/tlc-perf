@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-32-50-208.eu-west-1.compute.internal,10.32.50.208' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1377588759545/l12_n8.tla
+Parsing file /tmp/1377588759545/GridPerformanceTest.tla
+Parsing file /tmp/1377588759545/TLC.tla
+Parsing file /tmp/1377588759545/Integers.tla
+Parsing file /tmp/1377588759545/FiniteSets.tla
+Parsing file /tmp/1377588759545/Naturals.tla
+Parsing file /tmp/1377588759545/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2013-08-27 07:32:40)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-32-50-208 is ready.
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 0.
+TLC worker with 8 threads ready at: Tue Aug 27 07:32:59 UTC 2013
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 514208.
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 997374.
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 1429660.
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 1848445.
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 2236656.
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 2615900.
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 2973580.
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 3301308.
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 3628169.
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 3925170.
+ip-10-32-50-208.eu-west-1.compute.internal, work completed at: Tue Aug 27 08:27:56 UTC 2013 Computed: 4027040 and a cache hit ratio of 0.019, Thank you!
+ip-10-32-50-208.eu-west-1.compute.internal, work completed at: Tue Aug 27 08:27:56 UTC 2013 Computed: 4028640 and a cache hit ratio of 0.017, Thank you!
+ip-10-32-50-208.eu-west-1.compute.internal, work completed at: Tue Aug 27 08:27:56 UTC 2013 Computed: 4031216 and a cache hit ratio of 0.018, Thank you!
+ip-10-32-50-208.eu-west-1.compute.internal, work completed at: Tue Aug 27 08:27:57 UTC 2013 Computed: 4024520 and a cache hit ratio of 0.019, Thank you!
+ip-10-32-50-208.eu-west-1.compute.internal, work completed at: Tue Aug 27 08:27:57 UTC 2013 Computed: 4023584 and a cache hit ratio of 0.018, Thank you!
+ip-10-32-50-208.eu-west-1.compute.internal, work completed at: Tue Aug 27 08:27:57 UTC 2013 Computed: 3993128 and a cache hit ratio of 0.018, Thank you!
+ip-10-32-50-208.eu-west-1.compute.internal, work completed at: Tue Aug 27 08:27:57 UTC 2013 Computed: 4031592 and a cache hit ratio of 0.018, Thank you!
+ip-10-32-50-208.eu-west-1.compute.internal, work completed at: Tue Aug 27 08:27:57 UTC 2013 Computed: 4027120 and a cache hit ratio of 0.018, Thank you!
+Progress: The number of fingerprints stored at ip-10-32-50-208 is 4194304.
+ip-10-32-50-208, work completed. Thank you!
