@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-33-203-43.eu-west-1.compute.internal,10.33.203.43' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1378913088036/l12_n8.tla
+Parsing file /tmp/1378913088036/GridPerformanceTest.tla
+Parsing file /tmp/1378913088036/TLC.tla
+Parsing file /tmp/1378913088036/Integers.tla
+Parsing file /tmp/1378913088036/FiniteSets.tla
+Parsing file /tmp/1378913088036/Naturals.tla
+Parsing file /tmp/1378913088036/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2013-09-11 15:24:48)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-203-43 is ready.
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 0.
+TLC worker with 8 threads ready at: Wed Sep 11 15:25:08 UTC 2013
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 540653.
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 1024227.
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 1481190.
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 1909484.
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 2306312.
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 2683507.
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 3034308.
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 3365352.
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 3669288.
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 3955519.
+Progress: The number of fingerprints stored at ip-10-33-203-43 is 4194272.
+ip-10-33-203-43.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4022264 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-203-43.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4024056 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-203-43.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4019112 and a cache hit ratio of 0.02, Thank you!
+ip-10-33-203-43.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4018256 and a cache hit ratio of 0.018, Thank you!
+ip-10-33-203-43.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4028696 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-203-43.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4020640 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-203-43.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4022496 and a cache hit ratio of 0.021, Thank you!
+ip-10-33-203-43.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4020328 and a cache hit ratio of 0.019, Thank you!
+ip-10-33-203-43, work completed. Thank you!

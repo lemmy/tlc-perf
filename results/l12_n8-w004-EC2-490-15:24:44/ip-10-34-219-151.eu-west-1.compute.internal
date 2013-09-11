@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-34-219-151.eu-west-1.compute.internal,10.34.219.151' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1378913087905/l12_n8.tla
+Parsing file /tmp/1378913087905/GridPerformanceTest.tla
+Parsing file /tmp/1378913087905/TLC.tla
+Parsing file /tmp/1378913087905/Integers.tla
+Parsing file /tmp/1378913087905/FiniteSets.tla
+Parsing file /tmp/1378913087905/Naturals.tla
+Parsing file /tmp/1378913087905/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2013-09-11 15:24:48)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-34-219-151 is ready.
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 0.
+TLC worker with 8 threads ready at: Wed Sep 11 15:25:08 UTC 2013
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 546259.
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 1024859.
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 1481622.
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 1908952.
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 2307604.
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 2683856.
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 3034204.
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 3365860.
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 3669168.
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 3954965.
+Progress: The number of fingerprints stored at ip-10-34-219-151 is 4194288.
+ip-10-34-219-151.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4309200 and a cache hit ratio of 0.019, Thank you!
+ip-10-34-219-151.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4298528 and a cache hit ratio of 0.018, Thank you!
+ip-10-34-219-151.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4306504 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-219-151.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4303584 and a cache hit ratio of 0.018, Thank you!
+ip-10-34-219-151.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4325264 and a cache hit ratio of 0.018, Thank you!
+ip-10-34-219-151.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4304904 and a cache hit ratio of 0.018, Thank you!
+ip-10-34-219-151.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4302288 and a cache hit ratio of 0.018, Thank you!
+ip-10-34-219-151.eu-west-1.compute.internal, work completed at: Wed Sep 11 16:20:14 UTC 2013 Computed: 4303024 and a cache hit ratio of 0.018, Thank you!
+ip-10-34-219-151, work completed. Thank you!
