@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-34-175-248.eu-west-1.compute.internal,10.34.175.248' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1378920452935/l12_n8.tla
+Parsing file /tmp/1378920452935/GridPerformanceTest.tla
+Parsing file /tmp/1378920452935/TLC.tla
+Parsing file /tmp/1378920452935/Integers.tla
+Parsing file /tmp/1378920452935/FiniteSets.tla
+Parsing file /tmp/1378920452935/Naturals.tla
+Parsing file /tmp/1378920452935/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2013-09-11 17:27:33)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-34-175-248 is ready.
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 0.
+TLC worker with 8 threads ready at: Wed Sep 11 17:27:53 UTC 2013
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 505150.
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 955877.
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 1377538.
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 1788435.
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 2164419.
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 2529131.
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 2872585.
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 3211538.
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 3521010.
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 3812282.
+Progress: The number of fingerprints stored at ip-10-34-175-248 is 4080767.
+ip-10-34-175-248.eu-west-1.compute.internal, work completed at: Wed Sep 11 18:25:11 UTC 2013 Computed: 4273200 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-175-248.eu-west-1.compute.internal, work completed at: Wed Sep 11 18:25:11 UTC 2013 Computed: 4265968 and a cache hit ratio of 0.018, Thank you!
+ip-10-34-175-248.eu-west-1.compute.internal, work completed at: Wed Sep 11 18:25:11 UTC 2013 Computed: 4266952 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-175-248.eu-west-1.compute.internal, work completed at: Wed Sep 11 18:25:11 UTC 2013 Computed: 4279288 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-175-248.eu-west-1.compute.internal, work completed at: Wed Sep 11 18:25:11 UTC 2013 Computed: 4267232 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-175-248.eu-west-1.compute.internal, work completed at: Wed Sep 11 18:25:11 UTC 2013 Computed: 4264240 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-175-248.eu-west-1.compute.internal, work completed at: Wed Sep 11 18:25:11 UTC 2013 Computed: 4267872 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-175-248.eu-west-1.compute.internal, work completed at: Wed Sep 11 18:25:11 UTC 2013 Computed: 4270048 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-175-248, work completed. Thank you!
