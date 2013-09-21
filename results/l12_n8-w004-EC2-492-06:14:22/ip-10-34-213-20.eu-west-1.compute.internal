@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-34-213-20.eu-west-1.compute.internal,10.34.213.20' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1379744065187/l12_n8.tla
+Parsing file /tmp/1379744065187/GridPerformanceTest.tla
+Parsing file /tmp/1379744065187/TLC.tla
+Parsing file /tmp/1379744065187/Integers.tla
+Parsing file /tmp/1379744065187/FiniteSets.tla
+Parsing file /tmp/1379744065187/Naturals.tla
+Parsing file /tmp/1379744065187/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2013-09-21 06:14:25)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-34-213-20 is ready.
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 0.
+TLC worker with 8 threads ready at: Sat Sep 21 06:14:51 UTC 2013
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 509722.
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 969735.
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 1429004.
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 1838670.
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 2227686.
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 2609852.
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 2955961.
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 3295577.
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 3606425.
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 3910413.
+Progress: The number of fingerprints stored at ip-10-34-213-20 is 4178449.
+ip-10-34-213-20.eu-west-1.compute.internal, work completed at: Sat Sep 21 07:10:22 UTC 2013 Computed: 4030944 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-213-20.eu-west-1.compute.internal, work completed at: Sat Sep 21 07:10:22 UTC 2013 Computed: 4030208 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-213-20.eu-west-1.compute.internal, work completed at: Sat Sep 21 07:10:22 UTC 2013 Computed: 4029312 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-213-20.eu-west-1.compute.internal, work completed at: Sat Sep 21 07:10:22 UTC 2013 Computed: 4032120 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-213-20.eu-west-1.compute.internal, work completed at: Sat Sep 21 07:10:22 UTC 2013 Computed: 4035568 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-213-20.eu-west-1.compute.internal, work completed at: Sat Sep 21 07:10:22 UTC 2013 Computed: 4030880 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-213-20.eu-west-1.compute.internal, work completed at: Sat Sep 21 07:10:22 UTC 2013 Computed: 4036560 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-213-20.eu-west-1.compute.internal, work completed at: Sat Sep 21 07:10:22 UTC 2013 Computed: 4024384 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-213-20, work completed. Thank you!
