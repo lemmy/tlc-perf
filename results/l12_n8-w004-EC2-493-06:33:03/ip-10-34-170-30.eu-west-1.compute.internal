@@ -1,0 +1,43 @@
+Warning: Permanently added 'ip-10-34-170-30.eu-west-1.compute.internal,10.34.170.30' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1382682786327/l12_n8.tla
+Parsing file /tmp/1382682786327/GridPerformanceTest.tla
+Parsing file /tmp/1382682786327/TLC.tla
+Parsing file /tmp/1382682786327/Integers.tla
+Parsing file /tmp/1382682786327/FiniteSets.tla
+Parsing file /tmp/1382682786327/Naturals.tla
+Parsing file /tmp/1382682786327/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2013-10-25 06:33:06)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-34-170-30 is ready.
+Progress: The number of fingerprints stored at ip-10-34-170-30 is 0.
+TLC worker with 8 threads ready at: Fri Oct 25 06:33:27 UTC 2013
+Progress: The number of fingerprints stored at ip-10-34-170-30 is 517989.
+Progress: The number of fingerprints stored at ip-10-34-170-30 is 999663.
+Progress: The number of fingerprints stored at ip-10-34-170-30 is 1437198.
+Progress: The number of fingerprints stored at ip-10-34-170-30 is 1852059.
+Progress: The number of fingerprints stored at ip-10-34-170-30 is 2241861.
+Progress: The number of fingerprints stored at ip-10-34-170-30 is 2622495.
+Progress: The number of fingerprints stored at ip-10-34-170-30 is 2983374.
+Progress: The number of fingerprints stored at ip-10-34-170-30 is 3327881.
+Progress: The number of fingerprints stored at ip-10-34-170-30 is 3647270.
+Progress: The number of fingerprints stored at ip-10-34-170-30 is 3944239.
+ip-10-34-170-30.eu-west-1.compute.internal, work completed at: Fri Oct 25 07:28:11 UTC 2013 Computed: 4154848 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-170-30.eu-west-1.compute.internal, work completed at: Fri Oct 25 07:28:11 UTC 2013 Computed: 4162344 and a cache hit ratio of 0.014, Thank you!
+ip-10-34-170-30.eu-west-1.compute.internal, work completed at: Fri Oct 25 07:28:11 UTC 2013 Computed: 4160520 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-170-30.eu-west-1.compute.internal, work completed at: Fri Oct 25 07:28:11 UTC 2013 Computed: 4163272 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-170-30.eu-west-1.compute.internal, work completed at: Fri Oct 25 07:28:11 UTC 2013 Computed: 4159672 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-170-30.eu-west-1.compute.internal, work completed at: Fri Oct 25 07:28:11 UTC 2013 Computed: 4163768 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-170-30.eu-west-1.compute.internal, work completed at: Fri Oct 25 07:28:11 UTC 2013 Computed: 4157936 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-170-30.eu-west-1.compute.internal, work completed at: Fri Oct 25 07:28:11 UTC 2013 Computed: 4162704 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-170-30, work completed. Thank you!
