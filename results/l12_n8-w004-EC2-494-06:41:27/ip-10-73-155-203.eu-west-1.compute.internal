@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-73-155-203.eu-west-1.compute.internal,10.73.155.203' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1397284889854/l12_n8.tla
+Parsing file /tmp/1397284889854/GridPerformanceTest.tla
+Parsing file /tmp/1397284889854/TLC.tla
+Parsing file /tmp/1397284889854/Integers.tla
+Parsing file /tmp/1397284889854/FiniteSets.tla
+Parsing file /tmp/1397284889854/Naturals.tla
+Parsing file /tmp/1397284889854/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-04-12 06:41:30)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-73-155-203 is ready.
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 0.
+TLC worker with 8 threads ready at: Sat Apr 12 06:41:49 UTC 2014
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 514936.
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 981889.
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 1425559.
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 1843742.
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 2228704.
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 2599629.
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 2950407.
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 3295359.
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 3606962.
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 3897588.
+Progress: The number of fingerprints stored at ip-10-73-155-203 is 4168553.
+ip-10-73-155-203.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4021352 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-155-203.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4020728 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-155-203.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4020992 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-155-203.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4034736 and a cache hit ratio of 0.015, Thank you!
+ip-10-73-155-203.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4030424 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-155-203.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4032360 and a cache hit ratio of 0.017, Thank you!
+ip-10-73-155-203.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4013320 and a cache hit ratio of 0.015, Thank you!
+ip-10-73-155-203.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4032336 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-155-203, work completed. Thank you!

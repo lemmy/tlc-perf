@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-32-50-211.eu-west-1.compute.internal,10.32.50.211' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1397284889251/l12_n8.tla
+Parsing file /tmp/1397284889251/GridPerformanceTest.tla
+Parsing file /tmp/1397284889251/TLC.tla
+Parsing file /tmp/1397284889251/Integers.tla
+Parsing file /tmp/1397284889251/FiniteSets.tla
+Parsing file /tmp/1397284889251/Naturals.tla
+Parsing file /tmp/1397284889251/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-04-12 06:41:29)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-32-50-211 is ready.
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 0.
+TLC worker with 8 threads ready at: Sat Apr 12 06:41:49 UTC 2014
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 513787.
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 981460.
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 1425175.
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 1839647.
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 2228550.
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 2596746.
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 2950178.
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 3292231.
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 3606878.
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 3898048.
+Progress: The number of fingerprints stored at ip-10-32-50-211 is 4167121.
+ip-10-32-50-211.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4055544 and a cache hit ratio of 0.016, Thank you!
+ip-10-32-50-211.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4052128 and a cache hit ratio of 0.015, Thank you!
+ip-10-32-50-211.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4054264 and a cache hit ratio of 0.015, Thank you!
+ip-10-32-50-211.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4047240 and a cache hit ratio of 0.017, Thank you!
+ip-10-32-50-211.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4050800 and a cache hit ratio of 0.015, Thank you!
+ip-10-32-50-211.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4061512 and a cache hit ratio of 0.016, Thank you!
+ip-10-32-50-211.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4055872 and a cache hit ratio of 0.016, Thank you!
+ip-10-32-50-211.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4053112 and a cache hit ratio of 0.017, Thank you!
+ip-10-32-50-211, work completed. Thank you!

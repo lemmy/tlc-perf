@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-73-174-144.eu-west-1.compute.internal,10.73.174.144' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1397284889880/l12_n8.tla
+Parsing file /tmp/1397284889880/GridPerformanceTest.tla
+Parsing file /tmp/1397284889880/TLC.tla
+Parsing file /tmp/1397284889880/Integers.tla
+Parsing file /tmp/1397284889880/FiniteSets.tla
+Parsing file /tmp/1397284889880/Naturals.tla
+Parsing file /tmp/1397284889880/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-04-12 06:41:30)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-73-174-144 is ready.
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 0.
+TLC worker with 8 threads ready at: Sat Apr 12 06:41:49 UTC 2014
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 513685.
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 981691.
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 1425593.
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 1839417.
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 2227916.
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 2596899.
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 2950442.
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 3292116.
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 3607093.
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 3897752.
+Progress: The number of fingerprints stored at ip-10-73-174-144 is 4167307.
+ip-10-73-174-144.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4351984 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-174-144.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4344784 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-174-144.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4352832 and a cache hit ratio of 0.015, Thank you!
+ip-10-73-174-144.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4355496 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-174-144.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4357856 and a cache hit ratio of 0.018, Thank you!
+ip-10-73-174-144.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4356944 and a cache hit ratio of 0.015, Thank you!
+ip-10-73-174-144.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4353584 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-174-144.eu-west-1.compute.internal, work completed at: Sat Apr 12 07:37:32 UTC 2014 Computed: 4368928 and a cache hit ratio of 0.015, Thank you!
+ip-10-73-174-144, work completed. Thank you!
