@@ -1,0 +1,43 @@
+Warning: Permanently added 'ip-10-230-61-125.eu-west-1.compute.internal,10.230.61.125' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1398944471952/l12_n8.tla
+Parsing file /tmp/1398944471952/GridPerformanceTest.tla
+Parsing file /tmp/1398944471952/TLC.tla
+Parsing file /tmp/1398944471952/Integers.tla
+Parsing file /tmp/1398944471952/FiniteSets.tla
+Parsing file /tmp/1398944471952/Naturals.tla
+Parsing file /tmp/1398944471952/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-05-01 11:41:12)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-230-61-125 is ready.
+Progress: The number of fingerprints stored at ip-10-230-61-125 is 0.
+TLC worker with 8 threads ready at: Thu May 01 11:41:31 UTC 2014
+Progress: The number of fingerprints stored at ip-10-230-61-125 is 542159.
+Progress: The number of fingerprints stored at ip-10-230-61-125 is 1036759.
+Progress: The number of fingerprints stored at ip-10-230-61-125 is 1466656.
+Progress: The number of fingerprints stored at ip-10-230-61-125 is 1900259.
+Progress: The number of fingerprints stored at ip-10-230-61-125 is 2294138.
+Progress: The number of fingerprints stored at ip-10-230-61-125 is 2677460.
+Progress: The number of fingerprints stored at ip-10-230-61-125 is 3027536.
+Progress: The number of fingerprints stored at ip-10-230-61-125 is 3356232.
+Progress: The number of fingerprints stored at ip-10-230-61-125 is 3669405.
+Progress: The number of fingerprints stored at ip-10-230-61-125 is 3955232.
+ip-10-230-61-125.eu-west-1.compute.internal, work completed at: Thu May 01 12:36:15 UTC 2014 Computed: 4058064 and a cache hit ratio of 0.017, Thank you!
+ip-10-230-61-125.eu-west-1.compute.internal, work completed at: Thu May 01 12:36:15 UTC 2014 Computed: 4054384 and a cache hit ratio of 0.017, Thank you!
+ip-10-230-61-125.eu-west-1.compute.internal, work completed at: Thu May 01 12:36:15 UTC 2014 Computed: 4049600 and a cache hit ratio of 0.015, Thank you!
+ip-10-230-61-125.eu-west-1.compute.internal, work completed at: Thu May 01 12:36:15 UTC 2014 Computed: 4052888 and a cache hit ratio of 0.015, Thank you!
+ip-10-230-61-125.eu-west-1.compute.internal, work completed at: Thu May 01 12:36:15 UTC 2014 Computed: 4047080 and a cache hit ratio of 0.017, Thank you!
+ip-10-230-61-125.eu-west-1.compute.internal, work completed at: Thu May 01 12:36:15 UTC 2014 Computed: 4050456 and a cache hit ratio of 0.016, Thank you!
+ip-10-230-61-125.eu-west-1.compute.internal, work completed at: Thu May 01 12:36:15 UTC 2014 Computed: 4057080 and a cache hit ratio of 0.015, Thank you!
+ip-10-230-61-125.eu-west-1.compute.internal, work completed at: Thu May 01 12:36:15 UTC 2014 Computed: 4035088 and a cache hit ratio of 0.016, Thank you!
+ip-10-230-61-125, work completed. Thank you!
