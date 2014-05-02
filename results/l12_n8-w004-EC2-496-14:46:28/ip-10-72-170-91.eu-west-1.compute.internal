@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-72-170-91.eu-west-1.compute.internal,10.72.170.91' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1399041990499/l12_n8.tla
+Parsing file /tmp/1399041990499/GridPerformanceTest.tla
+Parsing file /tmp/1399041990499/TLC.tla
+Parsing file /tmp/1399041990499/Integers.tla
+Parsing file /tmp/1399041990499/FiniteSets.tla
+Parsing file /tmp/1399041990499/Naturals.tla
+Parsing file /tmp/1399041990499/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-05-02 14:46:31)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-72-170-91 is ready.
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 0.
+TLC worker with 8 threads ready at: Fri May 02 14:46:50 UTC 2014
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 516608.
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 1000961.
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 1442591.
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 1828343.
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 2230668.
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 2584581.
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 2940556.
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 3259559.
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 3574111.
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 3851411.
+Progress: The number of fingerprints stored at ip-10-72-170-91 is 4111560.
+ip-10-72-170-91.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4242056 and a cache hit ratio of 0.016, Thank you!
+ip-10-72-170-91.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4238376 and a cache hit ratio of 0.016, Thank you!
+ip-10-72-170-91.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4236696 and a cache hit ratio of 0.015, Thank you!
+ip-10-72-170-91.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4171232 and a cache hit ratio of 0.015, Thank you!
+ip-10-72-170-91.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4245256 and a cache hit ratio of 0.019, Thank you!
+ip-10-72-170-91.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4234480 and a cache hit ratio of 0.017, Thank you!
+ip-10-72-170-91.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4241000 and a cache hit ratio of 0.016, Thank you!
+ip-10-72-170-91.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4240624 and a cache hit ratio of 0.016, Thank you!
+ip-10-72-170-91, work completed. Thank you!

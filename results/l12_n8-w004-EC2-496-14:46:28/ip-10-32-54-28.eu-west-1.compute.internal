@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-32-54-28.eu-west-1.compute.internal,10.32.54.28' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1399041989896/l12_n8.tla
+Parsing file /tmp/1399041989896/GridPerformanceTest.tla
+Parsing file /tmp/1399041989896/TLC.tla
+Parsing file /tmp/1399041989896/Integers.tla
+Parsing file /tmp/1399041989896/FiniteSets.tla
+Parsing file /tmp/1399041989896/Naturals.tla
+Parsing file /tmp/1399041989896/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-05-02 14:46:30)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-32-54-28 is ready.
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 0.
+TLC worker with 8 threads ready at: Fri May 02 14:46:50 UTC 2014
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 515276.
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 995312.
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 1438794.
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 1828529.
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 2229984.
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 2583744.
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 2936388.
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 3259363.
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 3574446.
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 3851248.
+Progress: The number of fingerprints stored at ip-10-32-54-28 is 4111673.
+ip-10-32-54-28.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4103624 and a cache hit ratio of 0.017, Thank you!
+ip-10-32-54-28.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4101816 and a cache hit ratio of 0.017, Thank you!
+ip-10-32-54-28.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4104720 and a cache hit ratio of 0.016, Thank you!
+ip-10-32-54-28.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4110016 and a cache hit ratio of 0.017, Thank you!
+ip-10-32-54-28.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4101296 and a cache hit ratio of 0.018, Thank you!
+ip-10-32-54-28.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4098696 and a cache hit ratio of 0.018, Thank you!
+ip-10-32-54-28.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4114432 and a cache hit ratio of 0.016, Thank you!
+ip-10-32-54-28.eu-west-1.compute.internal, work completed at: Fri May 02 15:43:33 UTC 2014 Computed: 4101336 and a cache hit ratio of 0.016, Thank you!
+ip-10-32-54-28, work completed. Thank you!
