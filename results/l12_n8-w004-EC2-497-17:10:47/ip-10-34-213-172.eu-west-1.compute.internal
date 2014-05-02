@@ -1,0 +1,43 @@
+Warning: Permanently added 'ip-10-34-213-172.eu-west-1.compute.internal,10.34.213.172' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1399050650410/l12_n8.tla
+Parsing file /tmp/1399050650410/GridPerformanceTest.tla
+Parsing file /tmp/1399050650410/TLC.tla
+Parsing file /tmp/1399050650410/Integers.tla
+Parsing file /tmp/1399050650410/FiniteSets.tla
+Parsing file /tmp/1399050650410/Naturals.tla
+Parsing file /tmp/1399050650410/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-05-02 17:10:50)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-34-213-172 is ready.
+Progress: The number of fingerprints stored at ip-10-34-213-172 is 0.
+TLC worker with 8 threads ready at: Fri May 02 17:11:10 UTC 2014
+Progress: The number of fingerprints stored at ip-10-34-213-172 is 551340.
+Progress: The number of fingerprints stored at ip-10-34-213-172 is 1033310.
+Progress: The number of fingerprints stored at ip-10-34-213-172 is 1480912.
+Progress: The number of fingerprints stored at ip-10-34-213-172 is 1894962.
+Progress: The number of fingerprints stored at ip-10-34-213-172 is 2296770.
+Progress: The number of fingerprints stored at ip-10-34-213-172 is 2674703.
+Progress: The number of fingerprints stored at ip-10-34-213-172 is 3027327.
+Progress: The number of fingerprints stored at ip-10-34-213-172 is 3365679.
+Progress: The number of fingerprints stored at ip-10-34-213-172 is 3682544.
+Progress: The number of fingerprints stored at ip-10-34-213-172 is 3971824.
+ip-10-34-213-172.eu-west-1.compute.internal, work completed at: Fri May 02 18:05:17 UTC 2014 Computed: 3844632 and a cache hit ratio of 0.018, Thank you!
+ip-10-34-213-172.eu-west-1.compute.internal, work completed at: Fri May 02 18:05:17 UTC 2014 Computed: 3841704 and a cache hit ratio of 0.014, Thank you!
+ip-10-34-213-172.eu-west-1.compute.internal, work completed at: Fri May 02 18:05:17 UTC 2014 Computed: 3839432 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-213-172.eu-west-1.compute.internal, work completed at: Fri May 02 18:05:17 UTC 2014 Computed: 3838872 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-213-172.eu-west-1.compute.internal, work completed at: Fri May 02 18:05:17 UTC 2014 Computed: 3840760 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-213-172.eu-west-1.compute.internal, work completed at: Fri May 02 18:05:17 UTC 2014 Computed: 3839440 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-213-172.eu-west-1.compute.internal, work completed at: Fri May 02 18:05:17 UTC 2014 Computed: 3844680 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-213-172.eu-west-1.compute.internal, work completed at: Fri May 02 18:05:17 UTC 2014 Computed: 3837848 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-213-172, work completed. Thank you!
