@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-34-214-252.eu-west-1.compute.internal,10.34.214.252' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1399669004946/l12_n8.tla
+Parsing file /tmp/1399669004946/GridPerformanceTest.tla
+Parsing file /tmp/1399669004946/TLC.tla
+Parsing file /tmp/1399669004946/Integers.tla
+Parsing file /tmp/1399669004946/FiniteSets.tla
+Parsing file /tmp/1399669004946/Naturals.tla
+Parsing file /tmp/1399669004946/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-05-09 20:56:45)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-34-214-252 is ready.
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 0.
+TLC worker with 8 threads ready at: Fri May 09 20:57:05 UTC 2014
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 513099.
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 989393.
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 1422135.
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 1834001.
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 2214064.
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 2587923.
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 2931140.
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 3256195.
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 3573779.
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 3857959.
+Progress: The number of fingerprints stored at ip-10-34-214-252 is 4127481.
+ip-10-34-214-252.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4384224 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-214-252.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4382984 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-214-252.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4379016 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-214-252.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4382104 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-214-252.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4395728 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-214-252.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4380280 and a cache hit ratio of 0.014, Thank you!
+ip-10-34-214-252.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4380616 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-214-252.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4383760 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-214-252, work completed. Thank you!

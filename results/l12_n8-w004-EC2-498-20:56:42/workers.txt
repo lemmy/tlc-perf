@@ -1,0 +1,4 @@
+ip-10-32-53-161.eu-west-1.compute.internal
+ip-10-33-186-177.eu-west-1.compute.internal
+ip-10-34-214-252.eu-west-1.compute.internal
+ip-10-34-217-13.eu-west-1.compute.internal

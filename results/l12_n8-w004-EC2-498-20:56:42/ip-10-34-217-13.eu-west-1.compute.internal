@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-34-217-13.eu-west-1.compute.internal,10.34.217.13' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1399669005093/l12_n8.tla
+Parsing file /tmp/1399669005093/GridPerformanceTest.tla
+Parsing file /tmp/1399669005093/TLC.tla
+Parsing file /tmp/1399669005093/Integers.tla
+Parsing file /tmp/1399669005093/FiniteSets.tla
+Parsing file /tmp/1399669005093/Naturals.tla
+Parsing file /tmp/1399669005093/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-05-09 20:56:45)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-34-217-13 is ready.
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 0.
+TLC worker with 8 threads ready at: Fri May 09 20:57:05 UTC 2014
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 514326.
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 992571.
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 1422250.
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 1837017.
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 2213986.
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 2588115.
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 2931031.
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 3257239.
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 3574005.
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 3857406.
+Progress: The number of fingerprints stored at ip-10-34-217-13 is 4127466.
+ip-10-34-217-13.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4004440 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-217-13.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 3998880 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-217-13.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4006216 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-217-13.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4006224 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-217-13.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4007696 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-217-13.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4001912 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-217-13.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4009376 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-217-13.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4001864 and a cache hit ratio of 0.015, Thank you!
+ip-10-34-217-13, work completed. Thank you!

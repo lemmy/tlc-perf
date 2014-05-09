@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-33-186-177.eu-west-1.compute.internal,10.33.186.177' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1399669004802/l12_n8.tla
+Parsing file /tmp/1399669004802/GridPerformanceTest.tla
+Parsing file /tmp/1399669004802/TLC.tla
+Parsing file /tmp/1399669004802/Integers.tla
+Parsing file /tmp/1399669004802/FiniteSets.tla
+Parsing file /tmp/1399669004802/Naturals.tla
+Parsing file /tmp/1399669004802/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-05-09 20:56:45)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-33-186-177 is ready.
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 0.
+TLC worker with 8 threads ready at: Fri May 09 20:57:05 UTC 2014
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 514184.
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 992634.
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 1422364.
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 1837599.
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 2214368.
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 2588355.
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 2930828.
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 3257072.
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 3575611.
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 3857485.
+Progress: The number of fingerprints stored at ip-10-33-186-177 is 4127406.
+ip-10-33-186-177.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4145016 and a cache hit ratio of 0.015, Thank you!
+ip-10-33-186-177.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4155368 and a cache hit ratio of 0.016, Thank you!
+ip-10-33-186-177.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4150896 and a cache hit ratio of 0.016, Thank you!
+ip-10-33-186-177.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4149736 and a cache hit ratio of 0.016, Thank you!
+ip-10-33-186-177.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4152136 and a cache hit ratio of 0.015, Thank you!
+ip-10-33-186-177.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4145696 and a cache hit ratio of 0.016, Thank you!
+ip-10-33-186-177.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4149376 and a cache hit ratio of 0.015, Thank you!
+ip-10-33-186-177.eu-west-1.compute.internal, work completed at: Fri May 09 21:53:29 UTC 2014 Computed: 4147624 and a cache hit ratio of 0.017, Thank you!
+ip-10-33-186-177, work completed. Thank you!
