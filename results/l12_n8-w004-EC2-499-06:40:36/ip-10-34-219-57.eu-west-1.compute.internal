@@ -1,0 +1,43 @@
+Warning: Permanently added 'ip-10-34-219-57.eu-west-1.compute.internal,10.34.219.57' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1399704038629/l12_n8.tla
+Parsing file /tmp/1399704038629/GridPerformanceTest.tla
+Parsing file /tmp/1399704038629/TLC.tla
+Parsing file /tmp/1399704038629/Integers.tla
+Parsing file /tmp/1399704038629/FiniteSets.tla
+Parsing file /tmp/1399704038629/Naturals.tla
+Parsing file /tmp/1399704038629/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-05-10 06:40:39)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-34-219-57 is ready.
+Progress: The number of fingerprints stored at ip-10-34-219-57 is 0.
+TLC worker with 8 threads ready at: Sat May 10 06:40:58 UTC 2014
+Progress: The number of fingerprints stored at ip-10-34-219-57 is 545593.
+Progress: The number of fingerprints stored at ip-10-34-219-57 is 1054978.
+Progress: The number of fingerprints stored at ip-10-34-219-57 is 1523442.
+Progress: The number of fingerprints stored at ip-10-34-219-57 is 1956602.
+Progress: The number of fingerprints stored at ip-10-34-219-57 is 2362253.
+Progress: The number of fingerprints stored at ip-10-34-219-57 is 2735990.
+Progress: The number of fingerprints stored at ip-10-34-219-57 is 3099849.
+Progress: The number of fingerprints stored at ip-10-34-219-57 is 3421757.
+Progress: The number of fingerprints stored at ip-10-34-219-57 is 3735882.
+Progress: The number of fingerprints stored at ip-10-34-219-57 is 4008392.
+ip-10-34-219-57.eu-west-1.compute.internal, work completed at: Sat May 10 07:34:48 UTC 2014 Computed: 4152528 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-219-57.eu-west-1.compute.internal, work completed at: Sat May 10 07:34:48 UTC 2014 Computed: 4156656 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-219-57.eu-west-1.compute.internal, work completed at: Sat May 10 07:34:48 UTC 2014 Computed: 4151192 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-219-57.eu-west-1.compute.internal, work completed at: Sat May 10 07:34:48 UTC 2014 Computed: 4154672 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-219-57.eu-west-1.compute.internal, work completed at: Sat May 10 07:34:48 UTC 2014 Computed: 4156944 and a cache hit ratio of 0.016, Thank you!
+ip-10-34-219-57.eu-west-1.compute.internal, work completed at: Sat May 10 07:34:48 UTC 2014 Computed: 4161688 and a cache hit ratio of 0.017, Thank you!
+ip-10-34-219-57.eu-west-1.compute.internal, work completed at: Sat May 10 07:34:48 UTC 2014 Computed: 4157376 and a cache hit ratio of 0.018, Thank you!
+ip-10-34-219-57.eu-west-1.compute.internal, work completed at: Sat May 10 07:34:48 UTC 2014 Computed: 4159864 and a cache hit ratio of 0.018, Thank you!
+ip-10-34-219-57, work completed. Thank you!
