@@ -1,4 +1,4 @@
----- MODULE MC ----
+---- MODULE N32EWD840 ----
 EXTENDS EWD840, TLC
 
 \* CONSTANT definitions @modelParameterConstants:0N
