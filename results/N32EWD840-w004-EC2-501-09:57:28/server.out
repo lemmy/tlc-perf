@@ -1,0 +1,27 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 23 July 2013
+Parsing file /mnt/tlc/455/spec/N32EWD840.tla
+
+Fatal errors while parsing TLA+ spec in file N32EWD840
+
+tla2sany.semantic.AbortException
+*** Abort messages: 1
+
+Unknown location
+
+File name 'N32EWD840' does not match the name 'MC' of the top level module it contains.
+
+
+Starting... (2014-05-25 09:57:28)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the User Output or TLC Console for clues to what happened.
+The exception was a java.lang.RuntimeException: Parsing or semantic analysis failed.java.lang.RuntimeException: Parsing or semantic analysis failed.
+	at util.Assert.fail(Assert.java:64)
+	at tlc2.tool.Spec.processSpec(Spec.java:188)
+	at tlc2.tool.Tool.init(Tool.java:112)
+	at tlc2.tool.distributed.TLCApp.<init>(TLCApp.java:65)
+	at tlc2.tool.distributed.TLCApp.<init>(TLCApp.java:38)
+	at tlc2.tool.distributed.TLCApp.create(TLCApp.java:514)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:676)
+
