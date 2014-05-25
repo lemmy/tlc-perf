@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-35-140-103.eu-west-1.compute.internal,10.35.140.103' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1400998213436/l12_n8.tla
+Parsing file /tmp/1400998213436/GridPerformanceTest.tla
+Parsing file /tmp/1400998213436/TLC.tla
+Parsing file /tmp/1400998213436/Integers.tla
+Parsing file /tmp/1400998213436/FiniteSets.tla
+Parsing file /tmp/1400998213436/Naturals.tla
+Parsing file /tmp/1400998213436/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-05-25 06:10:13)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-35-140-103 is ready.
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 0.
+TLC worker with 8 threads ready at: Sun May 25 06:10:33 UTC 2014
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 527547.
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 1010949.
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 1453227.
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 1866824.
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 2260699.
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 2625226.
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 2984999.
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 3315857.
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 3626686.
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 3917883.
+Progress: The number of fingerprints stored at ip-10-35-140-103 is 4193858.
+ip-10-35-140-103.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 3973064 and a cache hit ratio of 0.017, Thank you!
+ip-10-35-140-103.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 3968392 and a cache hit ratio of 0.015, Thank you!
+ip-10-35-140-103.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 3985448 and a cache hit ratio of 0.014, Thank you!
+ip-10-35-140-103.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 3974048 and a cache hit ratio of 0.016, Thank you!
+ip-10-35-140-103.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 3990496 and a cache hit ratio of 0.016, Thank you!
+ip-10-35-140-103.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 3985480 and a cache hit ratio of 0.017, Thank you!
+ip-10-35-140-103.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 3970216 and a cache hit ratio of 0.018, Thank you!
+ip-10-35-140-103.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 3972168 and a cache hit ratio of 0.015, Thank you!
+ip-10-35-140-103, work completed. Thank you!

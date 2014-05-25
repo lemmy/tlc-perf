@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-73-155-187.eu-west-1.compute.internal,10.73.155.187' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1400998214110/l12_n8.tla
+Parsing file /tmp/1400998214110/GridPerformanceTest.tla
+Parsing file /tmp/1400998214110/TLC.tla
+Parsing file /tmp/1400998214110/Integers.tla
+Parsing file /tmp/1400998214110/FiniteSets.tla
+Parsing file /tmp/1400998214110/Naturals.tla
+Parsing file /tmp/1400998214110/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-05-25 06:10:14)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-73-155-187 is ready.
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 0.
+TLC worker with 8 threads ready at: Sun May 25 06:10:33 UTC 2014
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 528082.
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 1009551.
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 1453167.
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 1867153.
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 2260364.
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 2626715.
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 2983389.
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 3316136.
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 3626873.
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 3921557.
+Progress: The number of fingerprints stored at ip-10-73-155-187 is 4193917.
+ip-10-73-155-187.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4261112 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-155-187.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4281536 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-155-187.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4262904 and a cache hit ratio of 0.015, Thank you!
+ip-10-73-155-187.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4264072 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-155-187.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4264560 and a cache hit ratio of 0.014, Thank you!
+ip-10-73-155-187.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4268168 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-155-187.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4266488 and a cache hit ratio of 0.015, Thank you!
+ip-10-73-155-187.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4265272 and a cache hit ratio of 0.016, Thank you!
+ip-10-73-155-187, work completed. Thank you!

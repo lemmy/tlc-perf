@@ -1,0 +1,44 @@
+Warning: Permanently added 'ip-10-72-171-4.eu-west-1.compute.internal,10.72.171.4' (ECDSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Parsing file /tmp/1400998213894/l12_n8.tla
+Parsing file /tmp/1400998213894/GridPerformanceTest.tla
+Parsing file /tmp/1400998213894/TLC.tla
+Parsing file /tmp/1400998213894/Integers.tla
+Parsing file /tmp/1400998213894/FiniteSets.tla
+Parsing file /tmp/1400998213894/Naturals.tla
+Parsing file /tmp/1400998213894/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l12_n8
+Starting... (2014-05-25 06:10:14)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at ip-10-72-171-4 is ready.
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 0.
+TLC worker with 8 threads ready at: Sun May 25 06:10:33 UTC 2014
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 527962.
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 1010854.
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 1453231.
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 1866650.
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 2260087.
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 2625868.
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 2984783.
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 3315898.
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 3626632.
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 3921153.
+Progress: The number of fingerprints stored at ip-10-72-171-4 is 4193902.
+ip-10-72-171-4.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4165088 and a cache hit ratio of 0.016, Thank you!
+ip-10-72-171-4.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4174840 and a cache hit ratio of 0.016, Thank you!
+ip-10-72-171-4.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4167280 and a cache hit ratio of 0.015, Thank you!
+ip-10-72-171-4.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4165120 and a cache hit ratio of 0.016, Thank you!
+ip-10-72-171-4.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4166720 and a cache hit ratio of 0.017, Thank you!
+ip-10-72-171-4.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4173232 and a cache hit ratio of 0.016, Thank you!
+ip-10-72-171-4.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4169656 and a cache hit ratio of 0.016, Thank you!
+ip-10-72-171-4.eu-west-1.compute.internal, work completed at: Sun May 25 07:05:49 UTC 2014 Computed: 4166624 and a cache hit ratio of 0.016, Thank you!
+ip-10-72-171-4, work completed. Thank you!
