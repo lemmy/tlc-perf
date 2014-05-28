@@ -1,0 +1,38 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 23 July 2013
+Parsing file /mnt/tlc/27483/spec/N16EWD840.tla
+Parsing file /mnt/tlc/27483/spec/EWD840.tla
+Parsing file /mnt/tlc/27483/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/27483/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/27483/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module EWD840
+Semantic processing of module Sequences
+Semantic processing of module TLC
+Semantic processing of module N16EWD840
+Starting... (2014-05-28 19:33:48)
+Computing initial states...
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+The error occurred when TLC was initializing the server.
+The exception was a java.lang.OutOfMemoryError: Java heap spacejava.lang.OutOfMemoryError: Java heap space
+	at tlc2.value.SetOfFcnsValue$Enumerator.nextElement(SetOfFcnsValue.java:255)
+	at tlc2.tool.Tool.getInitStatesAppl(Tool.java:650)
+	at tlc2.tool.Tool.getInitStates(Tool.java:349)
+	at tlc2.tool.Tool.getInitStatesAppl(Tool.java:507)
+	at tlc2.tool.Tool.getInitStates(Tool.java:349)
+	at tlc2.tool.Tool.getInitStates(Tool.java:322)
+	at tlc2.tool.distributed.TLCApp.getInitStates(TLCApp.java:137)
+	at tlc2.tool.distributed.TLCServer.doInit(TLCServer.java:370)
+	at tlc2.tool.distributed.TLCServer.modelCheck(TLCServer.java:442)
+	at tlc2.tool.distributed.TLCServer.main(TLCServer.java:685)
+
+May 28, 2014 8:04:57 PM sun.rmi.transport.tcp.TCPTransport$AcceptLoop executeAcceptLoop
+WARNING: RMI TCP Accept-5400: accept loop for ServerSocket[addr=0.0.0.0/0.0.0.0,port=0,localport=5400] throws
+java.lang.OutOfMemoryError: Java heap space
+	at java.net.Socket.setImpl(Unknown Source)
+	at java.net.ServerSocket.implAccept(Unknown Source)
+	at java.net.ServerSocket.accept(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.executeAcceptLoop(Unknown Source)
+	at sun.rmi.transport.tcp.TCPTransport$AcceptLoop.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
