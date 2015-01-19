@@ -1,0 +1,63 @@
+Listening for transport dt_socket at address: 1044
+TLC Server Version 2.05 of 23 July 2013
+Parsing file /tmp/9083/spec/l10_n6.tla
+Parsing file /tmp/9083/spec/GridPerformanceTest.tla
+Parsing file /tmp/9083/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /tmp/9083/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /tmp/9083/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /tmp/9083/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /tmp/9083/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2015-01-19 16:21:51)
+Computing initial states...
+Finished computing initial states: 1 distinct state(s) generated.
+TLC server at griffon-8.nancy.grid5000.fr is ready (2015-01-19 16:21:51)
+Waiting for 2 FPSet server(s) to register (2015-01-19 16:21:51)
+1 out of 2 FPSet server(s) registered (2015-01-19 16:21:53)
+2 out of 2 FPSet server(s) registered (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-80.nancy.grid5000.fr:54210/3 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-80.nancy.grid5000.fr:54210/4 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-80.nancy.grid5000.fr:54210/5 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-80.nancy.grid5000.fr:54210/0 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-80.nancy.grid5000.fr:54210/2 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-77.nancy.grid5000.fr:37761/5 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-77.nancy.grid5000.fr:37761/7 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-80.nancy.grid5000.fr:54210/1 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-80.nancy.grid5000.fr:54210/7 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-80.nancy.grid5000.fr:54210/6 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-77.nancy.grid5000.fr:37761/6 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-77.nancy.grid5000.fr:37761/0 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-77.nancy.grid5000.fr:37761/1 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-77.nancy.grid5000.fr:37761/3 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-77.nancy.grid5000.fr:37761/2 completed (2015-01-19 16:21:53)
+Registration for worker at rmi://griffon-77.nancy.grid5000.fr:37761/4 completed (2015-01-19 16:21:53)
+Worker: rmi://griffon-80.nancy.grid5000.fr:54210/7 Sent: 16356 Rcvd: 7059 CacheRatio: 0.15 (2015-01-19 16:22:15)
+Worker: rmi://griffon-80.nancy.grid5000.fr:54210/1 Sent: 16139 Rcvd: 9834 CacheRatio: 0.16 (2015-01-19 16:22:15)
+Worker: rmi://griffon-80.nancy.grid5000.fr:54210/0 Sent: 15941 Rcvd: 7120 CacheRatio: 0.16 (2015-01-19 16:22:15)
+Worker: rmi://griffon-80.nancy.grid5000.fr:54210/4 Sent: 16151 Rcvd: 8705 CacheRatio: 0.12 (2015-01-19 16:22:15)
+Worker: rmi://griffon-77.nancy.grid5000.fr:37761/4 Sent: 16341 Rcvd: 9031 CacheRatio: 0.16 (2015-01-19 16:22:15)
+Worker: rmi://griffon-80.nancy.grid5000.fr:54210/2 Sent: 16102 Rcvd: 10292 CacheRatio: 0.21 (2015-01-19 16:22:15)
+Worker: rmi://griffon-77.nancy.grid5000.fr:37761/3 Sent: 16482 Rcvd: 8047 CacheRatio: 0.17 (2015-01-19 16:22:15)
+Worker: rmi://griffon-80.nancy.grid5000.fr:54210/6 Sent: 16241 Rcvd: 8334 CacheRatio: 0.13 (2015-01-19 16:22:15)
+Worker: rmi://griffon-77.nancy.grid5000.fr:37761/5 Sent: 16884 Rcvd: 7859 CacheRatio: 0.15 (2015-01-19 16:22:15)
+Worker: rmi://griffon-77.nancy.grid5000.fr:37761/6 Sent: 16376 Rcvd: 8490 CacheRatio: 0.13 (2015-01-19 16:22:15)
+Worker: rmi://griffon-80.nancy.grid5000.fr:54210/5 Sent: 16452 Rcvd: 7800 CacheRatio: 0.14 (2015-01-19 16:22:15)
+Worker: rmi://griffon-77.nancy.grid5000.fr:37761/2 Sent: 16433 Rcvd: 7276 CacheRatio: 0.15 (2015-01-19 16:22:15)
+Worker: rmi://griffon-77.nancy.grid5000.fr:37761/7 Sent: 16326 Rcvd: 8632 CacheRatio: 0.20 (2015-01-19 16:22:15)
+Worker: rmi://griffon-77.nancy.grid5000.fr:37761/0 Sent: 16670 Rcvd: 7597 CacheRatio: 0.15 (2015-01-19 16:22:15)
+Worker: rmi://griffon-80.nancy.grid5000.fr:54210/3 Sent: 16561 Rcvd: 8354 CacheRatio: 0.16 (2015-01-19 16:22:15)
+Worker: rmi://griffon-77.nancy.grid5000.fr:37761/1 Sent: 16689 Rcvd: 7739 CacheRatio: 0.14 (2015-01-19 16:22:15)
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 9.4E-9
+  based on the actual fingerprints:  val = 2.8E-13
+2490876 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 37.
+Finished. (2015-01-19 16:22:15)

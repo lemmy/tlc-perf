@@ -1,0 +1,35 @@
+Warning: Permanently added 'griffon-77.nancy.grid5000.fr,172.16.65.77' (RSA) to the list of known hosts.
+TLC Distributed FP Server Version 2.05 of 23 July 2013
+TLC Worker Version 2.05 of 23 July 2013
+Server griffon-8.nancy.grid5000.fr unreachable, sleeping 1s for server to come online...
+Server griffon-8.nancy.grid5000.fr unreachable, sleeping 1s for server to come online...
+Parsing file /tmp/1421684512454/l10_n6.tla
+Parsing file /tmp/1421684512454/GridPerformanceTest.tla
+Parsing file /tmp/1421684512454/TLC.tla
+Parsing file /tmp/1421684512454/Integers.tla
+Parsing file /tmp/1421684512454/FiniteSets.tla
+Parsing file /tmp/1421684512454/Naturals.tla
+Parsing file /tmp/1421684512454/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2015-01-19 16:21:53)
+FPSet instance type is: tlc2.tool.fp.MSBMultiFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+...with nested instance type: tlc2.tool.fp.OffHeapDiskFPSet
+Fingerprint set server at griffon-77.nancy.grid5000.fr is ready.
+Progress: The number of fingerprints stored at griffon-77.nancy.grid5000.fr is 0.
+TLC worker with 8 threads ready at: Mon Jan 19 16:21:53 UTC 2015
+griffon-77.nancy.grid5000.fr, work completed at: Mon Jan 19 16:22:15 UTC 2015 Computed: 98046 and a cache hit ratio of 0.162, Thank you!
+griffon-77.nancy.grid5000.fr, work completed at: Mon Jan 19 16:22:15 UTC 2015 Computed: 98892 and a cache hit ratio of 0.165, Thank you!
+griffon-77.nancy.grid5000.fr, work completed at: Mon Jan 19 16:22:15 UTC 2015 Computed: 101304 and a cache hit ratio of 0.149, Thank you!
+griffon-77.nancy.grid5000.fr, work completed at: Mon Jan 19 16:22:15 UTC 2015 Computed: 98256 and a cache hit ratio of 0.13, Thank you!
+griffon-77.nancy.grid5000.fr, work completed at: Mon Jan 19 16:22:15 UTC 2015 Computed: 98598 and a cache hit ratio of 0.148, Thank you!
+griffon-77.nancy.grid5000.fr, work completed at: Mon Jan 19 16:22:15 UTC 2015 Computed: 97956 and a cache hit ratio of 0.203, Thank you!
+griffon-77.nancy.grid5000.fr, work completed at: Mon Jan 19 16:22:15 UTC 2015 Computed: 100020 and a cache hit ratio of 0.15, Thank you!
+griffon-77.nancy.grid5000.fr, work completed at: Mon Jan 19 16:22:15 UTC 2015 Computed: 100134 and a cache hit ratio of 0.142, Thank you!
+griffon-77.nancy.grid5000.fr, work completed. Thank you!
