@@ -149,7 +149,7 @@ for f in `find -L . -name *__blockedtime-org_vafer_contention_tlcworkerthread*.r
 for f in `find -L . -name *__waitedtime-org_vafer_contention_tlcworkerthread*.rrd`; do mv \${f} \${f/__waitedtime-org_vafer_contention_tlcworkerthread/}; done
 
 # sync
-sudo -u kuppe ssh ec2perf@tla.msr-inria.inria.fr mkdir -p /home/kuppe/rrdtool/\$BUILD_ID
+sudo -u kuppe ssh ec2perf@tla.msr-inria.inria.fr mkdir -p /var/lib/ec2perf/rrdtool/\$BUILD_ID
 sudo -u kuppe rsync --exclude=*.rrd -az -e ssh /var/lib/munin/ ec2perf@tla.msr-inria.inria.fr:~/rrdtool/\$BUILD_ID/\`hostname\`
 sudo -u kuppe rsync -az -e ssh /var/cache/munin/ ec2perf@tla.msr-inria.inria.fr:~/rrdtool/\$BUILD_ID/\`hostname\`
 " > /usr/local/bin/rrdbackup.sh
