@@ -1,0 +1,21 @@
+Listening for transport dt_socket at address: 1044
+TLC2 Version 2.05 of 25 June 2014
+Running in Model-Checking mode.
+Parsing file l4_n10_liveness.tla
+
+Fatal errors while parsing TLA+ spec in file l4_n10_liveness
+
+tla2sany.semantic.AbortException
+*** Abort messages: 1
+
+Unknown location
+
+File name 'l4_n10_liveness' does not match the name 'MC' of the top level module it contains.
+
+
+Starting... (2015-03-09 09:18:04)
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the User Output or TLC Console for clues to what happened.
+The exception was a java.lang.RuntimeException: Parsing or semantic analysis failed.
+Finished. (2015-03-09 09:18:04)

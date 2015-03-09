@@ -1,0 +1,9 @@
+Listening for transport dt_socket at address: 1044
+TLC2 Version 2.05 of 25 June 2014
+Running in Model-Checking mode.
+Error: TLC threw an unexpected exception.
+This was probably caused by an error in the spec or model.
+See the User Output or TLC Console for clues to what happened.
+The exception was a tlc2.tool.ConfigFileException: TLC encountered the following error when trying to read the configuration file l04_n10_liveness.cfg:
+File not found.
+Finished. (2015-03-09 09:06:41)
