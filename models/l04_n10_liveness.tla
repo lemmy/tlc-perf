@@ -1,5 +1,5 @@
----- MODULE MC ----
-EXTENDS Test, TLC
+---- MODULE l04_n10_liveness ----
+EXTENDS GridPerformanceTest, TLC
 
 \* CONSTANT definitions @modelParameterConstants:0K
 const_14258909223782000 == 
