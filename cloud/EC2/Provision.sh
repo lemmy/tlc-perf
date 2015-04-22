@@ -4,12 +4,15 @@
 # Afterwards the following command will create a new instance and execute this script right after system startup. 
 # The system will be set up for TLC development afterwards.
 #
-# ec2-run-instances -m --key markus@kuppe.org --instance-type m2.4xlarge --user-data-file /path/to/Provision.sh ami-c162a9a8
+# ec2-run-instances -m --key markus@kuppe.org --instance-type m2.4xlarge --user-data-file /path/to/Provision.sh ami-2396f654
 #
 
 # Exit if this script has run before (e.g. booting up a custom EC2 AMI)
 # The decision is simply based on the existence of the kuppe user account
 id kuppe && exit 0
+
+# This is an unattended install. Nobody is there to press any buttons
+export DEBIAN_FRONTEND=noninteractive
 
 # format and mount second ephemeral disk
 /sbin/mkfs.ext4 /dev/xvbc
@@ -43,8 +46,15 @@ echo "kuppe ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 # x2go repository
 add-apt-repository ppa:x2go/stable -y
 
+# Oracle Java 8
+add-apt-repository ppa:webupd8team/java
+
+# Accept license before apt (dpkg) tries to present it to us (which fails due to 'noninteractive' mode below)
+# see http://stackoverflow.com/a/19391042
+echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-selections
+echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-selections
+
 # update package index and install basic packages needed
-export DEBIAN_FRONTEND=noninteractive
 apt-get update
 apt-get upgrade -y
 apt-get --no-install-recommends install unzip sysstat apache2 munin munin-node munin-plugins-extra maven git rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y
@@ -58,19 +68,17 @@ if [ -f /etc/lsb-release ]; then
     fi
 fi
 # UI/X and dev environment (forked)
-apt-get --no-install-recommends install ant openjdk-7-jdk gnome-core gdm gnome-session-fallback firefox visualvm mc libwebkitgtk-1.0-0 tightvncserver xorg x2goserver x2goserver-xsession htop -y &
+apt-get --no-install-recommends install ant openjdk-7-jdk oracle-java8-installer oracle-java8-set-default gnome-core gdm gnome-session-fallback firefox visualvm mc libwebkitgtk-1.0-0 tightvncserver xorg x2goserver x2goserver-xsession htop -y &
 
 # clear cached packages to save disk space
 apt-get clean
 
+# Generate common locales. Newer SSH pass the client's locale to the server causing a warning on each command invocation if the locale is missing
+locale-gen de en fr
+
 # allow any host to query munin (limited to grid nodes due to AWS fw)
 # a munin node restart is triggered by jmx2munin
 echo "cidr_allow 0.0.0.0/0" >> /etc/munin/munin-node.conf
-
-# add maven and ant to the path
-echo "export MAVEN_HOME=/opt/apache-maven/
-export PATH=$PATH:/opt/apache-maven/bin
-" > /etc/profile.d/java.sh
 
 # create instance-local folder to keep TLC states/
 mkdir -p /mnt/tlc
