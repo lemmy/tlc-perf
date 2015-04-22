@@ -1,0 +1,33 @@
+Listening for transport dt_socket at address: 1044
+TLC2 Version 2.05 of 23 July 2013
+Running in Model-Checking mode.
+Parsing file l10_n6.tla
+Parsing file GridPerformanceTest.tla
+Parsing file /mnt/tlc/13977/tla/tla2sany/StandardModules/TLC.tla
+Parsing file /mnt/tlc/13977/tla/tla2sany/StandardModules/Integers.tla
+Parsing file /mnt/tlc/13977/tla/tla2sany/StandardModules/FiniteSets.tla
+Parsing file /mnt/tlc/13977/tla/tla2sany/StandardModules/Naturals.tla
+Parsing file /mnt/tlc/13977/tla/tla2sany/StandardModules/Sequences.tla
+Semantic processing of module Naturals
+Semantic processing of module Integers
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module GridPerformanceTest
+Semantic processing of module TLC
+Semantic processing of module l10_n6
+Starting... (2015-04-22 20:45:39)
+Computing initial states...
+Finished computing initial states: 1 distinct state generated.
+Progress(9) at 2015-04-22 20:46:19: 7961 states generated (7,960 s/min), 2430 distinct states found (2,430 ds/min), 1103 states left on queue.
+Progress(18) at 2015-04-22 20:47:19: 306079 states generated (298,119 s/min), 65174 distinct states found (62,744 ds/min), 14160 states left on queue.
+Progress(22) at 2015-04-22 20:48:19: 632077 states generated (325,997 s/min), 123497 distinct states found (58,323 ds/min), 18151 states left on queue.
+Progress(25) at 2015-04-22 20:49:19: 966082 states generated (334,005 s/min), 178318 distinct states found (54,821 ds/min), 17304 states left on queue.
+Progress(28) at 2015-04-22 20:50:19: 1296545 states generated (330,463 s/min), 227426 distinct states found (49,108 ds/min), 11335 states left on queue.
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.9E-8
+  based on the actual fingerprints:  val = 2.0E-12
+1572865 states generated, 262144 distinct states found, 0 states left on queue.
+The depth of the complete state graph search is 43.
+Finished. (2015-04-22 20:51:21)
