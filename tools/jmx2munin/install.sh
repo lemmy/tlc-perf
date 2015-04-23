@@ -3,7 +3,7 @@
 ROOT_DIR=`dirname $0`
 
 # install custom build of munin-java-plugins cause it fixes a bug that prevents the upstream build from reporting GarbageCollectionTime
-dpkg -i $ROOT_DIR/munin-java-plugins_1.4.6-3ubuntu3.1_all.deb
+#dpkg -i $ROOT_DIR/munin-java-plugins_1.4.6-3ubuntu3.1_all.deb
 
 # add jar and script to munin
 cp $ROOT_DIR/jmx2munin-1.0.jar /usr/share/munin/jmx2munin.jar
