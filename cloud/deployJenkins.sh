@@ -246,6 +246,8 @@ pPp6GSqywJ9cehcpRDO7tJpK3xUUUOtsMX9SVat1a/RxiGBwvol7DxsrmKxK7g==
 -----END CERTIFICATE-----
 " > /etc/ssl/private/tla.msr-inria.inria.fr.crt
 
+# Apache fails to start without the key file, thus touch
+touch /etc/ssl/private/tla.msr-inria.inria.fr.key
 echo "Manually copy the PRIVATE key to /etc/ssl/private/tla.msr-inria.inria.fr.key!!!"
 
 ## Restart Apache to pick up config changes
