@@ -250,7 +250,7 @@ pPp6GSqywJ9cehcpRDO7tJpK3xUUUOtsMX9SVat1a/RxiGBwvol7DxsrmKxK7g==
 touch /etc/ssl/private/tla.msr-inria.inria.fr.key
 echo "Manually copy the PRIVATE key to /etc/ssl/private/tla.msr-inria.inria.fr.key!!!"
 
-## Restart Apache to pick up config changes
+## Restart Apache to pick up config changes (will fail due to missing SSL privkey)
 service apache2 restart
 
 ##
@@ -260,6 +260,7 @@ service apache2 restart
 ## Manually pull jenkins config in from private git repo (it's done manually to not store the private keys publically)
 echo "1a) Add the private parts of the SSH and SSL keys (see output above)"
 echo "1b) If the SSH key couldn't be restored, make sure the new key is added to bitbucket.org/lemmster/tla.msr-inria.inria.fr (read & write)."
+echo "1c) Start apache2 webserver."
 
 echo "2a) Go to Jenkin's management page and update its plugins to latest."
 echo "2b) Stop Jenkins on the command line (/etc/init.d/jenkins stop)."
