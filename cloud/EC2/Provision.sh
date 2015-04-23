@@ -14,11 +14,14 @@ id kuppe && exit 0
 # This is an unattended install. Nobody is there to press any buttons
 export DEBIAN_FRONTEND=noninteractive
 
-# format and mount second ephemeral disk
-/sbin/mkfs.ext4 /dev/xvbc
-mkdir /mnt2
-mount /dev/xvdc /mnt2
-chmod 777 /mnt2
+# Check instance data which disk are what (emphemeral or ESB)
+
+# combine ephemeral disks into level 0 raid and format
+apt-get --no-install-recommends install mdadm e2fsprogs -y
+/sbin/mdadm --create --verbose --auto=yes /dev/md0 --level=0 --raid-devices=2 --assume-clean /dev/xvdc /dev/xvdb
+/sbin/mkfs.ext4 /dev/md0
+mount /dev/md0 /mnt
+chmod 777 /mnt
 
 # switch to mount to use the instance ephemeral storage rather than ESB
 cd /mnt
@@ -57,16 +60,7 @@ echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-se
 # update package index and install basic packages needed
 apt-get update
 apt-get upgrade -y
-apt-get --no-install-recommends install unzip sysstat apache2 munin munin-node munin-plugins-extra maven git rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y
-# On Ubuntu 12.10 munin-java-plugins has been renamed to munin-plugins-java
-if [ -f /etc/lsb-release ]; then
-    source /etc/lsb-release
-    if [ $DISTRIB_RELEASE = "12.10" ]; then
-        apt-get --no-install-recommends install munin-plugins-java -y
-    else
-        apt-get --no-install-recommends install munin-java-plugins -y
-    fi
-fi
+apt-get --no-install-recommends install unzip sysstat apache2 munin munin-node munin-plugins-extra munin-plugins-java maven git rsync libnet-cidr-perl libnetaddr-ip-perl libxml2-utils xmlstarlet -y
 # UI/X and dev environment (forked)
 apt-get --no-install-recommends install ant openjdk-7-jdk oracle-java8-installer oracle-java8-set-default gnome-core gdm gnome-session-fallback firefox visualvm mc libwebkitgtk-1.0-0 tightvncserver xorg x2goserver x2goserver-xsession htop -y &
 
