@@ -254,8 +254,29 @@ echo "Manually copy the PRIVATE key to /etc/ssl/private/tla.msr-inria.inria.fr.k
 service apache2 restart
 
 ##
-## TODO Create symlinks in /var/www pointing into /mnt/jenkins/jobs/...
+## Create symlinks in /var/www pointing into /mnt/jenkins/jobs/...
 ##
+ln -s /var/www/html/pdf4eclipse /mnt/jenkins/jobs/M-HEAD-pdf4eclipse/lastSuccessful/archive/de.vonloesch.pdf4eclipse.p2repository/target/repository/
+ln -s /var/www/html/jmx2munin /mnt/jenkins/jobs/jmx2munin/lastSuccessful/archive/target
+ln -s /var/www/html/jclouds2p2 /mnt/jenkins/jobs/apache-jclouds/lastStable/archive/target/repository/
+
+mkdir /var/www/html/tlatoolbox
+ln -s /var/www/html/tlatoolbox/dist /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/tlatools/dist/
+ln -s /var/www/html/tlatoolbox/doc /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/org.lamport.tla.toolbox.doc/html
+ln -s /var/www/html/tlatoolbox/products /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/org.lamport.tla.toolbox.product.product/target/products
+ln -s /var/www/html/tlatoolbox/toolboxUpdate /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/org.lamport.tla.toolbox.product.product/target/repository
+
+mkdir /var/www/html/staged
+ln -s /var/www/html/tlatoolbox/staged/dist /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/tlatools/dist/
+ln -s /var/www/html/tlatoolbox/staged/doc /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/org.lamport.tla.toolbox.doc/html
+ln -s /var/www/html/tlatoolbox/staged/products /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/org.lamport.tla.toolbox.product.product/target/products
+ln -s /var/www/html/tlatoolbox/staged/toolboxUpdate /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/org.lamport.tla.toolbox.product.product/target/repository
+
+mkdir /var/www/html/tlatoolbox/ci
+ln -s /var/www/html/tlatoolbox/ci/tladist /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/tlatools/dist/
+ln -s /var/www/html/tlatoolbox/ci/doc /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/org.lamport.tla.toolbox.doc/html
+ln -s /var/www/html/tlatoolbox/ci/products /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/org.lamport.tla.toolbox.product.product/target/products
+ln -s /var/www/html/tlatoolbox/ci/toolboxUpdate /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/org.lamport.tla.toolbox.product.product/target/repository
 
 ## Manually pull jenkins config in from private git repo (it's done manually to not store the private keys publically)
 echo "1a) Add the private parts of the SSH and SSL keys (see output above)"
