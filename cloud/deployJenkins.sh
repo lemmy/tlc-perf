@@ -256,27 +256,27 @@ service apache2 restart
 ##
 ## Create symlinks in /var/www pointing into /mnt/jenkins/jobs/...
 ##
-ln -s /var/www/html/pdf4eclipse /mnt/jenkins/jobs/M-HEAD-pdf4eclipse/lastSuccessful/archive/de.vonloesch.pdf4eclipse.p2repository/target/repository/
-ln -s /var/www/html/jmx2munin /mnt/jenkins/jobs/jmx2munin/lastSuccessful/archive/target
-ln -s /var/www/html/jclouds2p2 /mnt/jenkins/jobs/apache-jclouds/lastStable/archive/target/repository/
+ln -s /mnt/jenkins/jobs/M-HEAD-pdf4eclipse/lastSuccessful/archive/de.vonloesch.pdf4eclipse.p2repository/target/repository/ /var/www/html/pdf4eclipse
+ln -s /mnt/jenkins/jobs/jmx2munin/lastSuccessful/archive/target /var/www/html/jmx2munin
+ln -s /mnt/jenkins/jobs/apache-jclouds/lastStable/archive/target/repository/ /var/www/html/jclouds2p2
 
-mkdir /var/www/html/tlatoolbox
-ln -s /var/www/html/tlatoolbox/dist /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/tlatools/dist/
-ln -s /var/www/html/tlatoolbox/doc /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/org.lamport.tla.toolbox.doc/html
-ln -s /var/www/html/tlatoolbox/products /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/org.lamport.tla.toolbox.product.product/target/products
-ln -s /var/www/html/tlatoolbox/toolboxUpdate /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/org.lamport.tla.toolbox.product.product/target/repository
+mkdir /var/www/html/tlatoolbox  
+ln -s /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/tlatools/dist/ /var/www/html/tlatoolbox/dist
+ln -s /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/org.lamport.tla.toolbox.doc/html /var/www/html/tlatoolbox/doc
+ln -s /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/org.lamport.tla.toolbox.product.product/target/products /var/www/html/tlatoolbox/products
+ln -s /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastPromoted/archive/org.lamport.tla.toolbox.product.product/target/repository /var/www/html/tlatoolbox/toolboxUpdate
 
-mkdir /var/www/html/staged
-ln -s /var/www/html/tlatoolbox/staged/dist /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/tlatools/dist/
-ln -s /var/www/html/tlatoolbox/staged/doc /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/org.lamport.tla.toolbox.doc/html
-ln -s /var/www/html/tlatoolbox/staged/products /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/org.lamport.tla.toolbox.product.product/target/products
-ln -s /var/www/html/tlatoolbox/staged/toolboxUpdate /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/org.lamport.tla.toolbox.product.product/target/repository
+mkdir /var/www/html/staged  
+ln -s /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/tlatools/dist/ /var/www/html/tlatoolbox/staged/dist
+ln -s /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/org.lamport.tla.toolbox.doc/html /var/www/html/tlatoolbox/staged/doc
+ln -s /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/org.lamport.tla.toolbox.product.product/target/products /var/www/html/tlatoolbox/staged/products
+ln -s /mnt/jenkins/jobs/Release-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastStable/archive/org.lamport.tla.toolbox.product.product/target/repository /var/www/html/tlatoolbox/staged/toolboxUpdate
 
-mkdir /var/www/html/tlatoolbox/ci
-ln -s /var/www/html/tlatoolbox/ci/tladist /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/tlatools/dist/
-ln -s /var/www/html/tlatoolbox/ci/doc /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/org.lamport.tla.toolbox.doc/html
-ln -s /var/www/html/tlatoolbox/ci/products /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/org.lamport.tla.toolbox.product.product/target/products
-ln -s /var/www/html/tlatoolbox/ci/toolboxUpdate /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/org.lamport.tla.toolbox.product.product/target/repository
+mkdir /var/www/html/tlatoolbox/ci  
+ln -s /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/tlatools/dist/ /var/www/html/tlatoolbox/ci/tladist
+ln -s /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/org.lamport.tla.toolbox.doc/html /var/www/html/tlatoolbox/ci/doc
+ln -s /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/org.lamport.tla.toolbox.product.product/target/products /var/www/html/tlatoolbox/ci/products
+ln -s /mnt/jenkins/jobs/M-HEAD-Toolbox.product.standalone/configurations/axis-os/master/lastSuccessful/archive/org.lamport.tla.toolbox.product.product/target/repository /var/www/html/tlatoolbox/ci/toolboxUpdate
 
 ## Manually pull jenkins config in from private git repo (it's done manually to not store the private keys publically)
 echo "1a) Add the private parts of the SSH and SSL keys (see output above)"
